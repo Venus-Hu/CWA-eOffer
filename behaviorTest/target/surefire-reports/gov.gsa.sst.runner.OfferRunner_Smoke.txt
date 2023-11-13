@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: gov.gsa.sst.runner.OfferRunner_Smoke
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 2, Skipped: 7, Time elapsed: 63.882 s <<< FAILURE! - in gov.gsa.sst.runner.OfferRunner_Smoke
+Scenario: Add Negotiator successful  Time elapsed: 57.129 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 116
+Current browser version is 119.0.6045.123 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'OCTO-F0QKD57XX6.octo.us', ip: 'fe80:0:0:0:4ab:912d:925d:a705%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '21.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000102ff4638 chromedriver + 5002808
+1   chromedriver                        0x0000000102feba53 chromedriver + 4966995
+2   chromedriver                        0x0000000102b9ca57 chromedriver + 449111
+3   chromedriver                        0x0000000102bd142c chromedriver + 664620
+4   chromedriver                        0x0000000102bcc58f chromedriver + 644495
+5   chromedriver                        0x0000000102bc9189 chromedriver + 631177
+6   chromedriver                        0x0000000102c12cf4 chromedriver + 933108
+7   chromedriver                        0x0000000102c1203f chromedriver + 929855
+8   chromedriver                        0x0000000102c091c3 chromedriver + 893379
+9   chromedriver                        0x0000000102bd4df9 chromedriver + 679417
+10  chromedriver                        0x0000000102bd5fde chromedriver + 683998
+11  chromedriver                        0x0000000102fb12d9 chromedriver + 4727513
+12  chromedriver                        0x0000000102fb62de chromedriver + 4747998
+13  chromedriver                        0x0000000102f742c9 chromedriver + 4477641
+14  chromedriver                        0x0000000102fb702d chromedriver + 4751405
+15  chromedriver                        0x0000000102f8a0ec chromedriver + 4567276
+16  chromedriver                        0x0000000102fd47f8 chromedriver + 4872184
+17  chromedriver                        0x0000000102fd49b7 chromedriver + 4872631
+18  chromedriver                        0x0000000102fe4a1f chromedriver + 4938271
+19  libsystem_pthread.dylib             0x00007ff816381202 _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff81637cbab thread_start + 15
+
+
+Scenario: Pathway to Success section one is selected  Time elapsed: 5.067 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 116
+Current browser version is 119.0.6045.123 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'OCTO-F0QKD57XX6.octo.us', ip: 'fe80:0:0:0:4ab:912d:925d:a705%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '21.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001028c7638 chromedriver + 5002808
+1   chromedriver                        0x00000001028bea53 chromedriver + 4966995
+2   chromedriver                        0x000000010246fa57 chromedriver + 449111
+3   chromedriver                        0x00000001024a442c chromedriver + 664620
+4   chromedriver                        0x000000010249f58f chromedriver + 644495
+5   chromedriver                        0x000000010249c189 chromedriver + 631177
+6   chromedriver                        0x00000001024e5cf4 chromedriver + 933108
+7   chromedriver                        0x00000001024e503f chromedriver + 929855
+8   chromedriver                        0x00000001024dc1c3 chromedriver + 893379
+9   chromedriver                        0x00000001024a7df9 chromedriver + 679417
+10  chromedriver                        0x00000001024a8fde chromedriver + 683998
+11  chromedriver                        0x00000001028842d9 chromedriver + 4727513
+12  chromedriver                        0x00000001028892de chromedriver + 4747998
+13  chromedriver                        0x00000001028472c9 chromedriver + 4477641
+14  chromedriver                        0x000000010288a02d chromedriver + 4751405
+15  chromedriver                        0x000000010285d0ec chromedriver + 4567276
+16  chromedriver                        0x00000001028a77f8 chromedriver + 4872184
+17  chromedriver                        0x00000001028a79b7 chromedriver + 4872631
+18  chromedriver                        0x00000001028b7a1f chromedriver + 4938271
+19  libsystem_pthread.dylib             0x00007ff816381202 _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff81637cbab thread_start + 15
+
+
