@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="bb5b09c4-b582-49de-b61b-a401d4fe780a" activeEnvironment="Default" name="ExternalFSS" soapui-version="5.4.0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Export All" value="false"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="TestSuite" value="EOfferServiceTestSuite"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value=""/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="TestCase" value="getCCR TestCase"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="false"/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:WsdlInterface" id="0176d7ae-ca93-4e35-bbf3-51510d3881cc" wsaVersion="NONE" name="EOfferServiceServiceSoapBinding" type="wsdl" bindingName="{http://fssonline/}EOfferServiceServiceSoapBinding" soapVersion="1_1" anonymous="optional" definition="https://extcws.fas.gsa.gov/soadev/fssonlineEofferService?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="https://extcws.fas.gsa.gov/soadev/fssonlineEofferService?wsdl"><con:part><con:url>https://extcws.fas.gsa.gov/soadev/fssonlineEofferService?wsdl</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://fssonline/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:tns="http://fssonline/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="unqualified" targetNamespace="http://fssonline/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="checkPIN" type="tns:checkPIN"/>
+      <xs:element name="checkPINResponse" type="tns:checkPINResponse"/>
+      <xs:element name="createModForContractAdmin" type="tns:createModForContractAdmin"/>
+      <xs:element name="createModForContractAdminResponse" type="tns:createModForContractAdminResponse"/>
+      <xs:element name="getActiveContracts" type="tns:getActiveContracts"/>
+      <xs:element name="getActiveContractsResponse" type="tns:getActiveContractsResponse"/>
+      <xs:element name="getCCR" type="tns:getCCR"/>
+      <xs:element name="getCCRResponse" type="tns:getCCRResponse"/>
+      <xs:element name="getContSins" type="tns:getContSins"/>
+      <xs:element name="getContSinsResponse" type="tns:getContSinsResponse"/>
+      <xs:element name="getContractClauses" type="tns:getContractClauses"/>
+      <xs:element name="getContractClausesResponse" type="tns:getContractClausesResponse"/>
+      <xs:element name="getContractMod" type="tns:getContractMod"/>
+      <xs:element name="getContractModResponse" type="tns:getContractModResponse"/>
+      <xs:element name="getContractTerminatedSins" type="tns:getContractTerminatedSins"/>
+      <xs:element name="getContractTerminatedSinsResponse" type="tns:getContractTerminatedSinsResponse"/>
+      <xs:element name="getContracts" type="tns:getContracts"/>
+      <xs:element name="getContractsResponse" type="tns:getContractsResponse"/>
+      <xs:element name="getEModList" type="tns:getEModList"/>
+      <xs:element name="getEModListResponse" type="tns:getEModListResponse"/>
+      <xs:element name="getExpressSchedules" type="tns:getExpressSchedules"/>
+      <xs:element name="getExpressSchedulesResponse" type="tns:getExpressSchedulesResponse"/>
+      <xs:element name="getModStatus" type="tns:getModStatus"/>
+      <xs:element name="getModStatusList" type="tns:getModStatusList"/>
+      <xs:element name="getModStatusListResponse" type="tns:getModStatusListResponse"/>
+      <xs:element name="getModStatusResponse" type="tns:getModStatusResponse"/>
+      <xs:element name="getScheduleSins" type="tns:getScheduleSins"/>
+      <xs:element name="getScheduleSinsResponse" type="tns:getScheduleSinsResponse"/>
+      <xs:element name="getSubKMetaData" type="tns:getSubKMetaData"/>
+      <xs:element name="getSubKMetaDataResponse" type="tns:getSubKMetaDataResponse"/>
+      <xs:element name="geteModEvents" type="tns:geteModEvents"/>
+      <xs:element name="geteModEventsResponse" type="tns:geteModEventsResponse"/>
+      <xs:element name="requestForUnlock" type="tns:requestForUnlock"/>
+      <xs:element name="requestForUnlockResponse" type="tns:requestForUnlockResponse"/>
+      <xs:element name="submitRUMRequestClarificationByVendor" type="tns:submitRUMRequestClarificationByVendor"/>
+      <xs:element name="submitRUMRequestClarificationByVendorResponse" type="tns:submitRUMRequestClarificationByVendorResponse"/>
+      <xs:element name="updateAuditSwitch" type="tns:updateAuditSwitch"/>
+      <xs:element name="updateAuditSwitchResponse" type="tns:updateAuditSwitchResponse"/>
+      <xs:element name="withdrawOptionExtMods" type="tns:withdrawOptionExtMods"/>
+      <xs:element name="withdrawOptionExtModsResponse" type="tns:withdrawOptionExtModsResponse"/>
+      <xs:complexType name="getContractTerminatedSins">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getContractTerminatedSinsResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getModStatusList">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getModStatusListResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getContSins">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getContSinsResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getActiveContracts">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getActiveContractsResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getExpressSchedules">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getExpressSchedulesResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="requestForUnlock">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+          <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="requestForUnlockResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="createModForContractAdmin">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="createModForContractAdminResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getContractClauses">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getContractClausesResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getModStatus">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getModStatusResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getCCR">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+          <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getCCRResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="updateAuditSwitch">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="contNo" type="xs:string"/>
+          <xs:element minOccurs="0" name="value" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="updateAuditSwitchResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="checkPIN">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+          <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="checkPINResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="geteModEvents">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="geteModEventsResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getContracts">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getContractsResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getEModList">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getEModListResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="submitRUMRequestClarificationByVendor">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+          <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+          <xs:element minOccurs="0" name="arg2" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="submitRUMRequestClarificationByVendorResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="withdrawOptionExtMods">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+          <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="withdrawOptionExtModsResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getContractMod">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getContractModResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getScheduleSins">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getScheduleSinsResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getSubKMetaData">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getSubKMetaDataResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:base64Binary"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getContractTerminatedSins">
+    <wsdl:part name="parameters" element="tns:getContractTerminatedSins"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getContSins">
+    <wsdl:part name="parameters" element="tns:getContSins"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getModStatusListResponse">
+    <wsdl:part name="parameters" element="tns:getModStatusListResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getExpressSchedules">
+    <wsdl:part name="parameters" element="tns:getExpressSchedules"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="withdrawOptionExtModsResponse">
+    <wsdl:part name="parameters" element="tns:withdrawOptionExtModsResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getEModListResponse">
+    <wsdl:part name="parameters" element="tns:getEModListResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getModStatusResponse">
+    <wsdl:part name="parameters" element="tns:getModStatusResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getExpressSchedulesResponse">
+    <wsdl:part name="parameters" element="tns:getExpressSchedulesResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateAuditSwitch">
+    <wsdl:part name="parameters" element="tns:updateAuditSwitch"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="checkPIN">
+    <wsdl:part name="parameters" element="tns:checkPIN"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getContracts">
+    <wsdl:part name="parameters" element="tns:getContracts"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="submitRUMRequestClarificationByVendor">
+    <wsdl:part name="parameters" element="tns:submitRUMRequestClarificationByVendor"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="withdrawOptionExtMods">
+    <wsdl:part name="parameters" element="tns:withdrawOptionExtMods"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getSubKMetaDataResponse">
+    <wsdl:part name="parameters" element="tns:getSubKMetaDataResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getScheduleSins">
+    <wsdl:part name="parameters" element="tns:getScheduleSins"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getContractModResponse">
+    <wsdl:part name="parameters" element="tns:getContractModResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getModStatusList">
+    <wsdl:part name="parameters" element="tns:getModStatusList"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCCRResponse">
+    <wsdl:part name="parameters" element="tns:getCCRResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createModForContractAdminResponse">
+    <wsdl:part name="parameters" element="tns:createModForContractAdminResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="checkPINResponse">
+    <wsdl:part name="parameters" element="tns:checkPINResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getActiveContracts">
+    <wsdl:part name="parameters" element="tns:getActiveContracts"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="requestForUnlock">
+    <wsdl:part name="parameters" element="tns:requestForUnlock"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getContractTerminatedSinsResponse">
+    <wsdl:part name="parameters" element="tns:getContractTerminatedSinsResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="requestForUnlockResponse">
+    <wsdl:part name="parameters" element="tns:requestForUnlockResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="submitRUMRequestClarificationByVendorResponse">
+    <wsdl:part name="parameters" element="tns:submitRUMRequestClarificationByVendorResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getContractClauses">
+    <wsdl:part name="parameters" element="tns:getContractClauses"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createModForContractAdmin">
+    <wsdl:part name="parameters" element="tns:createModForContractAdmin"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getModStatus">
+    <wsdl:part name="parameters" element="tns:getModStatus"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCCR">
+    <wsdl:part name="parameters" element="tns:getCCR"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateAuditSwitchResponse">
+    <wsdl:part name="parameters" element="tns:updateAuditSwitchResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getContractsResponse">
+    <wsdl:part name="parameters" element="tns:getContractsResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getContSinsResponse">
+    <wsdl:part name="parameters" element="tns:getContSinsResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="geteModEvents">
+    <wsdl:part name="parameters" element="tns:geteModEvents"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getEModList">
+    <wsdl:part name="parameters" element="tns:getEModList"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getActiveContractsResponse">
+    <wsdl:part name="parameters" element="tns:getActiveContractsResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="geteModEventsResponse">
+    <wsdl:part name="parameters" element="tns:geteModEventsResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getContractClausesResponse">
+    <wsdl:part name="parameters" element="tns:getContractClausesResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getScheduleSinsResponse">
+    <wsdl:part name="parameters" element="tns:getScheduleSinsResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getContractMod">
+    <wsdl:part name="parameters" element="tns:getContractMod"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getSubKMetaData">
+    <wsdl:part name="parameters" element="tns:getSubKMetaData"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="EOfferServiceRemote">
+    <wsdl:operation name="getContractTerminatedSins">
+      <wsdl:input name="getContractTerminatedSins" message="tns:getContractTerminatedSins"></wsdl:input>
+      <wsdl:output name="getContractTerminatedSinsResponse" message="tns:getContractTerminatedSinsResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getModStatusList">
+      <wsdl:input name="getModStatusList" message="tns:getModStatusList"></wsdl:input>
+      <wsdl:output name="getModStatusListResponse" message="tns:getModStatusListResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getContSins">
+      <wsdl:input name="getContSins" message="tns:getContSins"></wsdl:input>
+      <wsdl:output name="getContSinsResponse" message="tns:getContSinsResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getActiveContracts">
+      <wsdl:input name="getActiveContracts" message="tns:getActiveContracts"></wsdl:input>
+      <wsdl:output name="getActiveContractsResponse" message="tns:getActiveContractsResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getExpressSchedules">
+      <wsdl:input name="getExpressSchedules" message="tns:getExpressSchedules"></wsdl:input>
+      <wsdl:output name="getExpressSchedulesResponse" message="tns:getExpressSchedulesResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="requestForUnlock">
+      <wsdl:input name="requestForUnlock" message="tns:requestForUnlock"></wsdl:input>
+      <wsdl:output name="requestForUnlockResponse" message="tns:requestForUnlockResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createModForContractAdmin">
+      <wsdl:input name="createModForContractAdmin" message="tns:createModForContractAdmin"></wsdl:input>
+      <wsdl:output name="createModForContractAdminResponse" message="tns:createModForContractAdminResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getContractClauses">
+      <wsdl:input name="getContractClauses" message="tns:getContractClauses"></wsdl:input>
+      <wsdl:output name="getContractClausesResponse" message="tns:getContractClausesResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getModStatus">
+      <wsdl:input name="getModStatus" message="tns:getModStatus"></wsdl:input>
+      <wsdl:output name="getModStatusResponse" message="tns:getModStatusResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCCR">
+      <wsdl:input name="getCCR" message="tns:getCCR"></wsdl:input>
+      <wsdl:output name="getCCRResponse" message="tns:getCCRResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateAuditSwitch">
+      <wsdl:input name="updateAuditSwitch" message="tns:updateAuditSwitch"></wsdl:input>
+      <wsdl:output name="updateAuditSwitchResponse" message="tns:updateAuditSwitchResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkPIN">
+      <wsdl:input name="checkPIN" message="tns:checkPIN"></wsdl:input>
+      <wsdl:output name="checkPINResponse" message="tns:checkPINResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="geteModEvents">
+      <wsdl:input name="geteModEvents" message="tns:geteModEvents"></wsdl:input>
+      <wsdl:output name="geteModEventsResponse" message="tns:geteModEventsResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getContracts">
+      <wsdl:input name="getContracts" message="tns:getContracts"></wsdl:input>
+      <wsdl:output name="getContractsResponse" message="tns:getContractsResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEModList">
+      <wsdl:input name="getEModList" message="tns:getEModList"></wsdl:input>
+      <wsdl:output name="getEModListResponse" message="tns:getEModListResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="submitRUMRequestClarificationByVendor">
+      <wsdl:input name="submitRUMRequestClarificationByVendor" message="tns:submitRUMRequestClarificationByVendor"></wsdl:input>
+      <wsdl:output name="submitRUMRequestClarificationByVendorResponse" message="tns:submitRUMRequestClarificationByVendorResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="withdrawOptionExtMods">
+      <wsdl:input name="withdrawOptionExtMods" message="tns:withdrawOptionExtMods"></wsdl:input>
+      <wsdl:output name="withdrawOptionExtModsResponse" message="tns:withdrawOptionExtModsResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getContractMod">
+      <wsdl:input name="getContractMod" message="tns:getContractMod"></wsdl:input>
+      <wsdl:output name="getContractModResponse" message="tns:getContractModResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getScheduleSins">
+      <wsdl:input name="getScheduleSins" message="tns:getScheduleSins"></wsdl:input>
+      <wsdl:output name="getScheduleSinsResponse" message="tns:getScheduleSinsResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKMetaData">
+      <wsdl:input name="getSubKMetaData" message="tns:getSubKMetaData"></wsdl:input>
+      <wsdl:output name="getSubKMetaDataResponse" message="tns:getSubKMetaDataResponse"></wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EOfferServiceServiceSoapBinding" type="tns:EOfferServiceRemote">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getContractTerminatedSins">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getContractTerminatedSins">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getContractTerminatedSinsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getModStatusList">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getModStatusList">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getModStatusListResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getContSins">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getContSins">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getContSinsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getActiveContracts">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getActiveContracts">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getActiveContractsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getExpressSchedules">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getExpressSchedules">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getExpressSchedulesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="requestForUnlock">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="requestForUnlock">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="requestForUnlockResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createModForContractAdmin">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="createModForContractAdmin">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createModForContractAdminResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getContractClauses">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getContractClauses">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getContractClausesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getModStatus">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getModStatus">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getModStatusResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCCR">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getCCR">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getCCRResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateAuditSwitch">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="updateAuditSwitch">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="updateAuditSwitchResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkPIN">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="checkPIN">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="checkPINResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="geteModEvents">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="geteModEvents">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="geteModEventsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getContracts">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getContracts">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getContractsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEModList">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getEModList">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getEModListResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="submitRUMRequestClarificationByVendor">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="submitRUMRequestClarificationByVendor">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="submitRUMRequestClarificationByVendorResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="withdrawOptionExtMods">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="withdrawOptionExtMods">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="withdrawOptionExtModsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getContractMod">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getContractMod">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getContractModResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getScheduleSins">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getScheduleSins">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getScheduleSinsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSubKMetaData">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getSubKMetaData">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getSubKMetaDataResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EOfferServiceService_vs0">
+    <wsdl:port name="EOfferServiceServiceHttps" binding="tns:EOfferServiceServiceSoapBinding">
+      <soap:address location="https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint></con:endpoints><con:operation id="9a3a9559-eed0-43f0-a248-b1f3969a2866" isOneWay="false" action="" name="checkPIN" bindingOperationName="checkPIN" type="Request-Response" outputName="checkPINResponse" inputName="checkPIN" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="903c730c-a0de-4df7-920a-c70cdbb4ecbd" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:checkPIN>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+         <!--Optional:-->\r
+         <arg1>?</arg1>\r
+      </fss:checkPIN>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/checkPIN"/></con:call></con:operation><con:operation id="0cb3f08d-e966-4f99-87e1-a22e81683db2" isOneWay="false" action="" name="createModForContractAdmin" bindingOperationName="createModForContractAdmin" type="Request-Response" outputName="createModForContractAdminResponse" inputName="createModForContractAdmin" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="eb116954-7de5-4f12-88b7-20c10cf80339" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:createModForContractAdmin>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:createModForContractAdmin>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/createModForContractAdmin"/></con:call></con:operation><con:operation id="62876f92-fd38-4957-8548-1c8e31a04b64" isOneWay="false" action="" name="getActiveContracts" bindingOperationName="getActiveContracts" type="Request-Response" outputName="getActiveContractsResponse" inputName="getActiveContracts" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="fbe1ef88-7a37-49aa-8916-c7453c27b2a7" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getActiveContracts>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getActiveContracts>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getActiveContracts"/></con:call></con:operation><con:operation id="1b9621fb-7f12-48fc-8bc8-3bbbadfb1c0f" isOneWay="false" action="" name="getCCR" bindingOperationName="getCCR" type="Request-Response" outputName="getCCRResponse" inputName="getCCR" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="e7266fba-5a77-4ea2-b54c-67e649013cfe" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getCCR>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+         <!--Optional:-->\r
+         <arg1>?</arg1>\r
+      </fss:getCCR>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getCCR"/></con:call></con:operation><con:operation id="bc069371-15ca-447f-8953-fcca9e713607" isOneWay="false" action="" name="getContractClauses" bindingOperationName="getContractClauses" type="Request-Response" outputName="getContractClausesResponse" inputName="getContractClauses" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="5e3df7e3-900c-451f-af2b-0f7eb6961fc1" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getContractClauses>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getContractClauses>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getContractClauses"/></con:call></con:operation><con:operation id="fc141707-13da-4648-ba01-3ee8ddd4dd91" isOneWay="false" action="" name="getContractMod" bindingOperationName="getContractMod" type="Request-Response" outputName="getContractModResponse" inputName="getContractMod" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="8f52dd03-ca4f-4b0b-be53-11b6eb3a872c" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getContractMod>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getContractMod>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getContractMod"/></con:call></con:operation><con:operation id="2e0737bc-1151-4304-985e-c1cb2f3ac309" isOneWay="false" action="" name="getContracts" bindingOperationName="getContracts" type="Request-Response" outputName="getContractsResponse" inputName="getContracts" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="29eecf3c-d530-4f55-8400-3d813846338e" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getContracts>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getContracts>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getContracts"/></con:call></con:operation><con:operation id="2e20b590-1ded-4b0f-94bb-db843ee53837" isOneWay="false" action="" name="getContractTerminatedSins" bindingOperationName="getContractTerminatedSins" type="Request-Response" outputName="getContractTerminatedSinsResponse" inputName="getContractTerminatedSins" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="df52f88b-e9d4-44c6-a226-62c194a202ad" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getContractTerminatedSins>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getContractTerminatedSins>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getContractTerminatedSins"/></con:call></con:operation><con:operation id="95b9d7f8-b9ab-4c2a-92d3-72a59de17fd0" isOneWay="false" action="" name="getContSins" bindingOperationName="getContSins" type="Request-Response" outputName="getContSinsResponse" inputName="getContSins" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="04e556e1-392f-43d4-a45e-9bcf5413456f" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getContSins>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getContSins>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getContSins"/></con:call></con:operation><con:operation id="eeeb2beb-e69c-4c7e-91f5-940064778c28" isOneWay="false" action="" name="geteModEvents" bindingOperationName="geteModEvents" type="Request-Response" outputName="geteModEventsResponse" inputName="geteModEvents" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="b149b557-f89b-4180-b27d-6fbc7acbd80f" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:geteModEvents>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:geteModEvents>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/geteModEvents"/></con:call></con:operation><con:operation id="a549dd35-68cf-4ea5-a5aa-e627da8ad7b6" isOneWay="false" action="" name="getEModList" bindingOperationName="getEModList" type="Request-Response" outputName="getEModListResponse" inputName="getEModList" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="07ac7aa4-0cc4-47cf-baf1-1e3246204255" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getEModList>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getEModList>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getEModList"/></con:call></con:operation><con:operation id="5bd955e1-3ec1-4326-87ec-3b1adeb9a492" isOneWay="false" action="" name="getExpressSchedules" bindingOperationName="getExpressSchedules" type="Request-Response" outputName="getExpressSchedulesResponse" inputName="getExpressSchedules" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="11244503-d34a-453c-939e-318399a2af46" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getExpressSchedules>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getExpressSchedules>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getExpressSchedules"/></con:call></con:operation><con:operation id="610c24a1-e323-45e4-adf8-97d68e153c3f" isOneWay="false" action="" name="getModStatus" bindingOperationName="getModStatus" type="Request-Response" outputName="getModStatusResponse" inputName="getModStatus" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="7f4f679a-967b-4f3a-96f4-2521435b49a1" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getModStatus>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getModStatus>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getModStatus"/></con:call></con:operation><con:operation id="4522f17a-b25d-4b5a-9dae-f3c2eb05af3f" isOneWay="false" action="" name="getModStatusList" bindingOperationName="getModStatusList" type="Request-Response" outputName="getModStatusListResponse" inputName="getModStatusList" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="b5377220-b4a8-4752-8d8b-9edb707b3762" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getModStatusList>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getModStatusList>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getModStatusList"/></con:call></con:operation><con:operation id="cd2bdac0-31f2-4efb-b8c4-ac74802a0bd1" isOneWay="false" action="" name="getScheduleSins" bindingOperationName="getScheduleSins" type="Request-Response" outputName="getScheduleSinsResponse" inputName="getScheduleSins" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="dc552070-4f1b-4e67-a3d7-4e311265a8d8" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getScheduleSins>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getScheduleSins>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getScheduleSins"/></con:call></con:operation><con:operation id="151ce809-d2ed-46a3-a2da-45cc5bb85acb" isOneWay="false" action="" name="getSubKMetaData" bindingOperationName="getSubKMetaData" type="Request-Response" outputName="getSubKMetaDataResponse" inputName="getSubKMetaData" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="74a4380c-106e-4254-bb4a-36ffc39b58c5" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getSubKMetaData>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getSubKMetaData>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getSubKMetaData"/></con:call></con:operation><con:operation id="1dc12ea5-e9fd-40d4-b7fc-8e3b597895fe" isOneWay="false" action="" name="requestForUnlock" bindingOperationName="requestForUnlock" type="Request-Response" outputName="requestForUnlockResponse" inputName="requestForUnlock" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="316a9a85-de7c-4ad4-8270-d39e310ae2ad" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:requestForUnlock>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+         <!--Optional:-->\r
+         <arg1>?</arg1>\r
+      </fss:requestForUnlock>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/requestForUnlock"/></con:call></con:operation><con:operation id="e62edb48-5d88-477f-a42e-145537f51c2e" isOneWay="false" action="" name="submitRUMRequestClarificationByVendor" bindingOperationName="submitRUMRequestClarificationByVendor" type="Request-Response" outputName="submitRUMRequestClarificationByVendorResponse" inputName="submitRUMRequestClarificationByVendor" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="34746652-78b6-4658-bba6-22a1cc884ebf" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:submitRUMRequestClarificationByVendor>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+         <!--Optional:-->\r
+         <arg1>?</arg1>\r
+         <!--Optional:-->\r
+         <arg2>?</arg2>\r
+      </fss:submitRUMRequestClarificationByVendor>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/submitRUMRequestClarificationByVendor"/></con:call></con:operation><con:operation id="957b792c-8a0c-4aff-8c66-ff710f261539" isOneWay="false" action="" name="updateAuditSwitch" bindingOperationName="updateAuditSwitch" type="Request-Response" outputName="updateAuditSwitchResponse" inputName="updateAuditSwitch" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="81797e26-07c7-428e-b5d5-a14b716bc680" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:updateAuditSwitch>\r
+         <!--Optional:-->\r
+         <contNo>?</contNo>\r
+         <!--Optional:-->\r
+         <value>?</value>\r
+      </fss:updateAuditSwitch>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/updateAuditSwitch"/></con:call></con:operation><con:operation id="748d0df3-d2b5-4145-93f3-0cab02b4f579" isOneWay="false" action="" name="withdrawOptionExtMods" bindingOperationName="withdrawOptionExtMods" type="Request-Response" outputName="withdrawOptionExtModsResponse" inputName="withdrawOptionExtMods" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="cfe4092b-eb52-4014-8acc-cad163ea08dc" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:withdrawOptionExtMods>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+         <!--Optional:-->\r
+         <arg1>?</arg1>\r
+      </fss:withdrawOptionExtMods>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/withdrawOptionExtMods"/></con:call></con:operation></con:interface><con:testSuite id="7ecd75a8-ad09-431a-9d08-631b84f42eaa" name="EOfferServiceTestSuite"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="59dfc89c-56fc-4cba-9a4d-abb49afed226" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="checkPIN TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="9814f2f9-04cb-420f-b40c-108f7b0c36d5" name="checkPIN"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>checkPIN</con:operation><con:request name="checkPIN" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="b93cad66-0c1a-4d7d-a302-eb945e67e78c"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:checkPIN>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+         <!--Optional:-->\r
+         <arg1>?</arg1>\r
+      </fss:checkPIN>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/checkPIN"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="b2a2156b-b75b-475a-ba2c-d2d7ad213cb5" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="createModForContractAdmin TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="16f8e910-ff74-4081-a275-c73588790b4e" name="createModForContractAdmin"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>createModForContractAdmin</con:operation><con:request name="createModForContractAdmin" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="a1117078-9140-4387-a692-f2f05aae803a"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:createModForContractAdmin>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:createModForContractAdmin>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/createModForContractAdmin"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="a612a444-21b2-423f-af0d-8e11d7559df2" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="getActiveContracts TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="4c7d5b3d-cd18-4932-b183-6a69d42537d6" name="getActiveContracts"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>getActiveContracts</con:operation><con:request name="getActiveContracts" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="9d72e24a-bcc7-4054-ade7-7915ac78be51"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getActiveContracts>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getActiveContracts>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getActiveContracts"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="7570d068-0cb2-4ece-a8cb-cb6f2180aea6" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="getCCR TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="7b9795e8-6adf-416b-bc6c-5c4dac489d17" name="getCCR"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>getCCR</con:operation><con:request name="getCCR" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="dd33f04f-3973-4dbf-aa91-5f1731e11b8e"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getCCR>\r
+         <!--Optional:-->\r
+         <arg0>969107424</arg0>\r
+      </fss:getCCR>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:assertion type="Valid HTTP Status Codes" id="4c9bbbfb-1798-4f89-b0e9-8598b5088c77" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="Schema Compliance" id="cb4d1df9-0f28-4a1e-8403-06c079caf72c" name="Schema Compliance"><con:configuration><definition/></con:configuration></con:assertion><con:assertion type="SOAP Response" id="cd0b08dc-7f33-4a69-b895-d31a06baec98" name="SOAP Response"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getCCR"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="1ce3b557-28a0-43c5-91e8-093ea6a80ad4" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="getContractClauses TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="a936a837-4722-4c8e-9d15-b49bdb8c1133" name="getContractClauses"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>getContractClauses</con:operation><con:request name="getContractClauses" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="efcd194d-886a-4b07-b6ba-07cf3d06ba3e"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getContractClauses>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getContractClauses>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getContractClauses"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="dbad5e70-e7f8-45b6-bfff-9594d88914d9" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="getContractMod TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="77b4fa1b-a99f-488f-a6ab-9764ed5b190c" name="getContractMod"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>getContractMod</con:operation><con:request name="getContractMod" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="a02fc6c9-4681-4bdd-8b76-92940ad25e14"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getContractMod>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getContractMod>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getContractMod"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="f8109f13-3d19-4ad6-8b83-5ce7a346c439" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="getContracts TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="d45530ff-1b46-4edb-a671-71aaeac000eb" name="getContracts"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>getContracts</con:operation><con:request name="getContracts" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="cf5ae5aa-f7d1-4f5b-9db1-f66d4a569949"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getContracts>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getContracts>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getContracts"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="85a1f465-d010-4a58-bbe6-d2125fe984bc" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="getContractTerminatedSins TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="a9e403c9-389f-40e8-88c5-a5475ce6d289" name="getContractTerminatedSins"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>getContractTerminatedSins</con:operation><con:request name="getContractTerminatedSins" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="4a5f8023-316a-4335-ac93-71a43a291d39"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getContractTerminatedSins>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getContractTerminatedSins>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getContractTerminatedSins"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="d3e9eb0c-958f-42af-a2c0-df512019b8d0" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="getContSins TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="c8139bef-f2ca-4cca-a19a-ba81f741519b" name="getContSins"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>getContSins</con:operation><con:request name="getContSins" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="06147ddd-2307-4f0f-a9dd-03eb5b5b17c8"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getContSins>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getContSins>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getContSins"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="3712850c-ff61-40d0-8bba-40c2b7575af5" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="geteModEvents TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="44cd4366-9b83-4e7b-8fd6-33598cdd5412" name="geteModEvents"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>geteModEvents</con:operation><con:request name="geteModEvents" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="c4564555-7635-4a15-b9dd-4d795b800de7"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:geteModEvents>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:geteModEvents>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/geteModEvents"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="4f4cdeaf-2ce1-48dc-bfa9-4b744972732d" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="getEModList TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="793d2cd2-3b71-434d-9d4a-5375df59587d" name="getEModList"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>getEModList</con:operation><con:request name="getEModList" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="899c59cc-1156-46aa-97c3-5cfcb4a9ee6b"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getEModList>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getEModList>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getEModList"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="2fe958d7-2650-46fa-94d9-8aa68214b118" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="getExpressSchedules TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="cfa631d2-0a9a-4308-a9e1-efccf83c7f79" name="getExpressSchedules"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>getExpressSchedules</con:operation><con:request name="getExpressSchedules" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="102bce07-2a14-4f33-91db-d1fcf8d0df9f"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getExpressSchedules>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getExpressSchedules>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getExpressSchedules"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="5c84bdc4-a9e2-43ba-ae6e-57459d25aaa9" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="getModStatus TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="d2cf6c13-72d4-42b9-8605-f0424f3a9ded" name="getModStatus"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>getModStatus</con:operation><con:request name="getModStatus" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="9cdb4579-175c-4fda-a3da-858d9b60b6fb"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getModStatus>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getModStatus>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getModStatus"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="8674b5b8-87d6-4b31-aeb4-f51e5d0a8faa" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="getModStatusList TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="ae321900-5e4f-47a4-b2d1-02d2a3e8854c" name="getModStatusList"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>getModStatusList</con:operation><con:request name="getModStatusList" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="dab5ed94-721a-41b4-a51b-aff77d0f445d"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getModStatusList>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getModStatusList>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getModStatusList"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="09128aff-74f8-429b-9aaf-3712553c8316" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="getScheduleSins TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="611ec971-c904-43db-bde2-db858e635f8b" name="getScheduleSins"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>getScheduleSins</con:operation><con:request name="getScheduleSins" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="f1451901-46dd-4bef-9b69-6a17b32f0b4a"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getScheduleSins>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getScheduleSins>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getScheduleSins"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="22d9a85e-952f-4b05-97cf-af5b11dd583a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="getSubKMetaData TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="dd74147b-fd2f-4412-8714-cca4f544a638" name="getSubKMetaData"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>getSubKMetaData</con:operation><con:request name="getSubKMetaData" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="5a63132f-e445-45ca-bb30-eba3b6491cc2"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:getSubKMetaData>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+      </fss:getSubKMetaData>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/getSubKMetaData"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="89928a17-a680-45fd-a549-429d002593d2" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="requestForUnlock TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="1821f956-6f1d-4790-9907-a072a685a08f" name="requestForUnlock"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>requestForUnlock</con:operation><con:request name="requestForUnlock" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="048c3ae5-4673-46c4-934a-4e3909b1885e"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:requestForUnlock>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+         <!--Optional:-->\r
+         <arg1>?</arg1>\r
+      </fss:requestForUnlock>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/requestForUnlock"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="36c94fac-2cf6-4615-83c8-06c58b43a740" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="submitRUMRequestClarificationByVendor TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="962f067e-c980-4643-bbc4-808322ea8c34" name="submitRUMRequestClarificationByVendor"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>submitRUMRequestClarificationByVendor</con:operation><con:request name="submitRUMRequestClarificationByVendor" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="1d54cf31-bddd-4f24-ad5e-05f937a357e4"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:submitRUMRequestClarificationByVendor>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+         <!--Optional:-->\r
+         <arg1>?</arg1>\r
+         <!--Optional:-->\r
+         <arg2>?</arg2>\r
+      </fss:submitRUMRequestClarificationByVendor>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/submitRUMRequestClarificationByVendor"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="60adc2ab-6302-4079-a050-aa2ae0a86c48" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="updateAuditSwitch TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="8efc3115-e7cd-4f45-b72e-e29a43e65002" name="updateAuditSwitch"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>updateAuditSwitch</con:operation><con:request name="updateAuditSwitch" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="e3990362-4f1e-4a52-a893-14e5ecd35b00"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:updateAuditSwitch>\r
+         <!--Optional:-->\r
+         <contNo>?</contNo>\r
+         <!--Optional:-->\r
+         <value>?</value>\r
+      </fss:updateAuditSwitch>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/updateAuditSwitch"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="7abe7714-2506-4749-b4c5-e37ddf36b3fe" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="withdrawOptionExtMods TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="2c7c86a9-d7af-4126-a8a8-4e9a1daaa891" name="withdrawOptionExtMods"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>EOfferServiceServiceSoapBinding</con:interface><con:operation>withdrawOptionExtMods</con:operation><con:request name="withdrawOptionExtMods" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="d0c091a2-b437-4fc6-b995-02e84e3b88ee"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://extcws.fas.gsa.gov:443/soadev/fssonlineEofferService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fss="http://fssonline/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <fss:withdrawOptionExtMods>\r
+         <!--Optional:-->\r
+         <arg0>?</arg0>\r
+         <!--Optional:-->\r
+         <arg1>?</arg1>\r
+      </fss:withdrawOptionExtMods>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://fssonline/EOfferServiceRemote/withdrawOptionExtMods"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>

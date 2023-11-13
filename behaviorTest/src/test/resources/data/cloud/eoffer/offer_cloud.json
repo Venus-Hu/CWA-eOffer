@@ -1,0 +1,5845 @@
+{
+	"Select valid DUNS successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242"
+	},
+	"Select DUNS fails - No DUNS provided": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": ""
+	},
+	"Select DUNS fails - Invalid DUNS provided": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "sgfsdg"
+	},
+	"Corporate Information is correct": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "111111111",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS"
+	},
+	"Add Negotiator successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"negotiator": [
+			{
+				"name": "Bindu M Somana",
+				"title": "CO",
+				"phone": "223-456-7890",
+				"email": "bindu.somana@gsa.gov",
+				"fax": "223-444-5678",
+				"role": "Authorized to sign"
+			}
+		]
+	},
+	"Complete Negotiator - Add Negotiator with Signature": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "111111111",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"negotiator": [
+			{
+				"name": "Tony Stark",
+				"title": "CO",
+				"phone": "223-456-7890",
+				"email": "tony.stark@gsa.gov",
+				"role": "Authorized to sign"
+			}
+		]
+	},
+	"Negotiator Incomplete - Add Negotiator not authorized to sign": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"negotiator": [
+			{
+				"name": "Clark Kent",
+				"title": "CO",
+				"phone": "223-456-7890",
+				"email": "clark.kent@gsa.gov",
+				"role": "Not Authorized to sign"
+			}
+		]
+	},
+	"Add Negotiator fails - No username provided": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"negotiator": [
+			{
+				"name": "",
+				"title": "CO",
+				"phone": "223-456-7890",
+				"email": "clark.kent@gsa.gov",
+				"role": "Not Authorized to sign"
+			}
+		]
+	},
+	"Add Negotiator fails - Invalid email address format": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"negotiator": [
+			{
+				"name": "Clark Kent",
+				"title": "CO",
+				"phone": "223-456-7890",
+				"email": "gsa.gov",
+				"role": "Not Authorized to sign"
+			}
+		]
+	},
+	"Edit Negotiator successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"negotiator": [
+			{
+				"name": "Clark Kent",
+				"title": "CO",
+				"phone": "223-456-7890",
+				"email": "clark.kent@gsa.gov",
+				"role": "Not Authorized to sign"
+			}
+		],
+		"editNegotiator": [
+			{
+				"prevName": "Clark Kent",
+				"name": "Clark Kent Jr.",
+				"title": "CO",
+				"phone": "223-456-7890",
+				"email": "clark.kent.jr@gsa.gov",
+				"role": "Authorized to sign"
+			}
+		]
+	},
+	"Edit Negotiator fails - Invalid phone number format": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"negotiator": [
+			{
+				"name": "Clark Kent",
+				"title": "CO",
+				"phone": "223-456-7890",
+				"email": "clark.kent@gsa.gov",
+				"role": "Not Authorized to sign"
+			}
+		],
+		"editNegotiator": [
+			{
+				"prevName": "Clark Kent",
+				"name": "Clark Kent",
+				"title": "CO",
+				"phone": "1234567890",
+				"email": "clark.kent.jr@gsa.gov",
+				"role": "Authorized to sign"
+			}
+		]
+	},
+	"Delete Negotiator successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"negotiator": [
+			{
+				"name": "Clark Kent",
+				"title": "CO",
+				"phone": "223-456-7890",
+				"email": "clark.kent@gsa.gov",
+				"role": "Not Authorized to sign"
+			},
+			{
+				"name": "Tony Stark",
+				"title": "CO",
+				"phone": "223-456-7890",
+				"email": "tony.stark@gsa.gov",
+				"role": "Authorized to sign"
+			}
+		],
+		"deleteNegotiator": [
+			{
+				"name": "Clark Kent",
+				"role": "Not Authorized to sign"
+			}
+		]
+	},
+	"Goods and services: Add SIN with SIN Group successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sinGroup": "Test Group1",
+					"sin": "132 4     - Daily/Short Term Rental - SUBJECT TO COOPERATIVE PURCHASING",
+					"isTDR": "Yes",
+					"naicsCode": "485111",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"coOpPurchasing": "No",
+					"commercialDeliverySchedule": "Yes",
+					"additionalServiceCharge": "Yes"
+				}
+			]
+		}
+	},
+	"Goods and services: Add SIN -no SIN Group successful for TDR SIN": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "555555555",
+		"solicitationNumber": "47QSCA17B0001",
+		"solicitationRefreshNumber": "0",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "UPIID001  -  ",
+					"naicsCode": "111998",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"FSC/PSCClass1005GUNS,THROUGH30MM": "Yes",
+					"coOpPurchasing": "Yes",
+					"isTDR": "Yes"
+				}
+			]
+		}
+	},
+	"Goods and services: Complete Goods and Services": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "333333333",
+		"solicitationNumber": "47QSMD20R0001",
+		"solicitationRefreshNumber": "0",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sinGroup": "MY_GRP_ONE",
+					"sin": "20 130    - Photographic Laboratory Systems",
+					"naicsCode": "111333",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes",
+					"coOpPurchasing": "No"
+				}
+			],
+			"preponderanceNaicsCode": "111333",
+			"offerCategory": "Services Only"
+		}
+	},
+	"Available Offerings: Complete Available Offerings": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "333333333",
+		"solicitationNumber": "47QSMD20R0001",
+		"solicitationRefreshNumber": "0",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Office Management",
+					"subCategory": "Media Services",
+					"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			],
+			"preponderance": {
+				"category": "Office Management",
+				"subCategory": "Media Services",
+				"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+				"preponderanceNaicsCode": "511120"
+			}
+		}
+	},
+	"Available Offerings: Edit SIN successful on Available Offerings": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Office Management",
+					"subCategory": "Media Services",
+					"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			],
+			"editSinDetails": [
+				{
+					"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+					"scope": "Contractor will provide domestic delivery only",
+					"estimatedSales": "222"
+				}
+			]
+		}
+	},
+	"Available Offerings: Delete SIN successful on Available Offerings": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Office Management",
+					"subCategory": "Media Services",
+					"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			]
+		}
+	},
+	"Available Offerings: Add SIN fails - Invalid Estimated Sales format": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Office Management",
+					"subCategory": "Media Services",
+					"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "abc",
+					"commercialDeliverySchedule": "Yes"
+				}
+			]
+		}
+	},
+	"Available Offerings: Edit SIN fails - No Estimated Sales provided": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Office Management",
+					"subCategory": "Media Services",
+					"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			],
+			"editSinDetails": [
+				{
+					"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+					"scope": "Contractor will provide domestic delivery only",
+					"estimatedSales": "",
+					"commercialDeliverySchedule": "Yes"
+				}
+			]
+		}
+	},
+	"Available Offerings: SIN Incomplete - No Preponderance of Work": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Office Management",
+					"subCategory": "Media Services",
+					"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			]
+		}
+	},
+	"Goods and services for FPT Offer - Wizard Mgmt not required for Services: Upload Terms and Conditions Text File": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"solicitationRefreshNumber": "0",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "20 130    - Photographic Laboratory Systems",
+					"naicsCode": "111333",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes",
+					"coOpPurchasing": "No"
+				}
+			],
+			"preponderanceNaicsCode": "111333",
+			"offerCategory": "Services Only"
+		}
+	},
+	"Goods and services for FPT Offer - Wizard Mgmt required for Product and Services - Upload Terms and Conditions Text File": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "111111111",
+		"solicitationNumber": "47QSMD20R0001",
+		"solicitationRefreshNumber": "0",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sinGroup": "MY_GRP_ONE",
+					"sin": "20 130    - Photographic Laboratory Systems",
+					"naicsCode": "111333",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes",
+					"coOpPurchasing": "No"
+				}
+			],
+			"preponderanceNaicsCode": "111333",
+			"offerCategory": "Products And Services"
+		}
+	},
+	"Goods and services: Add SIN fails - No commercial delivery provided": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sinGroup": "MY_GRP_ONE",
+					"sin": "20 130    - Photographic Laboratory Systems",
+					"naicsCode": "111333",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "No",
+					"coOpPurchasing": "No"
+				}
+			]
+		}
+	},
+	"Goods and services: Add SIN fails - Invalid Estimated Sales format": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sinGroup": "MY_GRP_ONE",
+					"sin": "20 130    - Photographic Laboratory Systems",
+					"naicsCode": "111333",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "abc",
+					"commercialDeliverySchedule": "Yes",
+					"coOpPurchasing": "No"
+				}
+			]
+		}
+	},
+	"Goods and services: Edit SIN fails - No Estimated Sales provided": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sinGroup": "test3",
+					"sin": "75 200    - OFFICE PRODUCTS",
+					"naicsCode": "111110",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes",
+					"additionalServiceCharge": "Yes"
+				}
+			],
+			"editSinDetails": [
+				{
+					"sinGroup": "test3",
+					"sin": "75 200    - OFFICE PRODUCTS",
+					"naicsCode": "111110",
+					"scope": "Contractor will provide domestic delivery only",
+					"estimatedSales": "",
+					"commercialDeliverySchedule": "Yes",
+					"additionalServiceCharge": "Yes"
+				}
+			]
+		}
+	},
+	"Complete Standard Responses": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "444444444",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "No",
+			"americanRecovery": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "No",
+			"subKWorkPerfomedForeignNo": "Yes",
+			"subKOpportunity": "Yes"
+		}
+	},
+	"Standard Responses Incomplete - No Disaster Recovery Purchasing Program": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"standardResponse": {
+			"disasterRecovery": "",
+			"exceptionTerms": "No",
+			"exceptionCert": "No",
+			"americanRecovery": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "No",
+			"subKWorkPerfomedForeignNo": "Yes",
+			"subKOpportunity": "Yes"
+		}
+	},
+	"Standard Responses Incomplete - No Exceptions to Minimum Order Limit": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "No",
+			"exceptionCert": "No",
+			"americanRecovery": "Yes",
+			"empEligibility": "Yes",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "No",
+			"subKWorkPerfomedForeignNo": "Yes",
+			"subKOpportunity": "Yes"
+		}
+	},
+	"Standard Responses - Exceptions Required": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "No",
+			"americanRecovery": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "No",
+			"subKWorkPerfomedForeignNo": "Yes",
+			"subKOpportunity": "Yes"
+		}
+	},
+	"Standard Reponses - Add SIN for IT Category Only fastLane Required": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Information Technology",
+					"subCategory": "IT Software",
+					"sin": "511210 Software Licenses",
+					"isTDR": "Yes",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "1111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			],
+			"preponderance": {
+				"category": "Information Technology",
+				"subCategory": "IT Software",
+				"sin": "511210 Software Licenses",
+				"preponderanceNaicsCode": "511210"
+			}
+		}
+	},
+	"Standard Responses - Add SIN for IT and Non IT Category fastLane Not Required": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Furniture and Furnishings",
+					"subCategory": "Furniture Services",
+					"sin": "541614CF Comprehensive Furniture Management Services",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "1111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			],
+			"preponderance": {
+				"category": "Furniture and Furnishings",
+				"subCategory": "Furniture Services",
+				"sin": "541614CF Comprehensive Furniture Management Services",
+				"preponderanceNaicsCode": "541614"
+			}
+		}
+	},
+	"Standard Responses - SubK Plan Required - For profit, domestic, not small bus, SubK work": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"americanRecovery": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "Yes",
+			"subKSmallBusinessForeignYes": "No",
+			"subKOpportunity": "Yes"
+		}
+	},
+	"Standard Responses - No SubK Plan Required - For profit, domestic, not small bus, no SubK work": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"americanRecovery": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "Yes",
+			"subKSmallBusinessForeignYes": "No",
+			"subKOpportunity": "No"
+		}
+	},
+	"Standard Responses - No Exceptions Required": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "No",
+			"exceptionCert": "No",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "Yes",
+			"subKSmallBusinessForeignYes": "No",
+			"subKOpportunity": "No"
+		}
+	},
+	"Standard Responses - SubK Plan Required - For profit, foreign, locs in US, op in US, not small bus, SubK work": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"americanRecovery": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "Yes",
+			"subKPrimaryOperationFromUSA": "Yes",
+			"subKSmallBusinessYes": "No",
+			"subKOpportunity": "Yes"
+		}
+	},
+	"Standard Responses - No SubK Plan Required - Not-for-profit, no work in US": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"americanRecovery": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "Yes",
+			"subKWorkPerfomed": "No"
+		}
+	},
+	"Sol Clauses: Basic Information template - Respond to Clause successful": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "111111111",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"basicInfo": {
+			"clauseResponse": [
+				{
+					"clauseNumber": "F-FSS-202-F",
+					"Table": [
+						{
+							"Geographic area(s)": "Test",
+							"Countries": "UNITED STATES",
+							"Zones": "1A"
+						}
+					]
+				}
+			]
+		}
+	},
+	"Sol Clauses: Commercial Sales Practice successful - Offer/Contract level with Discount": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "444444444",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		}
+	},
+	"Sol Clauses:  Commercial Sales Practice successful - SIN level with Discount": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sinGroup": "Test Group1",
+					"sin": "132 4     - Daily/Short Term Rental - SUBJECT TO COOPERATIVE PURCHASING",
+					"naicsCode": "485111",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"coOpPurchasing": "No",
+					"commercialDeliverySchedule": "Yes",
+					"stateCommercialDelivery": "",
+					"expeditedDelivery": "",
+					"additionalServiceCharge": "Yes"
+				}
+			]
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Sin",
+			"deviation": "No",
+			"policyBasisLevelForSin": [
+				{
+					"sin": "132 4",
+					"level": "Discount"
+				}
+			],
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty",
+					"sin": "132 4"
+				}
+			]
+		}
+	},
+	"Sol Clauses: Add POC successful": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "111111111",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"pointOfContact": [
+			{
+				"poc": "Order POC",
+				"name": "Bruceόʼ Wayne",
+				"title": "Batmanόʼ",
+				"address1": "Sesameόʼ street",
+				"city": "Gothamόʼ",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			},
+			{
+				"poc": "Industrial Funding Fee",
+				"name": "Clarkόʼ Kent",
+				"title": "Supermanόʼ",
+				"address1": "Dailyόʼ Planet street",
+				"city": "Metropolisόʼ",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "superman@dccomics.com"
+			},
+			{
+				"poc": "Contact for Contract Administration (Overseas)",
+				"name": "Tonyόʼ Stark",
+				"title": "Ironmanόʼ",
+				"address1": "Dailyόʼ Planet street",
+				"city": "Longόʼ Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "ironman@marvelcomics.com"
+			}
+		],
+		"verifyPOC": [
+			{
+				"poc": "Order POC",
+				"name": "Bruce Wayne",
+				"title": "Batman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			},
+			{
+				"poc": "Industrial Funding Fee",
+				"name": "Clark Kent",
+				"title": "Superman",
+				"address1": "Daily Planet street",
+				"city": "Metropolis",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "superman@dccomics.com"
+			},
+			{
+				"poc": "Contact for Contract Administration (Overseas)",
+				"name": "Tony Stark",
+				"title": "Ironman",
+				"address1": "Daily Planet street",
+				"city": "Long Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "ironman@marvelcomics.com"
+			}
+		]
+	},
+	"Sol Clauses: Edit POC successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"pointOfContact": [
+			{
+				"poc": "Industrial Funding Fee",
+				"name": "Clark Kent",
+				"title": "Superman",
+				"address1": "Daily Planet street",
+				"city": "Metropolis",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "superman@dccomics.com"
+			}
+		],
+		"editPointOfContact": [
+			{
+				"poc": "Industrial Funding Fee",
+				"name": "Clark Kent Jr",
+				"prevName": "Clark Kent",
+				"title": "Superman II",
+				"address1": "Daily Planet street",
+				"city": "Metropolis",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "superman@dccomics.com"
+			}
+		]
+	},
+	"Sol Clauses: Delete POC successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"pointOfContact": [
+			{
+				"poc": "Industrial Funding Fee",
+				"name": "Clark Kent",
+				"title": "Superman",
+				"address1": "Daily Planet street",
+				"city": "Metropolis",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "superman@dccomics.com"
+			}
+		]
+	},
+	"Sol Clauses: Add Ordering Information entry successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"orderingReceiptInformation": [
+			{
+				"orderInfo": "receiptorder",
+				"receiptType": "Facsimile Transmission or",
+				"facsimile": "223-456-7899"
+			}
+		],
+		"yourOrderingInformation": [
+			{
+				"Name": "Facsimile Transmission",
+				"Description": "Ordering Receipt Information"
+			}
+		]
+	},
+	"Sol Clauses: Complete Ordering Information template": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "111111111",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"orderingReceiptInformation": [
+			{
+				"orderInfo": "receiptorder",
+				"receiptType": "Facsimile Transmission or",
+				"facsimile": "223-456-7899"
+			}
+		],
+		"remittanceAddress": [
+			{
+				"orderInfo": "remittanceorder",
+				"company": "ACME Corp.",
+				"address1": "3400 W Riverside Dr",
+				"city": "Death Valley",
+				"state": "NV",
+				"country": "USA",
+				"zip": "92328",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "wiley.coyote@acmetest-corp.com"
+			}
+		],
+		"yourOrderingInformation": [
+			{
+				"Name": "Facsimile Transmission",
+				"Description": "Ordering Receipt Information"
+			},
+			{
+				"Name": "ACME Corp.",
+				"Description": "Remittance Address"
+			}
+		]
+	},
+	"Sol Clauses:  Ordering Information template incomplete - no Remittance Address added": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"orderingReceiptInformation": [
+			{
+				"orderInfo": "receiptorder",
+				"receiptType": "Facsimile Transmission or",
+				"facsimile": "223-456-7899"
+			}
+		],
+		"yourOrderingInformation": [
+			{
+				"Name": "Facsimile Transmission",
+				"Description": "Ordering Receipt Information"
+			}
+		]
+	},
+	"Add Ordering Information fails - No Fax provided for Order Receipt Information": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"orderingReceiptInformation": [
+			{
+				"orderInfo": "receiptorder",
+				"receiptType": "Facsimile Transmission or",
+				"_comment": "'fascimile' is set to blank for this scenario",
+				"facsimile": ""
+			}
+		]
+	},
+	"Add Ordering Information fails - Invalid Zip for US Address for Remittance Address": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"remittanceAddress": [
+			{
+				"orderInfo": "remittanceorder",
+				"company": "ACME Corp.",
+				"address1": "3400 W Riverside Dr",
+				"city": "Death Valley",
+				"state": "NV",
+				"country": "USA",
+				"_comment": "'zip' is set to invalid value for this scenario",
+				"zip": "INVALID$",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "wiley.coyote@acmetest-corp.com"
+			}
+		]
+	},
+	"Edit Ordering Information successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"orderingReceiptInformation": [
+			{
+				"orderInfo": "receiptorder",
+				"receiptType": "Facsimile Transmission or",
+				"facsimile": "223-456-7899"
+			}
+		],
+		"remittanceAddress": [
+			{
+				"orderInfo": "remittanceorder",
+				"company": "ACME Corp.",
+				"address1": "3400 W Riverside Dr",
+				"city": "Death Valley",
+				"state": "NV",
+				"country": "USA",
+				"zip": "92328",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "wiley.coyote@acmetest-corp.com"
+			}
+		],
+		"editedOrderingReceiptInformation": [
+			{
+				"orderInfo": "receiptorder",
+				"receiptType": "Computer-to-Computer Electronic Data Interchange (EDI)",
+				"_comment": "other fields in form must be set to blank for this scenario",
+				"name": "Wiley E. Coyote",
+				"title": "Mr.",
+				"address1": "3400 W Riverside Dr",
+				"city": "Burbank",
+				"state": "CA",
+				"zip": "91503",
+				"country": "USA",
+				"phone": "223-456-7890",
+				"email": "wiley.coyote@acmetest-corp.com"
+			}
+		],
+		"editedRemittanceAddress": [
+			{
+				"orderInfo": "remittanceorder",
+				"company": "Oscorp",
+				"address1": "3400 W Riverside Dr",
+				"city": "Death Valley",
+				"state": "NV",
+				"country": "USA",
+				"zip": "92328",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "wiley.coyote@acmetest-corp.com"
+			}
+		],
+		"yourOrderingInformation": [
+			{
+				"Name": "Electronic Data Interchange",
+				"Description": "Ordering Receipt Information"
+			},
+			{
+				"Name": "Oscorp",
+				"Description": "Remittance Address"
+			}
+		]
+	},
+	"Edit Ordering Information fails - No email provided": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"orderingReceiptInformation": [
+			{
+				"orderInfo": "receiptorder",
+				"receiptType": "Computer-to-Computer Electronic Data Interchange (EDI)",
+				"name": "Wiley E. Coyote",
+				"title": "Mr.",
+				"address1": "3400 W Riverside Dr",
+				"city": "Burbank",
+				"state": "CA",
+				"zip": "91503",
+				"country": "USA",
+				"phone": "223-456-7890",
+				"email": "wiley.coyote@acmetest-corp.com"
+			}
+		],
+		"updatedOrderingReceiptInformation": [
+			{
+				"orderInfo": "receiptorder",
+				"_comment": "'email' field in form must be set to blank for this scenario",
+				"email": ""
+			}
+		]
+	},
+	"Delete Ordering Information successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"orderingReceiptInformation": [
+			{
+				"orderInfo": "receiptorder",
+				"receiptType": "Facsimile Transmission or",
+				"facsimile": "223-456-7899"
+			}
+		],
+		"orderingInformationToDelete": [
+			{
+				"Name": "Facsimile Transmission",
+				"Description": "Ordering Receipt Information"
+			}
+		]
+	},
+	"Sol Provisions: Corporate Experience provision fails - Number of years of Experience NOT provided": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"corporateExperience": {
+			"AnumberOfYears": "",
+			"BorgEmployeesInfo": "abc with 5 years of experience",
+			"CbriefHistory": "Here goes org history",
+			"Dinfo": "This organization controls all the accounts",
+			"EdesciptionOfResources": "Org has 50 employees",
+			"FproductMarketing": "Organization intends market themselves",
+			"GuseOfSubKs": "Organization intends use subcontractors"
+		}
+	},
+	"Sol Provisions: Corporate Experience successful": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "111111111",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"corporateExperience": {
+			"AnumberOfYears": "5",
+			"BorgEmployeesInfo": "abc with 5 years of experience",
+			"CbriefHistory": "Here goes org history",
+			"Dinfo": "This organization controls all the accounts",
+			"EdesciptionOfResources": "Org has 50 employees",
+			"FproductMarketing": "Organization intends market themselves",
+			"GuseOfSubKs": "Organization intends use subcontractors"
+		}
+	},
+	"Sol Provisions: Edit Corporate Experience successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"addCorporateExperience": {
+			"AnumberOfYears": "10",
+			"BorgEmployeesInfo": "Org with 5 years of experience",
+			"CbriefHistory": "Here goes org history",
+			"Dinfo": "This organization controls all the accounts",
+			"EdesciptionOfResources": "Org has 50 employees",
+			"FproductMarketing": "Organization intends market themselves",
+			"GuseOfSubKs": "Organization intends use subcontractors"
+		},
+		"editCorporateExperience": {
+			"AnumberOfYears": "10",
+			"BorgEmployeesInfo": "Org with 5 years of experience - edied",
+			"CbriefHistory": "Here goes org history - edied",
+			"Dinfo": "This organization controls all the accounts - edied",
+			"EdesciptionOfResources": "Org has 50 employees - edied",
+			"FproductMarketing": "Organization intends market themselves - edied",
+			"GuseOfSubKs": "Organization intends use subcontractors - edied"
+		}
+	},
+	"Sol Provisions: Edit Corporate Experience fails - Intended use of Subcontractors NOT provided": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"addCorporateExperience": {
+			"AnumberOfYears": "10",
+			"BorgEmployeesInfo": "Org with 5 years of experience",
+			"CbriefHistory": "Here goes org history",
+			"Dinfo": "This organization controls all the accounts",
+			"EdesciptionOfResources": "Org has 50 employees",
+			"FproductMarketing": "Organization intends market themselves",
+			"GuseOfSubKs": "Sub contractors are used"
+		},
+		"editCorporateExperience": {
+			"AnumberOfYears": "10",
+			"BorgEmployeesInfo": "Org with 5 years of experience - edied",
+			"CbriefHistory": "Here goes org history - edied",
+			"Dinfo": "This organization controls all the accounts - edied",
+			"EdesciptionOfResources": "Org has 50 employees - edied",
+			"FproductMarketing": "Organization intends market themselves - edied",
+			"GuseOfSubKs": ""
+		}
+	},
+	"Sol Provisions: Past Performance successful - Documents not uploaded": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"pastPerformance": {
+			"CPARS": "Yes",
+			"feedback": "fb"
+		}
+	},
+	"Sol Provisions: Past Performance successful - Documents uploaded": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"pastPerformance": {
+			"CPARS": "No",
+			"ORI": "Yes",
+			"startDate": "01/01/2017",
+			"supportingDocument": [
+				{
+					"type": "Past Performance & Experience",
+					"action": "upload",
+					"filename": "GenericUploadData/past_performance.txt",
+					"documentName": "Past Performance document"
+				},
+				{
+					"type": "Order Form for Past Performance Eval",
+					"action": "upload",
+					"filename": "GenericUploadData/Blank_Excel_File.xls",
+					"documentName": "Order Form document"
+				}
+			],
+			"feedback": "fb"
+		}
+	},
+	"Sol Provisions: Edit Past Performance successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"pastPerformance": {
+			"CPARS": "No",
+			"ORI": "Yes",
+			"startDate": "01/01/2017",
+			"supportingDocument": [
+				{
+					"type": "Past Performance & Experience",
+					"action": "upload",
+					"filename": "GenericUploadData/Blank_Excel_File.xls",
+					"documentName": "Past Performance document"
+				},
+				{
+					"type": "Order Form for Past Performance Eval",
+					"action": "upload",
+					"filename": "GenericUploadData/past_performance.txt",
+					"documentName": "Order Form document"
+				}
+			],
+			"feedback": "fb"
+		},
+		"editPastPerformance": {
+			"CPARS": "No",
+			"ORI": "Yes",
+			"startDate": "05/01/2017",
+			"supportingDocument": [
+				{
+					"type": "Past Performance & Experience",
+					"action": "upload",
+					"filename": "GenericUploadData/Blank_Excel_File.xls",
+					"documentName": "Past Performance document"
+				},
+				{
+					"type": "Order Form for Past Performance Eval",
+					"action": "upload",
+					"filename": "GenericUploadData/past_performance.txt",
+					"documentName": "Order Form document"
+				}
+			],
+			"feedback": "updated feedback"
+		}
+	},
+	"Sol Provisions: Quality Control provision fails - Internal Review Procedures NOT provided": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"qualityControl": {
+			"internalReview": "",
+			"individualIdentification": "Here are the individuals",
+			"subKPerformance": "Ensuring subk performance",
+			"potentialProblems": "Problems are handled",
+			"procedureForQuality": "Here is the procedure",
+			"qcManagement": "Quality control is managed"
+		}
+	},
+	"Sol Provisions: Quality Control successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"qualityControl": {
+			"internalReview": "Review is done",
+			"individualIdentification": "Here are the individuals",
+			"subKPerformance": "Ensuring subk performance",
+			"potentialProblems": "Problems are handled",
+			"procedureForQuality": "Here is the procedure",
+			"qcManagement": "Quality control is managed"
+		}
+	},
+	"Sol Provisions: Edit Quality Control successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"addQualityControl": {
+			"internalReview": "Review is done",
+			"individualIdentification": "Here are the individuals",
+			"subKPerformance": "Ensuring subk performance",
+			"potentialProblems": "Problems are handled",
+			"procedureForQuality": "Here is the procedure",
+			"qcManagement": "Quality control is managed"
+		},
+		"editQualityControl": {
+			"internalReview": "Edited - Review is done",
+			"individualIdentification": "Edited - Here are the individuals",
+			"subKPerformance": "Edited - Ensuring subk performance",
+			"potentialProblems": "Edited - Problems are handled",
+			"procedureForQuality": "Edited - Here is the procedure",
+			"qcManagement": "Edited - Quality control is managed"
+		}
+	},
+	"Sol Provisions: Edit Quality Control fails - Individuals Responsible for Quality Control NOT provided": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"addQualityControl": {
+			"internalReview": "Review is done",
+			"individualIdentification": "Here are the individuals",
+			"subKPerformance": "Ensuring subk performance",
+			"potentialProblems": "Problems are handled",
+			"procedureForQuality": "Here is the procedure",
+			"qcManagement": "Quality control is managed"
+		},
+		"editQualityControl": {
+			"internalReview": "Edited - Review is done",
+			"individualIdentification": "",
+			"subKPerformance": "Edited - Ensuring subk performance",
+			"potentialProblems": "Edited - Problems are handled",
+			"procedureForQuality": "Edited - Here is the procedure",
+			"qcManagement": "Edited - Quality control is managed"
+		}
+	},
+	"Sol Provisions: Relevant Project Experience successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Office Management",
+					"subCategory": "Media Services",
+					"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			],
+			"preponderance": {
+				"category": "Office Management",
+				"subCategory": "Media Services",
+				"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+				"preponderanceNaicsCode": "511120"
+			}
+		},
+		"relevantExperience": [
+			{
+				"scpFSS001ProjectDetailsPerformanceNarrative": "a",
+				"scpFSS001ProjectDetailsMethodologyNarrative": "b",
+				"scpFSS001ProjectDetailsDemoNarrative": "c",
+				"scpFSS001ProjectDetailsScheduleNarrative": "d",
+				"scpFSS001ProjectDetailsExperienceScopeNarrative": "e",
+				"scpFSS001ProjectDetailsSinExperienceNarrative": "f",
+				"customerDetails": {
+					"scpFSS001CustomerDetailsCustomerName": "abc",
+					"scpFSS001CustomerDetailsProjectName": "Test Project",
+					"scpFSS001CustomerDetailsPOCName": "Test user",
+					"scpFSS001CustomerDetailsPOCPhone": "123-456-7890",
+					"scpFSS001CustomerDetailsPOCEmail": "a@b.com",
+					"scpFSS001CustomerDetailsProjectDuration": "12",
+					"scpFSS001CustomerDetailsDollarValue": "1234",
+					"scpFSS001CustomerDetailsDollarValueForSin": "123",
+					"scpFSS001CustomerDetailsProjectSummary": "summary ",
+					"scpFSS001CustomerDetailsProjectSOW": "testing "
+				},
+				"substitution": {
+					"scpFSS001SubstitutionForRelevantProjectExperience": "No"
+				}
+			}
+		]
+	},
+	"Sol Provisions: Relevant Project Experience - Edit Project successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Information Technology",
+					"subCategory": "IT Hardware",
+					"sin": "33411 Purchasing of new electronic equipment",
+					"isTDR": "Yes",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			],
+			"preponderance": {
+				"category": "Information Technology",
+				"subCategory": "IT Hardware",
+				"sin": "33411 Purchasing of new electronic equipment",
+				"preponderanceNaicsCode": "334111"
+			}
+		},
+		"relevantExperience": [
+			{
+				"scpFSS001ProjectDetailsPerformanceNarrative": "a",
+				"scpFSS001ProjectDetailsMethodologyNarrative": "b",
+				"scpFSS001ProjectDetailsDemoNarrative": "c",
+				"scpFSS001ProjectDetailsScheduleNarrative": "d",
+				"scpFSS001ProjectDetailsExperienceScopeNarrative": "e",
+				"scpFSS001ProjectDetailsSinExperienceNarrative": "f",
+				"customerDetails": {
+					"scpFSS001CustomerDetailsCustomerName": "abc",
+					"scpFSS001CustomerDetailsProjectName": "Test Project",
+					"scpFSS001CustomerDetailsPOCName": "Test user",
+					"scpFSS001CustomerDetailsPOCPhone": "123-456-7890",
+					"scpFSS001CustomerDetailsPOCEmail": "a@b.com",
+					"scpFSS001CustomerDetailsProjectDuration": "12",
+					"scpFSS001CustomerDetailsDollarValue": "1234",
+					"scpFSS001CustomerDetailsDollarValueForSin": "123",
+					"scpFSS001CustomerDetailsProjectSummary": "summary ",
+					"scpFSS001CustomerDetailsProjectSOW": "testing "
+				},
+				"substitution": {
+					"scpFSS001SubstitutionForRelevantProjectExperience": "No"
+				}
+			}
+		],
+		"editRelevantExperience": [
+			{
+				"scpFSS001ProjectDetailsPerformanceNarrative": "a1",
+				"scpFSS001ProjectDetailsMethodologyNarrative": "b1",
+				"scpFSS001ProjectDetailsDemoNarrative": "c1",
+				"scpFSS001ProjectDetailsScheduleNarrative": "d1",
+				"scpFSS001ProjectDetailsExperienceScopeNarrative": "e1",
+				"scpFSS001ProjectDetailsSinExperienceNarrative": "f1"
+			}
+		]
+	},
+	"Sol Provisions: Relevant Project Experience - Delete Project successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Office Management",
+					"subCategory": "Media Services",
+					"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			],
+			"preponderance": {
+				"category": "Office Management",
+				"subCategory": "Media Services",
+				"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+				"preponderanceNaicsCode": "511120"
+			}
+		},
+		"relevantExperience": [
+			{
+				"scpFSS001ProjectDetailsPerformanceNarrative": "a",
+				"scpFSS001ProjectDetailsMethodologyNarrative": "b",
+				"scpFSS001ProjectDetailsDemoNarrative": "c",
+				"scpFSS001ProjectDetailsScheduleNarrative": "d",
+				"scpFSS001ProjectDetailsExperienceScopeNarrative": "e",
+				"scpFSS001ProjectDetailsSinExperienceNarrative": "f",
+				"customerDetails": {
+					"scpFSS001CustomerDetailsCustomerName": "abc",
+					"scpFSS001CustomerDetailsProjectName": "Test Project",
+					"scpFSS001CustomerDetailsPOCName": "Test user",
+					"scpFSS001CustomerDetailsPOCPhone": "123-456-7890",
+					"scpFSS001CustomerDetailsPOCEmail": "a@b.com",
+					"scpFSS001CustomerDetailsProjectDuration": "12",
+					"scpFSS001CustomerDetailsDollarValue": "1234",
+					"scpFSS001CustomerDetailsDollarValueForSin": "123",
+					"scpFSS001CustomerDetailsProjectSummary": "summary",
+					"scpFSS001CustomerDetailsProjectSOW": "testing"
+				},
+				"substitution": {
+					"scpFSS001SubstitutionForRelevantProjectExperience": "No"
+				}
+			}
+		]
+	},
+	"Sol Provisions: SCA Matrix - Add Labor Category successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "70",
+		"scaLaborCategoryMatrix": [
+			{
+				"laborCategory": "Category 1",
+				"codeTitle": "First labor category",
+				"wdNumber": "10012"
+			},
+			{
+				"laborCategory": "Category 2",
+				"codeTitle": "Second labor category",
+				"wdNumber": "10034"
+			}
+		]
+	},
+	"Sol Provisions: SCA Matrix - Add Labor Category fails - No SCA Equivalent Code Title provided": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"scaLaborCategoryMatrix": [
+			{
+				"laborCategory": "Category 3",
+				"codeTitle": "",
+				"wdNumber": "10265"
+			}
+		]
+	},
+	"Sol Provisions: Complete SCA Matrix successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"scaLaborCategoryMatrix": [
+			{
+				"laborCategory": "Category 3",
+				"codeTitle": "First labor category",
+				"wdNumber": "10012"
+			},
+			{
+				"laborCategory": "Category 4",
+				"codeTitle": "Second labor category",
+				"wdNumber": "10034"
+			}
+		]
+	},
+	"Sol Provisions: Edit SCA Matrix successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"scaLaborCategoryMatrix": [
+			{
+				"laborCategory": "Category 1",
+				"codeTitle": "First labor category",
+				"wdNumber": "10012"
+			},
+			{
+				"laborCategory": "Category 2",
+				"codeTitle": "Second labor category",
+				"wdNumber": "10034"
+			}
+		],
+		"editScaLaborCategoryMatrix": [
+			{
+				"addedWdNumber": "10012",
+				"laborCategory": "Category 5",
+				"codeTitle": "1st labor category",
+				"wdNumber": "100121"
+			},
+			{
+				"addedWdNumber": "10034",
+				"laborCategory": "Category 7",
+				"codeTitle": "2nd labor category",
+				"wdNumber": "100341"
+			}
+		]
+	},
+	"Sol Provisions: SCA Matrix - Edit Labor Category successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"scaLaborCategoryMatrix": [
+			{
+				"laborCategory": "Category 1",
+				"codeTitle": "First labor category",
+				"wdNumber": "10012"
+			},
+			{
+				"laborCategory": "Category 2",
+				"codeTitle": "Second labor category",
+				"wdNumber": "10034"
+			}
+		],
+		"editScaLaborCategoryMatrix": [
+			{
+				"addedWdNumber": "10012",
+				"laborCategory": "Category 4",
+				"codeTitle": "1st labor category",
+				"wdNumber": "100121"
+			},
+			{
+				"addedWdNumber": "10034",
+				"laborCategory": "Category 5",
+				"codeTitle": "2nd labor category",
+				"wdNumber": "100341"
+			}
+		]
+	},
+	"Sol Provisions: SCA Matrix - Edit Labor Category fails - No SCA Eligible Contract Labor Category provided": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"scaLaborCategoryMatrix": [
+			{
+				"laborCategory": "Category 1",
+				"codeTitle": "First labor category",
+				"wdNumber": "10012"
+			}
+		],
+		"editScaLaborCategoryMatrix": [
+			{
+				"addedWdNumber": "10012",
+				"laborCategory": "",
+				"codeTitle": "1st labor category",
+				"wdNumber": "10012"
+			}
+		]
+	},
+	"Sol Provisions: SCA Matrix - Delete Labor Category successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"scaLaborCategoryMatrix": [
+			{
+				"laborCategory": "Category 1",
+				"codeTitle": "First labor category",
+				"wdNumber": "10012"
+			}
+		]
+	},
+	"Add valid Corporate Details for Solicitation Provisions": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"corporateExperience": {
+			"noOfYearsNarrative": "2-3 years o ",
+			"orgNarrative": "12",
+			"knowNarrative": "know",
+			"accountingNarrative": "accounts",
+			"personnelNarrative": "1000 char Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. N",
+			"marketingNarrative": "market !@#$% @#@#*&(*))",
+			"subkNarrative": "sub contract"
+		}
+	},
+	"Upload Document successful": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "222222222",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"uploadDocuments": [
+			{
+				"type": "Commercial Supplier Agreements (CSAs)",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls",
+				"documentName": "Commercial Supplier Agreements (CSAs)"
+			},
+			{
+				"type": "Order Form for Past Performance Eval",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Order Form for Past Performance Eval"
+			},
+			{
+				"type": "Past Performance & Experience",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Past Performance & Experience"
+			}
+		]
+	},
+	"Upload Document fails - No document selected": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"uploadDocuments": [
+			{
+				"action": "upload",
+				"documentName": "Supporting Documentation",
+				"filename": "",
+				"type": "Order Form for Past Performance Eval"
+			}
+		]
+	},
+	"Upload Document fails - Invalid file format": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"uploadDocuments": [
+			{
+				"type": "Commercial Supplier Agreements (CSAs)",
+				"action": "upload",
+				"filename": "GenericUploadData/invalid-file-extension.rmm",
+				"documentName": "Commercial Supplier Agreements (CSAs)"
+			}
+		]
+	},
+	"Upload Document fails for file size exceeding the limits": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"uploadDocuments": [
+			{
+				"type": "Commercial Supplier Agreements (CSAs)",
+				"action": "upload",
+				"filename": "GenericUploadData/data_100MB.doc.REMOVED.git-id",
+				"documentName": "Commercial Supplier Agreements (CSAs)"
+			}
+		]
+	},
+	"Complete Upload Documents": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Office Management",
+					"subCategory": "Printing and Photographic Equipment",
+					"sin": "325992 Micro-photographic Film, Paper, Chemical Preparation and Equipment",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			],
+			"preponderance": {
+				"category": "Office Management",
+				"subCategory": "Printing and Photographic Equipment",
+				"sin": "325992 Micro-photographic Film, Paper, Chemical Preparation and Equipment",
+				"preponderanceNaicsCode": "325992"
+			}
+		},
+		"uploadDocuments": [
+			{
+				"type": "Commercial Supplier Agreements (CSAs)",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls",
+				"documentName": "Commercial Supplier Agreements (CSAs)"
+			},
+			{
+				"type": "Decline Letter",
+				"action": "upload",
+				"filename": "GenericUploadData/past_performance.txt",
+				"documentName": "Decline Letter"
+			},
+			{
+				"type": "Order Form for Past Performance Eval",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Order Form for Past Performance Eval"
+			},
+			{
+				"type": "Past Performance & Experience",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Past Performance & Experience"
+			}
+		]
+	},
+	"Delete Uploaded Document successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"uploadDocuments": [
+			{
+				"type": "Commercial Supplier Agreements (CSAs)",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls",
+				"documentName": "Commercial Supplier Agreements (CSAs)"
+			},
+			{
+				"type": "Order Form for Past Performance Eval",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Order Form for Past Performance Eval"
+			},
+			{
+				"type": "Past Performance & Experience",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Past Performance & Experience"
+			}
+		],
+		"uploadDocumentsToDelete": [
+			{
+				"type": "Order Form for Past Performance Eval",
+				"action": "delete",
+				"filename": "GenericUploadData/document_to_delete.png",
+				"documentName": "Order Form for Past Performance Eval"
+			}
+		]
+	},
+	"View Uploaded Document successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"uploadDocuments": [
+			{
+				"type": "Commercial Supplier Agreements (CSAs)",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls",
+				"documentName": "Commercial Supplier Agreements (CSAs)"
+			},
+			{
+				"type": "Order Form for Past Performance Eval",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Order Form for Past Performance Eval"
+			},
+			{
+				"type": "Past Performance & Experience",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Past Performance & Experience"
+			}
+		],
+		"uploadDocumentsToView": [
+			{
+				"type": "Past Performance & Experience",
+				"action": "view",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Past Performance & Experience"
+			}
+		]
+	},
+	"Upload Additional Document successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"uploadDocuments": [
+			{
+				"type": "Commercial Supplier Agreements (CSAs)",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls",
+				"documentName": "Commercial Supplier Agreements (CSAs)"
+			},
+			{
+				"type": "Order Form for Past Performance Eval",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Order Form for Past Performance Eval"
+			},
+			{
+				"type": "Past Performance & Experience",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Past Performance & Experience"
+			}
+		],
+		"uploadDocumentsToAdd": [
+			{
+				"type": "Order Form for Past Performance Eval",
+				"action": "upload",
+				"filename": "GenericUploadData/past_performance.txt",
+				"documentName": "Order Form for Past Performance Eval"
+			}
+		],
+		"documentTypes": [
+			"Commercial Supplier Agreements (CSAs)",
+			"Order Form for Past Performance Eval",
+			"Past Performance & Experience",
+			"Copy of Reps and Certs Record",
+			"Exceptions to Certs and Reps - 52.212-3",
+			"Neutral Letter From ORI",
+			"Other (optional-offeror defined)"
+		]
+	},
+	"SubK:  Select New Individual Plan successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "Yes",
+			"subKPrimaryOperationFromUSA": "Yes",
+			"subKSmallBusinessYes": "No",
+			"subKOpportunity": "Yes"
+		},
+		"subkPlan": {
+			"isNew": "Yes",
+			"planType": "Individual",
+			"goals": [
+				{
+					"total": "10000",
+					"largeBusiness": "1000",
+					"smallBusiness": "9000",
+					"veteran": "1200",
+					"serviceDisabled": "300",
+					"hubZone": "400",
+					"sdb": "500",
+					"women": "600"
+				}
+			],
+			"supplies": [
+				{
+					"name": "ABS suppliers",
+					"large": "Yes",
+					"small": "Yes",
+					"vosb": "No",
+					"sdvosb": "No",
+					"hub": "Yes",
+					"sdb": "No",
+					"wosb": "Yes"
+				}
+			],
+			"develop": "Use the following method to develop the subcontracting goals. ",
+			"sources": " identifies potential subcontractors using the following source lists and organizations.",
+			"indirectCost": "Yes",
+			"indirectText": "Explain indirect cost",
+			"identificationData": {
+				"suppliesDesc": "Describe supplies in detail",
+				"placeOfPerformance": "USA",
+				"basePeriod": "1000",
+				"period1": "100",
+				"period2": "2000",
+				"period3": "3000"
+			},
+			"poc": [
+				{
+					"name": "Peter Parker",
+					"title": "Spiderman",
+					"address1": "Forest Hills",
+					"city": "New York",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "223-456-7890",
+					"fax": "223-456-7890",
+					"email": "spiderman@marvelcomics.com"
+				},
+				{
+					"name": "Thor Odinson",
+					"title": "Thor",
+					"address1": "Daily Planet street",
+					"city": "Long Island",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "223-456-7890",
+					"fax": "223-456-7890",
+					"email": "thor@marvelcomics.com"
+				}
+			],
+			"equitableOpportunity": {
+				"minority": "Yes",
+				"busDev": "Yes",
+				"sba": "No",
+				"trade": "No",
+				"presentation": "No",
+				"establish": "Yes",
+				"monitor": "Yes",
+				"internal": "Yes",
+				"effort": "None"
+			},
+			"inclClause": {
+				"agree": "Yes",
+				"assurance2": "Yes",
+				"assurance3": "Yes",
+				"assurance4": "Yes",
+				"assurance5": "Yes"
+			},
+			"assignmentOfSizeStandard": {
+				"agree": "Yes"
+			},
+			"reporting": {
+				"agree": "Yes"
+			},
+			"recordKeeping": {
+				"record": "This is a text field",
+				"agree": "Yes"
+			},
+			"statutoryRequirements": {
+				"agree": "Yes"
+			},
+			"goodFaith": {
+				"additionalDetails": "This is a GFE provided to demonstrate compliance"
+			}
+		},
+		"completedMenuItems": [
+			"Corporate Information",
+			"SubContracting Plan"
+		]
+	},
+	"SubK: Select New Commercial Plan successful": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "333333333",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "Yes",
+			"subKPrimaryOperationFromUSA": "Yes",
+			"subKSmallBusinessYes": "No",
+			"subKOpportunity": "Yes"
+		},
+		"subkPlan": {
+			"isNew": "Yes",
+			"planType": "Commercial",
+			"goals": [
+				{
+					"total": "10000",
+					"largeBusiness": "1000",
+					"smallBusiness": "9000",
+					"veteran": "1200",
+					"serviceDisabled": "300",
+					"hubZone": "400",
+					"sdb": "500",
+					"women": "600"
+				}
+			],
+			"supplies": [
+				{
+					"name": "ABS suppliers",
+					"large": "Yes",
+					"small": "Yes",
+					"vosb": "No",
+					"sdvosb": "No",
+					"hub": "Yes",
+					"sdb": "No",
+					"wosb": "Yes"
+				}
+			],
+			"develop": "Use the following method to develop the subcontracting goals. ",
+			"sources": " identifies potential subcontractors using the following source lists and organizations.",
+			"indirectCost": "Yes",
+			"indirectText": "Explain indirect cost",
+			"identificationData": {
+				"suppliesDesc": "Describe supplies",
+				"placeOfPerformance": "USA",
+				"startDate": "",
+				"endDate": "",
+				"annualSales": "1000"
+			},
+			"poc": [
+				{
+					"name": "Peter Parker",
+					"title": "Spiderman",
+					"address1": "Forest Hills",
+					"city": "New York",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "223-456-7890",
+					"fax": "223-456-7890",
+					"email": "spiderman@marvelcomics.com"
+				},
+				{
+					"name": "Thor Odinson",
+					"title": "Thor",
+					"address1": "Daily Planet street",
+					"city": "Long Island",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "223-456-7890",
+					"fax": "223-456-7890",
+					"email": "thor@marvelcomics.com"
+				}
+			],
+			"equitableOpportunity": {
+				"minority": "Yes",
+				"busDev": "Yes",
+				"sba": "No",
+				"trade": "No",
+				"presentation": "No",
+				"establish": "Yes",
+				"monitor": "Yes",
+				"internal": "Yes",
+				"effort": "None"
+			},
+			"inclClause": {
+				"agree": "Yes",
+				"assurance2": "Yes",
+				"assurance3": "Yes",
+				"assurance4": "Yes",
+				"assurance5": "Yes"
+			},
+			"reporting": {
+				"agree": "Yes"
+			},
+			"assignmentOfSizeStandard": {
+				"agree": "Yes"
+			},
+			"recordKeeping": {
+				"record": "This is a text field",
+				"agree": "Yes"
+			},
+			"statutoryRequirements": {
+				"agree": "Yes"
+			},
+			"goodFaith": {
+				"additionalDetails": "This is a GFE provided to demonstrate compliance"
+			}
+		},
+		"completedMenuItems": [
+			"Corporate Information",
+			"SubContracting Plan"
+		]
+	},
+	"SubK: Select Existing Master Plan successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "Yes",
+			"subKPrimaryOperationFromUSA": "Yes",
+			"subKSmallBusinessYes": "No",
+			"subKOpportunity": "Yes"
+		},
+		"subkPlan": {
+			"isNew": "No",
+			"planType": "Master",
+			"goals": [
+				{
+					"total": "10000",
+					"largeBusiness": "1000",
+					"smallBusiness": "9000",
+					"veteran": "1200",
+					"serviceDisabled": "300",
+					"hubZone": "400",
+					"sdb": "500",
+					"women": "600"
+				},
+				{
+					"total": "10001",
+					"largeBusiness": "1001",
+					"smallBusiness": "9000",
+					"veteran": "1230",
+					"serviceDisabled": "300",
+					"hubZone": "400",
+					"sdb": "500",
+					"women": "600"
+				}
+			],
+			"assignmentOfSizeStandard": {
+				"agree": "Yes"
+			}
+		},
+		"completedMenuItems": [
+			"Corporate Information",
+			"SubContracting Plan"
+		]
+	},
+	"Clause exceptions - Complete exceptions successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"standardResponse": {
+			"disasterRecovery": "No",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "No",
+			"subKWorkPerfomedForeignNo": "Yes",
+			"subKOpportunity": "Yes"
+		},
+		"exception": [
+			{
+				"title": "CONTRACTOR CODE OF BUSINESS ETHICS AND CONDUCT (OCT 2015)",
+				"clauseNumber": "52.203-13",
+				"excerptFromClause": "This i an excerpt from 52.204_3-1",
+				"exceptionText": "",
+				"buttonAction": "Save Exception Text"
+			},
+			{
+				"title": "CONTRACTOR EMPLOYEE WHISTLEBLOWER RIGHTS AND REQUIREMENT TO INFORM EMPLOYEES OF WHISTLEBLOWER RIGHTS (APR 2014)",
+				"clauseNumber": "52.203-17",
+				"excerptFromClause": "The solicitation, or amended solicitation, provides a different definition;",
+				"exceptionText": "Exception text",
+				"buttonAction": "Save And Continue"
+			}
+		]
+	},
+	"SubK:  Equitable Opportunity Outreach Efforts - Select All": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "123456789",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "Yes",
+			"subKPrimaryOperationFromUSA": "Yes",
+			"subKSmallBusinessYes": "No",
+			"subKOpportunity": "Yes"
+		}
+	},
+	"SubK:  Equitable Opportunity Outreach Efforts - Select/De-select All": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "123456789",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "Yes",
+			"subKPrimaryOperationFromUSA": "Yes",
+			"subKSmallBusinessYes": "No",
+			"subKOpportunity": "Yes"
+		}
+	},
+	"SubK:  Equitable Opportunity Outreach Efforts - Clear All": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "123456789",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "Yes",
+			"subKPrimaryOperationFromUSA": "Yes",
+			"subKSmallBusinessYes": "No",
+			"subKOpportunity": "Yes"
+		}
+	},
+	"SubK:  Equitable Opportunity Internal Efforts - Select All": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "123456789",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "Yes",
+			"subKPrimaryOperationFromUSA": "Yes",
+			"subKSmallBusinessYes": "No",
+			"subKOpportunity": "Yes"
+		}
+	},
+	"SubK:  Equitable Opportunity Internal Efforts - Select/De-select All": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "123456789",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "Yes",
+			"subKPrimaryOperationFromUSA": "Yes",
+			"subKSmallBusinessYes": "No",
+			"subKOpportunity": "Yes"
+		}
+	},
+	"SubK:  Equitable Opportunity Internal Efforts - Clear All": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "123456789",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"americanRecovery": "Yes",
+			"empEligibility": "Yes",
+			"fastLane": "Yes",
+			"startup": "No",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "Yes",
+			"subKPrimaryOperationFromUSA": "Yes",
+			"subKSmallBusinessYes": "No",
+			"subKOpportunity": "Yes"
+		}
+	},
+	"SubK:  Program Administrator Duties - Select All": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "123456789",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "Yes",
+			"subKPrimaryOperationFromUSA": "Yes",
+			"subKSmallBusinessYes": "No",
+			"subKOpportunity": "Yes"
+		}
+	},
+	"SubK:  Program Administrator Duties - Select/De-select All": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "123456789",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "Yes",
+			"subKPrimaryOperationFromUSA": "Yes",
+			"subKSmallBusinessYes": "No",
+			"subKOpportunity": "Yes"
+		}
+	},
+	"SubK:  Program Administrator Duties - Clear All": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "123456789",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "Yes",
+			"subKPrimaryOperationFromUSA": "Yes",
+			"subKSmallBusinessYes": "No",
+			"subKOpportunity": "Yes"
+		}
+	},
+	"SubK:  Complete Equitable Opportunity successful": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "123456789",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"americanRecovery": "Yes",
+			"empEligibility": "Yes",
+			"fastLane": "Yes",
+			"startup": "No",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "Yes",
+			"subKPrimaryOperationFromUSA": "Yes",
+			"subKSmallBusinessYes": "No",
+			"subKOpportunity": "Yes"
+		},
+		"subkPlan": {
+			"isNew": "Yes",
+			"planType": "Individual",
+			"goals": [
+				{
+					"total": "10000",
+					"largeBusiness": "1000",
+					"smallBusiness": "9000",
+					"veteran": "1200",
+					"serviceDisabled": "300",
+					"hubZone": "400",
+					"sdb": "500",
+					"women": "600"
+				}
+			],
+			"supplies": [
+				{
+					"name": "ABS suppliers",
+					"large": "Yes",
+					"small": "Yes",
+					"vosb": "No",
+					"sdvosb": "No",
+					"hub": "Yes",
+					"sdb": "No",
+					"wosb": "Yes"
+				}
+			],
+			"develop": "Use the following method to develop the subcontracting goals. ",
+			"sources": " identifies potential subcontractors using the following source lists and organizations.",
+			"indirectCost": "Yes",
+			"indirectText": "Explain indirect cost",
+			"suppliesDesc": "DEscribe supplies",
+			"placeOfPerformance": "USA",
+			"basePeriod": "1000",
+			"period1": "100",
+			"period2": "2000",
+			"period3": "3000",
+			"poc": [
+				{
+					"name": "Peter Parker",
+					"title": "Spiderman",
+					"address1": "Forest Hills",
+					"city": "New York",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "223-456-7890",
+					"fax": "223-456-7890",
+					"email": "spiderman@marvelcomics.com"
+				},
+				{
+					"name": "Thor Odinson",
+					"title": "Thor",
+					"address1": "Daily Planet street",
+					"city": "Long Island",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "223-456-7890",
+					"fax": "223-456-7890",
+					"email": "thor@marvelcomics.com"
+				}
+			],
+			"equitableOpportunity": {
+				"minority": "Yes",
+				"busDev": "Yes",
+				"sba": "No",
+				"trade": "No",
+				"presentation": "No",
+				"establish": "Yes",
+				"monitor": "Yes",
+				"internal": "Yes",
+				"effort": "None"
+			}
+		}
+	},
+	"SubK:  Complete Program Administrator successful": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "123456789",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "Yes",
+			"americanRecovery": "Yes",
+			"empEligibility": "Yes",
+			"fastLane": "Yes",
+			"startup": "No",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "Yes",
+			"subKPrimaryOperationFromUSA": "Yes",
+			"subKSmallBusinessYes": "No",
+			"subKOpportunity": "Yes"
+		},
+		"subkPlan": {
+			"isNew": "Yes",
+			"planType": "Individual",
+			"goals": [
+				{
+					"total": "10000",
+					"largeBusiness": "1000",
+					"smallBusiness": "9000",
+					"veteran": "1200",
+					"serviceDisabled": "300",
+					"hubZone": "400",
+					"sdb": "500",
+					"women": "600"
+				}
+			],
+			"supplies": [
+				{
+					"name": "ABS suppliers",
+					"large": "Yes",
+					"small": "Yes",
+					"vosb": "No",
+					"sdvosb": "No",
+					"hub": "Yes",
+					"sdb": "No",
+					"wosb": "Yes"
+				}
+			],
+			"develop": "Use the following method to develop the subcontracting goals. ",
+			"sources": " identifies potential subcontractors using the following source lists and organizations.",
+			"indirectCost": "Yes",
+			"indirectText": "Explain indirect cost",
+			"suppliesDesc": "DEscribe supplies",
+			"placeOfPerformance": "USA",
+			"basePeriod": "1000",
+			"period1": "100",
+			"period2": "2000",
+			"period3": "3000",
+			"poc": [
+				{
+					"name": "Peter Parker",
+					"title": "Spiderman",
+					"address1": "Forest Hills",
+					"city": "New York",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "223-456-7890",
+					"fax": "223-456-7890",
+					"email": "spiderman@marvelcomics.com"
+				},
+				{
+					"name": "Thor Odinson",
+					"title": "Thor",
+					"address1": "Daily Planet street",
+					"city": "Long Island",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "223-456-7890",
+					"fax": "223-456-7890",
+					"email": "thor@marvelcomics.com"
+				}
+			],
+			"equitableOpportunity": {
+				"minority": "Yes",
+				"busDev": "Yes",
+				"sba": "No",
+				"trade": "No",
+				"presentation": "No",
+				"establish": "Yes",
+				"monitor": "Yes",
+				"internal": "Yes",
+				"effort": "None"
+			},
+			"inclClause": {
+				"agree": "Yes",
+				"assurance2": "Yes",
+				"assurance3": "Yes",
+				"assurance4": "Yes",
+				"assurance5": "Yes"
+			},
+			"reporting": {
+				"agree": "Yes"
+			},
+			"recordKeeping": {
+				"record": "This is a text field",
+				"agree": "Yes"
+			},
+			"statutoryRequirements": {
+				"agree": "Yes"
+			},
+			"goodFaith": {
+				"additionalDetails": "This is a GFE provided to demonstrate compliance"
+			}
+		}
+	},
+	"Schedule 70 Offer workflow": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"negotiator": [
+			{
+				"name": "Bindu M Somana",
+				"title": "CO",
+				"phone": "223-456-7890",
+				"email": "bindu.somana@gsa.gov",
+				"role": "Authorized to sign"
+			},
+			{
+				"name": "Aditi Mulay",
+				"title": "SDET",
+				"phone": "223-456-7890",
+				"email": "a@b.com",
+				"role": "Not Authorized to sign"
+			}
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sinGroup": "Test Group1",
+					"sin": "132 4     - Daily/Short Term Rental - SUBJECT TO COOPERATIVE PURCHASING",
+					"naicsCode": "485111",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"coOpPurchasing": "No",
+					"commercialDeliverySchedule": "Yes",
+					"stateCommercialDelivery": "",
+					"expeditedDelivery": "10",
+					"additionalServiceCharge": "Yes"
+				}
+			],
+			"preponderanceNaicsCode": "485111",
+			"offerCategory": "Services Only"
+		},
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "Yes",
+			"exceptionCert": "No",
+			"americanRecovery": "Yes",
+			"empEligibility": "Yes",
+			"fastLane": "Yes",
+			"startup": "No",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "No",
+			"subKWorkPerfomedForeignNo": "Yes",
+			"subKOpportunity": "Yes"
+		},
+		"basicInfo": {
+			"clauseResponse": [
+				{
+					"clauseNumber": "52.XAllRule-33",
+					"Elem1": "test data"
+				}
+			]
+		},
+		"pointOfContact": [
+			{
+				"poc": "Order POC",
+				"name": "Bruce Wayne",
+				"title": "Batman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			},
+			{
+				"poc": "Industrial Funding Fee",
+				"name": "Clark Kent",
+				"title": "Superman",
+				"address1": "Daily Planet street",
+				"city": "Metropolis",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "superman@dccomics.com"
+			},
+			{
+				"poc": "Contact for Contract Administration (Overseas)",
+				"name": "Tony Stark",
+				"title": "Ironman",
+				"address1": "Daily Planet street",
+				"city": "Long Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "ironman@marvelcomics.com"
+			}
+		],
+		"orderingInformation": [
+			{
+				"orderInfo": "receiptorder",
+				"receiptType": "Facsimile Transmission or",
+				"facsimile": "223-456-7899"
+			},
+			{
+				"orderInfo": "remittanceorder",
+				"company": "Tony Stark",
+				"address1": "Daily Planet street",
+				"city": "Long Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "ironman@marvelcomics.com"
+			}
+		],
+		"corporateExperience": {
+			"noOfYearsNarrative": "2-3 years o ",
+			"orgNarrative": "12",
+			"knowNarrative": "know",
+			"accountingNarrative": "accounts ",
+			"personnelNarrative": "persons",
+			"marketingNarrative": "market !@#$% @#@#*&(*))",
+			"subkNarrative": "sub contract"
+		},
+		"pastPerformance": {
+			"startDate": "01/01/2017",
+			"orderDoc": "C://Users//amulay//Documents//orientation.txt",
+			"expDoc": "C://Users//amulay//Documents//DP-Saurav.txt",
+			"feedback": "fb"
+		},
+		"qualityControl": {
+			"internalReview": "review",
+			"personnel": "narrative personnel",
+			"subk": "sub contracting",
+			"problem": "problem",
+			"performance": "KPI",
+			"multiProject": "multiple projects"
+		},
+		"scaLaborCategoryMatrix": [
+			{
+				"laborCategory": "lc1",
+				"codeTitle": "title 1 ",
+				"wdNum": "111"
+			},
+			{
+				"laborCategory": "lc2",
+				"codeTitle": "title 2 ",
+				"wdNum": "123"
+			}
+		],
+		"subkPlan": {
+			"isNew": "Yes",
+			"planType": "individual",
+			"goals": [
+				{
+					"total": "10000",
+					"largeBusiness": "1000",
+					"smallBusiness": "9000",
+					"veteran": "1200",
+					"serviceDisabled": "300",
+					"hubZone": "400",
+					"sdb": "500",
+					"women": "600"
+				}
+			],
+			"supplies": [
+				{
+					"name": "ABS suppliers",
+					"large": "Yes",
+					"small": "Yes",
+					"vosb": "No",
+					"sdvosb": "No",
+					"hub": "Yes",
+					"sdb": "No",
+					"wosb": "Yes"
+				}
+			],
+			"develop": "Use the following method to develop the subcontracting goals. ",
+			"sources": " identifies potential subcontractors using the following source lists and organizations.",
+			"indirectCost": "Yes",
+			"indirectText": "Explain indirect cost",
+			"suppliesDesc": "DEscribe supplies",
+			"placeOfPerformance": "USA",
+			"basePeriod": "1000",
+			"period1": "100",
+			"period2": "2000",
+			"period3": "3000",
+			"poc": [
+				{
+					"name": "Peter Parker",
+					"title": "Spiderman",
+					"address1": "Forest Hills",
+					"city": "New York",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "223-456-7890",
+					"fax": "223-456-7890",
+					"email": "spiderman@marvelcomics.com"
+				},
+				{
+					"name": "Thor Odinson",
+					"title": "Thor",
+					"address1": "Daily Planet street",
+					"city": "Long Island",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "223-456-7890",
+					"fax": "223-456-7890",
+					"email": "thor@marvelcomics.com"
+				}
+			],
+			"equitableOpportunity": {
+				"minority": "Yes",
+				"busDev": "Yes",
+				"sba": "No",
+				"trade": "No",
+				"presentation": "No",
+				"establish": "Yes",
+				"monitor": "Yes",
+				"internal": "Yes",
+				"effort": "None"
+			},
+			"inclClause": {
+				"agree": "Yes",
+				"assurance2": "Yes",
+				"assurance3": "Yes",
+				"assurance4": "Yes",
+				"assurance5": "Yes"
+			},
+			"reporting": {
+				"agree": "Yes"
+			},
+			"assignmentOfSizeStandard": {
+				"agree": "Yes"
+			},
+			"recordKeeping": {
+				"record": "This is a text field",
+				"agree": "Yes"
+			},
+			"statutoryRequirements": {
+				"agree": "Yes"
+			},
+			"goodFaith": {
+				"additionalDetails": "This is a GFE provided to demonstrate compliance"
+			}
+		},
+		"uploadDocuments": [
+			{
+				"type": "Exceptions to Certs and Reps - 52.212-3",
+				"action": "upload",
+				"documentName": "Exceptions to Certs and Reps - 52.212-3",
+				"filename": "orientation.txt"
+			},
+			{
+				"type": "Plant Or Facility Address",
+				"action": "upload",
+				"documentName": "Plant Or Facility Address",
+				"filename": "orientation.txt"
+			}
+		],
+		"exception": [
+			{
+				"title": "Java Upgrade 1",
+				"clauseNumber": "52.014-9",
+				"excerptFromClause": "",
+				"exceptionText": "Exception text",
+				"buttonAction": "Save Exception Text"
+			},
+			{
+				"title": "TAXPAYER IDENTIFICATION (OCT 1998) 4.905",
+				"clauseNumber": "52.204_3-1",
+				"excerptFromClause": "This i an excerpt from 52.204_3-1",
+				"exceptionText": "",
+				"buttonAction": "Save And Continue"
+			}
+		]
+	},
+	"Submit eOffer: Review eOffer successful": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "222222222",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"negotiator": [
+			{
+				"name": "CPT User",
+				"title": "Doctor",
+				"phone": "223-456-7890",
+				"email": "cpt@karsun-llc.com",
+				"role": "Authorized to sign"
+			}
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "132 4     - Daily/Short Term Rental - SUBJECT TO COOPERATIVE PURCHASING",
+					"naicsCode": "485111",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"coOpPurchasing": "No",
+					"commercialDeliverySchedule": "Yes",
+					"stateCommercialDelivery": "",
+					"expeditedDelivery": "",
+					"additionalServiceCharge": "Yes"
+				}
+			],
+			"preponderanceNaicsCode": "485111",
+			"offerCategory": "Services Only"
+		},
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "No",
+			"exceptionCert": "No",
+			"americanRecovery": "Yes",
+			"empEligibility": "Yes",
+			"fastLane": "Yes",
+			"startup": "No",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "No",
+			"subKWorkPerfomedForeignNo": "Yes",
+			"subKOpportunity": "No"
+		},
+		"basicInfo": {
+			"OverseasCoverageGeographicArea": "testing overseas coverage",
+			"ParticipateInProposedContract": "Yes",
+			"Scope": "Contractor will provide domestic delivery only",
+			"SmallBusinessProgramRepresentation": "Yes",
+			"ContractNumber": "12234",
+			"naicsCode": "333333",
+			"RepresentationForMultipleAwardScheduleProgram": "Yes",
+			"QualificationRequirements": "Yes",
+			"DeliveryPrices": "Alaska"
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"pointOfContact": [
+			{
+				"poc": "Order POC",
+				"name": "Bruce Wayne",
+				"title": "Batman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			},
+			{
+				"poc": "Industrial Funding Fee",
+				"name": "Clark Kent",
+				"title": "Superman",
+				"address1": "Daily Planet street",
+				"city": "Metropolis",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "superman@dccomics.com"
+			},
+			{
+				"poc": "Contact for Contract Administration (Overseas)",
+				"name": "Tony Stark",
+				"title": "Ironman",
+				"address1": "Daily Planet street",
+				"city": "Long Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "ironman@marvelcomics.com"
+			}
+		],
+		"orderingInformation": {
+			"orderingReceiptInformation": [
+				{
+					"orderInfo": "receiptorder",
+					"receiptType": "Facsimile Transmission or",
+					"facsimile": "223-456-7899"
+				}
+			],
+			"remittanceAddress": [
+				{
+					"orderInfo": "remittanceorder",
+					"company": "ACME Corp.",
+					"address1": "3400 W Riverside Dr",
+					"city": "Death Valley",
+					"state": "NV",
+					"country": "USA",
+					"zip": "92328",
+					"phone": "223-456-7890",
+					"fax": "223-456-7890",
+					"email": "wiley.coyote@acmetest-corp.com"
+				}
+			]
+		},
+		"addCorporateExperience": {
+			"AnumberOfYears": "10",
+			"BorgEmployeesInfo": "Org with 5 years of experience",
+			"CbriefHistory": "Here goes org history",
+			"Dinfo": "This organization controls all the accounts",
+			"EdesciptionOfResources": "Org has 50 employees",
+			"FproductMarketing": "Organization intends market themselves",
+			"GuseOfSubKs": "Organization intends use subcontractors"
+		},
+		"pastPerformance": {
+			"startDate": "01/01/2017",
+			"supportingDocument": [
+				{
+					"type": "Past Performance & Experience",
+					"action": "upload",
+					"filename": "GenericUploadData/past_performance.txt",
+					"documentName": "Past Performance document"
+				},
+				{
+					"type": "Order Form for Past Performance Eval",
+					"action": "upload",
+					"filename": "GenericUploadData/Blank_Excel_File.xls",
+					"documentName": "Order Form document"
+				}
+			],
+			"feedback": "fb"
+		},
+		"qualityControl": {
+			"internalReview": "The internal review!",
+			"individualIdentification": "Here are the individuals",
+			"subKPerformance": "Ensuring subk performance",
+			"potentialProblems": "Problems are handled",
+			"procedureForQuality": "Here is the procedure",
+			"qcManagement": "Quality control is managed"
+		},
+		"relevantExperience": [
+			{
+				"scpFSS004ProjectDetailsSinRelatedNarrative": "1 a",
+				"scpFSS004ProjectDetailsMethodologyNarrative": "1 b",
+				"scpFSS004ProjectDetailsDemoNarrative": "1 c",
+				"scpFSS004ProjectDetailsScheduleNarrative": "1 d",
+				"scpFSS004ProjectDetailsScopeNarrative": "1 e",
+				"scpFSS004ProjectDetailsSinExperienceNarrative": "1 f"
+			},
+			{
+				"scpFSS004ProjectDetailsSinRelatedNarrative": "2 a",
+				"scpFSS004ProjectDetailsMethodologyNarrative": "2 b",
+				"scpFSS004ProjectDetailsDemoNarrative": "2 c",
+				"scpFSS004ProjectDetailsScheduleNarrative": "2 d",
+				"scpFSS004ProjectDetailsScopeNarrative": "2 e",
+				"scpFSS004ProjectDetailsSinExperienceNarrative": "2 f"
+			},
+			{
+				"scpFSS004ProjectDetailsSinRelatedNarrative": "3 a",
+				"scpFSS004ProjectDetailsMethodologyNarrative": "3 b",
+				"scpFSS004ProjectDetailsDemoNarrative": "3 c",
+				"scpFSS004ProjectDetailsScheduleNarrative": "3 d",
+				"scpFSS004ProjectDetailsScopeNarrative": "3 e",
+				"scpFSS004ProjectDetailsSinExperienceNarrative": "3 f"
+			}
+		],
+		"scaLaborCategoryMatrix": [
+			{
+				"laborCategory": "lc1",
+				"codeTitle": "title 1 ",
+				"wdNumber": "111"
+			},
+			{
+				"laborCategory": "lc2",
+				"codeTitle": "title 2 ",
+				"wdNumber": "123"
+			}
+		],
+		"uploadDocuments": [
+			{
+				"type": "Exceptions to Certs and Reps - 52.212-3",
+				"action": "upload",
+				"documentName": "exceptions-certs.txt",
+				"filename": "GenericUploadData/exceptions-certs.txt"
+			},
+			{
+				"type": "Discounting Policies",
+				"action": "upload",
+				"documentName": "discounting_policies.xls",
+				"filename": "GenericUploadData/discounting_policies.xls"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Offer Response",
+				"documentName": "Offer Response",
+				"elementTitle": "Review offer response",
+				"filename": "Offer.pdf"
+			},
+			{
+				"documentType": "Form 1449",
+				"documentName": "Form 1449",
+				"elementTitle": "Review Form 1449",
+				"filename": "Frm1449.pdf"
+			},
+			{
+				"documentType": "Exceptions to Certs and Reps - 52.212-3",
+				"documentName": "exceptions-certs.txt",
+				"elementTitle": "Review document related to Exceptions to Certs and Reps - 52.212-3",
+				"filename": "exceptions-certs.txt"
+			},
+			{
+				"documentType": "Discounting Policies",
+				"documentName": "discounting_policies.xls",
+				"elementTitle": "Review document related to Discounting Policies",
+				"filename": "discounting_policies.xls"
+			},
+			{
+				"documentType": "Past Performance & Experience",
+				"documentName": "Blank_Excel_File.xls",
+				"elementTitle": "Review document related to Past Performance & Experience",
+				"filename": "past_performance.txt"
+			},
+			{
+				"documentType": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"elementTitle": "Review document related to Terms and Conditions Text File",
+				"filename": "TCTextFile.docx"
+			},
+			{
+				"documentType": "Reps and Certs Response",
+				"documentName": "Reps and Certs Response",
+				"elementTitle": "Review orca response",
+				"_comment": "the filename below is blank as orca PDF is currently not available in cloud environment",
+				"filename": ""
+			},
+			{
+				"documentType": "Technical Proposal",
+				"documentName": "Technical Proposal",
+				"elementTitle": "Review responses for Technical Proposal",
+				"filename": "TechnicalProposalResponses.pdf"
+			},
+			{
+				"documentType": "SCA Labor Category Matrix",
+				"documentName": "SCA Labor Category Matrix",
+				"elementTitle": "SCA Labor Category Matrix",
+				"filename": "SCA Matrix.pdf"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Negotiators",
+			"Goods and Services",
+			"Standard Responses",
+			"Solicitation Clauses",
+			"Solicitation Provisions",
+			"Upload Documents"
+		]
+	},
+	"Submit eOffer for non-FPT schedule with TDR SIN": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationRefreshNumber": "0",
+		"solicitationNumber": "47QSMD20R0001",
+		"negotiator": [
+			{
+				"name": "Bindu M Somana",
+				"title": "CO",
+				"phone": "223-456-7890",
+				"email": "bindu.somana@gsa.gov",
+				"fax": "223-444-5678",
+				"role": "Authorized to sign"
+			}
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Office Management",
+					"subCategory": "Media Services",
+					"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			],
+			"preponderance": {
+				"category": "Office Management",
+				"subCategory": "Media Services",
+				"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+				"preponderanceNaicsCode": "511120"
+			}
+		},
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "No",
+			"exceptionCert": "No",
+			"americanRecovery": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "No",
+			"subKWorkPerfomedForeignNo": "Yes",
+			"subKOpportunity": "No"
+		},
+		"basicInfo": {
+			"clauseResponse": [
+				{
+					"clauseNumber": "F-FSS-202-F",
+					"Table": [
+						{
+							"Geographic area(s)": "Test",
+							"Countries": "UNITED STATES",
+							"Zones": "1A"
+						}
+					]
+				},
+				{
+					"clauseNumber": "C-FSS-411",
+					"No_Safety_Stds": "Yes",
+					"Safety_Stds": "No",
+					"Table": [
+						{
+							"Product": "Test",
+							"Standard ": "standard data"
+						}
+					]
+				},
+				{
+					"clauseNumber": "52.209-5",
+					"are_Ineligible": "Yes",
+					"have_Convicted": "Yes",
+					"are_Charged": "Yes",
+					"have_Delinquent_Tax": "Yes",
+					"has_No_Default": "Yes"
+				}
+			]
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "01/20/2019",
+			"endDate": "01/20/2020",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevel": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"pointOfContact": [
+			{
+				"poc": "Order POC",
+				"name": "Bruce Wayne",
+				"title": "Batman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			},
+			{
+				"poc": "Industrial Funding Fee",
+				"name": "Clark Kent",
+				"title": "Superman",
+				"address1": "Daily Planet street",
+				"city": "Metropolis",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "superman@dccomics.com"
+			},
+			{
+				"poc": "Contact for Contract Administration (Overseas)",
+				"name": "Tony Stark",
+				"title": "Ironman",
+				"address1": "Daily Planet street",
+				"city": "Long Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "ironman@marvelcomics.com"
+			}
+		],
+		"orderingInformation": {
+			"orderingReceiptInformation": [
+				{
+					"orderInfo": "receiptorder",
+					"receiptType": "Facsimile Transmission or",
+					"facsimile": "223-456-7899"
+				}
+			],
+			"remittanceAddress": [
+				{
+					"orderInfo": "remittanceorder",
+					"company": "ACME Corp.",
+					"address1": "3400 W Riverside Dr",
+					"city": "Death Valley",
+					"state": "NV",
+					"country": "USA",
+					"zip": "92328",
+					"phone": "223-456-7890",
+					"fax": "223-456-7890",
+					"email": "wiley.coyote@acmetest-corp.com"
+				}
+			]
+		},
+		"addCorporateExperience": {
+			"AnumberOfYears": "10",
+			"BorgEmployeesInfo": "Org with 5 years of experience",
+			"CbriefHistory": "Here goes org history",
+			"Dinfo": "This organization controls all the accounts",
+			"EdesciptionOfResources": "Org has 50 employees",
+			"FproductMarketing": "Organization intends market themselves",
+			"GuseOfSubKs": "Organization intends use subcontractors"
+		},
+		"pastPerformance": {
+			"CPARS": "No",
+			"ORI": "Yes",
+			"startDate": "01/01/2017",
+			"supportingDocument": [
+				{
+					"type": "Past Performance & Experience",
+					"action": "upload",
+					"filename": "GenericUploadData/past_performance.txt",
+					"documentName": "Past Performance document"
+				},
+				{
+					"type": "Order Form for Past Performance Eval",
+					"action": "upload",
+					"filename": "GenericUploadData/Blank_Excel_File.xls",
+					"documentName": "Order Form document"
+				}
+			],
+			"feedback": "fb"
+		},
+		"qualityControl": {
+			"internalReview": "The internal review!",
+			"individualIdentification": "Here are the individuals",
+			"subKPerformance": "Ensuring subk performance",
+			"potentialProblems": "Problems are handled",
+			"procedureForQuality": "Here is the procedure",
+			"qcManagement": "Quality control is managed"
+		},
+		"relevantExperience": [
+			{
+				"scpFSS001ProjectDetailsPerformanceNarrative": "a",
+				"scpFSS001ProjectDetailsMethodologyNarrative": "b",
+				"scpFSS001ProjectDetailsDemoNarrative": "c",
+				"scpFSS001ProjectDetailsScheduleNarrative": "d",
+				"scpFSS001ProjectDetailsExperienceScopeNarrative": "e",
+				"scpFSS001ProjectDetailsSinExperienceNarrative": "f",
+				"customerDetails": {
+					"scpFSS001CustomerDetailsCustomerName": "abc",
+					"scpFSS001CustomerDetailsProjectName": "Test Project",
+					"scpFSS001CustomerDetailsPOCName": "Test user",
+					"scpFSS001CustomerDetailsPOCPhone": "123-456-7890",
+					"scpFSS001CustomerDetailsPOCEmail": "a@b.com",
+					"scpFSS001CustomerDetailsProjectDuration": "12",
+					"scpFSS001CustomerDetailsDollarValue": "1234",
+					"scpFSS001CustomerDetailsDollarValueForSin": "123",
+					"scpFSS001CustomerDetailsProjectSummary": "summary ",
+					"scpFSS001CustomerDetailsProjectSOW": "testing "
+				},
+				"substitution": {
+					"scpFSS001SubstitutionForRelevantProjectExperience": "No"
+				}
+			}
+		],
+		"tradeAgreementsCompliance": {
+			"proposedSIN": "Yes"
+		},
+		"scaLaborCategoryMatrix": [
+			{
+				"laborCategory": "lc1",
+				"codeTitle": "title 1 ",
+				"wdNumber": "111"
+			},
+			{
+				"laborCategory": "lc2",
+				"codeTitle": "title 2 ",
+				"wdNumber": "123"
+			}
+		],
+		"uploadDocuments": [
+			{
+				"type": "Commercial Supplier Agreements (CSAs)",
+				"documentName": "Commercial Supplier Agreements (CSAs)",
+				"action": "upload",
+				"filename": "GenericUploadData/exceptions-certs.txt"
+			},
+			{
+				"type": "Exceptions to Certs and Reps - 52.212-3",
+				"documentName": "Exceptions to Certs and Reps - 52.212-3",
+				"action": "upload",
+				"filename": "GenericUploadData/exceptions-certs.txt"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Negotiators",
+			"Available Offerings",
+			"Standard Responses",
+			"Solicitation Clauses",
+			"Solicitation Provisions",
+			"Upload Documents"
+		]
+	},
+	"Submit eOffer successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"negotiator": [
+			{
+				"name": "CPT User",
+				"title": "Doctor",
+				"phone": "223-456-7890",
+				"email": "cpt@karsun-llc.com",
+				"role": "Authorized to sign"
+			}
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Office Management",
+					"subCategory": "Media Services",
+					"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			],
+			"preponderance": {
+				"category": "Office Management",
+				"subCategory": "Media Services",
+				"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+				"preponderanceNaicsCode": "511120"
+			}
+		},
+		"standardResponse": {
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "No",
+			"exceptionCert": "No",
+			"americanRecovery": "Yes",
+			"empEligibility": "Yes",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "No",
+			"subKWorkPerfomedForeignNo": "Yes",
+			"subKOpportunity": "No"
+		},
+		"basicInfo": {
+			"clauseResponse": [
+				{
+					"clauseNumber": "F-FSS-202-F",
+					"Table": [
+						{
+							"Geographic area(s)": "Test",
+							"Countries": "UNITED STATES",
+							"Zones": "1A"
+						}
+					]
+				},
+				{
+					"clauseNumber": "C-FSS-411",
+					"No_Safety_Stds": "Yes",
+					"Safety_Stds": "No",
+					"Table": [
+						{
+							"Product": "Test",
+							"Standard ": "standard data"
+						}
+					]
+				},
+				{
+					"clauseNumber": "52.209-5",
+					"are_Ineligible": "Yes",
+					"have_Convicted": "Yes",
+					"are_Charged": "Yes",
+					"have_Delinquent_Tax": "Yes",
+					"has_No_Default": "Yes"
+				}
+			]
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "06/01/2018",
+			"endDate": "06/01/2019",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"pointOfContact": [
+			{
+				"poc": "Order POC",
+				"name": "Bruce Wayne",
+				"title": "Batman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			},
+			{
+				"poc": "Industrial Funding Fee",
+				"name": "Clark Kent",
+				"title": "Superman",
+				"address1": "Daily Planet street",
+				"city": "Metropolis",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "superman@dccomics.com"
+			},
+			{
+				"poc": "Contact for Contract Administration (Overseas)",
+				"name": "Tony Stark",
+				"title": "Ironman",
+				"address1": "Daily Planet street",
+				"city": "Long Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "ironman@marvelcomics.com"
+			}
+		],
+		"orderingInformation": {
+			"orderingReceiptInformation": [
+				{
+					"orderInfo": "receiptorder",
+					"receiptType": "Facsimile Transmission or",
+					"facsimile": "223-456-7899"
+				}
+			],
+			"remittanceAddress": [
+				{
+					"orderInfo": "remittanceorder",
+					"company": "ACME Corp.",
+					"address1": "3400 W Riverside Dr",
+					"city": "Death Valley",
+					"state": "NV",
+					"country": "USA",
+					"zip": "92328",
+					"phone": "223-456-7890",
+					"fax": "223-456-7890",
+					"email": "wiley.coyote@acmetest-corp.com"
+				}
+			]
+		},
+		"addCorporateExperience": {
+			"AnumberOfYears": "10",
+			"BorgEmployeesInfo": "Org with 5 years of experience",
+			"CbriefHistory": "Here goes org history",
+			"Dinfo": "This organization controls all the accounts",
+			"EdesciptionOfResources": "Org has 50 employees",
+			"FproductMarketing": "Organization intends market themselves",
+			"GuseOfSubKs": "Organization intends use subcontractors"
+		},
+		"pastPerformance": {
+			"CPARS": "No",
+			"ORI": "Yes",
+			"startDate": "01/01/2017",
+			"supportingDocument": [
+				{
+					"type": "Past Performance & Experience",
+					"action": "upload",
+					"filename": "GenericUploadData/Blank_Excel_File.xls",
+					"documentName": "Past Performance document"
+				},
+				{
+					"type": "Order Form for Past Performance Eval",
+					"action": "upload",
+					"filename": "GenericUploadData/past_performance.txt",
+					"documentName": "Order Form document"
+				}
+			],
+			"feedback": "fb"
+		},
+		"tradeAgreementsCompliance": {
+			"proposedSIN": "Yes"
+		},
+		"qualityControl": {
+			"internalReview": "The internal review!",
+			"individualIdentification": "Here are the individuals",
+			"subKPerformance": "Ensuring subk performance",
+			"potentialProblems": "Problems are handled",
+			"procedureForQuality": "Here is the procedure",
+			"qcManagement": "Quality control is managed"
+		},
+		"relevantExperience": [
+			{
+				"scpFSS001ProjectDetailsPerformanceNarrative": "a",
+				"scpFSS001ProjectDetailsMethodologyNarrative": "b",
+				"scpFSS001ProjectDetailsDemoNarrative": "c",
+				"scpFSS001ProjectDetailsScheduleNarrative": "d",
+				"scpFSS001ProjectDetailsExperienceScopeNarrative": "e",
+				"scpFSS001ProjectDetailsSinExperienceNarrative": "f",
+				"customerDetails": {
+					"scpFSS001CustomerDetailsCustomerName": "abc",
+					"scpFSS001CustomerDetailsProjectName": "Test Project",
+					"scpFSS001CustomerDetailsPOCName": "Test user",
+					"scpFSS001CustomerDetailsPOCPhone": "123-456-7890",
+					"scpFSS001CustomerDetailsPOCEmail": "a@b.com",
+					"scpFSS001CustomerDetailsProjectDuration": "12",
+					"scpFSS001CustomerDetailsDollarValue": "1234",
+					"scpFSS001CustomerDetailsDollarValueForSin": "123",
+					"scpFSS001CustomerDetailsProjectSummary": "summary ",
+					"scpFSS001CustomerDetailsProjectSOW": "testing "
+				},
+				"substitution": {
+					"scpFSS001SubstitutionForRelevantProjectExperience": "No"
+				}
+			}
+		],
+		"scaLaborCategoryMatrix": [
+			{
+				"laborCategory": "lc1",
+				"codeTitle": "title 1 ",
+				"wdNumber": "111"
+			},
+			{
+				"laborCategory": "lc2",
+				"codeTitle": "title 2 ",
+				"wdNumber": "123"
+			}
+		],
+		"uploadDocuments": [
+			{
+				"type": "Exceptions to Certs and Reps - 52.212-3",
+				"action": "upload",
+				"documentName": "",
+				"filename": "GenericUploadData/exceptions-certs.txt"
+			},
+			{
+				"type": "Commercial Supplier Agreements (CSAs)",
+				"action": "upload",
+				"documentName": "Commercial Supplier Agreements",
+				"filename": "GenericUploadData/TCTextFile.docx"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Offer Response",
+				"documentName": "Offer Response",
+				"elementTitle": "Review offer response",
+				"filename": "Offer.pdf"
+			},
+			{
+				"documentType": "Form 1449",
+				"documentName": "Form 1449",
+				"elementTitle": "Review Form 1449",
+				"filename": "Frm1449.pdf"
+			},
+			{
+				"documentType": "Exceptions to Certs and Reps - 52.212-3",
+				"documentName": "exceptions-certs.txt",
+				"elementTitle": "Review document related to Exceptions to Certs and Reps - 52.212-3",
+				"filename": "exceptions-certs.txt"
+			},
+			{
+				"documentType": "Commercial Supplier Agreements (CSAs)",
+				"documentName": "Commercial Supplier Agreements",
+				"elementTitle": "Review document related to Terms and Conditions Text File",
+				"filename": "TCTextFile.docx"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Negotiators",
+			"Available Offerings",
+			"Standard Responses",
+			"Solicitation Clauses",
+			"Solicitation Provisions",
+			"Upload Documents"
+		],
+		"disclaimerQuestions": [
+			{
+				"elementName": "orcaAcceptance",
+				"elementValue": "Yes"
+			},
+			{
+				"elementName": "acceptance",
+				"elementValue": "Yes"
+			}
+		]
+	},
+	"Available Offerings: Add SIN fails - TDR response not captured": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSCA17B0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Information Technology",
+					"subCategory": "IT Software",
+					"sin": "54151 Software Maintenance Services",
+					"isTDR": ""
+				}
+			]
+		}
+	},
+	"Available Offerings: Add Complementary SIN successful - Added base SIN before adding complementary SIN": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSCA17B0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Information Technology",
+					"subCategory": "IT Software",
+					"sin": "54151 Software Maintenance Services",
+					"isTDR": "Yes",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes"
+				},
+				{
+					"category": "Miscellaneous",
+					"subCategory": "Complementary SINs",
+					"sin": "ANCILLARY Ancillary Supplies and Services",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			],
+			"preponderance": {
+				"category": "Information Technology",
+				"subCategory": "IT Software",
+				"sin": "54151 Software Maintenance Services",
+				"preponderanceNaicsCode": "541511"
+			}
+		}
+	},
+	"Avaiable Offerings: Add Complementary SIN fails - No base SIN added": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSCA17B0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Miscellaneous",
+					"subCategory": "Complementary SINs",
+					"sin": "ANCILLARY Ancillary Supplies and Services"
+				}
+			]
+		}
+	},
+	"Available Offerings: SIN Incomplete - Cannot add Complementary SIN as Preponderance of Work": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSCA17B0001",
+		"solicitationRefreshNumber": "0",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Furniture and Furnishings",
+					"subCategory": "Healthcare Furniture",
+					"sin": "339113H Healthcare Furniture",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111111",
+					"commercialDeliverySchedule": "Yes"
+				},
+				{
+					"category": "Miscellaneous",
+					"subCategory": "Complementary SINs",
+					"sin": "ANCILLARY Ancillary Supplies and Services",
+					"isTDR": "Yes",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			],
+			"preponderance": {
+				"category": "Miscellaneous",
+				"subCategory": "Complementary SINs",
+				"sin": "ANCILLARY Ancillary Supplies and Services"
+			}
+		}
+	},
+	"Sol Clauses:  CSP is not available when TDR response is Yes": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSCA17B0001",
+		"solicitationRefreshNumber": "0",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Information Technology",
+					"subCategory": "IT Software",
+					"sin": "54151 Software Maintenance Services",
+					"isTDR": "Yes",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			]
+		}
+	},
+	"Sol Clauses:  CSP is available when TDR response is No": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"solicitationRefreshNumber": "0",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Information Technology",
+					"subCategory": "IT Software",
+					"sin": "54151 Software Maintenance Services",
+					"isTDR": "No",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			]
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		}
+	},
+	"Sol Clauses: Error thrown when sales dollar value is not provided": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"commercialSalesPractice": {
+			"valueOfSales": "",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		}
+	},
+	"Sol Clauses: Error thrown when sales period is not exactly one year": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "06/01/2018",
+			"endDate": "12/30/2018",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		}
+	},
+	"Sol Clauses: Error thrown when there is a deviation but explation is not provided": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "Yes",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		}
+	},
+	"Sol Clauses: Message is thrown when Discount Policy is not provided": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			}
+		}
+	},
+	"Upload Mass Documents": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "967125188",
+		"scheduleNumber": "MAS",
+		"solicitationNumber": "47QSMD20R0001",
+		"uploadDocuments": [
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls",
+				"documentName": "Blank_Excel_File.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/agent_auth_letter.txt",
+				"documentName": "agent_auth_letter.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/discounting_policies.xls",
+				"documentName": "discounting_policies.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/exceptions-certs.txt",
+				"documentName": "exceptions-certs.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/master-plan.txt",
+				"documentName": "master-plan.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/No_Base_Template.xls",
+				"documentName": "No_Base_Template.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx",
+				"documentName": "services-file.docx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "support_docs.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Template.pptx",
+				"documentName": "Template.pptx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/TCTextFile.docx",
+				"documentName": "TCTextFile.docx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Flower00.jpg",
+				"documentName": "Flower00.jpg"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls",
+				"documentName": "Blank_Excel_File.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/agent_auth_letter.txt",
+				"documentName": "agent_auth_letter.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/discounting_policies.xls",
+				"documentName": "discounting_policies.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/exceptions-certs.txt",
+				"documentName": "exceptions-certs.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/master-plan.txt",
+				"documentName": "master-plan.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/No_Base_Template.xls",
+				"documentName": "No_Base_Template.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx",
+				"documentName": "services-file.docx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "support_docs.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Template.pptx",
+				"documentName": "Template.pptx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/TCTextFile.docx",
+				"documentName": "TCTextFile.docx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Flower00.jpg",
+				"documentName": "Flower00.jpg"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls",
+				"documentName": "Blank_Excel_File.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/agent_auth_letter.txt",
+				"documentName": "agent_auth_letter.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/discounting_policies.xls",
+				"documentName": "discounting_policies.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/exceptions-certs.txt",
+				"documentName": "exceptions-certs.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/master-plan.txt",
+				"documentName": "master-plan.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/No_Base_Template.xls",
+				"documentName": "No_Base_Template.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx",
+				"documentName": "services-file.docx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "support_docs.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Template.pptx",
+				"documentName": "Template.pptx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/TCTextFile.docx",
+				"documentName": "TCTextFile.docx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Flower00.jpg",
+				"documentName": "Flower00.jpg"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls",
+				"documentName": "Blank_Excel_File.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/agent_auth_letter.txt",
+				"documentName": "agent_auth_letter.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/discounting_policies.xls",
+				"documentName": "discounting_policies.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/exceptions-certs.txt",
+				"documentName": "exceptions-certs.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/master-plan.txt",
+				"documentName": "master-plan.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/No_Base_Template.xls",
+				"documentName": "No_Base_Template.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx",
+				"documentName": "services-file.docx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "support_docs.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Template.pptx",
+				"documentName": "Template.pptx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/TCTextFile.docx",
+				"documentName": "TCTextFile.docx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Flower00.jpg",
+				"documentName": "Flower00.jpg"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls",
+				"documentName": "Blank_Excel_File.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/agent_auth_letter.txt",
+				"documentName": "agent_auth_letter.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/discounting_policies.xls",
+				"documentName": "discounting_policies.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/exceptions-certs.txt",
+				"documentName": "exceptions-certs.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/master-plan.txt",
+				"documentName": "master-plan.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/No_Base_Template.xls",
+				"documentName": "No_Base_Template.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx",
+				"documentName": "services-file.docx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "support_docs.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Template.pptx",
+				"documentName": "Template.pptx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/TCTextFile.docx",
+				"documentName": "TCTextFile.docx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Flower00.jpg",
+				"documentName": "Flower00.jpg"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls",
+				"documentName": "Blank_Excel_File.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/agent_auth_letter.txt",
+				"documentName": "agent_auth_letter.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/discounting_policies.xls",
+				"documentName": "discounting_policies.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/exceptions-certs.txt",
+				"documentName": "exceptions-certs.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/master-plan.txt",
+				"documentName": "master-plan.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/No_Base_Template.xls",
+				"documentName": "No_Base_Template.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx",
+				"documentName": "services-file.docx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "support_docs.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Template.pptx",
+				"documentName": "Template.pptx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/TCTextFile.docx",
+				"documentName": "TCTextFile.docx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Flower00.jpg",
+				"documentName": "Flower00.jpg"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls",
+				"documentName": "Blank_Excel_File.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/agent_auth_letter.txt",
+				"documentName": "agent_auth_letter.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/discounting_policies.xls",
+				"documentName": "discounting_policies.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/exceptions-certs.txt",
+				"documentName": "exceptions-certs.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/master-plan.txt",
+				"documentName": "master-plan.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/No_Base_Template.xls",
+				"documentName": "No_Base_Template.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx",
+				"documentName": "services-file.docx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "support_docs.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Template.pptx",
+				"documentName": "Template.pptx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/TCTextFile.docx",
+				"documentName": "TCTextFile.docx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Flower00.jpg",
+				"documentName": "Flower00.jpg"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls",
+				"documentName": "Blank_Excel_File.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/agent_auth_letter.txt",
+				"documentName": "agent_auth_letter.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/discounting_policies.xls",
+				"documentName": "discounting_policies.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/exceptions-certs.txt",
+				"documentName": "exceptions-certs.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/master-plan.txt",
+				"documentName": "master-plan.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/No_Base_Template.xls",
+				"documentName": "No_Base_Template.xls"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx",
+				"documentName": "services-file.docx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "support_docs.txt"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Template.pptx",
+				"documentName": "Template.pptx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/TCTextFile.docx",
+				"documentName": "TCTextFile.docx"
+			},
+			{
+				"type": "Other (optional-offeror defined)",
+				"action": "upload",
+				"filename": "GenericUploadData/Flower00.jpg",
+				"documentName": "Flower00.jpg"
+			}
+		]
+	},
+	"Sol Clauses:  Edit Basic Information template": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"basicInfo": {
+			"clauseResponse": [
+				{
+					"clauseNumber": "F-FSS-202-F",
+					"Table": [
+						{
+							"Geographic area(s)": "Test",
+							"Countries": "UNITED STATES",
+							"Zones": "1A"
+						}
+					]
+				}
+			]
+		},
+		"editBasicInfo": {
+			"Geographic area(s)": "Test123",
+			"Countries": "UNITED STATES",
+			"Zones": "1B"
+		}
+	},
+	"Sol Clauses:  Delete Basic Information template": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"basicInfo": {
+			"clauseResponse": [
+				{
+					"clauseNumber": "F-FSS-202-F",
+					"Table": [
+						{
+							"Geographic area(s)": "Test",
+							"Countries": "UNITED STATES",
+							"Zones": "1A"
+						}
+					]
+				}
+			]
+		}
+	},
+	"Sol Clauses: POC template incomplete - no IFF POC added": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"pointOfContact": [
+			{
+				"poc": "Order POC",
+				"name": "Bruce Wayne",
+				"title": "Batman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			},
+			{
+				"poc": "Contact for Contract Administration (Overseas)",
+				"name": "Tony Stark",
+				"title": "Ironman",
+				"address1": "Daily Planet street",
+				"city": "Long Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "ironman@marvelcomics.com"
+			}
+		],
+		"verifyPOC": [
+			{
+				"poc": "Order POC",
+				"name": "Bruce Wayne",
+				"title": "Batman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			},
+			{
+				"poc": "Contact for Contract Administration (Overseas)",
+				"name": "Tony Stark",
+				"title": "Ironman",
+				"address1": "Daily Planet street",
+				"city": "Long Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "ironman@marvelcomics.com"
+			}
+		]
+	},
+	"Sol Clauses: Add POC fails - No Address1 provided": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"pointOfContact": [
+			{
+				"poc": "Order POC",
+				"name": "Bruce Wayne",
+				"title": "Batman",
+				"address1": "",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			}
+		]
+	},
+	"Sol Clauses: Edit POC template": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"pointOfContact": [
+			{
+				"poc": "Order POC",
+				"name": "Halsey",
+				"title": "Wonder Woman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			},
+			{
+				"poc": "Industrial Funding Fee",
+				"name": "Khalid",
+				"title": "Super Pipes",
+				"address1": "Daily Planet street",
+				"city": "Metropolis",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "superman@dccomics.com"
+			},
+			{
+				"poc": "Contact for Contract Administration (Overseas)",
+				"name": "Quinn XCII",
+				"title": "StraightJacket",
+				"address1": "Dailyόʼ Planet street",
+				"city": "Longόʼ Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "ironman@marvelcomics.com"
+			}
+		],
+		"verifyPOC": [
+			{
+				"poc": "Order POC",
+				"name": "Halsey",
+				"title": "Wonder Woman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			},
+			{
+				"poc": "Industrial Funding Fee",
+				"name": "Khalid",
+				"title": "Super Pipes",
+				"address1": "Daily Planet street",
+				"city": "Metropolis",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "superman@dccomics.com"
+			},
+			{
+				"poc": "Contact for Contract Administration (Overseas)",
+				"name": "Quinn XCII",
+				"title": "StraightJacket",
+				"address1": "Daily Planet street",
+				"city": "Long Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "ironman@marvelcomics.com"
+			}
+		]
+	},
+	"Sol Clauses: Delete POC template": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"pointOfContact": [
+			{
+				"poc": "Order POC",
+				"name": "Eminem",
+				"title": "Slim Shady",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			},
+			{
+				"poc": "Industrial Funding Fee",
+				"name": "Dr. Dre",
+				"title": "Superman",
+				"address1": "Daily Planet street",
+				"city": "Metropolis",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "superman@dccomics.com"
+			},
+			{
+				"poc": "Contact for Contract Administration (Overseas)",
+				"name": "50όʼ Cent",
+				"title": "Gόʼ Unit",
+				"address1": "Dailyόʼ Planet street",
+				"city": "Longόʼ Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "ironman@marvelcomics.com"
+			}
+		],
+		"verifyPOC": [
+			{
+				"poc": "Order POC",
+				"name": "Eminem",
+				"title": "Slim Shady",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			},
+			{
+				"poc": "Industrial Funding Fee",
+				"name": "Dr. Dre",
+				"title": "Superman",
+				"address1": "Daily Planet street",
+				"city": "Metropolis",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "superman@dccomics.com"
+			},
+			{
+				"poc": "Contact for Contract Administration (Overseas)",
+				"name": "50 Cent",
+				"title": "G Unit",
+				"address1": "Daily Planet street",
+				"city": "Long Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "ironman@marvelcomics.com"
+			}
+		]
+	},
+	"Sol Clauses: Edit Commercial Sales Practice successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				},
+				{
+					"customer": "Lenovo",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				},
+				{
+					"customer": "HP",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"editCommercialSalesPractice": {
+			"valueOfSales": "2000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "Editing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "MarkUp"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "HP",
+					"discount": "56%",
+					"quantity": "29000",
+					"fobTerm": "O - Origin-freight prepaid by seller",
+					"concessions": "HP concessions"
+				},
+				{
+					"customer": "Lenovo",
+					"discount": "8%",
+					"quantity": "2000",
+					"fobTerm": "O - Origin-freight prepaid by seller",
+					"concessions": "Lenovo concessions"
+				},
+				{
+					"customer": "Dell",
+					"discount": "9%",
+					"quantity": "3000",
+					"fobTerm": "O - Origin-freight prepaid by seller",
+					"concessions": "Dell Concessions"
+				}
+			]
+		}
+	},
+	"Sol Clauses: Delete Commercial Sales Practice successful": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "827144242",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		}
+	},
+	"Complete Solicitation Provisions": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "cpt@karsun-llc.com",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eOffer"
+		},
+		"DUNS": "111111111",
+		"solicitationNumber": "47QSMD20R0001",
+		"scheduleNumber": "MAS",
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Office Management",
+					"subCategory": "Media Services",
+					"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111",
+					"commercialDeliverySchedule": "Yes"
+				}
+			],
+			"preponderance": {
+				"category": "Office Management",
+				"subCategory": "Media Services",
+				"sin": "511120 Periodicals, Subscriptions, Online Book Selling and Lending Library Services",
+				"preponderanceNaicsCode": "511120"
+			}
+		},
+		"addCorporateExperience": {
+			"AnumberOfYears": "5",
+			"BorgEmployeesInfo": "abc with 5 years of experience",
+			"CbriefHistory": "Here goes org history",
+			"Dinfo": "This organization controls all the accounts",
+			"EdesciptionOfResources": "Org has 50 employees",
+			"FproductMarketing": "Organization intends market themselves",
+			"GuseOfSubKs": "Organization intends use subcontractors"
+		},
+		"pastPerformance": {
+			"CPARS": "No",
+			"ORI": "Yes",
+			"startDate": "01/01/2017",
+			"supportingDocument": [
+				{
+					"type": "Past Performance & Experience",
+					"action": "upload",
+					"filename": "GenericUploadData/Blank_Excel_File.xls",
+					"documentName": "Past Performance document"
+				},
+				{
+					"type": "Order Form for Past Performance Eval",
+					"action": "upload",
+					"filename": "GenericUploadData/past_performance.txt",
+					"documentName": "Order Form document"
+				}
+			],
+			"feedback": "fb"
+		},
+		"qualityControl": {
+			"internalReview": "Review is done",
+			"individualIdentification": "Here are the individuals",
+			"subKPerformance": "Ensuring subk performance",
+			"potentialProblems": "Problems are handled",
+			"procedureForQuality": "Here is the procedure",
+			"qcManagement": "Quality control is managed"
+		},
+		"relevantExperience": [
+			{
+				"scpFSS001ProjectDetailsPerformanceNarrative": "a",
+				"scpFSS001ProjectDetailsMethodologyNarrative": "b",
+				"scpFSS001ProjectDetailsDemoNarrative": "c",
+				"scpFSS001ProjectDetailsScheduleNarrative": "d",
+				"scpFSS001ProjectDetailsExperienceScopeNarrative": "e",
+				"scpFSS001ProjectDetailsSinExperienceNarrative": "f",
+				"customerDetails": {
+					"scpFSS001CustomerDetailsCustomerName": "abc",
+					"scpFSS001CustomerDetailsProjectName": "Test Project",
+					"scpFSS001CustomerDetailsPOCName": "Test user",
+					"scpFSS001CustomerDetailsPOCPhone": "123-456-7890",
+					"scpFSS001CustomerDetailsPOCEmail": "a@b.com",
+					"scpFSS001CustomerDetailsProjectDuration": "12",
+					"scpFSS001CustomerDetailsDollarValue": "1234",
+					"scpFSS001CustomerDetailsDollarValueForSin": "123",
+					"scpFSS001CustomerDetailsProjectSummary": "summary ",
+					"scpFSS001CustomerDetailsProjectSOW": "testing "
+				},
+				"substitution": {
+					"scpFSS001SubstitutionForRelevantProjectExperience": "No"
+				}
+			}
+		],
+		"tradeAgreementsCompliance": {
+			"proposedSIN": "Yes"
+		},
+		"scaLaborCategoryMatrix": [
+			{
+				"laborCategory": "Category 1",
+				"codeTitle": "First labor category",
+				"wdNumber": "10012"
+			},
+			{
+				"laborCategory": "Category 2",
+				"codeTitle": "Second labor category",
+				"wdNumber": "10034"
+			}
+		]
+	}
+}

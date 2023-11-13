@@ -1,0 +1,842 @@
+{
+	"Address Change Mod: Update DUNS Number": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS23F024AA",
+		"DUNS": "118491760",
+		"modTypes": 
+		[
+			"Address Change"
+		],
+
+		"administrativeMods": 
+		[
+			{
+				"type": "addressChange",
+				"updatedDUNS": "1111111112222"
+			}
+		]
+	},
+
+	"Submit Address Change Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS23F024AA",
+		"DUNS": "118491760",
+		"modTypes": 
+		[
+			"Address Change"
+		],
+
+		"administrativeMods": 
+		[
+			{
+				"type": "addressChange",
+				"updatedDUNS": "1111111112222",
+				"modDetailDescription": "Test message for address change mod detailed description"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"MOD DESCRIPTION For Address Change",
+							"Test message for address change mod detailed description"
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"Submit Point of Contacts for Manufacturers, Dealers, Resellers, Agents Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS84B1111X",
+		"DUNS": "111111111",
+		"modTypes": 
+		[
+			"Point of Contacts for Manufacturers, Dealers, Resellers, Agents"
+		],
+
+		"administrativeMods": 
+		[
+			{
+				"type": "pocManufDealears",
+				"modDetailDescription": "Test message for points of contacts for Manufacturers, Dealers, Resellers, Agents detailed description"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"MOD DESCRIPTION For Point of Contacts for Manufacturers, Dealers, Resellers, Agents",
+							"Test message for points of contacts for Manufacturers, Dealers, Resellers, Agents detailed description"
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"Submit Authorized Negotiator Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS23F024AA",
+		"DUNS": "118491760",
+		"modTypes": 
+		[
+			"Authorized Negotiator"
+		],
+
+		"administrativeMods": 
+		[
+			{
+				"type": "authorizedNegotiator",
+				"action": "add"
+			}
+		],
+
+		"negotiator": 
+		[
+			{
+				"name": "Bindu M Somana",
+				"title": "CO",
+				"phone": "223-456-7890",
+				"email": "bindu.somana@gsa.gov",
+				"fax": "223-444-5678",
+				"role": "Authorized to sign"
+			}
+		],
+
+		"uploadDocuments": 
+		[
+			{
+				"type": "Agent Authorization Letter",
+				"action": "upload",
+				"filename": "GenericUploadData/agent_auth_letter.txt",
+				"documentName": "The Agent Authorization Letter"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Authorized Negotiator",
+							"Agent Authorization Letter agent_auth_letter.txt"
+						]
+					}
+				]
+			},
+
+			{
+				"documentType": "Agent Authorization Letter",
+				"documentName": "The Agent Authorization Letter",
+				"elementTitle": "Review document related to Agent Authorization Letter",
+				"filename": "agent_auth_letter.txt"
+			}
+		]
+	},
+
+	"Submit Authorized Negotiator Mod - International phone eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS23F024AA",
+		"DUNS": "118491760",
+		"modTypes": 
+		[
+			"Authorized Negotiator"
+		],
+
+		"administrativeMods": 
+		[
+			{
+				"type": "authorizedNegotiator",
+				"action": "add"
+			}
+		],
+
+		"negotiator": 
+		[
+			{
+				"name": "Bindu M Somana",
+				"title": "CO",
+				"phoneIntl": "+8613802678137",
+				"email": "bindu.somana@gsa.gov",
+				"fax": "223-444-5678",
+				"role": "Authorized to sign"
+			}
+		],
+
+		"uploadDocuments": 
+		[
+			{
+				"type": "Agent Authorization Letter",
+				"action": "upload",
+				"filename": "GenericUploadData/agent_auth_letter.txt",
+				"documentName": "The Agent Authorization Letter"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		]
+	},
+
+	"Submit Authorized Negotiator Mod - International phone and US Phone": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS23F024AA",
+		"DUNS": "118491760",
+		"modTypes": 
+		[
+			"Authorized Negotiator"
+		],
+
+		"administrativeMods": 
+		[
+			{
+				"type": "authorizedNegotiator",
+				"action": "add"
+			}
+		],
+
+		"negotiator": 
+		[
+			{
+				"name": "Bindu M Somana",
+				"title": "CO",
+				"phone": "703-984-9384",
+				"phoneIntl": "3843875040587bhytf*",
+				"email": "bindu.somana@gsa.gov",
+				"fax": "223-444-5678",
+				"role": "Authorized to sign"
+			}
+		]
+	},
+
+	"Submit Contract Administrator/Point of Contact or POC Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS520A000X",
+		"DUNS": "123456789",
+		"modTypes": 
+		[
+			"Contract Administrator/Point of Contact (POC)"
+		],
+
+		"administrativeMods": 
+		[
+			{
+				"type": "pointOfContact",
+				"pointOfContact": "Mr. Peter Parker"
+			}
+		],
+
+		"verifyAdministrativeMods": 
+		[
+			{
+				"type": "pointOfContact",
+				"pointOfContact": "Mr. Peter Parker"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Contract Administrator\\/Point of Contact \\(POC\\)",
+							"Mr. Peter Parker"
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"Submit Email Address Change Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS23F024AA",
+		"DUNS": "118491760",
+		"modTypes": 
+		[
+			"Email Address Change"
+		],
+
+		"administrativeMods": 
+		[
+			{
+				"type": "emailChange",
+				"emailChange": "peter.parker@superfriends.net"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Email Address Change",
+							"peter.parker@superfriends.net"
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"Submit Fax Change Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS23F024AA",
+		"DUNS": "118491760",
+		"modTypes": 
+		[
+			"Fax Change"
+		],
+
+		"administrativeMods": 
+		[
+			{
+				"type": "faxChange",
+				"faxChange": "223-456-7890"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Fax Change",
+							"223-456-7890"
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"Submit Website Address Change Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS23F024AA",
+		"DUNS": "118491760",
+		"modTypes": 
+		[
+			"Website Address Change"
+		],
+
+		"administrativeMods": 
+		[
+			{
+				"type": "url",
+				"url": "www.mycontracts.com"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Website Address Change",
+							"www.mycontracts.com"
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"Submit Telephone Change Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS23F024AA",
+		"DUNS": "118491760",
+		"modTypes": 
+		[
+			"Telephone Change"
+		],
+
+		"administrativeMods": 
+		[
+			{
+				"type": "telephoneChange",
+				"telephoneChange": "198-765-4321"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Telephone Change",
+							"198-765-4321"
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"Submit Order POC Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS23F024AA",
+		"DUNS": "118491760",
+		"modTypes": 
+		[
+			"Order Point of Contact (POC)"
+		],
+
+		"administrativeMods": 
+		[
+			{
+				"type": "orderPOC"
+			}
+		],
+
+		"pointOfContact": 
+		[
+			{
+				"poc": "Order POC",
+				"description": "Order POC",
+				"name": "Bruce Wayne",
+				"title": "Batman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			},
+
+			{
+				"poc": "Order POC",
+				"description": "Order POC",
+				"name": "Clark�ŒÊ¼ Kent",
+				"title": "Super�ŒÊ¼man",
+				"address1": "Daily�ŒÊ¼ Planet Street",
+				"city": "Metr�ŒÊ¼opolis",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "superman@dccomics.com"
+			}
+		],
+
+		"verifyPOC": 
+		[
+			{
+				"poc": "Order POC",
+				"description": "Order POC",
+				"name": "Bruce Wayne",
+				"title": "Batman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			},
+
+			{
+				"poc": "Order POC",
+				"description": "Order POC",
+				"name": "Clark Kent",
+				"title": "Superman",
+				"address1": "Daily Planet Street",
+				"city": "Metropolis",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "superman@dccomics.com"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Order Point of Contact \\(POC\\)",
+							"Order Point of Contact\\(POC\\)",
+							"NAME.*:.*Bruce Wayne"
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"Submit Contract Administrator/Point of Contact or POC Mod for FPT contract: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS84B8888X",
+		"DUNS": "888888888",
+		"modTypes": 
+		[
+			"Contract Administrator/Point of Contact (POC)"
+		],
+
+		"administrativeMods": 
+		[
+			{
+				"type": "orderPOC"
+			}
+		],
+
+		"pointOfContact": 
+		[
+			{
+				"poc": "Contact for Contract Administration (Overseas)",
+				"description": "Contact for Contract Administration (Overseas)",
+				"name": "CPTόʼ User",
+				"title": "Ironmanόʼ",
+				"address1": "Dailyόʼ Planet street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "nuerzhati.yijiati@gsa.gov"
+			},
+
+			{
+				"poc": "Contact for Contract Administration (Domestic)",
+				"name": "Tony Stark",
+				"title": "Ironman",
+				"address1": "Daily Planet street",
+				"city": "Long Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "ironman@marvelcomics.com"
+			}
+		],
+
+		"verifyPOC": 
+		[
+			{
+				"description": "Contact for Contract Administration (Domestic)",
+				"poc": "Contact for Contract Administration (Domestic)",
+				"name": "Tony Stark",
+				"title": "Ironman",
+				"address1": "Daily Planet street",
+				"city": "Long Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "ironman@marvelcomics.com"
+			},
+
+			{
+				"poc": "Contact for Contract Administration (Overseas)",
+				"description": "Contact for Contract Administration (Overseas)",
+				"name": "CPT User",
+				"title": "Ironman",
+				"address1": "Daily Planet street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "nuerzhati.yijiati@gsa.gov"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Contract Administrator\\/Point of Contact \\(POC\\)",
+							"NAME : CPT User"
+						]
+					}
+				]
+			}
+		]
+	}
+}

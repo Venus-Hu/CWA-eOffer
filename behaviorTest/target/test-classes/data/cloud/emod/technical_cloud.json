@@ -1,0 +1,283 @@
+{
+	"Submit Change in Geographic Coverage or Scope Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS520A000X",
+		"DUNS": "123456789",
+		"modTypes": 
+		[
+			"Change in Geographic Coverage (Scope)"
+		],
+
+		"technicalMod": 
+		{
+			"clause": "Change in Geographic Coverage (Scope)",
+			"sinDetails": 
+			[
+				{
+					"sin": "520 5       - Loan Servicing & Asset Management",
+					"scope": "Limited Locality"
+				},
+
+				{
+					"sin": "520 6       - Professional Legal Services",
+					"scope": "NonUS only"
+				}
+			],
+
+			"modDescription": "This is description for Change in Geographic Coverage (Scope)"
+		},
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Technical",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		]
+	},
+
+	"Change in Geographic Coverage or Scope Mod: Delete SIN successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS07F021DA",
+		"DUNS": "963009899",
+		"modTypes": 
+		[
+			"Change in Geographic Coverage (Scope)"
+		],
+
+		"technicalMod": 
+		{
+			"clause": "Change in Geographic Coverage (Scope)",
+			"sinDetails": 
+			[
+				{
+					"sin": "371 002     - Tree Planting/Trimming/Removal",
+					"scope": "Limited Locality"
+				},
+
+				{
+					"sin": "811 002     - Complete Facilities Maintenance",
+					"scope": "NonUS only"
+				}
+			],
+
+			"deleteSinDetails": 
+			[
+				{
+					"sin": "371 002"
+				}
+			]
+		},
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Technical",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		]
+	},
+
+	"Submit Part Number Change Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS07F021DA",
+		"DUNS": "963009899",
+		"modTypes": 
+		[
+			"Part(s) Number Change"
+		],
+
+		"technicalMod": 
+		{
+			"clause": "Part(s) Number Change",
+			"modDescription": "This is description for Change in Geographic Coverage (Scope)"
+		},
+
+		"uploadDocuments": 
+		[
+			{
+				"type": "Supporting Documentation - Part Number Change",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Supporting Documentation - Part Number Change"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Technical",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		]
+	},
+
+	"Submit Product Descriptive Change Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS70F0000X",
+		"DUNS": "123456789",
+		"modTypes": 
+		[
+			"Product Descriptive Change"
+		],
+
+		"technicalMod": 
+		{
+			"fastlane": "Y",
+			"clause": "Product Descriptive Change",
+			"modDescription": "This is description for Product Descriptive Change"
+		},
+
+		"uploadDocuments": 
+		[
+			{
+				"type": "Supporting Documentation - Product Description Change",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Supporting Documentation - Product Description Change"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Technical",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Response to FASt Lane : Yes"
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"Submit Service Descriptive Change Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS07F021DA",
+		"DUNS": "963009899",
+		"modTypes": 
+		[
+			"Service Descriptive Change"
+		],
+
+		"technicalMod": 
+		{
+			"clause": "Service Descriptive Change",
+			"modDescription": "This is description for Service Descriptive Change"
+		},
+
+		"uploadDocuments": 
+		[
+			{
+				"type": "Supporting Documentation - Service Description Change",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Supporting Documentation - Service Description Change"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Technical",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		]
+	}
+}

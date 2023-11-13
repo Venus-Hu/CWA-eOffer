@@ -1,0 +1,497 @@
+{
+	"GSA initiated Option Mod - validate TDR option": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS84B0000X",
+		"basicContractNumber": "HF2222X",
+		"scheduleNumber": "084",
+		"DUNS": "000000000",
+		"gsaMod": "Y",
+		"modTypes": 
+		[
+			"Exercise an Option"
+		],
+
+		"optionMod": 
+		{
+			"isTDR": "Yes"
+		},
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Option or Extension",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Response to Participate in TDR : Yes"
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"GSA initiated Subk Mod - validate for new Individual plan": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS84B1111X",
+		"basicContractNumber": "HF1111X",
+		"scheduleNumber": "070",
+		"DUNS": "111111111",
+		"gsaMod": "Y",
+		"modTypes": 
+		[
+			"Incorporate Sub-Contracting Plan (SubK)"
+		],
+
+		"subkPlan": 
+		{
+			"isNew": "Yes",
+			"planType": "Individual",
+			"goals": 
+			[
+				{
+					"total": "10000",
+					"largeBusiness": "1000",
+					"smallBusiness": "9000",
+					"veteran": "1200",
+					"serviceDisabled": "300",
+					"hubZone": "400",
+					"sdb": "500",
+					"women": "600"
+				},
+
+				{
+					"total": "10001",
+					"largeBusiness": "1001",
+					"smallBusiness": "9000",
+					"veteran": "1230",
+					"serviceDisabled": "300",
+					"hubZone": "400",
+					"sdb": "500",
+					"women": "600"
+				}
+			],
+
+			"supplies": 
+			[
+				{
+					"name": "ABS suppliers",
+					"large": "Yes",
+					"small": "Yes",
+					"vosb": "No",
+					"sdvosb": "No",
+					"hub": "Yes",
+					"sdb": "No",
+					"wosb": "Yes"
+				}
+			],
+
+			"develop": "Use the following method to develop the subcontracting goals. ",
+			"sources": " identifies potential subcontractors using the following source lists and organizations.",
+			"indirectCost": "Yes",
+			"indirectText": "Explain indirect cost",
+			"identificationData": 
+			{
+				"suppliesDesc": "Describe supplies in detail",
+				"placeOfPerformance": "USA",
+				"subkStartDate": "01/01/2018",
+				"basePeriod": "1000",
+				"period1": "100",
+				"period2": "2000",
+				"period3": "3000"
+			},
+
+			"poc": 
+			[
+				{
+					"name": "Peter Parker",
+					"title": "Spiderman",
+					"address1": "Forest Hills",
+					"city": "New York",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "123-456-7890",
+					"fax": "123-456-7890",
+					"email": "spiderman@marvelcomics.com"
+				},
+
+				{
+					"name": "Thor Odinson",
+					"title": "Thor",
+					"address1": "Daily Planet street",
+					"city": "Long Island",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "123-456-7890",
+					"fax": "123-456-7890",
+					"email": "thor@marvelcomics.com"
+				}
+			],
+
+			"equitableOpportunity": 
+			{
+				"minority": "Yes",
+				"busDev": "Yes",
+				"sba": "No",
+				"trade": "No",
+				"presentation": "No",
+				"establish": "Yes",
+				"monitor": "Yes",
+				"internal": "Yes",
+				"effort": "None"
+			},
+
+			"inclClause": 
+			{
+				"agree": "Yes",
+				"assurance2": "Yes",
+				"assurance3": "Yes",
+				"assurance4": "Yes",
+				"assurance5": "Yes"
+			},
+
+			"reporting": 
+			{
+				"agree": "Yes"
+			},
+
+			"assignmentOfSizeStandard": 
+			{
+				"agree": "Yes"
+			},
+
+			"recordKeeping": 
+			{
+				"record": "This is a text field",
+				"agree": "Yes"
+			},
+
+			"statutoryRequirements": 
+			{
+				"agree": "Yes"
+			},
+
+			"goodFaith": 
+			{
+				"additionalDetails": "This is a GFE provided to demonstrate compliance"
+			}
+		},
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Sub-Contracting Plan",
+				"documentName": "Sub-Contracting Plan",
+				"elementTitle": "Review SubContracting Plan response",
+				"filename": "SubContractingPlan_Responses.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Plan Start Date: 01/01/2018",
+							"____X____ Individual Plan",
+							"III. GOALS:"
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"GSA initiated Subk Mod - validate for new Commercial plan": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS84B7777X",
+		"DUNS": "777777777",
+		"basicContractNumber": "NF0000X",
+		"scheduleNumber": "084",
+		"gsaMod": "Y",
+		"modTypes": 
+		[
+			"Incorporate Sub-Contracting Plan (SubK)"
+		],
+
+		"subkPlan": 
+		{
+			"isNew": "Yes",
+			"planType": "Commercial",
+			"goals": 
+			[
+				{
+					"total": "10000",
+					"largeBusiness": "1000",
+					"smallBusiness": "9000",
+					"veteran": "1200",
+					"serviceDisabled": "300",
+					"hubZone": "400",
+					"sdb": "500",
+					"women": "600"
+				}
+			],
+
+			"supplies": 
+			[
+				{
+					"name": "ABS suppliers",
+					"large": "Yes",
+					"small": "Yes",
+					"vosb": "No",
+					"sdvosb": "No",
+					"hub": "Yes",
+					"sdb": "No",
+					"wosb": "Yes"
+				}
+			],
+
+			"develop": "Use the following method to develop the subcontracting goals. ",
+			"sources": " identifies potential subcontractors using the following source lists and organizations.",
+			"indirectCost": "Yes",
+			"indirectText": "Explain indirect cost",
+			"identificationData": 
+			{
+				"suppliesDesc": "Describe supplies in detail",
+				"placeOfPerformance": "USA",
+				"startDate": "",
+				"endDate": "",
+				"annualSales": "1000"
+			},
+
+			"poc": 
+			[
+				{
+					"name": "Peter Parker",
+					"title": "Spiderman",
+					"address1": "Forest Hills",
+					"city": "New York",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "123-456-7890",
+					"fax": "123-456-7890",
+					"email": "spiderman@marvelcomics.com"
+				},
+
+				{
+					"name": "Thor Odinson",
+					"title": "Thor",
+					"address1": "Daily Planet street",
+					"city": "Long Island",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "123-456-7890",
+					"fax": "123-456-7890",
+					"email": "thor@marvelcomics.com"
+				}
+			],
+
+			"equitableOpportunity": 
+			{
+				"minority": "Yes",
+				"busDev": "Yes",
+				"sba": "No",
+				"trade": "No",
+				"presentation": "No",
+				"establish": "Yes",
+				"monitor": "Yes",
+				"internal": "Yes",
+				"effort": "None"
+			},
+
+			"inclClause": 
+			{
+				"agree": "Yes",
+				"assurance2": "Yes",
+				"assurance3": "Yes",
+				"assurance4": "Yes",
+				"assurance5": "Yes"
+			},
+
+			"reporting": 
+			{
+				"agree": "Yes"
+			},
+
+			"assignmentOfSizeStandard": 
+			{
+				"agree": "Yes"
+			},
+
+			"recordKeeping": 
+			{
+				"record": "This is a text field",
+				"agree": "Yes"
+			},
+
+			"statutoryRequirements": 
+			{
+				"agree": "Yes"
+			},
+
+			"goodFaith": 
+			{
+				"additionalDetails": "This is a GFE provided to demonstrate compliance"
+			}
+		},
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Sub-Contracting Plan",
+				"documentName": "Sub-Contracting Plan",
+				"elementTitle": "Review SubContracting Plan response",
+				"filename": "SubContractingPlan_Responses.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Commercial Plan Period:",
+							"Start: ",
+							"End: ",
+							"____X____ Commercial Plan",
+							"III. GOALS:"
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"Option Mod - validate TDR option": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS84B0000X",
+		"DUNS": "000000000",
+		"modTypes": 
+		[
+			"Exercise an Option"
+		],
+
+		"optionMod": 
+		{
+			"isTDR": "Yes"
+		},
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Option or Extension",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Response to Participate in TDR : Yes"
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"GSA initiated Assign Contract Mod": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS84B7777X",
+		"DUNS": "777777777",
+		"basicContractNumber": "NF0000X",
+		"scheduleNumber": "084",
+		"gsaMod": "Y",
+		"modTypes": 
+		[
+			"Assignment of Contract Number"
+		],
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"MOD DESCRIPTION For Assignment of Contract Number",
+							"Request for Modification to Contract Number : NF0000X"
+						]
+					}
+				]
+			}
+		]
+	}
+}

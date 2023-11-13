@@ -1,0 +1,432 @@
+{
+	"Submit eOffer successful": 
+	{
+		"SignIn": 
+		{
+			"module": "eOffer"
+		},
+
+		"UEI": "014133832",
+		"solicitationNumber": "FCIS-JB-980001-B",
+		"scheduleNumber": "70X",
+		"negotiator": 
+		[
+			{
+				"name": "Mary R Bandikalla",
+				"title": "Doctor",
+				"phone": "123-456-7890",
+				"email": "mary.bandikalla@gsa.gov",
+				"role": "Authorized to sign"
+			},
+
+			{
+				"name": "Bindu Somana",
+				"title": "Doctor",
+				"phone": "123-456-7890",
+				"email": "bindu.somana@gsa.gov",
+				"role": "Authorized to sign"
+			},
+
+			{
+				"name": "Savitha Jayatirtha ",
+				"title": "Doctor",
+				"phone": "123-456-7890",
+				"email": "savitha.jayatirtha@gsa.gov",
+				"role": "Authorized to sign"
+			},
+			{
+				"name": "Aditi Mulay",
+				"title": "CS",
+				"phone": "123-456-7890",
+				"email": "aditi.mulay@gsa.gov",
+				"role": "Authorized to sign"
+			}
+		],
+
+		"goodsAndServices": 
+		{
+			"sinDetails": 
+			[
+				{
+					"sin": "132 3X    - Leasing of Products - SUBJECT TO COOPERATIVE PURCHASING",
+					"naicsCode": "512199",
+					"scope": "Contractor will provide overseas delivery only",
+					"estimatedSales": "111"
+				}
+			],
+
+			"preponderanceNaicsCode": "512199",
+			"offerCategory": ""
+		},
+
+		"standardResponse": 
+		{
+			"disasterRecovery": "Yes",
+			"exceptionTerms": "No",
+			"exceptionCert": "No",
+			"americanRecovery": "Yes",
+			"empEligibility": "Yes",
+			"fastLane": "Yes",
+			"startup": "No",
+			"minOrderLimit": "9999",
+			"subKNonProfit": "No",
+			"subKDomestic": "No",
+			"subKHasUSALocations": "No",
+			"subKWorkPerfomedForeignNo": "Yes",
+			"subKOpportunity": "No"
+		},
+
+		"basicInfo": 
+		{
+			"clauseResponse": 
+			[
+				{
+					"clauseNumber": "C-FSS-411",
+					"No_Safety_Stds": "Yes",
+					"Safety_Stds": "No",
+					"Table": 
+					[
+						{
+							"Product": "Test",
+							"Standard": "standard data"
+						}
+					]
+				},
+
+				{
+					"clauseNumber": "52.209-5",
+					"are_Ineligible": "Yes",
+					"have_Convicted": "Yes",
+					"are_Charged": "Yes",
+					"have_Delinquent_Tax": "Yes",
+					"has_No_Default": "Yes"
+				},
+
+				{
+					"clauseNumber": "552.223-72",
+					"Hazardous_Material_Info": "Testing NSN number"
+				},
+
+				{
+					"clauseNumber": "52.209-1",
+					"Offeror_Name": "Superman",
+					"Manufac_Name": "Krypton",
+					"Source_Name": "Kal-El",
+					"Item_Name": "super powers",
+					"Service_Name": "Daily Planet",
+					"Test_Number": "1933"
+				},
+
+				{
+					"clauseNumber": "F-FSS-712-B",
+					"Shippingpoints": "Testing Shippingpoints"
+				},
+
+				{
+					"clauseNumber": "F-FSS-202-G",
+					"Delivery_Alaska_yes": "Yes",
+					"Delivery_Hawaii_no": "Yes",
+					"Delivery_PuertoRico_yes": "Yes"
+				},
+
+				{
+					"clauseNumber": "52.209-7",
+					"has_FED_10,000,000": "Yes"
+				},
+
+				{
+					"clauseNumber": "52.226-3",
+					"does_reside_primarily_SAA": "Yes"
+				},
+
+				{
+					"clauseNumber": "52.215-6",
+					"Performance_intends": "Yes",
+					"Table": 
+					[
+						{
+							"Street Address_add1": "dulles tech dr",
+							"Street Address_city": "Herndon",
+							"Street Address_state_us": "VA",
+							"Street Address_zip": "20171",
+							"Street Address_country": "UNITED STATES",
+							"City": "Herndon",
+							"County": "Fairfax",
+							"State": "VA",
+							"Zipcode": "20171"
+						}
+					]
+				}
+			]
+		},
+
+		"pointOfContact": 
+		[
+			{
+				"poc": "Order POC",
+				"name": "Bruce Wayne",
+				"title": "Batman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "123-456-7890",
+				"fax": "123-456-7890",
+				"email": "batman@dccomics.com"
+			},
+
+			{
+				"poc": "Industrial Funding Fee",
+				"name": "Clark Kent",
+				"title": "Superman",
+				"address1": "Daily Planet street",
+				"city": "Metropolis",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "123-456-7890",
+				"fax": "123-456-7890",
+				"email": "superman@dccomics.com"
+			},
+
+			{
+				"poc": "Contact for Contract Administration (Overseas)",
+				"name": "Tony Stark",
+				"title": "Ironman",
+				"address1": "Daily Planet street",
+				"city": "Long Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "123-456-7890",
+				"fax": "123-456-7890",
+				"email": "ironman@marvelcomics.com"
+			}
+		],
+
+		"orderingInformation": 
+		{
+			"orderingReceiptInformation": 
+			[
+				{
+					"orderInfo": "receiptorder",
+					"receiptType": "Facsimile Transmission or",
+					"facsimile": "123-456-7899"
+				}
+			],
+
+			"remittanceAddress": 
+			[
+				{
+					"orderInfo": "remittanceorder",
+					"company": "ACME Corp.",
+					"address1": "3400 W Riverside Dr",
+					"city": "Death Valley",
+					"state": "NV",
+					"country": "USA",
+					"zip": "92328",
+					"phone": "123-456-7890",
+					"fax": "123-456-7890",
+					"email": "wiley.coyote@acmetest-corp.com"
+				}
+			]
+		},
+
+		"addCorporateExperience": 
+		{
+			"AnumberOfYears": "10",
+			"BorgEmployeesInfo": "Org with 5 years of experience",
+			"CbriefHistory": "Here goes org history",
+			"Dinfo": "This organization controls all the accounts",
+			"EdesciptionOfResources": "Org has 50 employees",
+			"FproductMarketing": "Organization intends market themselves",
+			"GuseOfSubKs": "Organization intends use subcontractors"
+		},
+
+		"pastPerformance": 
+		{
+			"startDate": "01/01/2017",
+			"orderDoc": "GenericUploadData/support_docs.txt",
+			"expDoc": "GenericUploadData/Blank_Excel_File.xls",
+			"feedback": "fb"
+		},
+
+		"qualityControl": 
+		{
+			"internalReview": "The internal review!",
+			"individualIdentification": "Here are the individuals",
+			"subKPerformance": "Ensuring subk performance",
+			"potentialProblems": "Problems are handled",
+			"procedureForQuality": "Here is the procedure",
+			"qcManagement": "Quality control is managed"
+		},
+
+		"relevantExperience": 
+		[
+			{
+				"scpFSS004ProjectDetailsSinRelatedNarrative": "1 a",
+				"scpFSS004ProjectDetailsMethodologyNarrative": "1 b",
+				"scpFSS004ProjectDetailsDemoNarrative": "1 c",
+				"scpFSS004ProjectDetailsScheduleNarrative": "1 d",
+				"scpFSS004ProjectDetailsScopeNarrative": "1 e",
+				"scpFSS004ProjectDetailsSinExperienceNarrative": "1 f"
+			},
+
+			{
+				"scpFSS004ProjectDetailsSinRelatedNarrative": "2 a",
+				"scpFSS004ProjectDetailsMethodologyNarrative": "2 b",
+				"scpFSS004ProjectDetailsDemoNarrative": "2 c",
+				"scpFSS004ProjectDetailsScheduleNarrative": "2 d",
+				"scpFSS004ProjectDetailsScopeNarrative": "2 e",
+				"scpFSS004ProjectDetailsSinExperienceNarrative": "2 f"
+			},
+
+			{
+				"scpFSS004ProjectDetailsSinRelatedNarrative": "3 a",
+				"scpFSS004ProjectDetailsMethodologyNarrative": "3 b",
+				"scpFSS004ProjectDetailsDemoNarrative": "3 c",
+				"scpFSS004ProjectDetailsScheduleNarrative": "3 d",
+				"scpFSS004ProjectDetailsScopeNarrative": "3 e",
+				"scpFSS004ProjectDetailsSinExperienceNarrative": "3 f"
+			}
+		],
+
+		"scaLaborCategoryMatrix": 
+		[
+			{
+				"laborCategory": "lc1",
+				"codeTitle": "title 1 ",
+				"wdNumber": "111"
+			},
+
+			{
+				"laborCategory": "lc2",
+				"codeTitle": "title 2 ",
+				"wdNumber": "123"
+			}
+		],
+
+		"uploadDocuments": 
+		[
+			{
+				"type": "Exceptions to Certs and Reps - 52.212-3",
+				"action": "upload",
+				"filename": "GenericUploadData/exceptions-certs.txt",
+				"documentName": ""
+			},
+
+			{
+				"type": "Order Form for Past Performance Eval",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": ""
+			},
+
+			{
+				"type": "Past Performance & Experience",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls",
+				"documentName": ""
+			},
+
+			{
+				"type": "Pricing Proposal",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx",
+				"documentName": ""
+			}
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Offer Response",
+				"documentName": "Offer Response",
+				"elementTitle": "Review offer response",
+				"filename": "Offer.pdf"
+			},
+
+			{
+				"documentType": "Form 1449",
+				"documentName": "Form 1449",
+				"elementTitle": "Review Form 1449",
+				"filename": "Frm1449.pdf"
+			},
+
+			{
+				"documentType": "Exceptions to Certs and Reps - 52.212-3",
+				"documentName": "exceptions-certs.txt",
+				"elementTitle": "Review document related to Exceptions to Certs and Reps - 52.212-3",
+				"filename": "exceptions-certs.txt"
+			},
+
+			{
+				"documentType": "Order Form for Past Performance Eval",
+				"documentName": "support_docs.txt",
+				"elementTitle": "Review document related to Order Form for Past Performance Eval",
+				"filename": "support_docs.txt"
+			},
+
+			{
+				"documentType": "Past Performance & Experience",
+				"documentName": "Blank_Excel_File.xls",
+				"elementTitle": "Review document related to Past Performance & Experience",
+				"filename": "Blank_Excel_File.xls"
+			},
+
+			{
+				"documentType": "Services Text File",
+				"documentName": "services-file.docx",
+				"elementTitle": "Review document related to Services Text File",
+				"filename": "services-file.docx"
+			},
+
+			{
+				"documentType": "Reps and Certs Response",
+				"documentName": "Reps and Certs Response",
+				"elementTitle": "Review orca response",
+				"_comment": "left 'filename' blank as download in cloud does not work",
+				"filename": ""
+			},
+
+			{
+				"documentType": "Technical Proposal",
+				"documentName": "Technical Proposal",
+				"elementTitle": "Review responses for Technical Proposal",
+				"filename": "TechnicalProposalResponses.pdf"
+			},
+
+			{
+				"documentType": "SCA Labor Category Matrix",
+				"documentName": "SCA Labor Category Matrix",
+				"elementTitle": "SCA Labor Category Matrix",
+				"filename": "SCA Matrix.pdf"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Negotiators",
+			"Goods and Services",
+			"Standard Responses",
+			"Solicitation Clause",
+			"Solicitation Provisions",
+			"Upload Documents"
+		],
+
+		"disclaimerQuestions": 
+		[
+			{
+				"elementName": "orcaAcceptance",
+				"elementValue": "Yes"
+			},
+
+			{
+				"elementName": "acceptance",
+				"elementValue": "Yes"
+			}
+		]
+	}
+}

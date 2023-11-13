@@ -1,0 +1,70 @@
+{
+	"Add SIN Mod and Email Address change mod": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS71B4444X",
+		"DUNS": "444444444",
+		"modTypes": 
+		[
+			"Add SIN",
+			"Email Address Change"
+		],
+
+		"goodsAndServices": 
+		{
+			"sinDetails": 
+			[
+				{
+					"sin": "71 98     - International Products",
+					"scope": "50 States,DC"
+				}
+			],
+
+			"offerCategory": "Products Only"
+		},
+
+		"commercialSalesPractice": 
+		{
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": 
+			{
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+
+			"addDiscountPolicy": 
+			[
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+
+		"administrativeMods": 
+		[
+			{
+				"type": "emailChange",
+				"emailChange": "peter.parker@superfriends.net"
+			}
+		]
+	}
+}

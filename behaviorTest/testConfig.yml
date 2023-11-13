@@ -1,0 +1,9 @@
+selenium_testing:
+
+- name: OfferRunner_gsaTest
+  suiteName: OfferRunner_gsaTest.java
+  browser: chrome
+  version:
+  platform:
+  duns: ETEJG4BY4SY3
+  

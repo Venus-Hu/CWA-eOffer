@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModRequest DunsNumber="000000000" ModType="Exercise an Option" ModGroup="GSAMod" EModId="" ModAction="Insert">
+	<ModDescriptionInformation>
+		<ModDescription DesID="1">
+			<ModShortDescription>Extension of Contract End Date - Exercise an option</ModShortDescription>
+			<ModDetailDescription>GSA Exercising an Option</ModDetailDescription>
+			<FSSOnModId>0081</FSSOnModId>
+		</ModDescription>
+	</ModDescriptionInformation>
+	<ContractInformation>
+		<Contract ContID="1">
+			<ContractNumber>HF2222X</ContractNumber>
+			<FormalContract>GS84B0000X</FormalContract>
+			<ScheduleNumber>070</ScheduleNumber>
+		</Contract>
+	</ContractInformation>
+	<VendorRepInformation>
+		<VendorRepresentative VendorID="1">
+			<VendorName>Keshavrajan P Sankaralingam</VendorName>
+			<VendorTitle />
+			<VendorPhone>607 545-6498</VendorPhone>
+			<VendorFax>607-545-6167</VendorFax>
+			<VendorEmail>keshav.sankaralingam@gsa.gov</VendorEmail>
+		</VendorRepresentative>
+	</VendorRepInformation>
+	<AttachmentList />
+	<authorizedNegotiators>
+		<Negotiator id="1">
+			<name>Keshavrajan P Sankaralingam</name>
+			<title>Sales Manager</title>
+			<phone>607-545-6498</phone>
+			<email>keshav.sankaralingam@gsa.gov</email>
+			<fax>607-545-6167</fax>
+			<role>Authorized to sign</role>
+		</Negotiator>
+		<Negotiator id="2">
+			<name>CPT User</name>
+			<title>Owner</title>
+			<phone>607-545-6498</phone>
+			<email>cpt@karsun-llc.com</email>
+			<fax>607-545-6167</fax>
+			<role>Authorized to sign</role>
+		</Negotiator>
+	</authorizedNegotiators>
+	<ModCreatorInformation>
+		<CreatorData CreatorID="1">
+			<CreatorName>Keshavrajan P Sankaralingam</CreatorName>
+			<CreatorTitle />
+			<CreatorEmail>keshav.sankaralingam@gsa.gov</CreatorEmail>
+		</CreatorData>
+	</ModCreatorInformation>
+</ModRequest>

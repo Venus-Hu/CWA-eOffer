@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<mod:contractMod xmlns:mod='http://fas.gsa.gov/Contract/v1.0' xmlns:glb='http://fas.gsa.gov/Global/v1.0' xmlns:prc='http://fas.gsa.gov/Pricing/v1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' oid="0" glb:version="1" >
+  <contractModKey>
+    <contractNumber>GS84B3333X</contractNumber>
+    <modificationNumber>C2DFA6NM</modificationNumber>
+  </contractModKey>
+  <contractModStatus>Submitted</contractModStatus>
+  <priceMod oid="0" >
+    <priceModType>Permanent Price Reduction (Based on Industry Partner Requested)</priceModType>
+    <priceModIdentifier>
+      <productIdentifier>
+        <manufacturerPartNumber>1234567</manufacturerPartNumber>
+        <manufacturerName>Lenovo</manufacturerName>
+         <contractLineNumber>426 4C</contractLineNumber>
+      </productIdentifier>
+      <priceModElements oid="0" >
+        <dollarValue>98.0</dollarValue>
+        <startDate>12/30/2019</startDate>
+      </priceModElements>
+    </priceModIdentifier>    
+  </priceMod>
+</mod:contractMod>

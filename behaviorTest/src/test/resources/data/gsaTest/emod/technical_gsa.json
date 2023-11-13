@@ -1,0 +1,185 @@
+{
+	"Submit Change in Geographic Coverage or Scope Mod: Review eMod successful": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_technical_Contract",
+		"UEI": "eMod_technical_UEI",
+		"modTypes": [
+			"Change in Geographic Coverage (Scope)"
+		],
+		"technicalMod": {
+			"clause": "Change in Geographic Coverage (Scope)",
+			"sinDetails": [
+				{
+					"sin": "314110      - 314110 Carpet Flooring",
+					"scope": "Limited Locality"
+				}
+			],
+			"modDescription": "This is description for Change in Geographic Coverage (Scope)"
+		},
+		"completedMenuItems": [
+			"Corporate Information",
+			"Technical",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		]
+	},
+	"Change in Geographic Coverage or Scope Mod: Delete SIN successful": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_technical_Contract",
+		"UEI": "eMod_technical_UEI",
+		"modTypes": [
+			"Change in Geographic Coverage (Scope)"
+		],
+		"technicalMod": {
+			"clause": "Change in Geographic Coverage (Scope)",
+			"sinDetails": [
+				{
+					"sin": "314110      - 314110 Carpet Flooring",
+					"scope": "Limited Locality"
+				}
+			],
+			"deleteSinDetails": [
+				{
+					"sin": "314110"
+				}
+			]
+		},
+		"completedMenuItems": [
+			"Corporate Information",
+			"Technical",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		]
+	},
+	"Submit Part Number Change Mod: Review eMod successful": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_technical_Contract",
+		"UEI": "eMod_technical_UEI",
+		"modTypes": [
+			"Part(s) Number Change"
+		],
+		"technicalMod": {
+			"clause": "Part(s) Number Change",
+			"modDescription": "This is description for Change in Geographic Coverage (Scope)"
+		},
+		"uploadDocuments": [
+			{
+				"type": "Supporting Documentation - Part Number Change",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Supporting Documentation - Part Number Change"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Technical",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": [
+					{
+						"pageNumber": 1,
+						"expectedLines": [
+							"Response to FASt Lane : Yes"
+						]
+					}
+				]
+			}
+		]
+	},
+	"Submit Product Descriptive Change Mod: Review eMod successful": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_technical_Contract",
+		"UEI": "eMod_technical_UEI",
+		"modTypes": [
+			"Product Descriptive Change"
+		],
+		"technicalMod": {
+			"clause": "Product Descriptive Change",
+			"modDescription": "This is description for Product Descriptive Change"
+		},
+		"uploadDocuments": [
+			{
+				"type": "Supporting Documentation - Product Description Change",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Supporting Documentation - Product Description Change"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Technical",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		]
+	},
+	"Submit Service Descriptive Change Mod: Review eMod successful": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_technical_Contract",
+		"UEI": "eMod_technical_UEI",
+		"modTypes": [
+			"Service Descriptive Change"
+		],
+		"technicalMod": {
+			"clause": "Service Descriptive Change",
+			"modDescription": "This is description for Service Descriptive Change"
+		},
+		"uploadDocuments": [
+			{
+				"type": "Supporting Documentation - Service Description Change",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Supporting Documentation - Service Description Change"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Technical",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		]
+	}
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<gsaPriceCatalog>
+	<contractLines oid="0">
+		<clNum>426 4C</clNum>
+		<lineitem>
+			<lineItemTechnical oid="0">
+				<product oid="0">
+					<productAction>Update</productAction>
+					<manufacturerPartNumber>1234566</manufacturerPartNumber>
+					<manufacturer>DELL COMP</manufacturer>
+					<upc>12345689</upc>
+					<productName>LASERFICHE AVANTE SERVER FOR ORACLE</productName>
+					<unitofIssue>BX</unitofIssue>
+					<qtyPerUnit>4</qtyPerUnit>
+					<qtyProdPerUnit>KM</qtyProdPerUnit>
+					<vendorPartNum>MSE50</vendorPartNum>
+					<bestPricedCustomerName>BESTCUSTOMERNAMELIN
+					</bestPricedCustomerName>
+					<manfWarrantyPeriod>90</manfWarrantyPeriod>
+					<manfWarrantyTime>DAY</manfWarrantyTime>
+					<manfwarrantyDesc>STANDARD£WARRANTY</manfwarrantyDesc>
+					<vendorProductDescription>Description</vendorProductDescription>
+					<extendedWarrantyPeriod>5</extendedWarrantyPeriod>
+					<extendedWarrantyTime>DAY</extendedWarrantyTime>
+					<extendedWarrantyDesc>Description goes¥here</extendedWarrantyDesc>
+					<productionPoint>US</productionPoint>
+					<productionPoint2>US</productionPoint2>
+					<productType>Product</productType>
+					<length>10</length>
+					<lengthUnitOfMeasure>BX</lengthUnitOfMeasure>
+					<width>10</width>
+					<widthUnitOfMeasure>BX</widthUnitOfMeasure>
+					<height>10</height>
+					<heightUnitOfMeasure>BX</heightUnitOfMeasure>
+					<shippingPkgCubicFt>20</shippingPkgCubicFt>
+					<standardPkgSize>10</standardPkgSize>
+					<weight>148</weight>
+					<prodWebSite>www.dell.com</prodWebSite>
+					<defaultColour>black</defaultColour>
+					<fscpsc>1235</fscpsc>
+					<unspec>12345678</unspec>
+					<leadTimeDay>20</leadTimeDay>
+					<leadTimeCode>AF</leadTimeCode>
+					<nsnNumber>1234-12-123-1234</nsnNumber>
+					<fob_us>D</fob_us>
+					<fob_ak>O</fob_ak>
+					<fob_hi>D</fob_hi>
+					<fob_pr>O</fob_pr>
+					<specialCharges oid="1">
+						<specialChargeMessage>Expediting Premium</specialChargeMessage>
+						<price>23.23</price>
+						<per>BP</per>
+						<description>Description for ¥expediting§ premium</description>
+						<action>New</action>
+					</specialCharges>
+					<specialCharges oid="2">
+						<specialChargeMessage>Inside Delivery</specialChargeMessage>
+						<price>67.89</price>
+						<per>BP</per>
+						<description>Description for §inside delivery</description>
+						<action>Update</action>
+					</specialCharges>
+					<envMessages oid="1">
+						<environCode>BQ</environCode>
+						<environMessage>Bio Preferred item</environMessage>
+						<prod508Url />
+						<action>Update</action>
+					</envMessages>
+					<envMessages oid="2">
+						<environCode>AC</environCode>
+						<environMessage>FEMP Energy Efficiency item</environMessage>
+						<prod508Url />
+						<action>Delete</action>
+					</envMessages>
+					<envMessages oid="3">
+						<environCode>BE</environCode>
+						<environMessage>Section 508 item</environMessage>
+						<prod508Url>http://www.section508.gov</prod508Url>
+					</envMessages>
+					<photo>
+						<name>flower01.jpg</name>
+						<action>Update</action>
+					</photo>
+				</product>
+			</lineItemTechnical>
+			<manufacturerPartNumber>50</manufacturerPartNumber>
+			<manufacturerName>LASERFICHE</manufacturerName>
+		</lineitem>
+	</contractLines>
+	<contractLines oid="0">
+		<clNum>426 4D</clNum>
+		<lineitem>
+			<lineItemTechnical oid="0">
+				<product oid="0">
+					<productAction>Update</productAction>
+					<manufacturerPartNumber>1234569</manufacturerPartNumber>
+					<manufacturer>LOGITECH</manufacturer>
+					<upc>12345689</upc>
+					<productName>LASERFICHE AVANTE SERVER FOR ORACLE</productName>
+					<unitofIssue>BX</unitofIssue>
+					<qtyPerUnit>4</qtyPerUnit>
+					<qtyProdPerUnit>KM</qtyProdPerUnit>
+					<vendorPartNum>MSE50</vendorPartNum>
+					<bestPricedCustomerName>BESTCUSTOMERNAMELIN
+					</bestPricedCustomerName>
+					<manfWarrantyPeriod>90</manfWarrantyPeriod>
+					<manfWarrantyTime>DAY</manfWarrantyTime>
+					<manfwarrantyDesc>STANDARD WARRANTY</manfwarrantyDesc>
+					<vendorProductDescription>Description</vendorProductDescription>
+					<extendedWarrantyPeriod>5</extendedWarrantyPeriod>
+					<extendedWarrantyTime>DAY</extendedWarrantyTime>
+					<extendedWarrantyDesc>Description goes here</extendedWarrantyDesc>
+					<productionPoint>US</productionPoint>
+					<productionPoint2>US</productionPoint2>
+					<productType>Product</productType>
+					<length>10</length>
+					<lengthUnitOfMeasure>BX</lengthUnitOfMeasure>
+					<width>10</width>
+					<widthUnitOfMeasure>BX</widthUnitOfMeasure>
+					<height>10</height>
+					<heightUnitOfMeasure>BX</heightUnitOfMeasure>
+					<shippingPkgCubicFt>20</shippingPkgCubicFt>
+					<standardPkgSize>10</standardPkgSize>
+					<weight>148</weight>
+					<prodWebSite>www.dell.com</prodWebSite>
+					<defaultColour>black</defaultColour>
+					<fscpsc>1235</fscpsc>
+					<unspec>12345678</unspec>
+					<leadTimeDay>20</leadTimeDay>
+					<leadTimeCode>AF</leadTimeCode>
+					<nsnNumber>1234-12-123-1234</nsnNumber>
+					<fob_us>D</fob_us>
+					<fob_ak>ND</fob_ak>
+					<fob_hi>D</fob_hi>
+					<fob_pr>ND</fob_pr>
+					<accessories>
+						<accessoryManufacturerPartNumber>1234566</accessoryManufacturerPartNumber>
+						<accessoryManufacturer>DELL COMP</accessoryManufacturer>
+						<action>New</action>
+					</accessories>
+				</product>
+			</lineItemTechnical>
+			<manufacturerPartNumber>50</manufacturerPartNumber>
+			<manufacturerName>LASERFICHE</manufacturerName>
+		</lineitem>
+	</contractLines>
+</gsaPriceCatalog>

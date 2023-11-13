@@ -1,0 +1,259 @@
+{
+	"Submit Change of Name Agreement Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"module": "emod"
+		},
+
+		"contractNumber": "eMod_legal_Contract",
+		"UEI": "eMod_legal_UEI",
+		"modTypes": 
+		[
+			"Change of Name Agreement"
+		],
+
+		"legalMod": 
+		{
+			"clause": "Change of Name Agreement",
+			"replaceUEI": "Yes",
+			"updatedUEI": "VJK8W4RZ63D1",
+			"modDetailDescription": "This is description for Change of Name Agreement mod"
+		},
+
+		"uploadDocuments": 
+		[
+			{
+				"type": "Affected contracts and/or orders",
+				"action": "upload",
+				"filename": "GenericUploadData/Template.pptx",
+				"documentName": "Affected contracts and/or orders"
+			},
+
+			{
+				"type": "Amended Total Dollar Value - Change of Name",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_file.xls",
+				"documentName": "Amended Total Dollar Value - Change of Name"
+			},
+
+			{
+				"type": "Change of name FAR requirements",
+				"action": "upload",
+				"filename": "GenericUploadData/flower10.jpg",
+				"documentName": "Change of name FAR requirements"
+			},
+
+			{
+				"type": "Document of name change authenticated by State",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Document of name change authenticated by State"
+			},
+
+			{
+				"type": "Legal opinion - change of name",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx",
+				"documentName": "Legal opinion - change of name"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Legal",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Affected contracts and/or orders",
+				"filename": "Template.pptx",
+				"elementTitle": "Review document related to Affected contracts and/or orders",
+				"documentName": "Affected contracts and/or orders"
+			},
+
+			{
+				"documentType": "Amended Total Dollar Value - Change of Name",
+				"elementTitle": "Review document related to Amended Total Dollar Value - Change of Name",
+				"filename": "Blank_Excel_file.xls",
+				"documentName": "Amended Total Dollar Value - Change of Name"
+			},
+
+			{
+				"documentType": "Change of name FAR requirements",
+				"elementTitle": "Review document related to Change of name FAR requirements",
+				"filename": "flower10.jpg",
+				"documentName": "Change of name FAR requirements"
+			},
+
+			{
+				"documentType": "Document of name change authenticated by State",
+				"elementTitle": "Review document related to Document of name change authenticated by State",
+				"filename": "support_docs.txt",
+				"documentName": "Document of name change authenticated by State"
+			},
+
+			{
+				"documentType": "Legal opinion - change of name",
+				"elementTitle": "Review document related to Legal opinion - change of name",
+				"filename": "services-file.docx",
+				"documentName": "Legal opinion - change of name"
+			},
+
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		]
+	},
+
+	"Submit Novation Agreement Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"module": "emod"
+		},
+
+		"contractNumber": "eMod_legal_Contract",
+		"UEI": "eMod_legal_UEI",
+		"modTypes": 
+		[
+			"Novation Agreement"
+		],
+
+		"legalMod": 
+		{
+			"clause": "Novation Agreement",
+			"replaceUEI": "Yes",
+			"updatedUEI": "NGSMBHUNRTA7",
+			"dunsPlus4": "",
+			"modDetailDescription": "This is description for Novation Agreement mod",
+			"contractWithAgency": "No",
+			"firstContractNovated": "No",
+			"multipleGSAContracts": "Yes"
+		},
+
+		"uploadDocuments": 
+		[
+			{
+				"type": "Balance sheets",
+				"action": "upload",
+				"filename": "GenericUploadData/Template.pptx",
+				"documentName": "Balance sheets"
+			},
+
+			{
+				"type": "Certificate of Incorporation",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_file.xls",
+				"documentName": "Certificate of Incorporation"
+			},
+
+			{
+				"type": "Consent of sureties",
+				"action": "upload",
+				"filename": "GenericUploadData/flower10.jpg",
+				"documentName": "Consent of sureties"
+			},
+
+			{
+				"type": "Evidence of security clearance(s)",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Evidence of security clearance(s)"
+			},
+
+			{
+				"type": "Evidence of transfer",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx",
+				"documentName": "Evidence of transfer"
+			},
+
+			{
+				"type": "Legal opinion - novation",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt",
+				"documentName": "Legal opinion - novation"
+			},
+
+			{
+				"type": "Novation Agreement",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx",
+				"documentName": "Novation Agreement"
+			},
+
+			{
+				"type": "SF 30 - Amendment of Solicitation/Modification of Contract - Mod",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls",
+				"documentName": "SF 30 - Amendment of Solicitation/Modification of Contract - Mod"
+			},
+
+			{
+				"type": "Stakeholder meeting minutes",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls",
+				"documentName": "Stakeholder meeting minutes"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Legal",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Balance sheets",
+				"filename": "Template.pptx",
+				"elementTitle": "Review document related to Balance sheets",
+				"documentName": "Balance sheets"
+			},
+
+			{
+				"documentType": "Certificate of Incorporation",
+				"elementTitle": "Review document related to Certificate of Incorporation",
+				"filename": "Blank_Excel_file.xls",
+				"documentName": "Certificate of Incorporation"
+			},
+
+			{
+				"documentType": "Consent of sureties",
+				"elementTitle": "Review document related to Consent of sureties",
+				"filename": "flower10.jpg",
+				"documentName": "Consent of sureties"
+			},
+
+			{
+				"documentType": "Evidence of security clearance(s)",
+				"elementTitle": "Review document related to Evidence of security clearance(s)",
+				"filename": "support_docs.txt",
+				"documentName": "Evidence of security clearance(s)"
+			},
+
+			{
+				"documentType": "Evidence of transfer",
+				"elementTitle": "Review document related to Evidence of transfer",
+				"filename": "services-file.docx",
+				"documentName": "Evidence of transfer"
+			},
+
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		]
+	}
+}

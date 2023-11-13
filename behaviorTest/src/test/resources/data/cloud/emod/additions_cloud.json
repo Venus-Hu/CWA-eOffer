@@ -1,0 +1,5153 @@
+{
+	"Add SIN Mod: Complete Additions for FPT Non-TDR contract": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS71B4444X",
+		"DUNS": "444444444",
+		"modTypes": [
+			"Add SIN"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "71 98     - International Products",
+					"scope": "50 States,DC"
+				}
+			],
+			"offerCategory": "Products Only"
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		}
+	},
+	"Add SIN Mod: Complete Additions for Non-FPT Non-TDR contract": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS07F021DA",
+		"DUNS": "963009899",
+		"modTypes": [
+			"Add SIN"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Miscellaneous",
+					"subCategory": "Flags",
+					"sin": "339999F Flags, Banners, Pennants, and Related Products",
+					"scope": "50 States,DC"
+				}
+			]
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"addCorporateExperience": {
+			"AnumberOfYears": "10",
+			"BorgEmployeesInfo": "abc with 5 years of experience",
+			"CbriefHistory": "Here goes org history",
+			"Dinfo": "This organization controls all the accounts",
+			"EdesciptionOfResources": "Org has 50 employees",
+			"FproductMarketing": "Organization intends market themselves",
+			"GuseOfSubKs": "Organization intends use subcontractors"
+		},
+		"pastPerformance": {
+			"startDate": "01/01/2018",
+			"supportingDocument": [
+				{
+					"type": "Past Performance & Experience",
+					"action": "upload",
+					"filename": "GenericUploadData/past_performance.txt",
+					"documentName": "Past Performance document"
+				},
+				{
+					"type": "Order Form for Past Performance Eval",
+					"action": "upload",
+					"filename": "GenericUploadData/Blank_Excel_File.xls",
+					"documentName": "Order Form document"
+				}
+			],
+			"feedback": "fb"
+		},
+		"qualityControl": {
+			"internalReview": "Review text goes here",
+			"individualIdentification": "Here are the individuals",
+			"subKPerformance": "Ensuring subk performance",
+			"potentialProblems": "Problems are handled",
+			"procedureForQuality": "Here is the procedure",
+			"qcManagement": "Quality control is managed"
+		},
+		"relevantExperience": [
+			{
+				"scpFSS004ProjectDetailsSinRelatedNarrative": "a",
+				"scpFSS004ProjectDetailsMethodologyNarrative": "b",
+				"scpFSS004ProjectDetailsDemoNarrative": "c",
+				"scpFSS004ProjectDetailsScheduleNarrative": "d",
+				"scpFSS004ProjectDetailsScopeNarrative": "e",
+				"scpFSS004ProjectDetailsSinExperienceNarrative": "f"
+			},
+			{
+				"scpFSS004ProjectDetailsSinRelatedNarrative": "a",
+				"scpFSS004ProjectDetailsMethodologyNarrative": "b",
+				"scpFSS004ProjectDetailsDemoNarrative": "c",
+				"scpFSS004ProjectDetailsScheduleNarrative": "d",
+				"scpFSS004ProjectDetailsScopeNarrative": "e",
+				"scpFSS004ProjectDetailsSinExperienceNarrative": "f"
+			},
+			{
+				"scpFSS004ProjectDetailsSinRelatedNarrative": "a",
+				"scpFSS004ProjectDetailsMethodologyNarrative": "b",
+				"scpFSS004ProjectDetailsDemoNarrative": "c",
+				"scpFSS004ProjectDetailsScheduleNarrative": "d",
+				"scpFSS004ProjectDetailsScopeNarrative": "e",
+				"scpFSS004ProjectDetailsSinExperienceNarrative": "f"
+			}
+		],
+		"scaLaborCategoryMatrix": [
+			{
+				"laborCategory": "Category 1",
+				"codeTitle": "First labor category",
+				"wdNumber": "10012"
+			},
+			{
+				"laborCategory": "Category 2",
+				"codeTitle": "Second labor category",
+				"wdNumber": "10034"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": [
+					{
+						"pageNumber": 1,
+						"expectedLines": [
+							"Response to FASt Lane : Yes"
+						]
+					}
+				]
+			},
+			{
+				"documentType": "Technical Proposal",
+				"documentName": "Technical Proposal",
+				"elementTitle": "Review responses for Technical Proposal",
+				"filename": "TechnicalProposalResponses.pdf"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Additions",
+			"Upload Documents"
+		]
+	},
+	"Submit Add SIN Mod: Review eMod successful for Non-FPT contract": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS84A0000X",
+		"DUNS": "123456789",
+		"modTypes": [
+			"Add SIN"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"category": "Office Management",
+					"subCategory": "Audio Visual Products",
+					"sin": "334511T Telecommunications Equipment",
+					"scope": "Worldwide"
+				}
+			]
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"addCorporateExperience": {
+			"AnumberOfYears": "10",
+			"BorgEmployeesInfo": "abc with 5 years of experience",
+			"CbriefHistory": "Here goes org history",
+			"Dinfo": "This organization controls all the accounts",
+			"EdesciptionOfResources": "Org has 50 employees",
+			"FproductMarketing": "Organization intends market themselves",
+			"GuseOfSubKs": "Organization intends use subcontractors"
+		},
+		"pastPerformance": {
+			"startDate": "01/01/2018",
+			"supportingDocument": [
+				{
+					"type": "Past Performance & Experience",
+					"action": "upload",
+					"filename": "GenericUploadData/past_performance.txt",
+					"documentName": "Past Performance document"
+				},
+				{
+					"type": "Order Form for Past Performance Eval",
+					"action": "upload",
+					"filename": "GenericUploadData/Blank_Excel_File.xls",
+					"documentName": "Order Form document"
+				}
+			],
+			"feedback": "fb"
+		},
+		"qualityControl": {
+			"internalReview": "Review text goes here",
+			"individualIdentification": "Here are the individuals",
+			"subKPerformance": "Ensuring subk performance",
+			"potentialProblems": "Problems are handled",
+			"procedureForQuality": "Here is the procedure",
+			"qcManagement": "Quality control is managed"
+		},
+		"relevantExperience": [
+			{
+				"scpFSS004ProjectDetailsSinRelatedNarrative": "a",
+				"scpFSS004ProjectDetailsMethodologyNarrative": "b",
+				"scpFSS004ProjectDetailsDemoNarrative": "c",
+				"scpFSS004ProjectDetailsScheduleNarrative": "d",
+				"scpFSS004ProjectDetailsScopeNarrative": "e",
+				"scpFSS004ProjectDetailsSinExperienceNarrative": "f"
+			},
+			{
+				"scpFSS004ProjectDetailsSinRelatedNarrative": "a",
+				"scpFSS004ProjectDetailsMethodologyNarrative": "b",
+				"scpFSS004ProjectDetailsDemoNarrative": "c",
+				"scpFSS004ProjectDetailsScheduleNarrative": "d",
+				"scpFSS004ProjectDetailsScopeNarrative": "e",
+				"scpFSS004ProjectDetailsSinExperienceNarrative": "f"
+			},
+			{
+				"scpFSS004ProjectDetailsSinRelatedNarrative": "a",
+				"scpFSS004ProjectDetailsMethodologyNarrative": "b",
+				"scpFSS004ProjectDetailsDemoNarrative": "c",
+				"scpFSS004ProjectDetailsScheduleNarrative": "d",
+				"scpFSS004ProjectDetailsScopeNarrative": "e",
+				"scpFSS004ProjectDetailsSinExperienceNarrative": "f"
+			}
+		],
+		"tradeAgreementsCompliance": {
+			"proposedSIN": "Yes"
+		},
+		"scaLaborCategoryMatrix": [
+			{
+				"laborCategory": "Category 1",
+				"codeTitle": "First labor category",
+				"wdNumber": "10012"
+			},
+			{
+				"laborCategory": "Category 2",
+				"codeTitle": "Second labor category",
+				"wdNumber": "10034"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": [
+					{
+						"pageNumber": 1,
+						"expectedLines": [
+							"Response to FASt Lane : Yes"
+						]
+					}
+				]
+			},
+			{
+				"documentType": "Technical Proposal",
+				"documentName": "Technical Proposal",
+				"elementTitle": "Review responses for Technical Proposal",
+				"filename": "TechnicalProposalResponses.pdf"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Additions",
+			"Upload Documents"
+		]
+	},
+	"Submit Add SIN Mod: Validate FPD with Special Characters using file upload": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS71B4444X",
+		"DUNS": "444444444",
+		"modTypes": [
+			"Add SIN"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "71 98     - International Products",
+					"scope": "50 States,DC"
+				}
+			],
+			"offerCategory": "Products Only"
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"specialCharges": [
+			{
+				"sin": "71 98",
+				"charges": [
+					"One Day Service",
+					"Assembly",
+					"Layout/Design",
+					"Expediting Premium",
+					"Two Day Service",
+					"Inside Delivery",
+					"Training",
+					"Same Day Service",
+					"Installation",
+					"Saturday Delivery"
+				]
+			}
+		],
+		"specialFeatures": [
+			{
+				"sin": "71 98",
+				"spFeatures": [
+					"Ergonomic",
+					"UNICOR"
+				],
+				"envFeatures": [
+					"BioPreferred",
+					"Safer Choice"
+				],
+				"epaFeatures": [
+					"Green Seal GS-01",
+					"NSF 332"
+				]
+			}
+		],
+		"contractorWarranty": [
+			{
+				"sin": "71 98",
+				"warrantyPeriod": "Week",
+				"numOfPeriods": "12",
+				"warrantyDescription": "This warranty will last for a week"
+			}
+		],
+		"uploadPhotos": [
+			{
+				"sin": "71 98",
+				"photo1": "GenericUploadData/Flower00.jpg"
+			}
+		],
+		"addCorporateExperience": {
+			"AnumberOfYears": "10",
+			"BorgEmployeesInfo": "abc with 5 years of experience",
+			"CbriefHistory": "Here goes org history",
+			"Dinfo": "This organization controls all the accounts",
+			"EdesciptionOfResources": "Org has 50 employees",
+			"FproductMarketing": "Organization intends market themselves",
+			"GuseOfSubKs": "Organization intends use subcontractors"
+		},
+		"pastPerformance": {
+			"startDate": "01/01/2017",
+			"supportingDocument": [
+				{
+					"type": "Past Performance & Experience",
+					"action": "upload",
+					"filename": "GenericUploadData/past_performance.txt",
+					"documentName": "Past Performance document"
+				},
+				{
+					"type": "Order Form for Past Performance Eval",
+					"action": "upload",
+					"filename": "GenericUploadData/Blank_Excel_File.xls",
+					"documentName": "Order Form document"
+				}
+			],
+			"feedback": "fb"
+		},
+		"qualityControl": {
+			"internalReview": "Review text goes here",
+			"individualIdentification": "Here are the individuals",
+			"subKPerformance": "Ensuring subk performance",
+			"potentialProblems": "Problems are handled",
+			"procedureForQuality": "Here is the procedure",
+			"qcManagement": "Quality control is managed"
+		},
+		"uploadDocuments": [
+			{
+				"type": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt"
+			}
+		],
+		"downloadUploadTemplate": {
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Dri£ll―1‛",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892623456",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute―‛ £and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "110.55",
+						"*(Name)Best Priced Customer": "Hardy Inc",
+						"*Price Offered to Best Priced Customer": "90",
+						"*Discount Offered to Best Priced Customer": "10"
+					},
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "Lenovo",
+						"*Product Type": "Accessory",
+						"*Product / Accessory Name": "Dri£ll―2‛",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892623456",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute―‛ £and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "110.55",
+						"*(Name)Best Priced Customer": "Hardy Inc",
+						"*Price Offered to Best Priced Customer": "80",
+						"*Discount Offered to Best Priced Customer": "20"
+					}
+				],
+				"Non Pricing": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "„Description„—£ goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "„Extended warranty„—£ goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "Lenovo",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "„Description„—£ goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "„Extended warranty„—£ goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					}
+				],
+				"Photos": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"Additional Photo 1": "Flower00.jpg"
+					}
+				],
+				"Discounts": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Discount Type": "Dollar Discount",
+						"Discount %": "",
+						"Dollar Value": "100",
+						"*Start Range": "300",
+						"*End Range": "399",
+						"Discount Condition": "Product will be eligible for discount when it falls within discount range."
+					}
+				],
+				"Accessories": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Accessory Part Number": "234567",
+						"*Accessory Manufacturer": "Lenovo"
+					}
+				],
+				"Special Charges": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"Expediting Premium - Charges": "20",
+						"Expediting Premium - Per": "HR - HOURS",
+						"Expediting Premium - Description": "4 Day¢ Processing",
+						"Same Day Service - Charges": "12",
+						"Same Day Service - Per": "EA - EACH",
+						"Same Day Service - Description": "Additional charge to£ deliver the item on the same day of receiving the order.",
+						"One Day Service - Charges": "20",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Additional charge to£ deliver the item within one day of receiving the order.",
+						"Two Day Service - Charges": "10",
+						"Two Day Service - Per": "EA - EACH",
+						"Two Day Service - Description": "Additional charge toÂ£ deliver the item within two days of receiving the order.",
+						"Installation - Charges": "13",
+						"Installation - Per": "EA - EACH",
+						"Installation - Description": "Additional charge toÂ£ install the item.",
+						"Assembly - Charges": "20",
+						"Assembly - Per": "HR - HOURS",
+						"Assembly - Description": "Additional charge toÂ£ assemble the item.",
+						"Inside Delivery - Charges": "11",
+						"Inside Delivery - Per": "HR - HOURS",
+						"Inside Delivery - Description": "Additional charge toÂ£ deliver the item inside the destination.",
+						"Saturday Delivery - Charges": "12",
+						"Saturday Delivery - Per": "EA - EACH",
+						"Saturday Delivery - Description": "Additional charge toÂ£ deliver the item on a Saturday.",
+						"Layout/Design - Charges": "20",
+						"Layout/Design - Per": "HR - HOURS",
+						"Layout/Design - Description": "Additional charge based upon theÂ£ type of layout/design provided for the item.",
+						"Training - Charges": "15",
+						"Training - Per": "EA - EACH",
+						"Training - Description": "Additional charge toÂ£ provide training on an item."
+					}
+				],
+				"Delivery": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "Lenovo",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+				"Options": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Option Part Number": "OP123�?5",
+						"*Option Manufacturer": "Honeywell«",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Proessor",
+						"*Option Quantity": "1",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "25",
+						"*Option Description": "Color options are�? Blue‚ Red‚ or Grey",
+						"*Option Deletable ? (Y/N)": "Y"
+					}
+				],
+				"Special Features": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"Environmental Features - BioPreferred": "BQ",
+						"Environmental Features - Safer Choice": "SF",
+						"Special Features - UNICOR": "AK",
+						"Special Features - Ergonomic": "BD",
+						"EPA Recommended - Green Seal GS-01": "X",
+						"EPA Recommended - NSF 332": "X"
+					}
+				]
+			}
+		},
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Commercial Sales Practice Response",
+				"documentName": "Commercial Sales Practice Response",
+				"elementTitle": "Commercial Sales Practice Response",
+				"filename": "csp.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			},
+			{
+				"documentType": "Order Form for Past Performance Eval",
+				"documentName": "Order Form for Past Performance Eval",
+				"elementTitle": "Review document related to Order Form for Past Performance Eval",
+				"filename": "Blank_Excel_File.xls"
+			},
+			{
+				"documentType": "Past Performance & Experience",
+				"documentName": "Past Performance & Experience",
+				"elementTitle": "Review document related to Past Performance & Experience",
+				"filename": "past_performance.txt"
+			},
+			{
+				"documentType": "Technical Proposal",
+				"documentName": "Technical Proposal",
+				"elementTitle": "Review responses for Technical Proposal",
+				"filename": "TechnicalProposalResponses.pdf"
+			}
+		],
+		"productAnalysisReport": {
+		},
+		"finalPricingDocument": {
+			"validateFinalPricingDocument": "Yes",
+			"finalPricingDocumentName": "Delta Price List.zip",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Drill-1'",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892623456",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute-' and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "110.55",
+						"*(Name)Best Priced Customer": "Hardy Inc",
+						"*Price Offered to Best Priced Customer": "90",
+						"*Discount Offered to Best Priced Customer": "10"
+					},
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Product Type": "Accessory",
+						"*Product / Accessory Name": "Drill-2'",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892623456",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute-' and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "110.55",
+						"*(Name)Best Priced Customer": "Hardy Inc",
+						"*Price Offered to Best Priced Customer": "80",
+						"*Discount Offered to Best Priced Customer": "20"
+					}
+				],
+				"Non Pricing": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "\"Description\"- goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "\"Extended warranty\"- goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "\"Description\"- goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "\"Extended warranty\"- goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					}
+				],
+				"Photos": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Additional Photo 1": "Flower00.jpg"
+					}
+				],
+				"Discounts": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Discount Type": "Dollar Discount",
+						"Discount %": "",
+						"Dollar Value": "100",
+						"*Start Range": "300",
+						"*End Range": "399",
+						"Discount Condition": "Product will be eligible for discount when it falls within discount range."
+					}
+				],
+				"Accessories": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Accessory Part Number": "234567",
+						"*Accessory Manufacturer": "LENOVO"
+					}
+				],
+				"Special Charges": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Expediting Premium - Charges": "20",
+						"Expediting Premium - Per": "HR - HOURS",
+						"Expediting Premium - Description": "4 Day Processing",
+						"Same Day Service - Charges": "12",
+						"Same Day Service - Per": "EA - EACH",
+						"Same Day Service - Description": "Additional charge to deliver the item on the same day of receiving the order.",
+						"One Day Service - Charges": "20",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Additional charge to deliver the item within one day of receiving the order.",
+						"Two Day Service - Charges": "10",
+						"Two Day Service - Per": "EA - EACH",
+						"Two Day Service - Description": "Additional charge to deliver the item within two days of receiving the order.",
+						"Installation - Charges": "13",
+						"Installation - Per": "EA - EACH",
+						"Installation - Description": "Additional charge to install the item.",
+						"Assembly - Charges": "20",
+						"Assembly - Per": "HR - HOURS",
+						"Assembly - Description": "Additional charge to assemble the item.",
+						"Inside Delivery - Charges": "11",
+						"Inside Delivery - Per": "HR - HOURS",
+						"Inside Delivery - Description": "Additional charge to deliver the item inside the destination.",
+						"Saturday Delivery - Charges": "12",
+						"Saturday Delivery - Per": "EA - EACH",
+						"Saturday Delivery - Description": "Additional charge to deliver the item on a Saturday.",
+						"Layout/Design - Charges": "20",
+						"Layout/Design - Per": "HR - HOURS",
+						"Layout/Design - Description": "Additional charge based upon the type of layout/design provided for the item.",
+						"Training - Charges": "15",
+						"Training - Per": "EA - EACH",
+						"Training - Description": "Additional charge to provide training on an item."
+					}
+				],
+				"Delivery": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+				"Options": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Option Part Number": "OP223-5",
+						"*Option Manufacturer": "Honeywell",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Proessor",
+						"*Option Quantity": "1",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "25",
+						"*Option Description": "Color options are- Blue, Red, or Grey",
+						"*Option Deletable ? (Y/N)": "Y"
+					}
+				],
+				"Special Features": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Environmental Features - BioPreferred": "BQ",
+						"Environmental Features - Safer Choice": "SF",
+						"Special Features - UNICOR": "AK",
+						"Special Features - Ergonomic": "BD"
+					}
+				]
+			}
+		},
+		"completedMenuItems": [
+			"Corporate Information",
+			"Additions",
+			"Wizard Management",
+			"Special Features",
+			"Special Charges",
+			"Capture Pricing",
+			"Upload Photos",
+			"Product Analysis Report",
+			"Pricing Document",
+			"Solicitation Provisions",
+			"Upload Documents"
+		]
+	},
+	"Add SIN Mod - using special charcters data for Form entry": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS71B4444X",
+		"DUNS": "444444444",
+		"modTypes": [
+			"Add SIN"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "71 98     - International Products",
+					"scope": "50 States,DC"
+				}
+			],
+			"offerCategory": "Products Only"
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"specialCharges": [
+			{
+				"sin": "71 98",
+				"charges": [
+					"Expediting Premium",
+					"Inside Delivery",
+					"Installation"
+				]
+			}
+		],
+		"specialFeatures": [
+			{
+				"sin": "71 98",
+				"spFeatures": [
+					"Safer Choice",
+					"Low VOC"
+				],
+				"envFeatures": [
+					"Ergonomic",
+					"AbilityOne"
+				],
+				"epaFeatures": [
+					"NSF 332",
+					"UL 2759"
+				]
+			}
+		],
+		"contractorWarranty": [
+			{
+				"sin": "71 98",
+				"warrantyPeriod": "Week",
+				"numOfPeriods": "12",
+				"warrantyDescription": "This warranty will last for a week"
+			}
+		],
+		"uploadPhotos": [
+			{
+				"sin": "71 98",
+				"photo1": "GenericUploadData/Flower00.jpg"
+			}
+		],
+		"capturePricingDataEntry": {
+			"worksheetData": {
+				"Get Started": [
+					{
+						"*SIN": "71 98",
+						"Delete": "",
+						"* Manufacturer Part Number": "234566",
+						"* Manufacturer Name": "Dell Comp",
+						"* Product / Accessory Type": "Product"
+					}
+				],
+				"Pricing": [
+					{
+						"*SIN": "71 98",
+						"* Manufacturer Part Number": "N/A",
+						"* Manufacturer Name": "N/A",
+						"* Product / Accessory Type": "N/A",
+						"* Product / Accessory Name": "Drill",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "8926850010034",
+						"* Vendor's Product / Accessory Description": "Ã›Theâ€™ instituteâ€š Dellâ€ˆhave teamed upÂ£",
+						"* Unit of Issue": "EACH",
+						"* Quantity Per Unit": "1",
+						"Quantity of Product/Unit": "EACH",
+						"Offer Price ($)": "212",
+						"* Final Price (Incl. IFF) ($)": "N/A",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"Vendor Part Number": "212",
+						"* Commercial List Price ($)": "215",
+						"* Best Priced Customer Name": "Ã›some name goes here",
+						"* Price Offered to Best Priced Customer": "210",
+						"* Discount Offered to Best Customer (%)": "3",
+						"Manufacturer Warranty - Warranty Period": "DAY",
+						"Manufacturer Warranty - Number Of Warranty Periods": "30",
+						"Manufacturer Warranty - Description": "If you have a specific part problem the company Ã›will determine if the issue in question is covered under warranty.",
+						"Extended Warranty - Warranty Period": "MONTH",
+						"Extended Warranty - Number Of Warranty Periods": "5",
+						"Extended Warranty - Description": "Exclusions Ã›applied on extended warranty. Â£Please call 1â€•800â€•000-0000 to know more.",
+						"* Country of Origin": "UNITED STATES OF AMERICA",
+						"Country of Origin 2": "UNITED STATES OF AMERICA",
+						"Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"Delivery (Lead) Time Days": "10",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999"
+					}
+				],
+				"Dimensions & Shipping": [
+					{
+						"*SIN": "71 98",
+						"* Manufacturer Part Number": "N/A",
+						"* Manufacturer Name": "N/A",
+						"* Product / Accessory Type": "N/A",
+						"* Product / Accessory Name": "N/A",
+						"Default Color": "BLACK",
+						"Product Length - Unit Number": "15",
+						"Product Length - Unit of Measure": "EACH",
+						"Product Width - Unit Number": "12",
+						"Product Width - Unit of Measure": "EACH",
+						"Product Height - Unit Number": "12",
+						"Product Height - Unit of Measure": "INCH",
+						"Product Specific Website": "www.gsaadvantage.gov/",
+						"Standard Package Size": "5"
+					}
+				],
+				"Options": [
+					{
+						"*SIN": "71 98",
+						"Delete": "",
+						"* Option Part Number": "OP123456",
+						"* Option Manufacturer": "Honeywell",
+						"* Option Code": "O-None Can Be Selected",
+						"* Option Group": "Processor",
+						"* Option Quantity": "1",
+						"* Option Unit of Measure": "EACH",
+						"* Option Price": "50",
+						"* Option Description": "Color options are: Â®Blueâ€š Red or GreyÂ£",
+						"* Option Deletable ? (Y/N)": "Y"
+					}
+				],
+				"Delivery": [
+					{
+						"*SIN": "71 98",
+						"* Manufacturer Part Number": "N/A",
+						"* Manufacturer Name": "N/A",
+						"* Product / Accessory Type": "N/A",
+						"* Product / Accessory Name": "N/A",
+						"* Delivery FOB - Continental US": "FOB Destination (D)",
+						"* Delivery FOB - Alaska": "FOB Destination (D)",
+						"* Delivery FOB -  Puerto Rico": "FOB No Delivery (ND)",
+						"* Delivery FOB - Hawaii": "FOB No Delivery (ND)",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+				"Discounts": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "N/A",
+						"*Manufacturer Name": "N/A",
+						"*Product / Accessory Type": "N/A",
+						"*Product / Accessory Name": "Drill",
+						"* Final Price (Incl. IFF) ($)": "100",
+						"*Discount Type": "Dollar Discount",
+						"* % OR $": "Percent",
+						"*Start Range": "300",
+						"*End Range": "399",
+						"Discount": "2"
+					}
+				],
+				"Special Features": [
+					{
+						"*SIN": "71 98",
+						"* Manufacturer Part Number": "N/A",
+						"* Manufacturer Name": "N/A",
+						"* Product / Accessory Type": "N/A",
+						"* Product / Accessory Name": "N/A",
+						"Environmental Features - Low VOC": "Yes",
+						"Environmental Features - Safer Choice": "Yes",
+						"Special Features - AbilityOne": "Yes",
+						"Special Features - Ergonomic": "Yes",
+						"EPA Recommended - NSF 332": "Yes",
+						"EPA Recommended - UL 2759": "Yes"
+					}
+				],
+				"Special Charges": [
+					{
+						"Type": "N/A",
+						"Charges ($)": "50",
+						"Per": "EACH",
+						"Description": "Additional charge to expediting premium of the item."
+					},
+					{
+						"Type": "N/A",
+						"Charges ($)": "20",
+						"Per": "HOURS",
+						"Description": "Additional charge to install the item.Â¥"
+					},
+					{
+						"Type": "N/A",
+						"Charges ($)": "20",
+						"Per": "HOURS",
+						"Description": "Additional charge to deliver the item inside the destination.Â¥"
+					}
+				],
+				"Additional Photos": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "N/A",
+						"*Manufacturer Name": "N/A",
+						"*Product / Accessory Type": "N/A",
+						"*Product / Accessory Name": "N/A",
+						"Additional Photo 1": "Flower00.jpg"
+					}
+				]
+			}
+		},
+		"productAnalysisReport": {
+		},
+		"finalPricingDocument": {
+			"validateFinalPricingDocument": "Yes",
+			"finalPricingDocumentName": "Delta Price List.zip",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Drill",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "8926850010034",
+						"Vendor Part Number": "212",
+						"*Vendor's Product / Accessory Description": "The' institute, Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "212",
+						"Final Price (Incl. IFF)": "213.602",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "215",
+						"*(Name)Best Priced Customer": "some name goes here",
+						"*Price Offered to Best Priced Customer": "210",
+						"*Discount Offered to Best Priced Customer": "3.0"
+					}
+				],
+				"Non Pricing": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Manufacturer Warranty - Warranty Period": "DAY",
+						"Manufacturer Warranty - Number of Warranty Periods": "30",
+						"Manufacturer Warranty - Description": "If you have a specific part problem the company will determine if the issue in question is covered under warranty.",
+						"Extended Warranty - Warranty Period": "MONTH",
+						"Extended Warranty - Number of Warranty Periods": "5",
+						"Extended Warranty - Description": "Exclusions applied on extended warranty. Please call 1-800-000-0000 to know more.",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "10",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "BLACK",
+						"Product Length - Unit Number": "15",
+						"Product Length - Unit of Measure": "EA - EACH",
+						"Product Width - Unit Number": "12",
+						"Product Width - Unit of Measure": "EA - EACH",
+						"Product Height - Unit Number": "12",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "5"
+					}
+				],
+				"Photos": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Additional Photo 1": "Flower00.jpg"
+					}
+				],
+				"Discounts": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Discount Type": "Dollar Discount",
+						"Discount %": "2",
+						"Dollar Value": "",
+						"*Start Range": "300",
+						"*End Range": "399",
+						"Discount Condition": ""
+					}
+				],
+				"Special Charges": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Expediting Premium - Charges": "50",
+						"Expediting Premium - Per": "EA - EACH",
+						"Expediting Premium - Description": "Additional charge to expediting premium of the item.",
+						"Same Day Service - Charges": "",
+						"Same Day Service - Per": "",
+						"Same Day Service - Description": "",
+						"One Day Service - Charges": "",
+						"One Day Service - Per": "",
+						"One Day Service - Description": "",
+						"Two Day Service - Charges": "",
+						"Two Day Service - Per": "",
+						"Two Day Service - Description": "",
+						"Installation - Charges": "20",
+						"Installation - Per": "HR - HOURS",
+						"Installation - Description": "Additional charge to install the item.",
+						"Assembly - Charges": "",
+						"Assembly - Per": "",
+						"Assembly - Description": "",
+						"Inside Delivery - Charges": "20",
+						"Inside Delivery - Per": "HR - HOURS",
+						"Inside Delivery - Description": "Additional charge to deliver the item inside the destination.",
+						"Saturday Delivery - Charges": "",
+						"Saturday Delivery - Per": "",
+						"Saturday Delivery - Description": "",
+						"Layout/Design - Charges": "",
+						"Layout/Design - Per": "",
+						"Layout/Design - Description": "",
+						"Training - Charges": "",
+						"Training - Per": "",
+						"Training - Description": ""
+					}
+				],
+				"Delivery": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "D - FOB Destination",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "ND - FOB No Delivery",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+				"Options": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Option Part Number": "OP123456",
+						"*Option Manufacturer": "Honeywell",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Processor",
+						"*Option Quantity": "1",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "50",
+						"*Option Description": "Color options are: Blue, Red or Grey",
+						"*Option Deletable ? (Y/N)": "Y"
+					}
+				],
+				"Special Features": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Environmental Features - Shipboard Use Approved": "",
+						"Environmental Features - FEMP Energy Efficiency": "",
+						"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "",
+						"Environmental Features - Low VOC": "X",
+						"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "",
+						"Environmental Features - BioPreferred": "",
+						"Environmental Features - EPA WaterSense Program": "",
+						"Environmental Features - Safer Choice": "X",
+						"Special Features - AbilityOne": "X",
+						"Special Features - UNICOR": "",
+						"Special Features - Ergonomic": "X",
+						"Special Features - Section 508": "",
+						"Special Features - Product 508 URL": "",
+						"Special Features - Pre-purchased stock": "",
+						"Special Features - Scan Code 1": "",
+						"Special Features - Scan Code 1 Text": "",
+						"Special Features - Scan Code 2": "",
+						"Special Features - Scan Code 2 Text": "",
+						"Special Features - Hazmat": "",
+						"Special Features - UNID Code": "",
+						"Special Features - Scan Code 3": "",
+						"Special Features - Scan Code 3 Text": "",
+						"EPA Recommended - BIFMA level": "",
+						"EPA Recommended - Biodegradable Products Institute compostable product": "",
+						"EPA Recommended - California Section 01350 standard": "",
+						"EPA Recommended - FloorScore": "",
+						"EPA Recommended - Forest Stewardship Council": "",
+						"EPA Recommended - Green Seal GS-01": "",
+						"EPA Recommended - Green Seal GS-07": "",
+						"EPA Recommended - Green Seal GS-37": "",
+						"EPA Recommended - Green Seal GS-40": "",
+						"EPA Recommended - Green Seal GS-41": "",
+						"EPA Recommended - NSF 140 Carpet": "",
+						"EPA Recommended - NSF 332": "X",
+						"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "",
+						"EPA Recommended - SCAQMD Rule #1113": "",
+						"EPA Recommended - SCAQMD Rule #1168": "",
+						"EPA Recommended - STMC Toner Cartridges": "",
+						"EPA Recommended - UL 126": "",
+						"EPA Recommended - UL 2759": "X",
+						"EPA Recommended - UL 2771": "",
+						"EPA Recommended - UL 2777": "",
+						"EPA Recommended - UL 2784": "",
+						"EPA Recommended - UL 2785": "",
+						"EPA Recommended - UL 2792": "",
+						"EPA Recommended - UL 2818 GREENGUARD": ""
+					}
+				]
+			}
+		}
+	},
+	"Submit Add SIN Mod: Review eMod successful for FPT contract": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS71B4444X",
+		"DUNS": "444444444",
+		"modTypes": [
+			"Add SIN"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "71 98     - International Products",
+					"scope": "50 States,DC"
+				}
+			],
+			"offerCategory": "Products Only"
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"specialCharges": [
+			{
+				"sin": "71 98",
+				"charges": [
+					"One Day Service",
+					"Assembly",
+					"Layout/Design",
+					"Expediting Premium",
+					"Two Day Service",
+					"Inside Delivery",
+					"Training",
+					"Same Day Service",
+					"Installation",
+					"Saturday Delivery"
+				]
+			}
+		],
+		"specialFeatures": [
+			{
+				"sin": "71 98",
+				"spFeatures": [
+					"Shipboard Use Approved",
+					"Safer Choice"
+				],
+				"envFeatures": [
+					"AbilityOne",
+					"UNICOR",
+					"Ergonomic",
+					"Section 508",
+					"Pre-purchased stock",
+					"Scan Code 1",
+					"Scan Code 2",
+					"Scan Code 3",
+					"Hazmat"
+				],
+				"epaFeatures": [
+					"California Section 01350 standard",
+					"Green Seal GS-01",
+					"NSF 332",
+					"SCAQMD Rule #1168",
+					"UL 2759",
+					"UL 2777",
+					"UL 2792",
+					"BIFMA level",
+					"FloorScore",
+					"Green Seal GS-07",
+					"Green Seal GS-37",
+					"Green Seal GS-40",
+					"Green Seal GS-41"
+				]
+			}
+		],
+		"contractorWarranty": [
+			{
+				"sin": "71 98",
+				"warrantyPeriod": "Week",
+				"numOfPeriods": "12",
+				"warrantyDescription": "This warranty will last for a week"
+			}
+		],
+		"uploadPhotos": [
+			{
+				"sin": "71 98",
+				"photo1": "GenericUploadData/Flower00.jpg",
+				"photo2": "GenericUploadData/flower01.jpg",
+				"photo3": "GenericUploadData/flower02.jpg"
+			}
+		],
+		"addCorporateExperience": {
+			"AnumberOfYears": "10",
+			"BorgEmployeesInfo": "abc with 5 years of experience",
+			"CbriefHistory": "Here goes org history",
+			"Dinfo": "This organization controls all the accounts",
+			"EdesciptionOfResources": "Org has 50 employees",
+			"FproductMarketing": "Organization intends market themselves",
+			"GuseOfSubKs": "Organization intends use subcontractors"
+		},
+		"pastPerformance": {
+			"startDate": "01/01/2017",
+			"supportingDocument": [
+				{
+					"type": "Past Performance & Experience",
+					"action": "upload",
+					"filename": "GenericUploadData/past_performance.txt",
+					"documentName": "Past Performance document"
+				},
+				{
+					"type": "Order Form for Past Performance Eval",
+					"action": "upload",
+					"filename": "GenericUploadData/Blank_Excel_File.xls",
+					"documentName": "Order Form document"
+				}
+			],
+			"feedback": "fb"
+		},
+		"qualityControl": {
+			"internalReview": "Review text goes here",
+			"individualIdentification": "Here are the individuals",
+			"subKPerformance": "Ensuring subk performance",
+			"potentialProblems": "Problems are handled",
+			"procedureForQuality": "Here is the procedure",
+			"qcManagement": "Quality control is managed"
+		},
+		"uploadDocuments": [
+			{
+				"type": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"action": "upload",
+				"filename": "GenericUploadData/TCTextFile.docx"
+			},
+			{
+				"type": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt"
+			}
+		],
+		"downloadUploadTemplate": {
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Drill",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892685001003",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "110.55",
+						"*(Name)Best Priced Customer": "Hardy Inc",
+						"*Price Offered to Best Priced Customer": "90",
+						"*Discount Offered to Best Priced Customer": "10"
+					},
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Product Type": "Accessory",
+						"*Product / Accessory Name": "Drill",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892685001003",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "110.55",
+						"*(Name)Best Priced Customer": "Hardy Inc",
+						"*Price Offered to Best Priced Customer": "90",
+						"*Discount Offered to Best Priced Customer": "10"
+					}
+				],
+				"Non Pricing": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "Description goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "Description goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					}
+				],
+				"Photos": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Additional Photo 1": "Flower00.jpg",
+						"Additional Photo 2": "flower01.jpg",
+						"Additional Photo 3": "flower02.jpg"
+					}
+				],
+				"Discounts": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Discount Type": "Dollar Discount",
+						"Discount %": "",
+						"Dollar Value": "100",
+						"*Start Range": "300",
+						"*End Range": "399",
+						"Discount Condition": "Product will be eligible for discount when it falls within discount range."
+					}
+				],
+				"Accessories": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Accessory Part Number": "234567",
+						"*Accessory Manufacturer": "LENOVO"
+					}
+				],
+				"Special Charges": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Expediting Premium - Charges": "20",
+						"Expediting Premium - Per": "HR - HOURS",
+						"Expediting Premium - Description": "4 Day Processing",
+						"Same Day Service - Charges": "12",
+						"Same Day Service - Per": "EA - EACH",
+						"Same Day Service - Description": "Additional charge to deliver the item on the same day of receiving the order.",
+						"One Day Service - Charges": "20",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Additional charge to deliver the item within one day of receiving the order.",
+						"Two Day Service - Charges": "10",
+						"Two Day Service - Per": "EA - EACH",
+						"Two Day Service - Description": "Additional charge to deliver the item within two days of receiving the order.",
+						"Installation - Charges": "13",
+						"Installation - Per": "EA - EACH",
+						"Installation - Description": "Additional charge to install the item.",
+						"Assembly - Charges": "20",
+						"Assembly - Per": "HR - HOURS",
+						"Assembly - Description": "Additional charge to assemble the item.",
+						"Inside Delivery - Charges": "11",
+						"Inside Delivery - Per": "HR - HOURS",
+						"Inside Delivery - Description": "Additional charge to deliver the item inside the destination.",
+						"Saturday Delivery - Charges": "12",
+						"Saturday Delivery - Per": "EA - EACH",
+						"Saturday Delivery - Description": "Additional charge to deliver the item on a Saturday.",
+						"Layout/Design - Charges": "20",
+						"Layout/Design - Per": "HR - HOURS",
+						"Layout/Design - Description": "Additional charge based upon the type of layout/design provided for the item.",
+						"Training - Charges": "15",
+						"Training - Per": "EA - EACH",
+						"Training - Description": "Additional charge to provide training on an item."
+					}
+				],
+				"Delivery": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+				"Options": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Option Part Number": "OP12345",
+						"*Option Manufacturer": "Honeywell",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Processor",
+						"*Option Quantity": "1",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "25",
+						"*Option Description": "Color options are- Blue, Red, or Grey",
+						"*Option Deletable ? (Y/N)": "Y"
+					}
+				],
+				"Special Features": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Environmental Features - Shipboard Use Approved": "X",
+						"Environmental Features - FEMP Energy Efficiency": "",
+						"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "",
+						"Environmental Features - Low VOC": "",
+						"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "",
+						"Environmental Features - BioPreferred": "",
+						"Environmental Features - EPA WaterSense Program": "",
+						"Environmental Features - Safer Choice": "X",
+						"Special Features - AbilityOne": "X",
+						"Special Features - UNICOR": "X",
+						"Special Features - Ergonomic": "X",
+						"Special Features - Section 508": "X",
+						"Special Features - Product 508 URL": "WWW.TEST508.COM",
+						"Special Features - Pre-purchased stock": "X",
+						"Special Features - Scan Code 1": "X",
+						"Special Features - Scan Code 1 Text": "VA SCAN CODE 1",
+						"Special Features - Scan Code 2": "X",
+						"Special Features - Scan Code 2 Text": "VA SCAN CODE 2",
+						"Special Features - Hazmat": "X",
+						"Special Features - UNID Code": "UNID12",
+						"Special Features - Scan Code 3": "X",
+						"Special Features - Scan Code 3 Text": "VA SCAN CODE 3",
+						"EPA Recommended - BIFMA level": "X",
+						"EPA Recommended - Biodegradable Products Institute compostable product": "",
+						"EPA Recommended - California Section 01350 standard": "X",
+						"EPA Recommended - FloorScore": "X",
+						"EPA Recommended - Forest Stewardship Council": "",
+						"EPA Recommended - Green Seal GS-01": "X",
+						"EPA Recommended - Green Seal GS-07": "X",
+						"EPA Recommended - Green Seal GS-37": "X",
+						"EPA Recommended - Green Seal GS-40": "X",
+						"EPA Recommended - Green Seal GS-41": "X",
+						"EPA Recommended - NSF 140 Carpet": "",
+						"EPA Recommended - NSF 332": "X",
+						"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "",
+						"EPA Recommended - SCAQMD Rule #1113": "",
+						"EPA Recommended - SCAQMD Rule #1168": "X",
+						"EPA Recommended - STMC Toner Cartridges": "",
+						"EPA Recommended - UL 126": "",
+						"EPA Recommended - UL 2759": "X",
+						"EPA Recommended - UL 2762": "",
+						"EPA Recommended - UL 2771": "",
+						"EPA Recommended - UL 2777": "X",
+						"EPA Recommended - UL 2784": "",
+						"EPA Recommended - UL 2785": "",
+						"EPA Recommended - UL 2792": "X",
+						"EPA Recommended - UL 2818 GREENGUARD": ""
+					}
+				]
+			}
+		},
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": [
+					{
+						"pageNumber": 1,
+						"expectedLines": [
+							"Add SIN"
+						]
+					}
+				]
+			},
+			{
+				"documentType": "Commercial Sales Practice Response",
+				"documentName": "Commercial Sales Practice Response",
+				"elementTitle": "Commercial Sales Practice Response",
+				"filename": "csp.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			},
+			{
+				"documentType": "Order Form for Past Performance Eval",
+				"documentName": "Order Form document",
+				"elementTitle": "Review document related to Order Form for Past Performance Eval",
+				"filename": "Blank_Excel_File.xls"
+			},
+			{
+				"documentType": "Past Performance & Experience",
+				"documentName": "Past Performance document",
+				"elementTitle": "Review document related to Past Performance & Experience",
+				"filename": "past_performance.txt"
+			},
+			{
+				"documentType": "Technical Proposal",
+				"documentName": "Technical Proposal",
+				"elementTitle": "Review responses for Technical Proposal",
+				"filename": "TechnicalProposalResponses.pdf"
+			},
+			{
+				"documentType": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"elementTitle": "Review document related to Terms and Conditions Text File",
+				"filename": "TCTextFile.docx"
+			}
+		],
+		"productAnalysisReport": {
+		},
+		"finalPricingDocument": {
+			"validateFinalPricingDocument": "Yes",
+			"finalPricingDocumentName": "Delta Price List.zip"
+		},
+		"completedMenuItems": [
+			"Corporate Information",
+			"Additions",
+			"Wizard Management",
+			"Special Features",
+			"Special Charges",
+			"Capture Pricing",
+			"Upload Photos",
+			"Product Analysis Report",
+			"Pricing Document",
+			"Solicitation Provisions",
+			"Upload Documents"
+		]
+	},
+	"Submit Add Product Mod: Review eMod successful for FPT contract": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS84B8888X",
+		"DUNS": "888888888",
+		"modTypes": [
+			"Add Product(s)"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "426 4C"
+				}
+			],
+			"descOfModRequest": "Add product mod for test"
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"uploadPhotos": [
+			{
+				"sin": "426 4C",
+				"photo1": "GenericUploadData/Flower00.jpg"
+			}
+		],
+		"downloadUploadTemplate": {
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Drill",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892685001",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "110.55",
+						"*(Name)Best Priced Customer": "Hardy Inc",
+						"*Price Offered to Best Priced Customer": "90",
+						"*Discount Offered to Best Priced Customer": "10"
+					},
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Product Type": "Accessory",
+						"*Product / Accessory Name": "Drill",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892623456",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "110.55",
+						"*(Name)Best Priced Customer": "Hardy Inc",
+						"*Price Offered to Best Priced Customer": "80",
+						"*Discount Offered to Best Priced Customer": "20"
+					}
+				],
+				"Non Pricing": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "Description goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "Description goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					}
+				],
+				"Photos": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Additional Photo 1": "Flower00.jpg"
+					}
+				],
+				"Discounts": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Discount Type": "Dollar Discount",
+						"Discount %": "",
+						"Dollar Value": "100",
+						"*Start Range": "300",
+						"*End Range": "399",
+						"Discount Condition": "Product will be eligible for discount when it falls within discount range."
+					}
+				],
+				"Accessories": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Accessory Part Number": "234567",
+						"*Accessory Manufacturer": "LENOVO"
+					}
+				],
+				"Special Charges": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Expediting Premium - Charges": "20",
+						"Expediting Premium - Per": "HR - HOURS",
+						"Expediting Premium - Description": "4 Day Processing",
+						"Same Day Service - Charges": "12",
+						"Same Day Service - Per": "EA - EACH",
+						"Same Day Service - Description": "Additional charge to deliver the item on the same day of receiving the order.",
+						"One Day Service - Charges": "20",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Additional charge to deliver the item within one day of receiving the order.",
+						"Two Day Service - Charges": "10",
+						"Two Day Service - Per": "EA - EACH",
+						"Two Day Service - Description": "Additional charge to deliver the item within two days of receiving the order.",
+						"Installation - Charges": "13",
+						"Installation - Per": "EA - EACH",
+						"Installation - Description": "Additional charge to install the item.",
+						"Assembly - Charges": "20",
+						"Assembly - Per": "HR - HOURS",
+						"Assembly - Description": "Additional charge to assemble the item.",
+						"Inside Delivery - Charges": "11",
+						"Inside Delivery - Per": "HR - HOURS",
+						"Inside Delivery - Description": "Additional charge to deliver the item inside the destination.",
+						"Saturday Delivery - Charges": "12",
+						"Saturday Delivery - Per": "EA - EACH",
+						"Saturday Delivery - Description": "Additional charge to deliver the item on a Saturday.",
+						"Layout/Design - Charges": "20",
+						"Layout/Design - Per": "HR - HOURS",
+						"Layout/Design - Description": "Additional charge based upon the type of layout/design provided for the item.",
+						"Training - Charges": "15",
+						"Training - Per": "EA - EACH",
+						"Training - Description": "Additional charge to provide training on an item."
+					}
+				],
+				"Delivery": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+				"Options": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Option Part Number": "OP12345",
+						"*Option Manufacturer": "Honeywell",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Processor",
+						"*Option Quantity": "1",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "25",
+						"*Option Description": "Color options are: Blue, Red, or Grey",
+						"*Option Deletable ? (Y/N)": "Y"
+					}
+				],
+				"Special Features": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Environmental Features - Shipboard Use Approved": "",
+						"Environmental Features - FEMP Energy Efficiency": "",
+						"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "",
+						"Environmental Features - Low VOC": "X",
+						"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "",
+						"Environmental Features - BioPreferred": "",
+						"Environmental Features - EPA WaterSense Program": "",
+						"Environmental Features - Safer Choice": "X",
+						"Special Features - AbilityOne": "X",
+						"Special Features - UNICOR": "",
+						"Special Features - Ergonomic": "X",
+						"Special Features - Section 508": "",
+						"Special Features - Product 508 URL": "",
+						"Special Features - Pre-purchased stock": "",
+						"Special Features - Scan Code 1": "",
+						"Special Features - Scan Code 1 Text": "",
+						"Special Features - Scan Code 2": "",
+						"Special Features - Scan Code 2 Text": "",
+						"Special Features - Hazmat": "",
+						"Special Features - UNID Code": "",
+						"Special Features - Scan Code 3": "",
+						"Special Features - Scan Code 3 Text": "",
+						"EPA Recommended - BIFMA level": "",
+						"EPA Recommended - Biodegradable Products Institute compostable product": "",
+						"EPA Recommended - California Section 01350 standard": "",
+						"EPA Recommended - FloorScore": "",
+						"EPA Recommended - Forest Stewardship Council": "",
+						"EPA Recommended - Green Seal GS-01": "",
+						"EPA Recommended - Green Seal GS-07": "",
+						"EPA Recommended - Green Seal GS-37": "",
+						"EPA Recommended - Green Seal GS-40": "",
+						"EPA Recommended - Green Seal GS-41": "",
+						"EPA Recommended - NSF 140 Carpet": "",
+						"EPA Recommended - NSF 332": "X",
+						"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "",
+						"EPA Recommended - SCAQMD Rule #1113": "",
+						"EPA Recommended - SCAQMD Rule #1168": "",
+						"EPA Recommended - STMC Toner Cartridges": "",
+						"EPA Recommended - UL 126": "",
+						"EPA Recommended - UL 2759": "X",
+						"EPA Recommended - UL 2771": "",
+						"EPA Recommended - UL 2777": "",
+						"EPA Recommended - UL 2784": "",
+						"EPA Recommended - UL 2785": "",
+						"EPA Recommended - UL 2792": "",
+						"EPA Recommended - UL 2818 GREENGUARD": ""
+					}
+				]
+			}
+		},
+		"uploadDocuments": [
+			{
+				"type": "Commercial Pricelist",
+				"documentName": "Commercial Pricelist",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls"
+			},
+			{
+				"type": "Supporting Price Documentation",
+				"documentName": "Supporting Price Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/past_performance.txt"
+			},
+			{
+				"type": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"action": "upload",
+				"filename": "GenericUploadData/TCTextFile.docx"
+			}
+		],
+		"productAnalysisReport": {
+		},
+		"finalPricingDocument": {
+			"validateFinalPricingDocument": "Yes",
+			"finalPricingDocumentName": "Delta Price List.zip"
+		},
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Commercial Sales Practice Response",
+				"documentName": "Commercial Sales Practice Response",
+				"elementTitle": "Commercial Sales Practice Response",
+				"filename": "csp.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			},
+			{
+				"documentType": "Commercial Pricelist",
+				"documentName": "Commercial Pricelist",
+				"elementTitle": "Review document related to Commercial Pricelist",
+				"filename": "Blank_Excel_File.xls"
+			},
+			{
+				"documentType": "Supporting Price Documentation",
+				"documentName": "Supporting Price Documentation",
+				"elementTitle": "Review document related to Supporting Price Documentation",
+				"filename": "past_performance.txt"
+			},
+			{
+				"documentType": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"elementTitle": "Review document related to Terms and Conditions Text File",
+				"filename": "TCTextFile.docx"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Additions",
+			"Wizard Management",
+			"Capture Pricing",
+			"Upload Photos",
+			"Product Analysis Report",
+			"Pricing Document",
+			"Upload Documents"
+		]
+	},
+	"Submit Add Product Mod: Review eMod successful for Non-FPT non-TDR contract": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS520A000X",
+		"DUNS": "123456789",
+		"modTypes": [
+			"Add Product(s)"
+		],
+		"goodsAndServices": {
+			"descOfModRequest": "Add Product mod for test"
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"uploadDocuments": [
+			{
+				"type": "Commercial Pricelist",
+				"documentName": "Commercial Pricelist",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls"
+			},
+			{
+				"type": "Supporting Price Documentation",
+				"documentName": "Supporting Price Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/past_performance.txt"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Commercial Pricelist",
+				"documentName": "Commercial Pricelist",
+				"elementTitle": "Review document related to Commercial Pricelist",
+				"filename": "Blank_Excel_File.xls"
+			},
+			{
+				"documentType": "Commercial Sales Practice Response",
+				"documentName": "Commercial Sales Practice Response",
+				"elementTitle": "Commercial Sales Practice Response",
+				"filename": "csp.pdf"
+			},
+			{
+				"documentType": "Supporting Price Documentation",
+				"documentName": "Supporting Price Documentation",
+				"elementTitle": "Review document related to Supporting Price Documentation",
+				"filename": "past_performance.txt"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Additions",
+			"Upload Documents"
+		]
+	},
+	"Submit Add Product Mod: Review eMod successful for FPT contract with Special Characters using File Upload": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS84B8888X",
+		"DUNS": "888888888",
+		"modTypes": [
+			"Add Product(s)"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "426 4C"
+				}
+			],
+			"descOfModRequest": "Add product mod for test"
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"uploadPhotos": [
+			{
+				"sin": "426 4C",
+				"photo1": "GenericUploadData/Flower00.jpg"
+			}
+		],
+		"downloadUploadTemplate": {
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "DriÂ£llâ€•1â€›",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892623456",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The instituteâ€•â€› Â£and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "110.55",
+						"*(Name)Best Priced Customer": "Hardy Inc",
+						"*Price Offered to Best Priced Customer": "90",
+						"*Discount Offered to Best Priced Customer": "10"
+					},
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "Lenovo",
+						"*Product Type": "Accessory",
+						"*Product / Accessory Name": "DriÂ£llâ€•2â€›",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892623456",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The instituteâ€•â€› Â£and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "110.55",
+						"*(Name)Best Priced Customer": "Hardy Inc",
+						"*Price Offered to Best Priced Customer": "80",
+						"*Discount Offered to Best Priced Customer": "20"
+					}
+				],
+				"Non Pricing": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "â€žDescriptionâ€žâ€�Â£ goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "â€žExtended warrantyâ€žâ€�Â£ goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "Lenovo",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "â€žDescriptionâ€žâ€�Â£ goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "â€žExtended warrantyâ€žâ€�Â£ goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					}
+				],
+				"Photos": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"Additional Photo 1": "Flower00.jpg"
+					}
+				],
+				"Discounts": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Discount Type": "Dollar Discount",
+						"Discount %": "",
+						"Dollar Value": "100",
+						"*Start Range": "300",
+						"*End Range": "399",
+						"Discount Condition": "Product will be eligible for discount when it falls within discount range."
+					}
+				],
+				"Accessories": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Accessory Part Number": "234567",
+						"*Accessory Manufacturer": "Lenovo"
+					}
+				],
+				"Special Charges": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"Expediting Premium - Charges": "20",
+						"Expediting Premium - Per": "HR - HOURS",
+						"Expediting Premium - Description": "4 DayÂ¢ Processing",
+						"Same Day Service - Charges": "12",
+						"Same Day Service - Per": "EA - EACH",
+						"Same Day Service - Description": "Additional charge toÂ£ deliver the item on the same day of receiving the order.",
+						"One Day Service - Charges": "20",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Additional charge toÂ£ deliver the item within one day of receiving the order.",
+						"Two Day Service - Charges": "10",
+						"Two Day Service - Per": "EA - EACH",
+						"Two Day Service - Description": "Additional charge toÂ£ deliver the item within two days of receiving the order.",
+						"Installation - Charges": "13",
+						"Installation - Per": "EA - EACH",
+						"Installation - Description": "Additional charge toÂ£ install the item.",
+						"Assembly - Charges": "20",
+						"Assembly - Per": "HR - HOURS",
+						"Assembly - Description": "Additional charge toÂ£ assemble the item.",
+						"Inside Delivery - Charges": "11",
+						"Inside Delivery - Per": "HR - HOURS",
+						"Inside Delivery - Description": "Additional charge toÂ£ deliver the item inside the destination.",
+						"Saturday Delivery - Charges": "12",
+						"Saturday Delivery - Per": "EA - EACH",
+						"Saturday Delivery - Description": "Additional charge toÂ£ deliver the item on a Saturday.",
+						"Layout/Design - Charges": "20",
+						"Layout/Design - Per": "HR - HOURS",
+						"Layout/Design - Description": "Additional charge based upon theÂ£ type of layout/design provided for the item.",
+						"Training - Charges": "15",
+						"Training - Per": "EA - EACH",
+						"Training - Description": "Additional charge toÂ£ provide training on an item."
+					}
+				],
+				"Delivery": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "Lenovo",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+				"Options": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Option Part Number": "OP123â€�5",
+						"*Option Manufacturer": "HoneywellÂ«",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Proessor",
+						"*Option Quantity": "1",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "25",
+						"*Option Description": "Color options areâ€� Blueâ€š Redâ€š or Grey",
+						"*Option Deletable ? (Y/N)": "Y"
+					}
+				],
+				"Special Features": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Environmental Features - Low VOC": "X",
+						"Environmental Features - Safer Choice": "X",
+						"Special Features - AbilityOne": "X",
+						"Special Features - Ergonomic": "X",
+						"EPA Recommended - NSF 332": "X",
+						"EPA Recommended - UL 2759": "X"
+					}
+				]
+			}
+		},
+		"uploadDocuments": [
+			{
+				"type": "Commercial Pricelist",
+				"documentName": "Commercial Pricelist",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls"
+			},
+			{
+				"type": "Supporting Price Documentation",
+				"documentName": "Supporting Price Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/past_performance.txt"
+			},
+			{
+				"type": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"action": "upload",
+				"filename": "GenericUploadData/TCTextFile.docx"
+			}
+		],
+		"productAnalysisReport": {
+		},
+		"finalPricingDocument": {
+			"validateFinalPricingDocument": "Yes",
+			"finalPricingDocumentName": "Delta Price List.zip",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Drill1",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892623456",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "110.55",
+						"*(Name)Best Priced Customer": "Hardy Inc",
+						"*Price Offered to Best Priced Customer": "90",
+						"*Discount Offered to Best Priced Customer": "10"
+					},
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Product Type": "Accessory",
+						"*Product / Accessory Name": "Drill2",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892623456",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "110.55",
+						"*(Name)Best Priced Customer": "Hardy Inc",
+						"*Price Offered to Best Priced Customer": "80",
+						"*Discount Offered to Best Priced Customer": "20"
+					}
+				],
+				"Non Pricing": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "Description goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "Description goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					}
+				],
+				"Photos": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Additional Photo 1": "Flower00.jpg"
+					}
+				],
+				"Discounts": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Discount Type": "Dollar Discount",
+						"Discount %": "",
+						"Dollar Value": "100",
+						"*Start Range": "300",
+						"*End Range": "399",
+						"Discount Condition": "Product will be eligible for discount when it falls within discount range."
+					}
+				],
+				"Accessories": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Accessory Part Number": "234567",
+						"*Accessory Manufacturer": "LENOVO"
+					}
+				],
+				"Special Charges": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Expediting Premium - Charges": "20",
+						"Expediting Premium - Per": "HR - HOURS",
+						"Expediting Premium - Description": "4 Day Processing",
+						"Same Day Service - Charges": "12",
+						"Same Day Service - Per": "EA - EACH",
+						"Same Day Service - Description": "Additional charge to deliver the item on the same day of receiving the order.",
+						"One Day Service - Charges": "20",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Additional charge to deliver the item within one day of receiving the order.",
+						"Two Day Service - Charges": "10",
+						"Two Day Service - Per": "EA - EACH",
+						"Two Day Service - Description": "Additional charge to deliver the item within two days of receiving the order.",
+						"Installation - Charges": "13",
+						"Installation - Per": "EA - EACH",
+						"Installation - Description": "Additional charge to install the item.",
+						"Assembly - Charges": "20",
+						"Assembly - Per": "HR - HOURS",
+						"Assembly - Description": "Additional charge to assemble the item.",
+						"Inside Delivery - Charges": "11",
+						"Inside Delivery - Per": "HR - HOURS",
+						"Inside Delivery - Description": "Additional charge to deliver the item inside the destination.",
+						"Saturday Delivery - Charges": "12",
+						"Saturday Delivery - Per": "EA - EACH",
+						"Saturday Delivery - Description": "Additional charge to deliver the item on a Saturday.",
+						"Layout/Design - Charges": "20",
+						"Layout/Design - Per": "HR - HOURS",
+						"Layout/Design - Description": "Additional charge based upon the type of layout/design provided for the item.",
+						"Training - Charges": "15",
+						"Training - Per": "EA - EACH",
+						"Training - Description": "Additional charge to provide training on an item."
+					}
+				],
+				"Delivery": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+				"Options": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Option Part Number": "OP223-5",
+						"*Option Manufacturer": "Honeywell",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Proessor",
+						"*Option Quantity": "1",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "25",
+						"*Option Description": "Color options are- Blue, Red, or Grey",
+						"*Option Deletable ? (Y/N)": "Y"
+					}
+				],
+				"Special Features": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Environmental Features - Low VOC": "X",
+						"Environmental Features - Safer Choice": "X",
+						"Special Features - AbilityOne": "X",
+						"Special Features - Ergonomic": "X",
+						"EPA Recommended - NSF 332": "X",
+						"EPA Recommended - UL 2759": "X"
+					}
+				]
+			}
+		},
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Commercial Sales Practice Response",
+				"documentName": "Commercial Sales Practice Response",
+				"elementTitle": "Commercial Sales Practice Response",
+				"filename": "csp.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			},
+			{
+				"documentType": "Commercial Pricelist",
+				"documentName": "Commercial Pricelist",
+				"elementTitle": "Review document related to Commercial Pricelist",
+				"filename": "Blank_Excel_File.xls"
+			},
+			{
+				"documentType": "Supporting Price Documentation",
+				"documentName": "Supporting Price Documentation",
+				"elementTitle": "Review document related to Supporting Price Documentation",
+				"filename": "past_performance.txt"
+			},
+			{
+				"documentType": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"elementTitle": "Review document related to Terms and Conditions Text File",
+				"filename": "TCTextFile.docx"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Additions",
+			"Wizard Management",
+			"Capture Pricing",
+			"Upload Photos",
+			"Product Analysis Report",
+			"Pricing Document",
+			"Upload Documents"
+		]
+	},
+	"Add Product Mod - using special charcters data for Form entry": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS84B8888X",
+		"DUNS": "888888888",
+		"modTypes": [
+			"Add Product(s)"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "426 4C"
+				}
+			],
+			"descOfModRequest": "Add product mod for test"
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"uploadPhotos": [
+			{
+				"sin": "426 4C",
+				"photo1": "GenericUploadData/Flower00.jpg"
+			}
+		],
+		"capturePricingDataEntry": {
+			"worksheetData": {
+				"Get Started": [
+					{
+						"*SIN": "426 4C",
+						"Delete": "",
+						"* Manufacturer Part Number": "234566",
+						"* Manufacturer Name": "Dell Comp",
+						"* Product / Accessory Type": "Product"
+					}
+				],
+				"Pricing": [
+					{
+						"*SIN": "426 4C",
+						"* Manufacturer Part Number": "N/A",
+						"* Manufacturer Name": "N/A",
+						"* Product / Accessory Type": "N/A",
+						"* Product / Accessory Name": "Drill",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "8926850010034",
+						"* Vendor's Product / Accessory Description": "Theâ€‚instituteâ€š â€™Dellâ€™ have teamed up",
+						"* Unit of Issue": "EACH",
+						"* Quantity Per Unit": "1",
+						"Quantity of Product/Unit": "EACH",
+						"Offer Price ($)": "212",
+						"* Final Price (Incl. IFF) ($)": "N/A",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"Vendor Part Number": "212",
+						"* Commercial List Price ($)": "215",
+						"* Best Priced Customer Name": "some name goes hereÂ§",
+						"* Price Offered to Best Priced Customer": "210",
+						"* Discount Offered to Best Customer (%)": "3",
+						"Manufacturer Warranty - Warranty Period": "DAY",
+						"Manufacturer Warranty - Number Of Warranty Periods": "30",
+						"Manufacturer Warranty - Description": "If you have a â€²specificâ€² part problem the â€œcompanyâ€œ will determine if the issue in question is covered under warranty.",
+						"Extended Warranty - Warranty Period": "MONTH",
+						"Extended Warranty - Number Of Warranty Periods": "5",
+						"Extended Warranty - Description": "Â¥Exclusions applied on extended warranty. Please call 1â€�800â€�000-0000 to know more.",
+						"* Country of Origin": "UNITED STATES OF AMERICA",
+						"Country of Origin 2": "UNITED STATES OF AMERICA",
+						"Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"Delivery (Lead) Time Days": "10",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999"
+					}
+				],
+				"Dimensions & Shipping": [
+					{
+						"*SIN": "426 4C",
+						"* Manufacturer Part Number": "N/A",
+						"* Manufacturer Name": "N/A",
+						"* Product / Accessory Type": "N/A",
+						"* Product / Accessory Name": "N/A",
+						"Default Color": "BLACK",
+						"Product Length - Unit Number": "15",
+						"Product Length - Unit of Measure": "EACH",
+						"Product Width - Unit Number": "12",
+						"Product Width - Unit of Measure": "EACH",
+						"Product Height - Unit Number": "12",
+						"Product Height - Unit of Measure": "INCH",
+						"Product Specific Website": "www.gsaadvantage.gov/",
+						"Standard Package Size": "5"
+					}
+				],
+				"Options": [
+					{
+						"*SIN": "426 4C",
+						"Delete": "",
+						"* Option Part Number": "OP123456",
+						"* Option Manufacturer": "Honeywell",
+						"* Option Code": "O-None Can Be Selected",
+						"* Option Group": "Processor",
+						"* Option Quantity": "1",
+						"* Option Unit of Measure": "EACH",
+						"* Option Price": "50",
+						"* Option Description": "Color options are: Blueâ€š Redâ€š or Grey",
+						"* Option Deletable ? (Y/N)": "Y"
+					}
+				],
+				"Delivery": [
+					{
+						"*SIN": "426 4C",
+						"* Manufacturer Part Number": "N/A",
+						"* Manufacturer Name": "N/A",
+						"* Product / Accessory Type": "N/A",
+						"* Product / Accessory Name": "N/A",
+						"* Delivery FOB - Continental US": "FOB Destination (D)",
+						"* Delivery FOB - Alaska": "FOB Destination (D)",
+						"* Delivery FOB -  Puerto Rico": "FOB No Delivery (ND)",
+						"* Delivery FOB - Hawaii": "FOB No Delivery (ND)",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+				"Discounts": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "N/A",
+						"*Manufacturer Name": "N/A",
+						"*Product / Accessory Type": "N/A",
+						"*Product / Accessory Name": "Drill",
+						"* Final Price (Incl. IFF) ($)": "100",
+						"*Discount Type": "Dollar Discount",
+						"* % OR $": "Percent",
+						"*Start Range": "300",
+						"*End Range": "399",
+						"Discount": "2"
+					}
+				],
+				"Additional Photos": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "N/A",
+						"*Manufacturer Name": "N/A",
+						"*Product / Accessory Type": "N/A",
+						"*Product / Accessory Name": "Drill",
+						"Additional Photo 1": "Flower00.jpg"
+					}
+				],
+				"Special Features": [
+					{
+						"*SIN": "426 4C",
+						"* Manufacturer Part Number": "N/A",
+						"* Manufacturer Name": "N/A",
+						"* Product / Accessory Type": "N/A",
+						"* Product / Accessory Name": "N/A",
+						"Environmental Features - Shipboard Use Approved": "N/A",
+						"Environmental Features - FEMP Energy Efficiency": "N/A",
+						"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "N/A",
+						"Environmental Features - Low VOC": "Yes",
+						"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "N/A",
+						"Environmental Features - BioPreferred": "N/A",
+						"Environmental Features - EPA WaterSense Program": "N/A",
+						"Environmental Features - Safer Choice": "Yes",
+						"Special Features - AbilityOne": "Yes",
+						"Special Features - UNICOR": "N/A",
+						"Special Features - Ergonomic": "Yes",
+						"Special Features - Section 508": "N/A",
+						"Special Features - Product 508 URL": "N/A",
+						"Special Features - Pre-purchased stock": "N/A",
+						"Special Features - Scan Code 1": "N/A",
+						"Special Features - Scan Code 1 Text": "N/A",
+						"Special Features - Scan Code 2": "N/A",
+						"Special Features - Scan Code 2 Text": "N/A",
+						"Special Features - Hazmat": "N/A",
+						"Special Features - UNID Code": "N/A",
+						"Special Features - Scan Code 3": "N/A",
+						"Special Features - Scan Code 3 Text": "N/A",
+						"EPA Recommended - BIFMA level": "N/A",
+						"EPA Recommended - Biodegradable Products Institute compostable product": "N/A",
+						"EPA Recommended - California Section 01350 standard": "N/A",
+						"EPA Recommended - FloorScore": "N/A",
+						"EPA Recommended - Forest Stewardship Council": "N/A",
+						"EPA Recommended - Green Seal GS-01": "N/A",
+						"EPA Recommended - Green Seal GS-07": "N/A",
+						"EPA Recommended - Green Seal GS-37": "N/A",
+						"EPA Recommended - Green Seal GS-40": "N/A",
+						"EPA Recommended - Green Seal GS-41": "N/A",
+						"EPA Recommended - NSF 140 Carpet": "N/A",
+						"EPA Recommended - NSF 332": "Yes",
+						"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "N/A",
+						"EPA Recommended - SCAQMD Rule #1113": "N/A",
+						"EPA Recommended - SCAQMD Rule #1168": "N/A",
+						"EPA Recommended - STMC Toner Cartridges": "N/A",
+						"EPA Recommended - UL 126": "N/A",
+						"EPA Recommended - UL 2759": "Yes",
+						"EPA Recommended - UL 2762": "N/A",
+						"EPA Recommended - UL 2771": "N/A",
+						"EPA Recommended - UL 2777": "N/A",
+						"EPA Recommended - UL 2784": "N/A",
+						"EPA Recommended - UL 2785": "N/A",
+						"EPA Recommended - UL 2792": "N/A",
+						"EPA Recommended - UL 2818 GREENGUARD": "N/A"
+					}
+				],
+				"Special Charges": [
+					{
+						"Type": "N/A",
+						"Charges ($)": "50",
+						"Per": "EACH",
+						"Description": "Additional charge to expediting premium of the item.Â£"
+					},
+					{
+						"Type": "N/A",
+						"Charges ($)": "20",
+						"Per": "HOURS",
+						"Description": "Additional charge for same day service item.Â£"
+					},
+					{
+						"Type": "N/A",
+						"Charges ($)": "20",
+						"Per": "HOURS",
+						"Description": "Additional charge for the one day service item.Â£"
+					}
+				]
+			}
+		},
+		"productAnalysisReport": {
+		},
+		"finalPricingDocument": {
+			"validateFinalPricingDocument": "Yes",
+			"finalPricingDocumentName": "Delta Price List.zip",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Drill",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "8926850010034",
+						"Vendor Part Number": "212",
+						"*Vendor's Product / Accessory Description": "The institute, 'Dell' have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "212",
+						"Final Price (Incl. IFF)": "213.602",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "215",
+						"*(Name)Best Priced Customer": "some name goes here",
+						"*Price Offered to Best Priced Customer": "210",
+						"*Discount Offered to Best Priced Customer": "3.0"
+					}
+				],
+				"Non Pricing": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Manufacturer Warranty - Warranty Period": "DAY",
+						"Manufacturer Warranty - Number of Warranty Periods": "30",
+						"Manufacturer Warranty - Description": "If you have a 'specific' part problem the \"company\" will determine if the issue in question is covered under warranty.",
+						"Extended Warranty - Warranty Period": "MONTH",
+						"Extended Warranty - Number of Warranty Periods": "5",
+						"Extended Warranty - Description": "Exclusions applied on extended warranty. Please call 1-800-000-0000 to know more.",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "10",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "BLACK",
+						"Product Length - Unit Number": "15",
+						"Product Length - Unit of Measure": "EA - EACH",
+						"Product Width - Unit Number": "12",
+						"Product Width - Unit of Measure": "EA - EACH",
+						"Product Height - Unit Number": "12",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "5"
+					}
+				],
+				"Photos": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Additional Photo 1": "Flower00.jpg"
+					}
+				],
+				"Discounts": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Discount Type": "Dollar Discount",
+						"Discount %": "2",
+						"Dollar Value": "",
+						"*Start Range": "300",
+						"*End Range": "399",
+						"Discount Condition": ""
+					}
+				],
+				"Special Charges": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Expediting Premium - Charges": "50",
+						"Expediting Premium - Per": "EA - EACH",
+						"Expediting Premium - Description": "Additional charge to expediting premium of the item.",
+						"Same Day Service - Charges": "20",
+						"Same Day Service - Per": "HR - HOURS",
+						"Same Day Service - Description": "Additional charge for same day service item.",
+						"One Day Service - Charges": "20",
+						"One Day Service - Per": "HR - HOURS",
+						"One Day Service - Description": "Additional charge for the one day service item.",
+						"Two Day Service - Charges": "",
+						"Two Day Service - Per": "",
+						"Two Day Service - Description": "",
+						"Installation - Charges": "",
+						"Installation - Per": "",
+						"Installation - Description": "",
+						"Assembly - Charges": "",
+						"Assembly - Per": "",
+						"Assembly - Description": "",
+						"Inside Delivery - Charges": "",
+						"Inside Delivery - Per": "",
+						"Inside Delivery - Description": "",
+						"Saturday Delivery - Charges": "",
+						"Saturday Delivery - Per": "",
+						"Saturday Delivery - Description": "",
+						"Layout/Design - Charges": "",
+						"Layout/Design - Per": "",
+						"Layout/Design - Description": "",
+						"Training - Charges": "",
+						"Training - Per": "",
+						"Training - Description": ""
+					}
+				],
+				"Delivery": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "D - FOB Destination",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "ND - FOB No Delivery",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+				"Options": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Option Part Number": "OP123456",
+						"*Option Manufacturer": "Honeywell",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Processor",
+						"*Option Quantity": "1",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "50",
+						"*Option Description": "Color options are: Blue, Red, or Grey",
+						"*Option Deletable ? (Y/N)": "Y"
+					}
+				],
+				"Special Features": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Environmental Features - Shipboard Use Approved": "",
+						"Environmental Features - FEMP Energy Efficiency": "",
+						"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "",
+						"Environmental Features - Low VOC": "X",
+						"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "",
+						"Environmental Features - BioPreferred": "",
+						"Environmental Features - EPA WaterSense Program": "",
+						"Environmental Features - Safer Choice": "X",
+						"Special Features - AbilityOne": "X",
+						"Special Features - UNICOR": "",
+						"Special Features - Ergonomic": "X",
+						"Special Features - Section 508": "",
+						"Special Features - Product 508 URL": "",
+						"Special Features - Pre-purchased stock": "",
+						"Special Features - Scan Code 1": "",
+						"Special Features - Scan Code 1 Text": "",
+						"Special Features - Scan Code 2": "",
+						"Special Features - Scan Code 2 Text": "",
+						"Special Features - Hazmat": "",
+						"Special Features - UNID Code": "",
+						"Special Features - Scan Code 3": "",
+						"Special Features - Scan Code 3 Text": "",
+						"EPA Recommended - BIFMA level": "",
+						"EPA Recommended - Biodegradable Products Institute compostable product": "",
+						"EPA Recommended - California Section 01350 standard": "",
+						"EPA Recommended - FloorScore": "",
+						"EPA Recommended - Forest Stewardship Council": "",
+						"EPA Recommended - Green Seal GS-01": "",
+						"EPA Recommended - Green Seal GS-07": "",
+						"EPA Recommended - Green Seal GS-37": "",
+						"EPA Recommended - Green Seal GS-40": "",
+						"EPA Recommended - Green Seal GS-41": "",
+						"EPA Recommended - NSF 140 Carpet": "",
+						"EPA Recommended - NSF 332": "X",
+						"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "",
+						"EPA Recommended - SCAQMD Rule #1113": "",
+						"EPA Recommended - SCAQMD Rule #1168": "",
+						"EPA Recommended - STMC Toner Cartridges": "",
+						"EPA Recommended - UL 126": "",
+						"EPA Recommended - UL 2759": "X",
+						"EPA Recommended - UL 2771": "",
+						"EPA Recommended - UL 2777": "",
+						"EPA Recommended - UL 2784": "",
+						"EPA Recommended - UL 2785": "",
+						"EPA Recommended - UL 2792": "",
+						"EPA Recommended - UL 2818 GREENGUARD": ""
+					}
+				]
+			}
+		}
+	},
+	"Submit Add Labor Category/Service Offerings Mod: Review eMod successful for Non-FPT contract - Revise CSP": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS07F021DA",
+		"DUNS": "963009899",
+		"modTypes": [
+			"Add Labor Category and/or Service Offerings"
+		],
+		"goodsAndServices": {
+			"descOfModRequest": "This is test for Add Labor Category and/or Service Offerings mod"
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"uploadDocuments": [
+			{
+				"type": "Labor Category Descriptions",
+				"documentName": "Labor Category Descriptions",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx"
+			},
+			{
+				"type": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Commercial Sales Practice Response",
+				"documentName": "Commercial Sales Practice Response",
+				"elementTitle": "Commercial Sales Practice Response",
+				"filename": "csp.pdf"
+			},
+			{
+				"documentType": "Supporting Documentation",
+				"filename": "support_docs.txt",
+				"elementTitle": "Review document related to Supporting Documentation",
+				"documentName": "Supporting Documentation"
+			},
+			{
+				"documentType": "Labor Category Descriptions",
+				"documentName": "Labor Category Descriptions",
+				"elementTitle": "Review document related to Labor Category Descriptions",
+				"filename": "services-file.docx"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Additions",
+			"Upload Documents"
+		]
+	},
+	"Submit Add SIN Mod: Review eMod successful for FPT contract using EDI": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS71B4444X",
+		"DUNS": "444444444",
+		"modTypes": [
+			"Add SIN"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "71 98     - International Products",
+					"scope": "50 States,DC"
+				}
+			],
+			"offerCategory": "Products Only"
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"specialCharges": [
+			{
+				"sin": "71 98",
+				"charges": [
+					"Expediting Premium",
+					"Inside Delivery",
+					"Installation"
+				]
+			}
+		],
+		"specialFeatures": [
+			{
+				"sin": "71 98",
+				"spFeatures": [
+					"Ergonomic",
+					"AbilityOne"
+				],
+				"envFeatures": [
+					"Safer Choice",
+					"Low VOC"
+				],
+				"epaFeatures": [
+					"NSF 332",
+					"UL 2759"
+				]
+			}
+		],
+		"contractorWarranty": [
+			{
+				"sin": "71 98",
+				"warrantyPeriod": "Week",
+				"numOfPeriods": "12",
+				"warrantyDescription": "This warranty will last for a week"
+			}
+		],
+		"uploadPhotos": [
+			{
+				"sin": "71 98",
+				"photo1": "GenericUploadData/Flower00.jpg"
+			}
+		],
+		"ediOption": {
+			"edifileName": "addSinMod/ValidEDIXml.xml"
+		},
+		"addCorporateExperience": {
+			"AnumberOfYears": "10",
+			"BorgEmployeesInfo": "abc with 5 years of experience",
+			"CbriefHistory": "Here goes org history",
+			"Dinfo": "This organization controls all the accounts",
+			"EdesciptionOfResources": "Org has 50 employees",
+			"FproductMarketing": "Organization intends market themselves",
+			"GuseOfSubKs": "Organization intends use subcontractors"
+		},
+		"pastPerformance": {
+			"startDate": "01/01/2017",
+			"supportingDocument": [
+				{
+					"type": "Past Performance & Experience",
+					"action": "upload",
+					"filename": "GenericUploadData/past_performance.txt",
+					"documentName": "Past Performance document"
+				},
+				{
+					"type": "Order Form for Past Performance Eval",
+					"action": "upload",
+					"filename": "GenericUploadData/Blank_Excel_File.xls",
+					"documentName": "Order Form document"
+				}
+			],
+			"feedback": "fb"
+		},
+		"qualityControl": {
+			"internalReview": "Review text goes here",
+			"individualIdentification": "Here are the individuals",
+			"subKPerformance": "Ensuring subk performance",
+			"potentialProblems": "Problems are handled",
+			"procedureForQuality": "Here is the procedure",
+			"qcManagement": "Quality control is managed"
+		},
+		"uploadDocuments": [
+			{
+				"type": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"action": "upload",
+				"filename": "GenericUploadData/TCTextFile.docx"
+			},
+			{
+				"type": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Commercial Sales Practice Response",
+				"documentName": "Commercial Sales Practice Response",
+				"elementTitle": "Commercial Sales Practice Response",
+				"filename": "csp.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			},
+			{
+				"documentType": "Order Form for Past Performance Eval",
+				"documentName": "Order Form for Past Performance Eval",
+				"elementTitle": "Review document related to Order Form for Past Performance Eval",
+				"filename": "Blank_Excel_File.xls"
+			},
+			{
+				"documentType": "Past Performance & Experience",
+				"documentName": "Past Performance & Experience",
+				"elementTitle": "Review document related to Past Performance & Experience",
+				"filename": "past_performance.txt"
+			},
+			{
+				"documentType": "Technical Proposal",
+				"documentName": "Technical Proposal",
+				"elementTitle": "Review responses for Technical Proposal",
+				"filename": "TechnicalProposalResponses.pdf"
+			},
+			{
+				"documentType": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"elementTitle": "Review document related to Terms and Conditions Text File",
+				"filename": "TCTextFile.docx"
+			}
+		],
+		"productAnalysisReport": {
+		},
+		"finalPricingDocument": {
+			"validateFinalPricingDocument": "Yes",
+			"finalPricingDocumentName": "Delta Price List.zip",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Drill-1'",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "12345689",
+						"Vendor Part Number": "MSE50",
+						"*Vendor's Product / Accessory Description": "The institute-' and Dell have teamed up",
+						"*Unit of Issue": "BX - BOX",
+						"*Quantity Per Unit": "4",
+						"Quantity of Product / Unit": "KM - KILOGRAMS PER SQUARE METER,  KILOGRAMS, DECIMAL",
+						"*Offer Price": "100.0",
+						"Final Price (Incl. IFF)": "100.7557",
+						"Markup (%)": "",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "10050.0",
+						"*(Name)Best Priced Customer": "BESTCUSTOMERNAMELIN",
+						"*Price Offered to Best Priced Customer": "10040.0",
+						"*Discount Offered to Best Priced Customer": "0.12"
+					}
+				],
+				"Non Pricing": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Manufacturer Warranty - Warranty Period": "DAY",
+						"Manufacturer Warranty - Number of Warranty Periods": "90",
+						"Manufacturer Warranty - Description": "",
+						"Extended Warranty - Warranty Period": "DAY",
+						"Extended Warranty - Number of Warranty Periods": "5",
+						"Extended Warranty - Description": "\"Extended warranty\"- goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AF - Delivered after receipt of order",
+						"*Delivery (Lead) Time Days": "20",
+						"FSC/PSC": "1235",
+						"UNSPSC": "12345678",
+						"NSN": "1234-12-223-1234",
+						"Default Colour": "black",
+						"Product Length - Unit Number": "10",
+						"Product Length - Unit of Measure": "BX - BOX",
+						"Product Width - Unit Number": "10",
+						"Product Width - Unit of Measure": "BX - BOX",
+						"Product Height - Unit Number": "10",
+						"Product Height - Unit of Measure": "BX - BOX",
+						"Product Specific Web Site": "www.dell.com",
+						"Standard Pack": "10"
+					}
+				],
+				"Photos": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Additional Photo 1": "Flower00.jpg"
+					}
+				],
+				"Discounts": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Discount Type": "Volume/Qty Discount",
+						"Discount %": "2",
+						"Dollar Value": "",
+						"*Start Range": "100",
+						"*End Range": "200",
+						"Discount Condition": ""
+					}
+				],
+				"Special Charges": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Expediting Premium - Charges": "23.23",
+						"Expediting Premium - Per": "BP - 100 BOARD FEET",
+						"Expediting Premium - Description": "Description 1",
+						"Same Day Service - Charges": "",
+						"Same Day Service - Per": "",
+						"Same Day Service - Description": "",
+						"One Day Service - Charges": "",
+						"One Day Service - Per": "",
+						"One Day Service - Description": "",
+						"Two Day Service - Charges": "",
+						"Two Day Service - Per": "",
+						"Two Day Service - Description": "",
+						"Installation - Charges": "89.91",
+						"Installation - Per": "BP - 100 BOARD FEET",
+						"Installation - Description": "Description 3",
+						"Assembly - Charges": "",
+						"Assembly - Per": "",
+						"Assembly - Description": "",
+						"Inside Delivery - Charges": "67.89",
+						"Inside Delivery - Per": "BP - 100 BOARD FEET",
+						"Inside Delivery - Description": "Description 2",
+						"Saturday Delivery - Charges": "",
+						"Saturday Delivery - Per": "",
+						"Saturday Delivery - Description": "",
+						"Layout/Design - Charges": "",
+						"Layout/Design - Per": "",
+						"Layout/Design - Description": "",
+						"Training - Charges": "",
+						"Training - Per": "",
+						"Training - Description": ""
+					}
+				],
+				"Delivery": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "D - FOB Destination",
+						"*Delivery FOB -  Puerto Rico": "D - FOB Destination",
+						"*Delivery FOB - Hawaii": "D - FOB Destination",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "10"
+					}
+				],
+				"Options": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Option Part Number": "1234556",
+						"*Option Manufacturer": "Dell Comp",
+						"*Option Code": "A - Can Be Added",
+						"*Option Group": "Group Name",
+						"*Option Quantity": "10",
+						"*Option Unit of Measure": "BX - BOX",
+						"*Option Price": "50.00",
+						"*Option Description": "Color options are- Blue, Red, or Grey",
+						"*Option Deletable ? (Y/N)": "N"
+					}
+				],
+				"Special Features": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Environmental Features - Low VOC": "X",
+						"Environmental Features - Safer Choice": "X",
+						"Special Features - AbilityOne": "X",
+						"Special Features - UNICOR": "",
+						"Special Features - Ergonomic": "X",
+						"EPA Recommended - NSF 332": "X",
+						"EPA Recommended - UL 2759": "X"
+					}
+				]
+			}
+		},
+		"completedMenuItems": [
+			"Corporate Information",
+			"Additions",
+			"Wizard Management",
+			"Special Features",
+			"Special Charges",
+			"Capture Pricing",
+			"Upload Photos",
+			"Product Analysis Report",
+			"Pricing Document",
+			"Solicitation Provisions",
+			"Upload Documents"
+		]
+	},
+	"Submit Add Product Mod: Review eMod successful for FPT contract using EDI": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS84B8888X",
+		"DUNS": "888888888",
+		"modTypes": [
+			"Add Product(s)"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "426 4C"
+				}
+			],
+			"descOfModRequest": "Add product mod for test"
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"uploadPhotos": [
+			{
+				"sin": "426 4C",
+				"photo1": "GenericUploadData/Flower00.jpg"
+			}
+		],
+		"ediOption": {
+			"edifileName": "addProductsMod/ValidEDIXml.xml"
+		},
+		"uploadDocuments": [
+			{
+				"type": "Commercial Pricelist",
+				"documentName": "Commercial Pricelist",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls"
+			},
+			{
+				"type": "Supporting Price Documentation",
+				"documentName": "Supporting Price Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/past_performance.txt"
+			}
+		],
+		"productAnalysisReport": {
+		},
+		"finalPricingDocument": {
+			"validateFinalPricingDocument": "Yes",
+			"finalPricingDocumentName": "Delta Price List.zip",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Drill-1'",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892623456",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute-' and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "110.55",
+						"*(Name)Best Priced Customer": "Hardy Inc",
+						"*Price Offered to Best Priced Customer": "90",
+						"*Discount Offered to Best Priced Customer": "10"
+					},
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Product Type": "Accessory",
+						"*Product / Accessory Name": "Drill-2'",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892685001003",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute-' and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "110.55",
+						"*(Name)Best Priced Customer": "Hardy Inc",
+						"*Price Offered to Best Priced Customer": "80",
+						"*Discount Offered to Best Priced Customer": "20"
+					}
+				],
+				"Non Pricing": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "\"Description\"- goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "\"Extended warranty\"- goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "\"Description\"- goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "\"Extended warranty\"- goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					}
+				],
+				"Photos": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Additional Photo 1": "Flower00.jpg"
+					}
+				],
+				"Discounts": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Discount Type": "Dollar Discount",
+						"Discount %": "",
+						"Dollar Value": "100",
+						"*Start Range": "300",
+						"*End Range": "399",
+						"Discount Condition": "Product will be eligible for discount when it falls within discount range."
+					}
+				],
+				"Accessories": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Accessory Part Number": "234567",
+						"*Accessory Manufacturer": "LENOVO"
+					}
+				],
+				"Special Charges": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Expediting Premium - Charges": "20",
+						"Expediting Premium - Per": "HR - HOURS",
+						"Expediting Premium - Description": "4 Day Processing",
+						"Same Day Service - Charges": "12",
+						"Same Day Service - Per": "EA - EACH",
+						"Same Day Service - Description": "Additional charge to deliver the item on the same day of receiving the order.",
+						"One Day Service - Charges": "20",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Additional charge to deliver the item within one day of receiving the order.",
+						"Two Day Service - Charges": "10",
+						"Two Day Service - Per": "EA - EACH",
+						"Two Day Service - Description": "Additional charge to deliver the item within two days of receiving the order.",
+						"Installation - Charges": "13",
+						"Installation - Per": "EA - EACH",
+						"Installation - Description": "Additional charge to install the item.",
+						"Assembly - Charges": "20",
+						"Assembly - Per": "HR - HOURS",
+						"Assembly - Description": "Additional charge to assemble the item.",
+						"Inside Delivery - Charges": "11",
+						"Inside Delivery - Per": "HR - HOURS",
+						"Inside Delivery - Description": "Additional charge to deliver the item inside the destination.",
+						"Saturday Delivery - Charges": "12",
+						"Saturday Delivery - Per": "EA - EACH",
+						"Saturday Delivery - Description": "Additional charge to deliver the item on a Saturday.",
+						"Layout/Design - Charges": "20",
+						"Layout/Design - Per": "HR - HOURS",
+						"Layout/Design - Description": "Additional charge based upon the type of layout/design provided for the item.",
+						"Training - Charges": "15",
+						"Training - Per": "EA - EACH",
+						"Training - Description": "Additional charge to provide training on an item."
+					}
+				],
+				"Options": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Option Part Number": "OP223-5",
+						"*Option Manufacturer": "Honeywell",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Processor",
+						"*Option Quantity": "1",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "25",
+						"*Option Description": "Color options are- Blue, Red, or Grey",
+						"*Option Deletable ? (Y/N)": "Y"
+					}
+				],
+				"Delivery": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "O - FOB Origin",
+						"*Delivery FOB - Hawaii": "ND - FOB No Delivery",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "D - FOB Destination",
+						"*Delivery FOB -  Puerto Rico": "D - FOB Destination",
+						"*Delivery FOB - Hawaii": "D - FOB Destination",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+				"Special Features": [
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Environmental Features - Low VOC": "X",
+						"Environmental Features - Safer Choice": "X",
+						"Special Features - AbilityOne": "X",
+						"Special Features - Ergonomic": "X",
+						"EPA Recommended - NSF 332": "X",
+						"EPA Recommended - UL 2759": "X"
+					}
+				]
+			}
+		},
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Commercial Sales Practice Response",
+				"documentName": "Commercial Sales Practice Response",
+				"elementTitle": "Commercial Sales Practice Response",
+				"filename": "csp.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			},
+			{
+				"documentType": "Commercial Pricelist",
+				"documentName": "Commercial Pricelist",
+				"elementTitle": "Review document related to Commercial Pricelist",
+				"filename": "Blank_Excel_File.xls"
+			},
+			{
+				"documentType": "Supporting Price Documentation",
+				"documentName": "Supporting Price Documentation",
+				"elementTitle": "Review document related to Supporting Price Documentation",
+				"filename": "past_performance.txt"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Additions",
+			"Wizard Management",
+			"Capture Pricing",
+			"Upload Photos",
+			"Product Analysis Report",
+			"Pricing Document",
+			"Upload Documents"
+		]
+	},
+	"Submit Add SIN Mod: Review eMod successful for FPT contract with flagged products": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS71B4444X",
+		"DUNS": "444444444",
+		"modTypes": [
+			"Add SIN"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "71 98     - International Products",
+					"scope": "50 States,DC"
+				}
+			],
+			"offerCategory": "Products Only"
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"specialCharges": [
+			{
+				"sin": "71 98",
+				"charges": [
+					"One Day Service",
+					"Assembly",
+					"Layout/Design",
+					"Expediting Premium",
+					"Two Day Service",
+					"Inside Delivery",
+					"Training",
+					"Same Day Service",
+					"Installation",
+					"Saturday Delivery"
+				]
+			}
+		],
+		"specialFeatures": [
+			{
+				"sin": "71 98",
+				"spFeatures": [
+					"Ergonomic",
+					"UNICOR"
+				],
+				"envFeatures": [
+					"BioPreferred",
+					"Safer Choice"
+				]
+			}
+		],
+		"contractorWarranty": [
+			{
+				"sin": "71 98",
+				"warrantyPeriod": "Week",
+				"numOfPeriods": "12",
+				"warrantyDescription": "This warranty will last for a week"
+			}
+		],
+		"uploadPhotos": [
+			{
+				"sin": "71 98",
+				"photo1": "GenericUploadData/Flower00.jpg",
+				"photo2": "GenericUploadData/flower01.jpg",
+				"photo3": "GenericUploadData/flower02.jpg"
+			}
+		],
+		"addCorporateExperience": {
+			"AnumberOfYears": "10",
+			"BorgEmployeesInfo": "abc with 5 years of experience",
+			"CbriefHistory": "Here goes org history",
+			"Dinfo": "This organization controls all the accounts",
+			"EdesciptionOfResources": "Org has 50 employees",
+			"FproductMarketing": "Organization intends market themselves",
+			"GuseOfSubKs": "Organization intends use subcontractors"
+		},
+		"pastPerformance": {
+			"startDate": "01/01/2017",
+			"supportingDocument": [
+				{
+					"docType": "Past Performance & Experience",
+					"uploadDocumentName": "GenericUploadData/Blank_Excel_File.xls",
+					"docName": "Past Performance & Experience"
+				},
+				{
+					"docType": "Order Form for Past Performance Eval",
+					"uploadDocumentName": "GenericUploadData/past_performance.txt",
+					"docName": "Order Form for Past Performance Eval"
+				}
+			],
+			"feedback": "fb"
+		},
+		"qualityControl": {
+			"internalReview": "Review text goes here",
+			"individualIdentification": "Here are the individuals",
+			"subKPerformance": "Ensuring subk performance",
+			"potentialProblems": "Problems are handled",
+			"procedureForQuality": "Here is the procedure",
+			"qcManagement": "Quality control is managed"
+		},
+		"uploadDocuments": [
+			{
+				"type": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt"
+			}
+		],
+		"downloadUploadTemplate": {
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "AA",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892685001003",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "BA",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "110.55",
+						"*(Name)Best Priced Customer": "Hardy Inc",
+						"*Price Offered to Best Priced Customer": "90",
+						"*Discount Offered to Best Priced Customer": "10"
+					},
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "Lenovo",
+						"*Product Type": "Accessory",
+						"*Product / Accessory Name": "Drill",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892685001003",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "110.55",
+						"*(Name)Best Priced Customer": "Hardy Inc",
+						"*Price Offered to Best Priced Customer": "90",
+						"*Discount Offered to Best Priced Customer": "10"
+					}
+				],
+				"Non Pricing": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "Description goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "Lenovo",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "Description goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					}
+				],
+				"Photos": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"Additional Photo 1": "Flower00.jpg",
+						"Additional Photo 2": "flower01.jpg",
+						"Additional Photo 3": "flower02.jpg"
+					}
+				],
+				"Discounts": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Discount Type": "Dollar Discount",
+						"Discount %": "",
+						"Dollar Value": "100",
+						"*Start Range": "300",
+						"*End Range": "399",
+						"Discount Condition": "Product will be eligible for discount when it falls within discount range."
+					}
+				],
+				"Accessories": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Accessory Part Number": "234567",
+						"*Accessory Manufacturer": "Lenovo"
+					}
+				],
+				"Special Charges": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"Expediting Premium - Charges": "20",
+						"Expediting Premium - Per": "HR - HOURS",
+						"Expediting Premium - Description": "4 Day Processing",
+						"Same Day Service - Charges": "12",
+						"Same Day Service - Per": "EA - EACH",
+						"Same Day Service - Description": "Additional charge to deliver the item on the same day of receiving the order.",
+						"One Day Service - Charges": "20",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Additional charge to deliver the item within one day of receiving the order.",
+						"Two Day Service - Charges": "10",
+						"Two Day Service - Per": "EA - EACH",
+						"Two Day Service - Description": "Additional charge to deliver the item within two days of receiving the order.",
+						"Installation - Charges": "13",
+						"Installation - Per": "EA - EACH",
+						"Installation - Description": "Additional charge to install the item.",
+						"Assembly - Charges": "20",
+						"Assembly - Per": "HR - HOURS",
+						"Assembly - Description": "Additional charge to assemble the item.",
+						"Inside Delivery - Charges": "11",
+						"Inside Delivery - Per": "HR - HOURS",
+						"Inside Delivery - Description": "Additional charge to deliver the item inside the destination.",
+						"Saturday Delivery - Charges": "12",
+						"Saturday Delivery - Per": "EA - EACH",
+						"Saturday Delivery - Description": "Additional charge to deliver the item on a Saturday.",
+						"Layout/Design - Charges": "20",
+						"Layout/Design - Per": "HR - HOURS",
+						"Layout/Design - Description": "Additional charge based upon the type of layout/design provided for the item.",
+						"Training - Charges": "15",
+						"Training - Per": "EA - EACH",
+						"Training - Description": "Additional charge to provide training on an item."
+					}
+				],
+				"Delivery": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "Lenovo",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+				"Options": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Option Part Number": "OP12345",
+						"*Option Manufacturer": "Honeywell",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Processor",
+						"*Option Quantity": "1",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "25",
+						"*Option Description": "Color options are- Blue, Red, or Grey",
+						"*Option Deletable ? (Y/N)": "Y"
+					}
+				],
+				"Special Features": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"Environmental Features - BioPreferred": "BQ",
+						"Environmental Features - Safer Choice": "SF",
+						"Special Features - UNICOR": "AK",
+						"Special Features - Ergonomic": "BD"
+					}
+				]
+			}
+		},
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Commercial Sales Practice Response",
+				"documentName": "Commercial Sales Practice Response",
+				"elementTitle": "Commercial Sales Practice Response",
+				"filename": "csp.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			},
+			{
+				"documentType": "Order Form for Past Performance Eval",
+				"documentName": "Order Form for Past Performance Eval",
+				"elementTitle": "Review document related to Order Form for Past Performance Eval",
+				"filename": "past_performance.txt"
+			},
+			{
+				"documentType": "Past Performance & Experience",
+				"documentName": "Past Performance & Experience",
+				"elementTitle": "Review document related to Past Performance & Experience",
+				"filename": "Blank_Excel_File.xls"
+			},
+			{
+				"documentType": "Technical Proposal",
+				"documentName": "Technical Proposal",
+				"elementTitle": "Review responses for Technical Proposal",
+				"filename": "TechnicalProposalResponses.pdf"
+			}
+		],
+		"productAnalysisReport": {
+			"pricingDocumentTemplateName": "Flagged Items.zip",
+			"pricingDocumentFileName": "Flagged Items1.xlsx",
+			"parFileUploadConfirm": {
+				"Flagged Items": [
+					{
+						"Standardization Flag Message": "Invalid Product / Accessory Name, Invalid Vendor's Product / Accessory Description",
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"Corrected Manufacturer Part Number": "",
+						"*Manufacturer Name": "Dell Comp",
+						"Corrected Manufacturer Name": "",
+						"*Product Type": "Product",
+						"Product / Accessory Name": "AA",
+						"Corrected Product / Accessory Name": "AB",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892685001003",
+						"Corrected UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "",
+						"Vendor Part Number": "1AB234CD56",
+						"Corrected Vendor Part Number": "",
+						"Product / Accessory Description": "BA",
+						"Corrected Product / Accessory Description": "BB",
+						"Unit of Issue": "EA - EACH",
+						"Corrected Unit of Issue": "",
+						"Quantity Per Unit": "1",
+						"Quantity of Product/Unit": "EA"
+					}
+				]
+			},
+			"parFileUploadConfirmAgain": {
+				"Flagged Items": [
+					{
+						"Standardization Flag Message": "Invalid Product / Accessory Name, Invalid Vendor's Product / Accessory Description",
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"Corrected Manufacturer Part Number": "",
+						"*Manufacturer Name": "Dell Comp",
+						"Corrected Manufacturer Name": "",
+						"*Product Type": "Product",
+						"Product / Accessory Name": "AB",
+						"Corrected Product / Accessory Name": "AC",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892685001003",
+						"Corrected UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "",
+						"Vendor Part Number": "1AB234CD56",
+						"Corrected Vendor Part Number": "",
+						"Product / Accessory Description": "BB",
+						"Corrected Product / Accessory Description": "BC",
+						"Unit of Issue": "EA - EACH",
+						"Corrected Unit of Issue": "",
+						"Quantity Per Unit": "1",
+						"Quantity of Product/Unit": "EA"
+					}
+				]
+			}
+		},
+		"finalPricingDocument": {
+			"validateFinalPricingDocument": "Yes",
+			"finalPricingDocumentName": "Delta Price List.zip"
+		},
+		"completedMenuItems": [
+			"Corporate Information",
+			"Additions",
+			"Wizard Management",
+			"Special Features",
+			"Special Charges",
+			"Capture Pricing",
+			"Upload Photos",
+			"Product Analysis Report",
+			"Pricing Document",
+			"Solicitation Provisions",
+			"Upload Documents"
+		]
+	},
+	"Submit Add Labor Category/Service Offerings Mod: Review eMod successful for FPT contract": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS84A0000X",
+		"DUNS": "123456789",
+		"modTypes": [
+			"Add Labor Category and/or Service Offerings"
+		],
+		"goodsAndServices": {
+			"descOfModRequest": "This is test for Add Labor Category and/or Service Offerings mod"
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"uploadDocuments": [
+			{
+				"type": "Labor Category Descriptions",
+				"documentName": "Labor Category Descriptions",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx"
+			},
+			{
+				"type": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Supporting Documentation",
+				"filename": "support_docs.txt",
+				"elementTitle": "Review document related to Supporting Documentation",
+				"documentName": "Supporting Documentation"
+			},
+			{
+				"documentType": "Labor Category Descriptions",
+				"documentName": "Labor Category Descriptions",
+				"elementTitle": "Review document related to Labor Category Descriptions",
+				"filename": "services-file.docx"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Additions",
+			"Upload Documents"
+		]
+	},
+	"Add SIN Mod: Add SIN for FPT Non-TDR contract with all TDR SINs": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS71B2222X",
+		"DUNS": "222222222",
+		"modTypes": [
+			"Add SIN"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "71 98     - International Products",
+					"scope": "50 States,DC",
+					"isTDR": "Yes"
+				}
+			],
+			"offerCategory": "Products Only"
+		},
+		"addCorporateExperience": {
+			"AnumberOfYears": "10",
+			"BorgEmployeesInfo": "abc with 5 years of experience",
+			"CbriefHistory": "Here goes org history",
+			"Dinfo": "This organization controls all the accounts",
+			"EdesciptionOfResources": "Org has 50 employees",
+			"FproductMarketing": "Organization intends market themselves",
+			"GuseOfSubKs": "Organization intends use subcontractors"
+		},
+		"pastPerformance": {
+			"startDate": "01/01/2017",
+			"supportingDocument": [
+				{
+					"type": "Past Performance & Experience",
+					"action": "upload",
+					"filename": "GenericUploadData/past_performance.txt",
+					"documentName": "Past Performance document"
+				},
+				{
+					"type": "Order Form for Past Performance Eval",
+					"action": "upload",
+					"filename": "GenericUploadData/Blank_Excel_File.xls",
+					"documentName": "Order Form document"
+				}
+			],
+			"feedback": "fb"
+		},
+		"qualityControl": {
+			"internalReview": "Review text goes here",
+			"individualIdentification": "Here are the individuals",
+			"subKPerformance": "Ensuring subk performance",
+			"potentialProblems": "Problems are handled",
+			"procedureForQuality": "Here is the procedure",
+			"qcManagement": "Quality control is managed"
+		},
+		"uploadDocuments": [
+			{
+				"type": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx"
+			},
+			{
+				"type": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt"
+			}
+		],
+		"downloadUploadTemplate": {
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Drill",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892685001003",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": ""
+					}
+				],
+				"Non Pricing": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "Description goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					}
+				],
+				"Delivery": [
+					{
+						"*SIN": "71 98",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				]
+			}
+		},
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": [
+					{
+						"pageNumber": 1,
+						"expectedLines": [
+							"Add SIN",
+							"Response to Participate in TDR : Yes"
+						]
+					}
+				]
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			},
+			{
+				"documentType": "Order Form for Past Performance Eval",
+				"documentName": "Order Form document",
+				"elementTitle": "Review document related to Order Form for Past Performance Eval",
+				"filename": "Blank_Excel_File.xls"
+			},
+			{
+				"documentType": "Past Performance & Experience",
+				"documentName": "Past Performance document",
+				"elementTitle": "Review document related to Past Performance & Experience",
+				"filename": "past_performance.txt"
+			},
+			{
+				"documentType": "Technical Proposal",
+				"documentName": "Technical Proposal",
+				"elementTitle": "Review responses for Technical Proposal",
+				"filename": "TechnicalProposalResponses.pdf"
+			},
+			{
+				"documentType": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"elementTitle": "Review document related to Terms and Conditions Text File",
+				"filename": "services-file.docx"
+			}
+		],
+		"productAnalysisReport": {
+		},
+		"finalPricingDocument": {
+			"validateFinalPricingDocument": "Yes",
+			"finalPricingDocumentName": "Delta Price List.zip"
+		},
+		"completedMenuItems": [
+			"Corporate Information",
+			"Additions",
+			"Wizard Management",
+			"Special Features",
+			"Special Charges",
+			"Capture Pricing",
+			"Upload Photos",
+			"Product Analysis Report",
+			"Pricing Document",
+			"Solicitation Provisions",
+			"Upload Documents"
+		]
+	},
+	"Submit Add SIN Mod: invalid data submission": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS71B4444X",
+		"DUNS": "444444444",
+		"modTypes": [
+			"Add SIN"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "71 98     - International Products",
+					"scope": "50 States,DC"
+				}
+			],
+			"offerCategory": "Products Only"
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"specialCharges": [
+			{
+				"sin": "71 98",
+				"charges": [
+					"One Day Service",
+					"Assembly",
+					"Layout/Design"
+				]
+			}
+		],
+		"specialFeatures": [
+			{
+				"sin": "71 98",
+				"spFeatures": [
+					"Ergonomic",
+					"UNICOR"
+				],
+				"envFeatures": [
+					"BioPreferred",
+					"Safer Choice"
+				]
+			}
+		],
+		"contractorWarranty": [
+			{
+				"sin": "71 98",
+				"warrantyPeriod": "Week",
+				"numOfPeriods": "12",
+				"warrantyDescription": "This warranty will last for a week"
+			}
+		],
+		"uploadPhotos": [
+			{
+				"sin": "71 98",
+				"photo1": "GenericUploadData/Flower00.jpg",
+				"photo2": "GenericUploadData/flower01.jpg",
+				"photo3": "GenericUploadData/flower02.jpg"
+			}
+		],
+		"downloadUploadTemplate": {
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"dataFile": "InvalidPricingData-AddSIN.xlsx",
+			"sheets": [
+				"Pricing",
+				"Non Pricing",
+				"Photos",
+				"Discounts",
+				"Accessories",
+				"Special Charges",
+				"Delivery",
+				"Options",
+				"Special Features"
+			]
+		}
+	},
+	"Add SIN Mod: Add SIN -no SIN Group successful for Non-FPT Non-TDR contract": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS71B2222X",
+		"DUNS": "222222222",
+		"modTypes": [
+			"Add SIN"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "71 98     - International Products",
+					"scope": "50 States,DC",
+					"isTDR": "Yes"
+				}
+			]
+		},
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": [
+					{
+						"pageNumber": 1,
+						"expectedLines": [
+							"Add SIN",
+							"Response to Participate in TDR : Yes"
+						]
+					}
+				]
+			},
+			{
+				"documentType": "Technical Proposal",
+				"documentName": "Technical Proposal",
+				"elementTitle": "Review responses for Technical Proposal",
+				"filename": "TechnicalProposalResponses.pdf"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Additions",
+			"Upload Documents"
+		]
+	},
+	"Add SIN Mod: Verify not responding to Revise CSP gives error": {
+		"SignIn": {
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS07F021DA",
+		"DUNS": "963009899",
+		"modTypes": [
+			"Add SIN"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+				   "category": "Miscellaneous",
+					"subCategory": "Flags",
+					"sin": "339999F Flags, Banners, Pennants, and Related Products",
+					"scope": "50 States,DC"
+				}
+			]
+		}
+	},
+	"Add Product Mod: Verify not responding to Revise CSP gives error": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS520A000X",
+		"DUNS": "123456789",
+		"modTypes": [
+			"Add Product(s)"
+		],
+		"goodsAndServices": {
+			"descOfModRequest": "Add Product mod for test"
+		},
+		"commercialSalesPractice": {
+		}
+	},
+	"Submit Add Labor Category and/or Service Offerings Mod: Review eMod successful for Non-FPT contract - No CSP": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "GS71B2222X",
+		"DUNS": "222222222",
+		"modTypes": [
+			"Add Labor Category and/or Service Offerings"
+		],
+		"goodsAndServices": {
+			"descOfModRequest": "This is test for Add Labor Category and/or Service Offerings mod"
+		},
+		"commercialSalesPractice": {
+		}
+	}
+}

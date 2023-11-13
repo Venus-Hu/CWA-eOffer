@@ -1,0 +1,1877 @@
+{
+	"Submit Capture Formatted Pricing Mod: Review eMod successful for FPT contract with Special Characters": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Capture Formatted Pricing"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "75 200"
+				}
+			],
+			"offerCategory": "Products And Services",
+			"minOrderLimit": "100",
+			"descOfModRequest": "Add Baseline mod for test"
+		},
+		"pointOfContact": [
+			{
+				"poc": "Order POC",
+				"name": "Bruce Wayne",
+				"title": "Batman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			},
+			{
+				"poc": "Contact for Contract Administration (Domestic)",
+				"name": "Tony Stark",
+				"title": "Ironman",
+				"address1": "Daily Planet street",
+				"city": "Long Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "ironman@marvelcomics.com"
+			}
+		],
+		"wizardManagement": {
+			"selectDollarDiscount": "Yes",
+			"discountLevel": "Offer",
+			"selectDelivery": "Yes",
+			"deliveryLevel": "Line Item",
+			"specialFeatures": "Yes",
+			"accessories": "Yes"
+		},
+		"discounts": [
+			{
+				"startRange": "2",
+				"endRange": "50",
+				"discount": "0.2"
+			}
+		],
+		"specialFeatures": [
+			{
+				"sin": "75 200",
+				"spFeatures": [
+					"Low VOC",
+					"EPA WaterSense Program"
+				],
+				"envFeatures": [
+					"AbilityOne",
+					"UNICOR"
+				],
+				"epaFeatures": [
+					"BIFMA level",
+					"FloorScore",
+					"UL 2771",
+					"NSF 332"
+				]
+			}
+		],
+		"downloadUploadTemplate": {
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "75 200",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Dri£ll—1‚A",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892123456",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute—£and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": ""
+					},
+					{
+						"*SIN": "75 200",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "Lenovo",
+						"*Product Type": "Accessory",
+						"*Product / Accessory Name": "Dri£ll—2‚B",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892123456",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute—£and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": ""
+					}
+				],
+				"Non Pricing": [
+					{
+						"*SIN": "75 200",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "„Description„—£ goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "„Extended warranty„—£ goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+					{
+						"*SIN": "75 200",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "Lenovo",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "„Description„—£ goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "„Extended warranty„—£ goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					}
+				],
+				"Accessories": [
+					{
+						"*SIN": "75 200",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Accessory Part Number": "234567",
+						"*Accessory Manufacturer": "Lenovo"
+					}
+				],
+				"Delivery": [
+					{
+						"*SIN": "75 200",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "Dell Comp",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+					{
+						"*SIN": "75 200",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "Lenovo",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+				"Special Features": [
+					{
+						"*SIN": "75 200",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Environmental Features - Shipboard Use Approved": "",
+						"Environmental Features - FEMP Energy Efficiency": "",
+						"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "",
+						"Environmental Features - Low VOC": "X",
+						"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "",
+						"Environmental Features - BioPreferred": "",
+						"Environmental Features - EPA WaterSense Program": "X",
+						"Environmental Features - Safer Choice": "",
+						"Special Features - AbilityOne": "X",
+						"Special Features - UNICOR": "X",
+						"Special Features - Ergonomic": "",
+						"Special Features - Section 508": "",
+						"Special Features - Product 508 URL": "",
+						"Special Features - Pre-purchased stock": "",
+						"Special Features - Scan Code 1": "",
+						"Special Features - Scan Code 1 Text": "",
+						"Special Features - Scan Code 2": "",
+						"Special Features - Scan Code 2 Text": "",
+						"Special Features - Hazmat": "",
+						"Special Features - UNID Code": "",
+						"Special Features - Scan Code 3": "",
+						"Special Features - Scan Code 3 Text": "",
+						"EPA Recommended - BIFMA level": "X",
+						"EPA Recommended - Biodegradable Products Institute compostable product": "",
+						"EPA Recommended - California Section 01350 standard": "",
+						"EPA Recommended - FloorScore": "X",
+						"EPA Recommended - Forest Stewardship Council": "",
+						"EPA Recommended - Green Seal GS-01": "",
+						"EPA Recommended - Green Seal GS-07": "",
+						"EPA Recommended - Green Seal GS-37": "",
+						"EPA Recommended - Green Seal GS-40": "",
+						"EPA Recommended - Green Seal GS-41": "",
+						"EPA Recommended - NSF 140 Carpet": "",
+						"EPA Recommended - NSF 332": "X",
+						"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "",
+						"EPA Recommended - SCAQMD Rule #1113": "",
+						"EPA Recommended - SCAQMD Rule #1168": "",
+						"EPA Recommended - STMC Toner Cartridges": "",
+						"EPA Recommended - UL 126": "",
+						"EPA Recommended - UL 2759": "",
+						"EPA Recommended - UL 2771": "X",
+						"EPA Recommended - UL 2777": "",
+						"EPA Recommended - UL 2784": "",
+						"EPA Recommended - UL 2785": "",
+						"EPA Recommended - UL 2792": "",
+						"EPA Recommended - UL 2818 GREENGUARD": ""
+					}
+				]
+			}
+		},
+		"productAnalysisReport": {
+		},
+		"finalPricingDocument": {
+			"validateFinalPricingDocument": "Yes",
+			"finalPricingDocumentName": "Delta Price List.zip",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "75 200",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Drill-1,A",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892123456",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute-and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": ""
+					},
+					{
+						"*SIN": "75 200",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Product Type": "Accessory",
+						"*Product / Accessory Name": "Drill-2,B",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892123456",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute-and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": ""
+					}
+				],
+				"Non Pricing": [
+					{
+						"*SIN": "75 200",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "\"Description\"- goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "\"Extended warranty\"- goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+					{
+						"*SIN": "75 200",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "\"Description\"- goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "\"Extended warranty\"- goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					}
+				],
+				"Accessories": [
+					{
+						"*SIN": "75 200",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Accessory Part Number": "234567",
+						"*Accessory Manufacturer": "LENOVO"
+					}
+				],
+				"Delivery": [
+					{
+						"*SIN": "75 200",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+					{
+						"*SIN": "75 200",
+						"*Manufacturer Part Number": "234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+				"Special Features": [
+					{
+						"*SIN": "75 200",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Environmental Features - Shipboard Use Approved": "",
+						"Environmental Features - FEMP Energy Efficiency": "",
+						"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "",
+						"Environmental Features - Low VOC": "X",
+						"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "",
+						"Environmental Features - BioPreferred": "",
+						"Environmental Features - EPA WaterSense Program": "X",
+						"Environmental Features - Safer Choice": "",
+						"Special Features - AbilityOne": "X",
+						"Special Features - UNICOR": "X",
+						"Special Features - Ergonomic": "",
+						"Special Features - Section 508": "",
+						"Special Features - Product 508 URL": "",
+						"Special Features - Pre-purchased stock": "",
+						"Special Features - Scan Code 1": "",
+						"Special Features - Scan Code 1 Text": "",
+						"Special Features - Scan Code 2": "",
+						"Special Features - Scan Code 2 Text": "",
+						"Special Features - Hazmat": "",
+						"Special Features - UNID Code": "",
+						"Special Features - Scan Code 3": "",
+						"Special Features - Scan Code 3 Text": "",
+						"EPA Recommended - BIFMA level": "X",
+						"EPA Recommended - Biodegradable Products Institute compostable product": "",
+						"EPA Recommended - California Section 01350 standard": "",
+						"EPA Recommended - FloorScore": "X",
+						"EPA Recommended - Forest Stewardship Council": "",
+						"EPA Recommended - Green Seal GS-01": "",
+						"EPA Recommended - Green Seal GS-07": "",
+						"EPA Recommended - Green Seal GS-37": "",
+						"EPA Recommended - Green Seal GS-40": "",
+						"EPA Recommended - Green Seal GS-41": "",
+						"EPA Recommended - NSF 140 Carpet": "",
+						"EPA Recommended - NSF 332": "X",
+						"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "",
+						"EPA Recommended - SCAQMD Rule #1113": "",
+						"EPA Recommended - SCAQMD Rule #1168": "",
+						"EPA Recommended - STMC Toner Cartridges": "",
+						"EPA Recommended - UL 126": "",
+						"EPA Recommended - UL 2759": "",
+						"EPA Recommended - UL 2771": "X",
+						"EPA Recommended - UL 2777": "",
+						"EPA Recommended - UL 2784": "",
+						"EPA Recommended - UL 2785": "",
+						"EPA Recommended - UL 2792": "",
+						"EPA Recommended - UL 2818 GREENGUARD": ""
+					}
+				]
+			}
+		},
+		"uploadDocuments": [
+			{
+				"type": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"action": "upload",
+				"filename": "GenericUploadData/TCTextFile.docx"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			},
+			{
+				"documentType": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"elementTitle": "Review document related to Terms and Conditions Text File",
+				"filename": "TCTextFile.docx"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Administrative",
+			"Wizard Management",
+			"Capture Pricing",
+			"Product Analysis Report",
+			"Pricing Document",
+			"Upload Documents"
+		]
+	},
+	"Submit EPA with CPL Mod: Review eMod successful for FPT contract": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Economic Price Adjustments (EPA) with Commercial Price List (increase)"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "599 2"
+				}
+			],
+			"percentage": "10",
+			"descOfModRequest": "This is a test for EPA mod with CPL"
+		},
+		"downloadUploadTemplate": {
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "599 2",
+						"*Manufacturer Part Number": "D7S27A",
+						"*Manufacturer Name": "HEWLETT PACKARD",
+						"*Start Date (MM/DD/YYYY)": "",
+						"*Zone Number": "1",
+						"*Proposed Price (Excl. IFF)": "50"
+					}
+				]
+			}
+		},
+		"uploadDocuments": [
+			{
+				"type": "Commercial Pricelist",
+				"documentName": "Commercial Pricelist",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls"
+			},
+			{
+				"type": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/past_performance.txt"
+			}
+		],
+		"finalPricingDocument": {
+		},
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			},
+			{
+				"documentType": "Commercial Pricelist",
+				"documentName": "Commercial Pricelist",
+				"elementTitle": "Review document related to Commercial Pricelist",
+				"filename": "Blank_Excel_File.xls"
+			},
+			{
+				"documentType": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"elementTitle": "Review document related to Supporting Documentation",
+				"filename": "past_performance.txt"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Wizard Management",
+			"Capture Pricing",
+			"Pricing Document",
+			"Upload Documents"
+		]
+	},
+	"Submit EPA without CPL Mod: Review eMod successful for FPT contract": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Economic Price Adjustments (EPA) without Commercial Price List (increase)"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "599 2"
+				}
+			],
+			"percentage": "10",
+			"descOfModRequest": "This is a test for EPA mod with CPL"
+		},
+		"downloadUploadTemplate": {
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "599 2",
+						"*Manufacturer Part Number": "D7S27A",
+						"*Manufacturer Name": "HEWLETT PACKARD",
+						"*Start Date (MM/DD/YYYY)": "",
+						"*Zone Number": "1",
+						"*Proposed Price (Excl. IFF)": "50"
+					}
+				]
+			}
+		},
+		"uploadDocuments": [
+			{
+				"type": "Market Indicator",
+				"documentName": "Market Indicator",
+				"action": "upload",
+				"filename": "GenericUploadData/agent_auth_letter.txt"
+			},
+			{
+				"type": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/past_performance.txt"
+			}
+		],
+		"finalPricingDocument": {
+		},
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			},
+			{
+				"documentType": "Market Indicator",
+				"documentName": "Market Indicator",
+				"elementTitle": "Review document related to Market Indicator",
+				"filename": "agent_auth_letter.txt"
+			},
+			{
+				"documentType": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"elementTitle": "Review document related to Supporting Documentation",
+				"filename": "past_performance.txt"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Wizard Management",
+			"Capture Pricing",
+			"Pricing Document",
+			"Upload Documents"
+		]
+	},
+	"Submit Temporary Price Reduction Mod: Review eMod successful for FPT contract": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Temporary Price Reduction"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "599 1"
+				}
+			],
+			"descOfModRequest": "Add TPR mod for test"
+		},
+		"downloadUploadTemplate": {
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "599 1",
+						"*Manufacturer Part Number": "BB100AC",
+						"*Manufacturer Name": "HEWLETT-PACKARD",
+						"*Start Date (MM/DD/YYYY)": "",
+						"*End Date (MM/DD/YYYY)": "",
+						"*Zone Number": "1",
+						"*Proposed Price (Excl. IFF)": "90.00"
+					}
+				]
+			}
+		},
+		"uploadDocuments": [
+			{
+				"type": "Commercial Pricelist",
+				"documentName": "Commercial Pricelist",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx"
+			},
+			{
+				"type": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"action": "upload",
+				"filename": "GenericUploadData/TCTextFile.docx"
+			}
+		],
+		"finalPricingDocument": {
+		},
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"elementTitle": "Review document related to Terms and Conditions Text File",
+				"filename": "TCTextFile.docx"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			},
+			{
+				"documentType": "Commercial Pricelist",
+				"documentName": "Commercial Pricelist",
+				"elementTitle": "Review document related to Commercial Pricelist",
+				"filename": "services-file.docx"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Wizard Management",
+			"Capture Pricing",
+			"Pricing Document",
+			"Upload Documents"
+		]
+	},
+	"Submit Temporary Price Reduction Mod: Review eMod successful for Non-FPT contract": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Temporary Price Reduction"
+		],
+		"goodsAndServices": {
+			"descOfModRequest": "Add TPR mod for non FPT contract",
+			"startDate": "",
+			"endDate": "",
+			"acknowledge": "Yes"
+		},
+		"uploadDocuments": [
+			{
+				"type": "Commercial Pricelist",
+				"documentName": "Commercial Pricelist",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Upload Documents"
+		]
+	},
+	"Submit Permanent Price Reduction MFC Mod: Review eMod successful for FPT contract": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Permanent Price Reduction (Based on Most Favored Customer)"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "58 5"
+				}
+			],
+			"descOfModRequest": "Add PPR MFC mod for test"
+		},
+		"downloadUploadTemplate": {
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"*Zone Number": "01",
+						"*Start Date (MM/DD/YYYY)": "",
+						"*Proposed Price (Excl. IFF)": "1150.00"
+					}
+				]
+			}
+		},
+		"uploadDocuments": [
+			{
+				"type": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			},
+			{
+				"documentType": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"elementTitle": "Review document related to Supporting Documentation",
+				"filename": "services-file.docx"
+			}
+		],
+		"finalPricingDocument": {
+		},
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Wizard Management",
+			"Zonal Pricing",
+			"Capture Pricing",
+			"Pricing Document",
+			"Upload Documents"
+		]
+	},
+	"Submit Permanent Price Reduction IPR Mod: Review eMod successful for FPT contract": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Permanent Price Reduction (Industry Partner requested)"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "58 5"
+				}
+			],
+			"descOfModRequest": "Add PPR IPR mod for test"
+		},
+		"downloadUploadTemplate": {
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"*Zone Number": "01",
+						"*Start Date (MM/DD/YYYY)": "",
+						"*Proposed Price (Excl. IFF)": "1150.00"
+					}
+				]
+			}
+		},
+		"finalPricingDocument": {
+		},
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Wizard Management",
+			"Zonal Pricing",
+			"Capture Pricing",
+			"Pricing Document",
+			"Upload Documents"
+		]
+	},
+	"Submit Capture Formatted Pricing Mod: Review eMod successful for FPT contract": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Capture Formatted Pricing"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "262 53"
+				}
+			],
+			"offerCategory": "Products And Services",
+			"minOrderLimit": "100",
+			"descOfModRequest": "Add Baseline mod for test"
+		},
+		"pointOfContact": [
+			{
+				"poc": "Order POC",
+				"name": "Bruce Wayne",
+				"title": "Batman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			},
+			{
+				"poc": "Contact for Contract Administration (Domestic)",
+				"name": "Tony Stark",
+				"title": "Ironman",
+				"address1": "Daily Planet street",
+				"city": "Long Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "ironman@marvelcomics.com"
+			}
+		],
+		"wizardManagement": {
+			"selectDollarDiscount": "Yes",
+			"discountLevel": "Offer",
+			"selectDelivery": "Yes",
+			"deliveryLevel": "Line Item",
+			"specialCharges": "Yes",
+			"options": "Yes"
+		},
+		"discounts": [
+			{
+				"startRange": "2",
+				"endRange": "50",
+				"discount": "0.2"
+			}
+		],
+		"specialCharges": [
+			{
+				"sin": "262 53",
+				"charges": [
+					"Saturday Delivery",
+					"Training"
+				]
+			}
+		],
+		"downloadUploadTemplate": {
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"worksheetData": {
+				"Pricing": [
+					{
+						"*SIN": "262 53",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Drill",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892123456",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Offer Price": "100",
+						"Markup (%)": "15",
+						"Discount (%) to GSA": ""
+					}
+				],
+				"Non Pricing": [
+					{
+						"*SIN": "262 53",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "13",
+						"Manufacturer Warranty - Description": "Description goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					}
+				],
+				"Delivery": [
+					{
+						"*SIN": "262 53",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+				"Special Charges": [
+					{
+						"*SIN": "262 53",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Saturday Delivery - Charges": "25",
+						"Saturday Delivery - Per": "EA - EACH",
+						"Saturday Delivery - Description": "Saturday delivery charges description",
+						"Training - Charges": "65",
+						"Training - Per": "HR - HOURS",
+						"Training - Description": "Traning charges description"
+					}
+				],
+				"Options": [
+					{
+						"*SIN": "262 53",
+						"*Manufacturer Part Number": "234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Option Part Number": "OP12345",
+						"*Option Manufacturer": "Honeywell",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Processor",
+						"*Option Quantity": "5",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "15",
+						"*Option Description": "Honeywell Mouse 1",
+						"*Option Deletable ? (Y/N)": "N"
+					}
+				]
+			}
+		},
+		"productAnalysisReport": {
+		},
+		"finalPricingDocument": {
+			"validateFinalPricingDocument": "Yes",
+			"finalPricingDocumentName": "Delta Price List.zip"
+		},
+		"uploadDocuments": [
+			{
+				"type": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			},
+			{
+				"documentType": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"elementTitle": "Review document related to Services Text File",
+				"filename": "services-file.docx"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Administrative",
+			"Wizard Management",
+			"Special Charges",
+			"Discounts",
+			"Capture Pricing",
+			"Product Analysis Report",
+			"Pricing Document",
+			"Upload Documents"
+		]
+	},
+	"Submit Discounts Mod at Contract Level: Review eMod successful for FPT contract": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Manage Discounts"
+		],
+		"goodsAndServices": {
+			"descOfModRequest": "This is the Detailed description of the Discount Modification Request"
+		},
+		"wizardManagement": {
+			"selectDollarDiscount": "Yes",
+			"discountLevel": "Contract",
+			"selectDelivery": "Yes",
+			"deliveryLevel": "SIN"
+		},
+		"discounts": [
+			{
+				"startRange": "2",
+				"endRange": "50",
+				"discount": "0.2"
+			},
+			{
+				"startRange": "51",
+				"endRange": "100",
+				"discount": "0.5"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Wizard Management",
+			"Discounts",
+			"Pricing Document",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			}
+		],
+		"finalPricingDocument": {
+		}
+	},
+	"Submit Discounts Mod at SIN Level: Review eMod successful for FPT contract": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Manage Discounts"
+		],
+		"goodsAndServices": {
+			"descOfModRequest": "This is the Detailed description of the Discount Modification Request"
+		},
+		"wizardManagement": {
+			"selectDollarDiscount": "Yes",
+			"discountLevel": "SIN"
+		},
+		"discounts": [
+			{
+				"sin": "599 1",
+				"startRange": "2",
+				"endRange": "50",
+				"discount": "10"
+			},
+			{
+				"sin": "599 1",
+				"startRange": "51",
+				"endRange": "100",
+				"discount": "15"
+			},
+			{
+				"sin": "599 2",
+				"startRange": "2",
+				"endRange": "50",
+				"discount": "10"
+			},
+			{
+				"sin": "599 2",
+				"startRange": "51",
+				"endRange": "100",
+				"discount": "15"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Wizard Management",
+			"Discounts",
+			"Pricing Document",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			}
+		],
+		"finalPricingDocument": {
+		}
+	},
+	"Submit Discounts Mod at Line Item Level - Dollar Discount, no Zonal Pricing: Review eMod successful for FPT contract": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Manage Discounts"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "426 4C"
+				},
+				{
+					"sin": "426 4D"
+				},
+				{
+					"sin": "426 4E"
+				},
+				{
+					"sin": "426 4F"
+				}
+			],
+			"descOfModRequest": "This is the Detailed description of the Discount Modification Request"
+		},
+		"wizardManagement": {
+			"selectDollarDiscount": "Yes",
+			"discountLevel": "Line Item"
+		},
+		"downloadUploadTemplate": {
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"prodAccessoryManufactureInfo": {
+				"manufactureDetails": [
+					{
+						"sin": "426 4C",
+						"manufacturePartNumber": "1234566",
+						"manufactureName": "Dell Comp",
+						"accessoryManufacturerPartNumber": "",
+						"accessoryManufacturerName": "",
+						"discounts": [
+							{
+								"startRange": "300",
+								"endRange": "399",
+								"discount": "100",
+								"discountType": "DOLLAR"
+							}
+						]
+					},
+					{
+						"sin": "426 4D",
+						"manufacturePartNumber": "1234568",
+						"manufactureName": "Apple",
+						"accessoryManufacturerPartNumber": "",
+						"accessoryManufacturerName": "",
+						"discounts": [
+							{
+								"startRange": "300",
+								"endRange": "399",
+								"discount": "100",
+								"discountType": "DOLLAR"
+							}
+						]
+					},
+					{
+						"sin": "426 4E",
+						"manufacturePartNumber": "1234570",
+						"manufactureName": "Dove",
+						"accessoryManufacturerPartNumber": "",
+						"accessoryManufacturerName": "",
+						"discounts": [
+							{
+								"startRange": "300",
+								"endRange": "399",
+								"discount": "100",
+								"discountType": "DOLLAR"
+							}
+						]
+					},
+					{
+						"sin": "426 4F",
+						"manufacturePartNumber": "1234571",
+						"manufactureName": "Olay",
+						"accessoryManufacturerPartNumber": "",
+						"accessoryManufacturerName": "",
+						"discounts": [
+							{
+								"startRange": "300",
+								"endRange": "399",
+								"discount": "100",
+								"discountType": "DOLLAR"
+							}
+						]
+					}
+				]
+			}
+		},
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Wizard Management",
+			"Capture Pricing",
+			"Pricing Document",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			}
+		],
+		"finalPricingDocument": {
+		}
+	},
+	"Submit Discounts Mod at Line Item Level - Vol/Qty Discount, no Zonal Pricing: Review eMod successful  contract": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Manage Discounts"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "426 4C"
+				},
+				{
+					"sin": "426 4D"
+				},
+				{
+					"sin": "426 4E"
+				},
+				{
+					"sin": "426 4F"
+				}
+			],
+			"descOfModRequest": "This is the Detailed description of the Discount Modification Request"
+		},
+		"wizardManagement": {
+			"selectDollarDiscount": "Yes",
+			"discountLevel": "Line Item"
+		},
+		"downloadUploadTemplate": {
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"prodAccessoryManufactureInfo": {
+				"manufactureDetails": [
+					{
+						"sin": "426 4C",
+						"manufacturePartNumber": "1234566",
+						"manufactureName": "Dell Comp",
+						"accessoryManufacturerPartNumber": "",
+						"accessoryManufacturerName": "",
+						"discounts": [
+							{
+								"startRange": "2",
+								"endRange": "50",
+								"discount": "10",
+								"discountType": "VOLUME_QUANTITY"
+							},
+							{
+								"startRange": "51",
+								"endRange": "100",
+								"discount": "20",
+								"discountType": "VOLUME_QUANTITY"
+							}
+						]
+					},
+					{
+						"sin": "426 4D",
+						"manufacturePartNumber": "1234568",
+						"manufactureName": "Apple",
+						"accessoryManufacturerPartNumber": "",
+						"accessoryManufacturerName": "",
+						"discounts": [
+							{
+								"startRange": "2",
+								"endRange": "50",
+								"discount": "10",
+								"discountType": "VOLUME_QUANTITY"
+							},
+							{
+								"startRange": "51",
+								"endRange": "100",
+								"discount": "20",
+								"discountType": "VOLUME_QUANTITY"
+							}
+						]
+					},
+					{
+						"sin": "426 4E",
+						"manufacturePartNumber": "1234570",
+						"manufactureName": "Dove",
+						"accessoryManufacturerPartNumber": "",
+						"accessoryManufacturerName": "",
+						"discounts": [
+							{
+								"startRange": "2",
+								"endRange": "50",
+								"discount": "10",
+								"discountType": "VOLUME_QUANTITY"
+							},
+							{
+								"startRange": "51",
+								"endRange": "100",
+								"discount": "20",
+								"discountType": "VOLUME_QUANTITY"
+							}
+						]
+					},
+					{
+						"sin": "426 4F",
+						"manufacturePartNumber": "1234571",
+						"manufactureName": "Olay",
+						"accessoryManufacturerPartNumber": "",
+						"accessoryManufacturerName": "",
+						"discounts": [
+							{
+								"startRange": "2",
+								"endRange": "50",
+								"discount": "10",
+								"discountType": "VOLUME_QUANTITY"
+							},
+							{
+								"startRange": "51",
+								"endRange": "100",
+								"discount": "20",
+								"discountType": "VOLUME_QUANTITY"
+							}
+						]
+					}
+				]
+			}
+		},
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Wizard Management",
+			"Capture Pricing",
+			"Pricing Document",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.zip"
+			}
+		],
+		"finalPricingDocument": {
+		}
+	},
+	"Submit Permanent Price Reduction IPR Mod: Review eMod successful for Non-FPT Non-TDR contract": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Permanent Price Reduction (Industry Partner requested)"
+		],
+		"goodsAndServices": {
+			"descOfModRequest": "Add PPR IPR mod for test",
+			"startDate": "",
+			"acknowledge": "Yes"
+		},
+		"uploadDocuments": [
+			{
+				"type": "Commercial Pricelist",
+				"action": "upload",
+				"documentName": "Commercial Pricelist",
+				"filename": "GenericUploadData/services-file.docx"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Commercial Pricelist",
+				"documentName": "Commercial Pricelist",
+				"elementTitle": "Review document related to Commercial Pricelist",
+				"filename": "services-file.docx"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Upload Documents"
+		]
+	},
+	"Submit Permanent Price Reduction MFC Mod: Review eMod successful for Non-FPT Non-TDR contract": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Permanent Price Reduction (Based on Most Favored Customer)"
+		],
+		"goodsAndServices": {
+			"descOfModRequest": "Add PPR MFC mod for non FPT contract",
+			"startDate": "",
+			"endDate": "",
+			"acknowledge": "Yes"
+		},
+		"uploadDocuments": [
+			{
+				"type": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"elementTitle": "Review document related to Supporting Documentation",
+				"filename": "services-file.docx"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Upload Documents"
+		]
+	},
+	"Submit Wage Determinations Mod: Verify not responding to Revise CSP gives error": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Permanent Price Reduction (Based on Most Favored Customer)"
+		],
+		"goodsAndServices": {
+			"descOfModRequest": "Add PPR MFC mod for non FPT contract",
+			"startDate": "1/6/2023",
+			"acknowledge": "Yes"
+		},
+		"uploadDocuments": [
+			{
+				"type": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"elementTitle": "Review document related to Supporting Documentation",
+				"filename": "services-file.docx"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Upload Documents"
+		]
+	},
+	"Submit EPA with CPL Mod: Review eMod successful for Non-FPT contract": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Economic Price Adjustments (EPA) with Commercial Price List (increase)"
+		],
+		"goodsAndServices": {
+			"percentage": "10",
+			"descOfModRequest": "This is a test for EPA mod with CPL"
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "IBM",
+					"discount": "&%",
+					"quantity": "9999",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"uploadDocuments": [
+			{
+				"type": "Commercial Pricelist",
+				"documentName": "Commercial Pricelist",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls"
+			},
+			{
+				"type": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/past_performance.txt"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Commercial Pricelist",
+				"documentName": "Commercial Pricelist",
+				"elementTitle": "Review document related to Commercial Pricelist",
+				"filename": "Blank_Excel_File.xls"
+			},
+			{
+				"documentType": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"elementTitle": "Review document related to Supporting Documentation",
+				"filename": "past_performance.txt"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Upload Documents"
+		]
+	},
+	"Submit EPA without CPL Mod: Review eMod successful for Non-FPT contract": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Economic Price Adjustments (EPA) without Commercial Price List (increase)"
+		],
+		"goodsAndServices": {
+			"percentage": "10",
+			"descOfModRequest": "This is a test for EPA mod with CPL"
+		},
+		"commercialSalesPractice": {
+			"valueOfSales": "1000",
+			"startDate": "",
+			"endDate": "",
+			"salesValueDesc": "testing the sales Value Desc",
+			"sinDesc": "SIN desc",
+			"discountsOffered": "Yes",
+			"discountLevel": "Offer/Contract",
+			"deviation": "No",
+			"policyBasisLevelForOffer": {
+				"discountPolicyLevel": "Offer",
+				"basisLevel": "Discount"
+			},
+			"addDiscountPolicy": [
+				{
+					"customer": "Dell",
+					"discount": "4%",
+					"quantity": "1000",
+					"fobTerm": "D - Destination",
+					"concessions": "Extended Warranty"
+				}
+			]
+		},
+		"uploadDocuments": [
+			{
+				"type": "Market Indicator",
+				"documentName": "Market Indicator",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls"
+			},
+			{
+				"type": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/past_performance.txt"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Commercial Sales Practice Response",
+				"documentName": "Commercial Sales Practice Response",
+				"elementTitle": "Commercial Sales Practice Response",
+				"filename": "csp.pdf"
+			},
+			{
+				"documentType": "Market Indicator",
+				"documentName": "Market Indicator",
+				"elementTitle": "Review document related to Market Indicator",
+				"filename": "GenericUploadData/Blank_Excel_File.xls"
+			},
+			{
+				"documentType": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"elementTitle": "Review document related to Supporting Documentation",
+				"filename": "GenericUploadData/past_performance.txt"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Upload Documents"
+		]
+	},
+	"Submit Wage Determinations Mod: Review eMod successful for Non-FPT contract": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_pricing_Contract",
+		"UEI": "eMod_pricing_UEI",
+		"modTypes": [
+			"Wage Determinations"
+		],
+		"goodsAndServices": {
+			"descOfModRequest": "Add Wage determination mod for test"
+		},
+		"uploadDocuments": [
+			{
+				"type": "Department of Labor Wage Determinations",
+				"documentName": "Department of Labor Wage Determinations",
+				"action": "upload",
+				"filename": "GenericUploadData/services-file.docx"
+			},
+			{
+				"type": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/support_docs.txt"
+			}
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Department of Labor Wage Determinations",
+				"documentName": "Department of Labor Wage Determinations",
+				"elementTitle": "Review document related to Department of Labor Wage Determinations",
+				"filename": "services-file.docx"
+			},
+			{
+				"documentType": "Supporting Documentation",
+				"documentName": "Supporting Documentation",
+				"elementTitle": "Review document related to Supporting Documentation",
+				"filename": "support_docs.txt"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Pricing",
+			"Upload Documents"
+		]
+	}
+}

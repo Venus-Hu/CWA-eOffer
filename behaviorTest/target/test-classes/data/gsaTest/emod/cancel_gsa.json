@@ -1,0 +1,29 @@
+{
+	"Submit Cancel Contract Mod: Review eMod successful": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_cancel_Contract",
+		"UEI": "eMod_cancel_UEI",
+		"modTypes": [
+			"Cancel Contract"
+		],
+		"cancelMod": {
+			"clause": "Cancel Contract",
+			"modDescription": "This is description for Cancel Contract"
+		},
+		"completedMenuItems": [
+			"Corporate Information",
+			"Cancellation or Termination",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		]
+	}
+}

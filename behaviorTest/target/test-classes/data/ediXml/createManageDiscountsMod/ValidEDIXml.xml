@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<gsaPriceCatalog>
+  <contractLines oid="0" >
+    <clNum>426 4C</clNum>
+    <lineitem>
+      <lineItemTechnical oid="0" >
+        <product oid="0" >
+          <manufacturerPartNumber>1234566</manufacturerPartNumber>
+          <manufacturer>Dell Comp</manufacturer>
+        </product>
+      </lineItemTechnical>
+      <manufacturerPartNumber>1234566</manufacturerPartNumber>
+      <manufacturerName>Dell Comp</manufacturerName>
+	  <discounts>
+		<discountType>Volume/Qty Discount</discountType>
+		<breakBegin>100</breakBegin>
+		<breakEnd>200</breakEnd>
+		<discountPercent>2</discountPercent>
+	  </discounts>
+	  <discounts>
+		<discountType>Volume/Qty Discount</discountType>
+		<breakBegin>201</breakBegin>
+		<breakEnd>300</breakEnd>
+		<discountPercent>3</discountPercent>
+	  </discounts>	  
+	  <discountCondition>Discount Condition Description</discountCondition>	  
+    </lineitem>
+   <lineitem>
+      <lineItemTechnical oid="0" >
+        <product oid="0" >
+          <manufacturerPartNumber>1234567</manufacturerPartNumber>
+          <manufacturer>Lenovo</manufacturer>
+		 </product>
+      </lineItemTechnical>
+      <manufacturerPartNumber>1234567</manufacturerPartNumber>
+      <manufacturerName>Lenovo</manufacturerName>
+	  <discounts>
+		<discountType>Volume/Qty Discount</discountType>
+		<breakBegin>100</breakBegin>
+		<breakEnd>200</breakEnd>
+		<discountPercent>2</discountPercent>
+	  </discounts>
+	  <discounts>
+		<discountType>Volume/Qty Discount</discountType>
+		<breakBegin>201</breakBegin>
+		<breakEnd>300</breakEnd>
+		<discountPercent>3</discountPercent>
+	  </discounts>	  
+	  <discountCondition>Discount Condition Description</discountCondition>	  
+    </lineitem>	
+  </contractLines>
+  <contractLines oid="0" >
+    <clNum>426 4D</clNum>
+    <lineitem>
+      <lineItemTechnical oid="0" >
+        <product oid="0" >
+          <manufacturerPartNumber>1234568</manufacturerPartNumber>
+          <manufacturer>Apple</manufacturer>
+        </product>
+      </lineItemTechnical>
+      <manufacturerPartNumber>1234568</manufacturerPartNumber>
+      <manufacturerName>Apple</manufacturerName>
+	  <discounts>
+		<discountType>Volume/Qty Discount</discountType>
+		<breakBegin>100</breakBegin>
+		<breakEnd>200</breakEnd>
+		<discountPercent>2</discountPercent>
+	  </discounts>
+	  <discounts>
+		<discountType>Volume/Qty Discount</discountType>
+		<breakBegin>201</breakBegin>
+		<breakEnd>300</breakEnd>
+		<discountPercent>3</discountPercent>
+	  </discounts>	  
+	  <discountCondition>Discount Condition Description</discountCondition>	  
+    </lineitem>
+   <lineitem>
+      <lineItemTechnical oid="0" >
+        <product oid="0" >
+          <manufacturerPartNumber>1234569</manufacturerPartNumber>
+          <manufacturer>Logitech</manufacturer>
+		 </product>
+      </lineItemTechnical>
+      <manufacturerPartNumber>1234569</manufacturerPartNumber>
+      <manufacturerName>Logitech</manufacturerName>
+	  <discounts>
+		<discountType>Volume/Qty Discount</discountType>
+		<breakBegin>100</breakBegin>
+		<breakEnd>200</breakEnd>
+		<discountPercent>2</discountPercent>
+	  </discounts>
+	  <discounts>
+		<discountType>Volume/Qty Discount</discountType>
+		<breakBegin>201</breakBegin>
+		<breakEnd>300</breakEnd>
+		<discountPercent>3</discountPercent>
+	  </discounts>	  
+	  <discountCondition>Discount Condition Description</discountCondition>	  
+    </lineitem>	
+  </contractLines>
+  <contractLines oid="0" >
+    <clNum>426 4E</clNum>
+    <lineitem>
+      <lineItemTechnical oid="0" >
+        <product oid="0" >
+          <manufacturerPartNumber>1234570</manufacturerPartNumber>
+          <manufacturer>Dove</manufacturer>
+        </product>
+      </lineItemTechnical>
+      <manufacturerPartNumber>1234570</manufacturerPartNumber>
+      <manufacturerName>Dove</manufacturerName>
+	  <discounts>
+		<discountType>Volume/Qty Discount</discountType>
+		<breakBegin>100</breakBegin>
+		<breakEnd>200</breakEnd>
+		<discountPercent>2</discountPercent>
+	  </discounts>
+	  <discounts>
+		<discountType>Volume/Qty Discount</discountType>
+		<breakBegin>201</breakBegin>
+		<breakEnd>300</breakEnd>
+		<discountPercent>3</discountPercent>
+	  </discounts>	  
+	  <discountCondition>Discount Condition Description</discountCondition>	  
+    </lineitem>	
+  </contractLines>
+  <contractLines oid="0" >
+    <clNum>426 4F</clNum>
+    <lineitem>
+      <lineItemTechnical oid="0" >
+        <product oid="0" >
+          <manufacturerPartNumber>1234571</manufacturerPartNumber>
+          <manufacturer>Olay</manufacturer>
+        </product>
+      </lineItemTechnical>
+      <manufacturerPartNumber>1234570</manufacturerPartNumber>
+      <manufacturerName>Olay</manufacturerName>
+	  <discounts>
+		<discountType>Volume/Qty Discount</discountType>
+		<breakBegin>100</breakBegin>
+		<breakEnd>200</breakEnd>
+		<discountPercent>2</discountPercent>
+	  </discounts>
+	  <discounts>
+		<discountType>Volume/Qty Discount</discountType>
+		<breakBegin>201</breakBegin>
+		<breakEnd>300</breakEnd>
+		<discountPercent>3</discountPercent>
+	  </discounts>	  
+	  <discountCondition>Discount Condition Description</discountCondition>	  
+    </lineitem>	
+  </contractLines>
+  </gsaPriceCatalog>

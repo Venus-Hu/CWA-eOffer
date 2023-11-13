@@ -1,0 +1,1028 @@
+{
+	"_comment": "User for Sign In",
+	"SignIn": 
+	{
+		"name": "Debbie Richards",
+		"email": "deborah.richards@karsun-llc.com",
+		"company": "Karsun Solutions",
+		"phone": "703-722-8747",
+		"module": "eOffer"
+	},
+
+	"UEI": "001070903",
+	"solicitationNumber": "FCIS-JB-980001-B",
+	"scheduleNumber": "70",
+	"solicitationRefreshNumber": "57",
+	"negotiator": 
+	[
+		{
+			"name": "Bindu M Somana",
+			"title": "CO",
+			"phone": "123-456-7890",
+			"phoneIntl": "",
+			"fax": "",
+			"faxIntl": "",
+			"email": "bindu.somana@gsa.gov",
+			"role": "Authorized to sign"
+		}
+	],
+
+	"editNegotiator": 
+	[
+		{
+			"prevName": "Bindu M Somana",
+			"name": "Clark Kent Jr.",
+			"title": "CO",
+			"phone": "123-456-7890",
+			"email": "clark.kent.jr@gsa.gov",
+			"role": "Authorized to sign"
+		}
+	],
+
+	"goodsAndServices": 
+	{
+		"sinDetails": 
+		[
+			{
+				"sinGroup": "Group 1",
+				"sin": "132 3-Leasing of Products - SUBJECT TO COOPERATIVE PURCHASING",
+				"naicsCode": "518210",
+				"scope": "Contractor will provide overseas delivery only",
+				"estimatedSales": "111",
+				"coOpPurchasing": "",
+				"commercialDeliverySchedule": "",
+				"stateCommercialDelivery": "",
+				"expeditedDelivery": "",
+				"additionalServiceCharge": ""
+			}
+		],
+
+		"preponderanceNaicsCode": "518210",
+		"offerCategory": "",
+		"editSinDetails": 
+		[
+			{
+				"sinGroup": "Group 1",
+				"sin": "132 3-Leasing of Products - SUBJECT TO COOPERATIVE PURCHASING",
+				"naicsCode": "518210",
+				"scope": "Contractor will provide domestic delivery only",
+				"estimatedSales": "222",
+				"commercialDeliverySchedule": "",
+				"stateCommercialDelivery": "",
+				"expeditedDelivery": "",
+				"additionalServiceCharge": ""
+			}
+		]
+	},
+
+	"standardResponse": 
+	{
+		"disasterRecovery": "Yes",
+		"exceptionTerms": "Yes",
+		"exceptionCert": "No",
+		"americanRecovery": "Yes",
+		"empEligibility": "Yes",
+		"fastLane": "Yes",
+		"startup": "No",
+		"minOrderLimit": "9999",
+		"workInUS": "",
+		"subKNonProfit": "No",
+		"subKDomestic": "No",
+		"subKHasUSALocations": "No",
+		"subKWorkPerfomedForeignNo": "Yes",
+		"subKOpportunity": "Yes",
+		"domestic": "",
+		"smallBusiness": "",
+		"locationsInUS": "",
+		"operateInUS": ""
+	},
+
+	"basicInfo": 
+	{
+		"clauseResponse": 
+		[
+			{
+				"clauseNumber": "C-FSS-411",
+				"No_Safety_Stds": "Yes",
+				"Safety_Stds": "No",
+				"Table": 
+				[
+					{
+						"Product": "New Product 1",
+						"Standard": " standard resp"
+					}
+				]
+			},
+
+			{
+				"clauseNumber": "52.209-5",
+				"are_Ineligible": "Yes",
+				"are_Not_Ineligible": "No",
+				"have_Convicted": "Yes",
+				"have_Not_Convicted": "No",
+				"are_Charged": "Yes",
+				"are_Not_Charged": "No",
+				"have_Delinquent_Tax": "Yes",
+				"have_No_Delinguent_Tax": "No",
+				"has_Default": "Yes",
+				"has_No_Default": "No"
+			}
+		]
+	},
+
+	"pointOfContact": 
+	[
+		{
+			"poc": "Order POC",
+			"name": "Bruce Wayne",
+			"title": "Batman",
+			"address1": "Sesame street",
+			"city": "Gotham",
+			"state": "NJ",
+			"country": "USA",
+			"zip": "10007",
+			"phone": "123-456-7890",
+			"fax": "123-456-7890",
+			"email": "batman@dccomics.com"
+		}
+	],
+
+	"editPointOfContact": 
+	[
+		{
+			"poc": "Order POC",
+			"name": "Bruce Wayne",
+			"title": "Batman",
+			"address1": "Sesame street",
+			"city": "Gotham",
+			"state": "NJ",
+			"country": "USA",
+			"zip": "10007",
+			"phone": "123-456-7890",
+			"fax": "123-456-7890",
+			"email": "batman@dccomics.com"
+		}
+	],
+
+	"orderingInformation": 
+	{
+		"orderingReceiptInformation": 
+		[
+			{
+				"orderInfo": "receiptorder",
+				"receiptType": "Facsimile Transmission or",
+				"facsimile": "123-456-7899"
+			}
+		],
+
+		"remittanceAddress": 
+		[
+			{
+				"orderInfo": "remittanceorder",
+				"company": "ACME Corp.",
+				"address1": "3400 W Riverside Dr",
+				"city": "Death Valley",
+				"state": "NV",
+				"country": "USA",
+				"zip": "92328",
+				"phone": "123-456-7890",
+				"fax": "123-456-7890",
+				"email": "wiley.coyote@acmetest-corp.com"
+			}
+		]
+	},
+
+	"corporateExperience": 
+	{
+		"noOfYearsNarrative": "2-3 years o ",
+		"orgNarrative": "12",
+		"knowNarrative": "know",
+		"accountingNarrative": "accounts ",
+		"personnelNarrative": "persons",
+		"marketingNarrative": "market !@#$% @#@#*&(*))",
+		"subkNarrative": "sub contract"
+	},
+
+	"relevantExperience": 
+	[
+		{
+			"scpfss002ProjectDetailsPerformanceNarrative": "a",
+			"scpFSS002ProjectDetailsMethodologyNarrative": "b",
+			"scpFSS002ProjectDetailsDemoNarrative": "c",
+			"scpFSS002ProjectDetailsScheduleNarrative": "d",
+			"scpFSS002ProjectDetailsExperienceScopeNarrative": "e",
+			"scpFSS002ProjectDetailsSinExperienceNarrative": "f",
+			"customerDetails": 
+			{
+				"scpFSS002CustomerDetailsCustomerName": "abc",
+				"scpFSS002CustomerDetailsProjectName": "Test Project",
+				"scpFSS002CustomerDetailsPOCName": "Test user",
+				"scpFSS002CustomerDetailsPOCPhone": "123-456-7890",
+				"scpFSS002CustomerDetailsPOCEmail": "a@b.com",
+				"scpFSS002CustomerDetailsProjectDuration": "12",
+				"scpFSS002CustomerDetailsDollarValue": "1234",
+				"scpFSS002CustomerDetailsDollarValueForSin": "123",
+				"scpFSS002CustomerDetailsProjectSummary": "summary ",
+				"scpFSS002CustomerDetailsProjectSOW": "testing "
+			},
+
+			"substitution": 
+			{
+				"scpfss002SubstitutionForRelevantProjectExperience": ""
+			}
+		}
+	],
+
+	"pastPerformance": 
+	{
+		"startDate": "01/01/2017",
+		"orderDoc": "C://Users//amulay//Documents//orientation.txt",
+		"expDoc": "C://Users//amulay//Documents//DP-Saurav.txt",
+		"feedback": "fb"
+	},
+
+	"qualityControl": 
+	{
+		"internalReview": "review",
+		"personnel": "narrative personnel",
+		"subk": "sub contracting",
+		"problem": "problem",
+		"performance": "KPI",
+		"multiProject": "multiple projects"
+	},
+
+	"scaLaborCategoryMatrix": 
+	[
+		{
+			"laborCategory": "lc1",
+			"codeTitle": "title 1 ",
+			"wdNum": "111"
+		},
+
+		{
+			"laborCategory": "lc2",
+			"codeTitle": "title 2 ",
+			"wdNum": "123"
+		}
+	],
+
+	"subkPlan": 
+	{
+		"isNew": "Yes",
+		"planType": "individual",
+		"goals": 
+		[
+			{
+				"total": "10000",
+				"largeBusiness": "1000",
+				"smallBusiness": "9000",
+				"veteran": "1200",
+				"serviceDisabled": "300",
+				"hubZone": "400",
+				"sdb": "500",
+				"women": "600"
+			}
+		],
+
+		"supplies": 
+		[
+			{
+				"name": "ABS suppliers",
+				"large": "Yes",
+				"small": "Yes",
+				"vosb": "No",
+				"sdvosb": "No",
+				"hub": "Yes",
+				"sdb": "No",
+				"wosb": "Yes"
+			}
+		],
+
+		"develop": "Use the following method to develop the subcontracting goals. ",
+		"sources": " identifies potential subcontractors using the following source lists and organizations.",
+		"indirectCost": "Yes",
+		"indirectText": "Explain indirect cost",
+		"suppliesDesc": "DEscribe supplies",
+		"placeOfPerformance": "USA",
+		"basePeriod": "1000",
+		"period1": "100",
+		"period2": "2000",
+		"period3": "3000",
+		"poc": 
+		[
+			{
+				"name": "Peter Parker",
+				"title": "Spiderman",
+				"address1": "Forest Hills",
+				"city": "New York",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "123-456-7890",
+				"fax": "123-456-7890",
+				"email": "spiderman@marvelcomics.com"
+			},
+
+			{
+				"name": "Thor Odinson",
+				"title": "Thor",
+				"address1": "Daily Planet street",
+				"city": "Long Island",
+				"state": "NY",
+				"country": "USA",
+				"zip": "10009",
+				"phone": "123-456-7890",
+				"fax": "123-456-7890",
+				"email": "thor@marvelcomics.com"
+			}
+		],
+
+		"equitableOpportunity": 
+		{
+			"minority": "Yes",
+			"busDev": "Yes",
+			"sba": "No",
+			"trade": "No",
+			"presentation": "No",
+			"establish": "Yes",
+			"monitor": "Yes",
+			"internal": "Yes",
+			"effort": "None"
+		},
+
+		"inclClause": 
+		{
+			"agree": "Yes",
+			"assurance2": "Yes",
+			"assurance3": "Yes",
+			"assurance4": "Yes",
+			"assurance5": "Yes"
+		},
+
+		"reporting": 
+		{
+			"agree": "Yes"
+		},
+
+		"assignmentOfSizeStandard": 
+		{
+			"agree": "Yes"
+		},
+
+		"recordKeeping": 
+		{
+			"record": "This is a text field",
+			"agree": "Yes"
+		},
+
+		"statutoryRequirements": 
+		{
+			"agree": "Yes"
+		},
+
+		"goodFaith": 
+		{
+			"additionalDetails": "This is a GFE provided to demonstrate compliance"
+		}
+	},
+
+	"uploadDocuments": 
+	[
+		{
+			"type": "Exceptions to Certs and Reps - 52.212-3",
+			"action": "upload",
+			"filename": "GenericUploadData/orientation.txt",
+			"documentName": "Exceptions"
+		},
+
+		{
+			"type": "Plant Or Facility Address",
+			"action": "upload",
+			"filename": "GenericUploadData/orientation.txt",
+			"documentName": "Plant Facility Address"
+		}
+	],
+
+	"exception": 
+	[
+		{
+			"title": "Java Upgrade 1",
+			"clauseNumber": "52.014-9",
+			"excerptFromClause": "",
+			"exceptionText": "Exception text",
+			"buttonAction": "Save Exception Text"
+		},
+
+		{
+			"title": "TAXPAYER IDENTIFICATION (OCT 1998) 4.905",
+			"clauseNumber": "52.204_3-1",
+			"excerptFromClause": "This i an excerpt from 52.204_3-1",
+			"exceptionText": "",
+			"buttonAction": "Save And Continue"
+		}
+	],
+
+	"wizardManagement": 
+	{
+		"selectDollarDiscount": "Yes",
+		"discountLevel": "Offer",
+		"selectDelivery": "Yes",
+		"deliveryLevel": "Line Item",
+		"contractorWarranty": "No",
+		"zonalPricing": "Yes",
+		"specialCharges": "Yes",
+		"specialFeatures": "Yes",
+		"accessories": "Yes",
+		"options": "Yes",
+		"photos": "Yes"
+	},
+
+	"specialCharges": 
+	[
+		{
+			"sin": "20 130",
+			"charges": 
+			[
+				"One Day Service",
+				"Assembly",
+				"Layout/Design",
+				"Expediting Premium",
+				"Two Day Service",
+				"Inside Delivery",
+				"Training",
+				"Same Day Service",
+				"Installation",
+				"Saturday Delivery"
+			]
+		},
+
+		{
+			"sin": "19 120",
+			"charges": 
+			[
+				"One Day Service",
+				"Assembly",
+				"Layout/Design",
+				"Expediting Premium",
+				"Two Day Service",
+				"Inside Delivery",
+				"Training",
+				"Same Day Service",
+				"Installation",
+				"Saturday Delivery"
+			]
+		}
+	],
+
+	"specialFeatures": 
+	[
+		{
+			"sin": "20 130",
+			"spFeatures": 
+			[
+				"Ergonomic item",
+				"Scan Code 2"
+			],
+
+			"envFeatures": 
+			[
+				"Green Seal item",
+				"GREENGUARD Certified",
+				"Biodegradable"
+			],
+
+			"epaFeatures": 
+			[
+				"California Section 01350 standard",
+				"Green Seal GS-01",
+				"NSF 332",
+				"SCAQMD Rule #1168",
+				"UL 2759",
+				"BIFMA level",
+				"FloorScore",
+				"Green Seal GS-07",
+				"Green Seal GS-37",
+				"Pacific Northwest Snowfighters Qualified Deicers",
+				"STMC Toner Cartridges",
+				"UL 2762",
+				"UL 2784"
+			]
+		},
+
+		{
+			"sin": "19 120",
+			"spFeatures": 
+			[
+				"None"
+			],
+
+			"envFeatures": 
+			[
+				"None"
+			]
+		}
+	],
+
+	"delivery": 
+	[
+		{
+			"sin": "19 120",
+			"deliveryType_conus": "FOB Destination",
+			"deliveryType_HI": "FOB Origin",
+			"deliveryType_pr": "FOB Origin",
+			"deliveryType_alaska": "No Delivery"
+		}
+	],
+
+	"contractorWarranty": 
+	[
+		{
+			"sin": "BMS003",
+			"warrantyPeriod": "Week",
+			"numOfPeriods": "1223445",
+			"warrantyDescription": "This warranty will last for a week"
+		},
+
+		{
+			"sin": "BMS002",
+			"warrantyPeriod": "Day",
+			"numOfPeriods": "1223445",
+			"warrantyDescription": "This warranty will last for a day"
+		}
+	],
+
+	"commercialSalesPractice": 
+	{
+		"valueOfSales": "1000",
+		"startDate": "08/12/2016",
+		"endDate": "08/12/2017",
+		"salesValueDesc": "testing the sales Value Desc",
+		"sinDesc": "SIN desc",
+		"discountsOffered": "Yes",
+		"discountsLevel": "Offer/Contract",
+		"deviationDesc": "testing the deviation",
+		"isBetterDiscount": "No",
+		"policyBasisLevelForSin": 
+		[
+			{
+				"sin": "132 4",
+				"level": "Discount"
+			}
+		],
+
+		"addDiscountPolicy": 
+		[
+			{
+				"customer": "Dell",
+				"discount": "4%",
+				"quantity": "1000",
+				"fobTerm": "D - Destination",
+				"concessions": "Extended Warranty",
+				"sin": "132 4"
+			}
+		],
+
+		"policyBasisLevel": 
+		{
+			"discountPolicyLevel": "Offer",
+			"basisLevel": "Discount"
+		}
+	},
+
+	"zonalPricing": 
+	[
+		{
+			"zoneNumber": "01",
+			"zonalArea": "CONUS",
+			"states": "All"
+		},
+
+		{
+			"zoneNumber": "02",
+			"zonalArea": "NON-CONUS",
+			"states": "All"
+		},
+
+		{
+			"zoneNumber": "03",
+			"zonalArea": "CONUS",
+			"states": "AL,AR,AZ,CA,CO,CT,DC,DE,FL"
+		}
+	],
+
+	"uploadPhotos": 
+	[
+		{
+			"sin": "20 130",
+			"photo1": "GenericUploadData/flower00.jpg",
+			"photo2": "GenericUploadData/flower01.jpg",
+			"photo3": "GenericUploadData/flower02.jpg"
+		}
+	],
+
+	"downloadUploadTemplate": 
+	{
+		"pricingDocumentTemplateName": "PricingData.xls",
+		"prodAccessoryManufactureInfo": 
+		{
+			"manufactureDetails": 
+			[
+				{
+					"sin": "20 130",
+					"manufacturePartNumber": "12345",
+					"manufactureName": "Lenovo",
+					"accessoryManufacturerPartNumber": "344545",
+					"accessoryManufacturerName": "Lenovo Comp"
+				}
+			]
+		},
+
+		"sheets": 
+		[
+			"Pricing",
+			"Non Pricing",
+			"Photos",
+			"Zonal Pricing",
+			"Accessories",
+			"Special Charges",
+			"Special Features",
+			"Options"
+		]
+	},
+
+	"capturePricingDataEntry": 
+	{
+		"worksheetData": 
+		{
+			"Get Started": 
+			[
+				{
+					"*SIN": "20 130",
+					"Delete": "",
+					"* Manufacturer Part Number": "234566",
+					"* Manufacturer Name": "Dell Comp",
+					"* Product / Accessory Type": "Product"
+				}
+			],
+
+			"Pricing": 
+			[
+				{
+					"*SIN": "20 130",
+					"* Manufacturer Part Number": "N/A",
+					"* Manufacturer Name": "N/A",
+					"* Product / Accessory Type": "N/A",
+					"* Product / Accessory Name": "Drill",
+					"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "8926850010034 89327498 c28947489 58753",
+					"* Vendor's Product / Accessory Description": "The institute and Dell have teamed up",
+					"* Unit of Issue": "EACH",
+					"* Quantity Per Unit": "1",
+					"Quantity of Product/Unit": "EACH",
+					"* Offer Price ($) ": "100",
+					"* Final Price (Incl. IFF) ($)": "",
+					"Markup (%)": "15",
+					"Discount (%) to GSA": "",
+					"Vendor Part Number": "212",
+					"Manufacturer Warranty - Warranty Period": "DAY",
+					"Manufacturer Warranty - Number Of Warranty Periods": "30",
+					"Manufacturer Warranty - Description": "If you have a specific part problem the company will determine if the issue in question is covered under warranty.",
+					"Extended Warranty - Warranty Period": "MONTH",
+					"Extended Warranty - Number Of Warranty Periods": "5",
+					"Extended Warranty - Description": "Exclusions applied on extended warranty. Please call 1-800-000-0000 to know more.",
+					"* Country of Origin": "UNITED STATES OF AMERICA",
+					"Country of Origin 2": "UNITED STATES OF AMERICA",
+					"Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+					"Delivery (Lead) Time Days": "10",
+					"FSC/PSC": "FSC",
+					"UNSPSC": "50182001",
+					"NSN": "9999-99-999-9999"
+				}
+			],
+
+			"Delivery": 
+			[
+				{
+					"*SIN": "20 130",
+					"* Manufacturer Part Number": "N/A",
+					"* Manufacturer Name": "N/A",
+					"* Product / Accessory Type": "N/A",
+					"* Product / Accessory Name": "N/A",
+					"* Delivery FOB - Continental US": "N/A",
+					"* Delivery FOB - Alaska": "N/A",
+					"* Delivery FOB -  Puerto Rico": "N/A",
+					"* Delivery FOB - Hawaii": "N/A",
+					"Shipping Unit Weight": "10",
+					"Shipping Package Cube": "2"
+				}
+			],
+
+			"Dimensions & Shipping": 
+			[
+				{
+					"*SIN": "20 130",
+					"* Manufacturer Part Number": "N/A",
+					"* Manufacturer Name": "N/A",
+					"* Product / Accessory Type": "N/A",
+					"* Product / Accessory Name": "N/A",
+					"Default Color": "BLACK",
+					"Product Length - Unit Number": "15",
+					"Product Length - Unit of Measure": "EACH",
+					"Product Width - Unit Number": "12",
+					"Product Width - Unit of Measure": "ACRE",
+					"Product Height - Unit Number": "1",
+					"Product Height - Unit of Measure": "INCH",
+					"Product Specific Website": "www.gsaadvantage.gov/",
+					"Standard Package Size": "5"
+				}
+			],
+
+			"Additional Photos": 
+			[
+				{
+					"*SIN": "20 130",
+					"* Manufacturer Part Number": "N/A",
+					"* Manufacturer Name": "N/A",
+					"* Product / Accessory Type": "N/A",
+					"* Product / Accessory Name": "N/A",
+					"Additional Photo 1": "",
+					"Additional Photo 2": "",
+					"Additional Photo 3": ""
+				}
+			],
+
+			"Special Features": 
+			[
+				{
+					"*SIN": "722 01",
+					"*Manufacturer Part Number": "N/A",
+					"*Manufacturer Name": "N/A",
+					"* Product / Accessory Type": "N/A",
+					"* Product / Accessory Name": "N/A",
+					"Environmental Features - Shipboard Use Approved": "Yes",
+					"Environmental Features - FEMP Energy Efficiency": "Yes",
+					"Environmental Features - Low VOC": "Yes",
+					"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "Yes",
+					"Environmental Features - Safer Choice": "Yes",
+					"Special Features - AbilityOne": "Yes",
+					"Special Features - Ergonomic": "Yes",
+					"Special Features - Section 508": "Yes",
+					"Special Features - Product 508 URL": "www.test508.com",
+					"Special Features - Scan Code 1": "Yes",
+					"Special Features - Scan Code 1 Text": "VA SCAN CODE 1",
+					"Special Features - Scan Code 2": "Yes",
+					"Special Features - Scan Code 2 Text": "VA SCAN CODE 2",
+					"Special Features - Hazmat": "Yes",
+					"Special Features - UNID Code": "UNID12",
+					"EPA Recommended - BIFMA level": "Yes",
+					"EPA Recommended - California Section 01350 standard": "Yes",
+					"EPA Recommended - FloorScore": "Yes",
+					"EPA Recommended - Green Seal GS-01": "Yes",
+					"EPA Recommended - Green Seal GS-07": "Yes",
+					"EPA Recommended - Green Seal GS-37": "Yes",
+					"EPA Recommended - NSF 332": "Yes",
+					"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "Yes",
+					"EPA Recommended - SCAQMD Rule #1168": "Yes",
+					"EPA Recommended - STMC Toner Cartridges": "Yes",
+					"EPA Recommended - UL 2759": "Yes",
+					"EPA Recommended - UL 2762": "Yes",
+					"EPA Recommended - UL 2784": "Yes"
+				}
+			]
+		}
+	},
+
+	"productAnalysisReport": 
+	{
+		
+	},
+
+	"finalPricingDocument": 
+	{
+		"validateFinalPricingDocument": "Yes",
+		"finalPricingDocumentName": "Delta Price List.zip",
+		"worksheetData": 
+		{
+			"Pricing": 
+			[
+				{
+					"*SIN": "722 01",
+					"*Manufacturer Part Number": "234566",
+					"*Manufacturer Name": "DELL COMP",
+					"*Product Type": "Product",
+					"*Product / Accessory Name": "Drill-1'",
+					"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892123456",
+					"Vendor Part Number": "1AB234CD56",
+					"*Vendor's Product / Accessory Description": "The institute-' and Dell have teamed up",
+					"*Unit of Issue": "EA - EACH",
+					"*Quantity Per Unit": "1",
+					"Quantity of Product / Unit": "EA - EACH",
+					"*Offer Price": "100",
+					"Markup (%)": "15",
+					"Discount (%) to GSA": ""
+				},
+
+				{
+					"*SIN": "722 01",
+					"*Manufacturer Part Number": "234567",
+					"*Manufacturer Name": "LENOVO",
+					"*Product Type": "Accessory",
+					"*Product / Accessory Name": "Drill-2,",
+					"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892123456",
+					"Vendor Part Number": "1AB234CD56",
+					"*Vendor's Product / Accessory Description": "The institute-' and Dell have teamed 'up",
+					"*Unit of Issue": "EA - EACH",
+					"*Quantity Per Unit": "1",
+					"Quantity of Product / Unit": "EA - EACH",
+					"*Offer Price": "100",
+					"Markup (%)": "15",
+					"Discount (%) to GSA": ""
+				}
+			],
+
+			"Non Pricing": 
+			[
+				{
+					"*SIN": "722 01",
+					"*Manufacturer Part Number": "234566",
+					"*Manufacturer Name": "DELL COMP",
+					"Manufacturer Warranty - Warranty Period": "DAY",
+					"Manufacturer Warranty - Number of Warranty Periods": "30",
+					"Manufacturer Warranty - Description": "If you have a specific part problem the company will determine if the issue in question is covered under warranty.",
+					"Extended Warranty - Warranty Period": "MONTH",
+					"Extended Warranty - Number of Warranty Periods": "5",
+					"Extended Warranty - Description": "Exclusions applied on extended warranty. Please call '1-800-000-0000 to know more.",
+					"*Country of Origin": "US - UNITED STATES OF AMERICA",
+					"Country of Origin 2": "US - UNITED STATES OF AMERICA",
+					"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+					"*Delivery (Lead) Time Days": "10",
+					"FSC/PSC": "FSC",
+					"UNSPSC": "50182001",
+					"NSN": "9999-99-999-9999"
+				},
+
+				{
+					"*SIN": "722 01",
+					"*Manufacturer Part Number": "234567",
+					"*Manufacturer Name": "LENOVO",
+					"Manufacturer Warranty - Warranty Period": "DAY",
+					"Manufacturer Warranty - Number of Warranty Periods": "30",
+					"Manufacturer Warranty - Description": "If you have a specific 'part problem the company will determine if the issue in question is covered under warranty.",
+					"Extended Warranty - Warranty Period": "MONTH",
+					"Extended Warranty - Number of Warranty Periods": "5",
+					"Extended Warranty - Description": "Exclusions applied on extended warranty. Please call 1-800-000-0000 to know more.",
+					"*Country of Origin": "US - UNITED STATES OF AMERICA",
+					"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+					"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+					"*Delivery (Lead) Time Days": "10",
+					"FSC/PSC": "FSC",
+					"UNSPSC": "50182001",
+					"NSN": "9999-99-999-9999"
+				}
+			],
+
+			"Special Features": 
+			[
+				{
+					"*SIN": "722 01",
+					"*Manufacturer Part Number": "234566",
+					"*Manufacturer Name": "DELL COMP",
+					"Environmental Features - Shipboard Use Approved": "X",
+					"Environmental Features - FEMP Energy Efficiency": "X",
+					"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "",
+					"Environmental Features - Low VOC": "X",
+					"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "X",
+					"Environmental Features - BioPreferred": "",
+					"Environmental Features - EPA WaterSense Program": "",
+					"Environmental Features - Safer Choice": "X",
+					"Special Features - AbilityOne": "X",
+					"Special Features - UNICOR": "",
+					"Special Features - Ergonomic": "X",
+					"Special Features - Section 508": "X",
+					"Special Features - Product 508 URL": "www.test508.com",
+					"Special Features - Pre-purchased stock": "",
+					"Special Features - Scan Code 1": "X",
+					"Special Features - Scan Code 1 Text": "VA SCAN CODE 1",
+					"Special Features - Scan Code 2": "X",
+					"Special Features - Scan Code 2 Text": "VA SCAN CODE 2",
+					"Special Features - Hazmat": "X",
+					"Special Features - UNID Code": "UNID12",
+					"Special Features - Scan Code 3": "",
+					"Special Features - Scan Code 3 Text": "",
+					"EPA Recommended - BIFMA level": "X",
+					"EPA Recommended - Biodegradable Products Institute compostable product": "",
+					"EPA Recommended - California Section 01350 standard": "X",
+					"EPA Recommended - FloorScore": "X",
+					"EPA Recommended - Forest Stewardship Council": "",
+					"EPA Recommended - Green Seal GS-01": "X",
+					"EPA Recommended - Green Seal GS-07": "X",
+					"EPA Recommended - Green Seal GS-37": "X",
+					"EPA Recommended - Green Seal GS-40": "",
+					"EPA Recommended - Green Seal GS-41": "",
+					"EPA Recommended - NSF 140 Carpet": "",
+					"EPA Recommended - NSF 332": "X",
+					"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "X",
+					"EPA Recommended - SCAQMD Rule #1113": "",
+					"EPA Recommended - SCAQMD Rule #1168": "X",
+					"EPA Recommended - STMC Toner Cartridges": "X",
+					"EPA Recommended - UL 126": "",
+					"EPA Recommended - UL 2759": "X",
+					"EPA Recommended - UL 2762": "X",
+					"EPA Recommended - UL 2771": "",
+					"EPA Recommended - UL 2777": "",
+					"EPA Recommended - UL 2784": "X",
+					"EPA Recommended - UL 2785": "",
+					"EPA Recommended - UL 2792": "",
+					"EPA Recommended - UL 2818 GREENGUARD": ""
+				}
+			],
+
+			"Accessories": 
+			[
+				{
+					"*SIN": "722 01",
+					"*Manufacturer Part Number": "234566",
+					"*Manufacturer Name": "DELL COMP",
+					"*Accessory Part Number": "234567",
+					"*Accessory Manufacturer": "LENOVO"
+				}
+			],
+
+			"Delivery": 
+			[
+				{
+					"*SIN": "722 01",
+					"*Manufacturer Part Number": "234566",
+					"*Manufacturer Name": "DELL COMP",
+					"*Delivery FOB - Continental US": "D - FOB Destination",
+					"*Delivery FOB - Alaska": "O - FOB Origin",
+					"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+					"*Delivery FOB - Hawaii": "O - FOB Origin",
+					"Shipping Unit Weight": "10",
+					"Shipping Package Cube": "2"
+				},
+
+				{
+					"*SIN": "722 01",
+					"*Manufacturer Part Number": "234567",
+					"*Manufacturer Name": "LENOVO",
+					"*Delivery FOB - Continental US": "D - FOB Destination",
+					"*Delivery FOB - Alaska": "O - FOB Origin",
+					"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+					"*Delivery FOB - Hawaii": "O - FOB Origin",
+					"Shipping Unit Weight": "10",
+					"Shipping Package Cube": "2"
+				}
+			]
+		}
+	},
+
+	"ediOption": 
+	{
+		"edifileName": "productCatalogMod/ValidEDIXml.xml"
+	},
+
+	"technicalMod": 
+	{
+		"clause": "Change in Geographic Coverage (Scope)",
+		"sinDetails": 
+		[
+			{
+				"sin": "808 143-Not available",
+				"scope": "Limited Locality"
+			},
+
+			{
+				"sin": "808 143STLOC-Not available",
+				"scope": "NonUS only"
+			}
+		],
+
+		"modDescription": "This is description for Change in Geographic Coverage (Scope)",
+		"deleteSinDetails": 
+		[
+			{
+				"sin": "808 143-Not available"
+			}
+		]
+	},
+
+	"administrativeMods": 
+	[
+		{
+			"type": "authorizedNegotiator",
+			"action": "add"
+		}
+	],
+
+	"legalMod": 
+	{
+		"clause": "Novation Agreement",
+		"replaceDuns": "Yes",
+		"updatedDuns": "123456789",
+		"dunsPlus4": "",
+		"modDetailDescription": "This is description for Novation Agreement mod",
+		"contractWithAgency": "Yes",
+		"novatedWithAgency": "Yes",
+		"multipleGSAContracts": "Yes"
+	}
+}

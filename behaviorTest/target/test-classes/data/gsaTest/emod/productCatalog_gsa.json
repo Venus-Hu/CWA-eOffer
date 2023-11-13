@@ -1,0 +1,3007 @@
+{
+"Product Catalog Update Mod: Complete with and without Signature Components with Add option": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "eMod_productCatalog_Contract",
+		"UEI": "eMod_productCatalog_UEI",
+		"modTypes": 
+		[
+			"Product Catalog Update"
+		],
+
+		"productCatalogUpdateMod": 
+		{
+			"contractBeginDate": "2015-01-25",
+			"detailedDescription": "Updating products information",
+			"selectComponents": 
+			{
+				"contractorWarranty": "Add/Update",
+				"photos": "Add/Update",
+				"delivery": "Add/Update",
+				"deliveryLevel": "",
+				"options": "Add/Update",
+				"specialCharges": "Add/Update",
+				"specialFeatures": "Add/Update",
+				"otherProductInformation": "Add/Update"
+			}
+		},
+
+		"contractorWarranty": 
+		[
+			{
+				"sin": "58 5",
+				"warrantyPeriod": "Week",
+				"numOfPeriods": "11",
+				"warrantyDescription": "This warranty will last for 11 weeks"
+			}
+		],
+
+		"specialCharges": 
+		[
+			{
+				"sin": "58 5",
+				"charges": 
+				[
+					"One Day Service",
+					"Assembly",
+					"Layout/Design",
+					"Expediting Premium"
+				]
+			}
+		],
+
+		"specialFeatures": 
+		[
+			{
+				"sin": "58 5",
+				"spFeatures": 
+				[
+					"Safer Choice"
+				],
+
+				"envFeatures": 
+				[
+					"Ergonomic",
+					"AbilityOne"
+				],
+
+				"epaFeatures": 
+				[
+				
+				]
+			}
+		],
+
+		"uploadPhotos": 
+		[
+			{
+				"sin": "58 5",
+				"photo1": "GenericUploadData/Flower00.jpg"
+			}
+		],
+
+		"downloadUploadTemplate": 
+		{
+			"pricingDocumentTemplateName": "Product Data.zip",
+			"pricingDocumentFileName": "Product Data1.xlsx",
+			"worksheetData": 
+			{
+				"Pricing":
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Drill",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892685001003",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute and Dell have teamed up to offer Dell computers, electronics, and accessories at a discount price.",
+						"*Unit of Issue": "17 - 100 POUND DRUM",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "KA - CAKE"
+					}
+				], 
+				
+				"Non Pricing": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "15",
+						"Manufacturer Warranty - Description": "Description goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					}
+				],
+
+				"Delivery": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+
+				"Special Charges": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"Expediting Premium - Charges": "100",
+						"Expediting Premium - Per": "EA - EACH",
+						"Expediting Premium - Description": "Exp Premium Desc",
+						"Same Day Service - Charges": "",
+						"Same Day Service - Per": "",
+						"Same Day Service - Description": "",
+						"One Day Service - Charges": "100",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Two Day Desc",
+						"Two Day Service - Charges": "",
+						"Two Day Service - Per": "",
+						"Two Day Service - Description": "",
+						"Installation - Charges": "",
+						"Installation - Per": "",
+						"Installation - Description": "",
+						"Assembly - Charges": "100",
+						"Assembly - Per": "EA - EACH",
+						"Assembly - Description": "Assembly Desc",
+						"Inside Delivery - Charges": "",
+						"Inside Delivery - Per": "",
+						"Inside Delivery - Description": "",
+						"Saturday Delivery - Charges": "",
+						"Saturday Delivery - Per": "",
+						"Saturday Delivery - Description": "",
+						"Layout/Design - Charges": "100",
+						"Layout/Design - Per": "EA - EACH",
+						"Layout/Design - Description": "Layout Desc",
+						"Training - Charges": "",
+						"Training - Per": "",
+						"Training - Description": ""
+					}
+				],
+
+				"Special Features": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"Environmental Features - Shipboard Use Approved": "",
+						"Environmental Features - FEMP Energy Efficiency": "",
+						"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "",
+						"Environmental Features - Low VOC": "",
+						"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "",
+						"Environmental Features - BioPreferred": "",
+						"Environmental Features - EPA WaterSense Program": "",
+						"Environmental Features - Safer Choice": "X",
+						"Special Features - AbilityOne": "X",
+						"Special Features - UNICOR": "",
+						"Special Features - Ergonomic": "X",
+						"Special Features - Section 508": "",
+						"Special Features - Product 508 URL": "",
+						"Special Features - Pre-purchased stock": "",
+						"Special Features - Scan Code 1": "",
+						"Special Features - Scan Code 1 Text": "",
+						"Special Features - Scan Code 2": "",
+						"Special Features - Scan Code 2 Text": "",
+						"Special Features - Hazmat": "",
+						"Special Features - UNID Code": "",
+						"Special Features - Scan Code 3": "",
+						"Special Features - Scan Code 3 Text": "",
+						"EPA Recommended - BIFMA level": "",
+						"EPA Recommended - Biodegradable Products Institute compostable product": "",
+						"EPA Recommended - California Section 01350 standard": "",
+						"EPA Recommended - FloorScore": "",
+						"EPA Recommended - Forest Stewardship Council": "",
+						"EPA Recommended - Green Seal GS-01": "",
+						"EPA Recommended - Green Seal GS-07": "",
+						"EPA Recommended - Green Seal GS-37": "",
+						"EPA Recommended - Green Seal GS-40": "",
+						"EPA Recommended - Green Seal GS-41": "",
+						"EPA Recommended - NSF 140 Carpet": "",
+						"EPA Recommended - NSF 332": "",
+						"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "",
+						"EPA Recommended - SCAQMD Rule #1113": "",
+						"EPA Recommended - SCAQMD Rule #1168": "",
+						"EPA Recommended - STMC Toner Cartridges": "",
+						"EPA Recommended - UL 126": "",
+						"EPA Recommended - UL 2759": "",
+						"EPA Recommended - UL 2762": "",
+						"EPA Recommended - UL 2771": "",
+						"EPA Recommended - UL 2777": "",
+						"EPA Recommended - UL 2784": "",
+						"EPA Recommended - UL 2785": "",
+						"EPA Recommended - UL 2792": "",
+						"EPA Recommended - UL 2818 GREENGUARD": ""
+					}
+				],
+
+				"Options": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"*Option Part Number": "OP12345",
+						"*Option Manufacturer": "Honeywell",
+						"*Option Code": "A - Can Be Added",
+						"*Option Group": "Processor",
+						"*Option Quantity": "1",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "20",
+						"*Option Description": "Color options are: Blue, Red, or Grey",
+						"*Option Deletable ? (Y/N)": "N"
+					}
+				],
+
+				"Photos": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"Additional Photo 1": "Flower00.jpg"
+					}
+				]
+			}
+		},
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Product Catalog",
+			"Select Components",
+			"Wizard Management",
+			"Special Charges",
+			"Special Features",
+			"Contractor Warranty",
+			"Upload Photos",
+			"Capture Pricing",
+			"Pricing Document",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			}
+		],
+
+		"finalPricingDocument": 
+		{
+			"validateFinalPricingDocument": "Yes",
+			"finalPricingDocumentName": "Delta Price List.zip"
+		}
+	},
+
+	"Product Catalog Update Mod: Complete with and without Signature Components with Add option for special charges": 
+	{
+		"SignIn": 
+		{
+			"module": "emod"
+		},
+
+		"contractNumber": "eMod_productCatalog_Contract",
+		"UEI": "eMod_productCatalog_UEI",
+		"modTypes": 
+		[
+			"Product Catalog Update"
+		],
+
+		"productCatalogUpdateMod": 
+		{
+			"contractBeginDate": "2015-01-25",
+			"detailedDescription": "Updating products information",
+			"selectComponents": 
+			{
+				"contractorWarranty": "Add/Update",
+				"photos": "Add/Update",
+				"delivery": "Add/Update",
+				"deliveryLevel": "Line Item",
+				"options": "Add/Update",
+				"specialCharges": "Add/Update",
+				"specialFeatures": "Add/Update",
+				"otherProductInformation": "Add/Update"
+			}
+		},
+
+		"contractorWarranty": 
+		[
+			{
+				"sin": "58 5",
+				"warrantyPeriod": "Week",
+				"numOfPeriods": "11",
+				"warrantyDescription": "This warranty will last for 11 weeks"
+			}
+		],
+
+		"specialCharges": 
+		[
+			{
+				"sin": "58 5",
+				"charges": 
+				[
+					"One Day Service",
+					"Assembly",
+					"Layout/Design",
+					"Expediting Premium"
+				]
+			}
+		],
+
+		"specialFeatures": 
+		[
+			{
+				"sin": "58 5",
+				"spFeatures": 
+				[
+					"Safer Choice",
+					"Low VOC"
+				],
+
+				"envFeatures": 
+				[
+					"Ergonomic",
+					"AbilityOne"
+				],
+
+				"epaFeatures": 
+				[
+					"NSF 332",
+					"UL 2759"
+				]
+			}
+		],
+
+		"uploadPhotos": 
+		[
+			{
+				"sin": "58 5",
+				"photo1": "GenericUploadData/Flower00.jpg"
+			}
+		],
+
+		"downloadUploadTemplate": 
+		{
+			"pricingDocumentTemplateName": "Product Data.zip",
+			"pricingDocumentFileName": "Product Data1.xlsx",
+			"worksheetData": 
+			{
+				"Pricing": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "KeyBoard",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "99999999",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute―‛ £and Dell have teamed up",
+						"*Unit of Issue": "FC - 1000 CUBIC FEET",
+						"*Quantity Per Unit": "99",
+						"Quantity of Product / Unit": "YL - 100 LINEAL YARDS",
+						"*Offer Price": "100",
+						"Final Price (Incl. IFF)": "100.7557",
+						"Markup (%)": "",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "100",
+						"*(Name)Best Priced Customer": "test",
+						"*Price Offered to Best Priced Customer": "100",
+						"*Discount Offered to Best Priced Customer": "1"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "KeyBoard",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "99999999",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute―‛ £and Dell have teamed up",
+						"*Unit of Issue": "FC - 1000 CUBIC FEET",
+						"*Quantity Per Unit": "99",
+						"Quantity of Product / Unit": "FC - 1000 CUBIC FEET",
+						"*Offer Price": "100",
+						"Final Price (Incl. IFF)": "100.7557",
+						"Markup (%)": "",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "1000",
+						"*(Name)Best Priced Customer": "test",
+						"*Price Offered to Best Priced Customer": "100",
+						"*Discount Offered to Best Priced Customer": "1"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234568",
+						"*Manufacturer Name": "APPLE",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "KeyBoard",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "99999999",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute―‛ £and Dell have teamed up",
+						"*Unit of Issue": "FC - 1000 CUBIC FEET",
+						"*Quantity Per Unit": "99",
+						"Quantity of Product / Unit": "FC - 1000 CUBIC FEET",
+						"*Offer Price": "100",
+						"Final Price (Incl. IFF)": "100.7557",
+						"Markup (%)": "",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "100",
+						"*(Name)Best Priced Customer": "test",
+						"*Price Offered to Best Priced Customer": "100",
+						"*Discount Offered to Best Priced Customer": "1"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234569",
+						"*Manufacturer Name": "LOGITECH",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "KeyBoard",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "99999999",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute―‛ £and Dell have teamed up",
+						"*Unit of Issue": "FC - 1000 CUBIC FEET",
+						"*Quantity Per Unit": "99",
+						"Quantity of Product / Unit": "FC - 1000 CUBIC FEET",
+						"*Offer Price": "100",
+						"Final Price (Incl. IFF)": "100.7557",
+						"Markup (%)": "",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "1000",
+						"*(Name)Best Priced Customer": "test",
+						"*Price Offered to Best Priced Customer": "100",
+						"*Discount Offered to Best Priced Customer": "1"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4E",
+						"*Manufacturer Part Number": "1234570",
+						"*Manufacturer Name": "DOVE",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Body wash",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "99999999",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute―‛ £and Dell have teamed up",
+						"*Unit of Issue": "FC - 1000 CUBIC FEET",
+						"*Quantity Per Unit": "99",
+						"Quantity of Product / Unit": "FC - 1000 CUBIC FEET",
+						"*Offer Price": "100",
+						"Final Price (Incl. IFF)": "100.7557",
+						"Markup (%)": "",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "100",
+						"*(Name)Best Priced Customer": "test",
+						"*Price Offered to Best Priced Customer": "100",
+						"*Discount Offered to Best Priced Customer": "1"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4F",
+						"*Manufacturer Part Number": "1234571",
+						"*Manufacturer Name": "OLAY",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Body wash",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "99999999",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute―‛ £and Dell have teamed up",
+						"*Unit of Issue": "FC - 1000 CUBIC FEET",
+						"*Quantity Per Unit": "99",
+						"Quantity of Product / Unit": "FC - 1000 CUBIC FEET",
+						"*Offer Price": "100",
+						"Final Price (Incl. IFF)": "100.7557",
+						"Markup (%)": "",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "100",
+						"*(Name)Best Priced Customer": "test",
+						"*Price Offered to Best Priced Customer": "100",
+						"*Discount Offered to Best Priced Customer": "1"
+					}
+				],
+
+				"Non Pricing": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "20",
+						"Manufacturer Warranty - Description": "Description goes― ¥here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes― ¥here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "1234",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234567",
+						"*Manufacturer Name": "LENOVO",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "20",
+						"Manufacturer Warranty - Description": "Description goes― ¥here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes― ¥here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "1234",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234568",
+						"*Manufacturer Name": "APPLE",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "20",
+						"Manufacturer Warranty - Description": "Description goes― here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes― here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "1234",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234569",
+						"*Manufacturer Name": "LOGITECH",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "20",
+						"Manufacturer Warranty - Description": "Description goes― here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes― here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "1234",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4E",
+						"*Manufacturer Part Number": "1234570",
+						"*Manufacturer Name": "DOVE",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "20",
+						"Manufacturer Warranty - Description": "Description goes― here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes― here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "1234",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4F",
+						"*Manufacturer Part Number": "1234571",
+						"*Manufacturer Name": "OLAY",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "20",
+						"Manufacturer Warranty - Description": "Description goes― here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes― here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "1234",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					}
+				],
+
+				"Delivery": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234568",
+						"*Manufacturer Name": "APPLE",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234569",
+						"*Manufacturer Name": "LOGITECH",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4E",
+						"*Manufacturer Part Number": "1234570",
+						"*Manufacturer Name": "DOVE",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4F",
+						"*Manufacturer Part Number": "1234571",
+						"*Manufacturer Name": "OLAY",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+
+				"Special Charges": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Expediting Premium - Charges": "150",
+						"Expediting Premium - Per": "EA - EACH",
+						"Expediting Premium - Description": "Exp Premium― ¥Desc",
+						"One Day Service - Charges": "100",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Two Day― ¥Desc",
+						"Assembly - Charges": "100",
+						"Assembly - Per": "EA - EACH",
+						"Assembly - Description": "Assembly― ¥Desc",
+						"Layout/Design - Charges": "100",
+						"Layout/Design - Per": "EA - EACH",
+						"Layout/Design - Description": "Layout― ¥Desc"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234567",
+						"*Manufacturer Name": "LENOVO",
+						"Expediting Premium - Charges": "150",
+						"Expediting Premium - Per": "EA - EACH",
+						"Expediting Premium - Description": "Exp Premium― ¥Desc",
+						"One Day Service - Charges": "100",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Two Day― ¥Desc",
+						"Assembly - Charges": "100",
+						"Assembly - Per": "EA - EACH",
+						"Assembly - Description": "Assembly― ¥Desc",
+						"Layout/Design - Charges": "100",
+						"Layout/Design - Per": "EA - EACH",
+						"Layout/Design - Description": "Layout― ¥Desc"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234568",
+						"*Manufacturer Name": "APPLE",
+						"Expediting Premium - Charges": "150",
+						"Expediting Premium - Per": "EA - EACH",
+						"Expediting Premium - Description": "Exp Premium―Desc",
+						"Same Day Service - Charges": "",
+						"Same Day Service - Per": "",
+						"Same Day Service - Description": "",
+						"One Day Service - Charges": "100",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Two Day―Desc",
+						"Two Day Service - Charges": "",
+						"Two Day Service - Per": "",
+						"Two Day Service - Description": "",
+						"Installation - Charges": "",
+						"Installation - Per": "",
+						"Installation - Description": "",
+						"Assembly - Charges": "100",
+						"Assembly - Per": "EA - EACH",
+						"Assembly - Description": "Assembly―Desc",
+						"Inside Delivery - Charges": "",
+						"Inside Delivery - Per": "",
+						"Inside Delivery - Description": "",
+						"Saturday Delivery - Charges": "",
+						"Saturday Delivery - Per": "",
+						"Saturday Delivery - Description": "",
+						"Layout/Design - Charges": "100",
+						"Layout/Design - Per": "EA - EACH",
+						"Layout/Design - Description": "Layout―Desc",
+						"Training - Charges": "",
+						"Training - Per": "",
+						"Training - Description": ""
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234569",
+						"*Manufacturer Name": "LOGITECH",
+						"Expediting Premium - Charges": "150",
+						"Expediting Premium - Per": "EA - EACH",
+						"Expediting Premium - Description": "Exp Premium―Desc",
+						"Same Day Service - Charges": "",
+						"Same Day Service - Per": "",
+						"Same Day Service - Description": "",
+						"One Day Service - Charges": "100",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Two Day―Desc",
+						"Two Day Service - Charges": "",
+						"Two Day Service - Per": "",
+						"Two Day Service - Description": "",
+						"Installation - Charges": "",
+						"Installation - Per": "",
+						"Installation - Description": "",
+						"Assembly - Charges": "100",
+						"Assembly - Per": "EA - EACH",
+						"Assembly - Description": "Assembly―Desc",
+						"Inside Delivery - Charges": "",
+						"Inside Delivery - Per": "",
+						"Inside Delivery - Description": "",
+						"Saturday Delivery - Charges": "",
+						"Saturday Delivery - Per": "",
+						"Saturday Delivery - Description": "",
+						"Layout/Design - Charges": "100",
+						"Layout/Design - Per": "EA - EACH",
+						"Layout/Design - Description": "Layout―Desc",
+						"Training - Charges": "",
+						"Training - Per": "",
+						"Training - Description": ""
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4E",
+						"*Manufacturer Part Number": "1234570",
+						"*Manufacturer Name": "DOVE",
+						"Expediting Premium - Charges": "150",
+						"Expediting Premium - Per": "EA - EACH",
+						"Expediting Premium - Description": "Exp Premium―Desc",
+						"Same Day Service - Charges": "",
+						"Same Day Service - Per": "",
+						"Same Day Service - Description": "",
+						"One Day Service - Charges": "100",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Two Day―Desc",
+						"Two Day Service - Charges": "",
+						"Two Day Service - Per": "",
+						"Two Day Service - Description": "",
+						"Installation - Charges": "",
+						"Installation - Per": "",
+						"Installation - Description": "",
+						"Assembly - Charges": "100",
+						"Assembly - Per": "EA - EACH",
+						"Assembly - Description": "Assembly―Desc",
+						"Inside Delivery - Charges": "",
+						"Inside Delivery - Per": "",
+						"Inside Delivery - Description": "",
+						"Saturday Delivery - Charges": "",
+						"Saturday Delivery - Per": "",
+						"Saturday Delivery - Description": "",
+						"Layout/Design - Charges": "100",
+						"Layout/Design - Per": "EA - EACH",
+						"Layout/Design - Description": "Layout―Desc",
+						"Training - Charges": "",
+						"Training - Per": "",
+						"Training - Description": ""
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4F",
+						"*Manufacturer Part Number": "1234571",
+						"*Manufacturer Name": "OLAY",
+						"Expediting Premium - Charges": "150",
+						"Expediting Premium - Per": "EA - EACH",
+						"Expediting Premium - Description": "Exp Premium―Desc",
+						"Same Day Service - Charges": "",
+						"Same Day Service - Per": "",
+						"Same Day Service - Description": "",
+						"One Day Service - Charges": "100",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Two Day―Desc",
+						"Two Day Service - Charges": "",
+						"Two Day Service - Per": "",
+						"Two Day Service - Description": "",
+						"Installation - Charges": "",
+						"Installation - Per": "",
+						"Installation - Description": "",
+						"Assembly - Charges": "100",
+						"Assembly - Per": "EA - EACH",
+						"Assembly - Description": "Assembly―Desc",
+						"Inside Delivery - Charges": "",
+						"Inside Delivery - Per": "",
+						"Inside Delivery - Description": "",
+						"Saturday Delivery - Charges": "",
+						"Saturday Delivery - Per": "",
+						"Saturday Delivery - Description": "",
+						"Layout/Design - Charges": "100",
+						"Layout/Design - Per": "EA - EACH",
+						"Layout/Design - Description": "Layout―Desc",
+						"Training - Charges": "",
+						"Training - Per": "",
+						"Training - Description": ""
+					}
+				],
+
+				"Special Features": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Environmental Features - Shipboard Use Approved": "",
+						"Environmental Features - FEMP Energy Efficiency": "",
+						"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "",
+						"Environmental Features - Low VOC": "AE",
+						"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "",
+						"Environmental Features - BioPreferred": "",
+						"Environmental Features - EPA WaterSense Program": "",
+						"Environmental Features - Safer Choice": "SF",
+						"Special Features - AbilityOne": "AJ",
+						"Special Features - UNICOR": "",
+						"Special Features - Ergonomic": "BD",
+						"Special Features - Section 508": "",
+						"Special Features - Product 508 URL": "",
+						"Special Features - Pre-purchased stock": "",
+						"Special Features - Scan Code 1": "",
+						"Special Features - Scan Code 1 Text": "",
+						"Special Features - Scan Code 2": "",
+						"Special Features - Scan Code 2 Text": "",
+						"Special Features - Hazmat": "",
+						"Special Features - UNID Code": "",
+						"Special Features - Scan Code 3": "",
+						"Special Features - Scan Code 3 Text": "",
+						"EPA Recommended - BIFMA level": "",
+						"EPA Recommended - Biodegradable Products Institute compostable product": "",
+						"EPA Recommended - California Section 01350 standard": "",
+						"EPA Recommended - FloorScore": "",
+						"EPA Recommended - Forest Stewardship Council": "",
+						"EPA Recommended - Green Seal GS-01": "",
+						"EPA Recommended - Green Seal GS-07": "",
+						"EPA Recommended - Green Seal GS-37": "",
+						"EPA Recommended - Green Seal GS-40": "",
+						"EPA Recommended - Green Seal GS-41": "",
+						"EPA Recommended - NSF 140 Carpet": "",
+						"EPA Recommended - NSF 332": "X",
+						"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "",
+						"EPA Recommended - SCAQMD Rule #1113": "",
+						"EPA Recommended - SCAQMD Rule #1168": "",
+						"EPA Recommended - STMC Toner Cartridges": "",
+						"EPA Recommended - UL 126": "",
+						"EPA Recommended - UL 2759": "X",
+						"EPA Recommended - UL 2771": "",
+						"EPA Recommended - UL 2777": "",
+						"EPA Recommended - UL 2784": "",
+						"EPA Recommended - UL 2785": "",
+						"EPA Recommended - UL 2792": "",
+						"EPA Recommended - UL 2818 GREENGUARD": ""
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234568",
+						"*Manufacturer Name": "APPLE",
+						"Environmental Features - Shipboard Use Approved": "X",
+						"Environmental Features - FEMP Energy Efficiency": "",
+						"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "",
+						"Environmental Features - Low VOC": "",
+						"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "",
+						"Environmental Features - BioPreferred": "",
+						"Environmental Features - EPA WaterSense Program": "",
+						"Environmental Features - Safer Choice": "SF",
+						"Special Features - AbilityOne": "AJ",
+						"Special Features - UNICOR": "",
+						"Special Features - Ergonomic": "BD",
+						"Special Features - Section 508": "",
+						"Special Features - Product 508 URL": "",
+						"Special Features - Pre-purchased stock": "",
+						"Special Features - Scan Code 1": "",
+						"Special Features - Scan Code 1 Text": "",
+						"Special Features - Scan Code 2": "",
+						"Special Features - Scan Code 2 Text": "",
+						"Special Features - Hazmat": "",
+						"Special Features - UNID Code": "",
+						"Special Features - Scan Code 3": "",
+						"Special Features - Scan Code 3 Text": "",
+						"EPA Recommended - BIFMA level": "",
+						"EPA Recommended - Biodegradable Products Institute compostable product": "",
+						"EPA Recommended - California Section 01350 standard": "",
+						"EPA Recommended - FloorScore": "",
+						"EPA Recommended - Forest Stewardship Council": "",
+						"EPA Recommended - Green Seal GS-01": "",
+						"EPA Recommended - Green Seal GS-07": "",
+						"EPA Recommended - Green Seal GS-37": "",
+						"EPA Recommended - Green Seal GS-40": "",
+						"EPA Recommended - Green Seal GS-41": "",
+						"EPA Recommended - NSF 140 Carpet": "",
+						"EPA Recommended - NSF 332": "",
+						"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "",
+						"EPA Recommended - SCAQMD Rule #1113": "",
+						"EPA Recommended - SCAQMD Rule #1168": "",
+						"EPA Recommended - STMC Toner Cartridges": "",
+						"EPA Recommended - UL 126": "",
+						"EPA Recommended - UL 2759": "",
+						"EPA Recommended - UL 2771": "",
+						"EPA Recommended - UL 2777": "",
+						"EPA Recommended - UL 2784": "",
+						"EPA Recommended - UL 2785": "",
+						"EPA Recommended - UL 2792": "",
+						"EPA Recommended - UL 2818 GREENGUARD": ""
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234569",
+						"*Manufacturer Name": "LOGITECH",
+						"Environmental Features - Shipboard Use Approved": "X",
+						"Environmental Features - FEMP Energy Efficiency": "",
+						"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "",
+						"Environmental Features - Low VOC": "",
+						"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "",
+						"Environmental Features - BioPreferred": "",
+						"Environmental Features - EPA WaterSense Program": "",
+						"Environmental Features - Safer Choice": "SF",
+						"Special Features - AbilityOne": "AJ",
+						"Special Features - UNICOR": "",
+						"Special Features - Ergonomic": "BD",
+						"Special Features - Section 508": "",
+						"Special Features - Product 508 URL": "",
+						"Special Features - Pre-purchased stock": "",
+						"Special Features - Scan Code 1": "",
+						"Special Features - Scan Code 1 Text": "",
+						"Special Features - Scan Code 2": "",
+						"Special Features - Scan Code 2 Text": "",
+						"Special Features - Hazmat": "",
+						"Special Features - UNID Code": "",
+						"Special Features - Scan Code 3": "",
+						"Special Features - Scan Code 3 Text": "",
+						"EPA Recommended - BIFMA level": "",
+						"EPA Recommended - Biodegradable Products Institute compostable product": "",
+						"EPA Recommended - California Section 01350 standard": "",
+						"EPA Recommended - FloorScore": "",
+						"EPA Recommended - Forest Stewardship Council": "",
+						"EPA Recommended - Green Seal GS-01": "",
+						"EPA Recommended - Green Seal GS-07": "",
+						"EPA Recommended - Green Seal GS-37": "",
+						"EPA Recommended - Green Seal GS-40": "",
+						"EPA Recommended - Green Seal GS-41": "",
+						"EPA Recommended - NSF 140 Carpet": "",
+						"EPA Recommended - NSF 332": "",
+						"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "",
+						"EPA Recommended - SCAQMD Rule #1113": "",
+						"EPA Recommended - SCAQMD Rule #1168": "",
+						"EPA Recommended - STMC Toner Cartridges": "",
+						"EPA Recommended - UL 126": "",
+						"EPA Recommended - UL 2759": "",
+						"EPA Recommended - UL 2771": "",
+						"EPA Recommended - UL 2777": "",
+						"EPA Recommended - UL 2784": "",
+						"EPA Recommended - UL 2785": "",
+						"EPA Recommended - UL 2792": "",
+						"EPA Recommended - UL 2818 GREENGUARD": ""
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4E",
+						"*Manufacturer Part Number": "1234570",
+						"*Manufacturer Name": "DOVE",
+						"Environmental Features - Shipboard Use Approved": "X",
+						"Environmental Features - FEMP Energy Efficiency": "",
+						"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "",
+						"Environmental Features - Low VOC": "",
+						"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "",
+						"Environmental Features - BioPreferred": "",
+						"Environmental Features - EPA WaterSense Program": "",
+						"Environmental Features - Safer Choice": "SF",
+						"Special Features - AbilityOne": "AJ",
+						"Special Features - UNICOR": "",
+						"Special Features - Ergonomic": "BD",
+						"Special Features - Section 508": "",
+						"Special Features - Product 508 URL": "",
+						"Special Features - Pre-purchased stock": "",
+						"Special Features - Scan Code 1": "",
+						"Special Features - Scan Code 1 Text": "",
+						"Special Features - Scan Code 2": "",
+						"Special Features - Scan Code 2 Text": "",
+						"Special Features - Hazmat": "",
+						"Special Features - UNID Code": "",
+						"Special Features - Scan Code 3": "",
+						"Special Features - Scan Code 3 Text": "",
+						"EPA Recommended - BIFMA level": "",
+						"EPA Recommended - Biodegradable Products Institute compostable product": "",
+						"EPA Recommended - California Section 01350 standard": "",
+						"EPA Recommended - FloorScore": "",
+						"EPA Recommended - Forest Stewardship Council": "",
+						"EPA Recommended - Green Seal GS-01": "",
+						"EPA Recommended - Green Seal GS-07": "",
+						"EPA Recommended - Green Seal GS-37": "",
+						"EPA Recommended - Green Seal GS-40": "",
+						"EPA Recommended - Green Seal GS-41": "",
+						"EPA Recommended - NSF 140 Carpet": "",
+						"EPA Recommended - NSF 332": "",
+						"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "",
+						"EPA Recommended - SCAQMD Rule #1113": "",
+						"EPA Recommended - SCAQMD Rule #1168": "",
+						"EPA Recommended - STMC Toner Cartridges": "",
+						"EPA Recommended - UL 126": "",
+						"EPA Recommended - UL 2759": "",
+						"EPA Recommended - UL 2771": "",
+						"EPA Recommended - UL 2777": "",
+						"EPA Recommended - UL 2784": "",
+						"EPA Recommended - UL 2785": "",
+						"EPA Recommended - UL 2792": "",
+						"EPA Recommended - UL 2818 GREENGUARD": ""
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4F",
+						"*Manufacturer Part Number": "1234571",
+						"*Manufacturer Name": "OLAY",
+						"Environmental Features - Shipboard Use Approved": "X",
+						"Environmental Features - FEMP Energy Efficiency": "",
+						"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "",
+						"Environmental Features - Low VOC": "",
+						"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "",
+						"Environmental Features - BioPreferred": "",
+						"Environmental Features - EPA WaterSense Program": "",
+						"Environmental Features - Safer Choice": "SF",
+						"Special Features - AbilityOne": "AJ",
+						"Special Features - UNICOR": "",
+						"Special Features - Ergonomic": "BD",
+						"Special Features - Section 508": "",
+						"Special Features - Product 508 URL": "",
+						"Special Features - Pre-purchased stock": "",
+						"Special Features - Scan Code 1": "",
+						"Special Features - Scan Code 1 Text": "",
+						"Special Features - Scan Code 2": "",
+						"Special Features - Scan Code 2 Text": "",
+						"Special Features - Hazmat": "",
+						"Special Features - UNID Code": "",
+						"Special Features - Scan Code 3": "",
+						"Special Features - Scan Code 3 Text": "",
+						"EPA Recommended - BIFMA level": "",
+						"EPA Recommended - Biodegradable Products Institute compostable product": "",
+						"EPA Recommended - California Section 01350 standard": "",
+						"EPA Recommended - FloorScore": "",
+						"EPA Recommended - Forest Stewardship Council": "",
+						"EPA Recommended - Green Seal GS-01": "",
+						"EPA Recommended - Green Seal GS-07": "",
+						"EPA Recommended - Green Seal GS-37": "",
+						"EPA Recommended - Green Seal GS-40": "",
+						"EPA Recommended - Green Seal GS-41": "",
+						"EPA Recommended - NSF 140 Carpet": "",
+						"EPA Recommended - NSF 332": "",
+						"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "",
+						"EPA Recommended - SCAQMD Rule #1113": "",
+						"EPA Recommended - SCAQMD Rule #1168": "",
+						"EPA Recommended - STMC Toner Cartridges": "",
+						"EPA Recommended - UL 126": "",
+						"EPA Recommended - UL 2759": "",
+						"EPA Recommended - UL 2771": "",
+						"EPA Recommended - UL 2777": "",
+						"EPA Recommended - UL 2784": "",
+						"EPA Recommended - UL 2785": "",
+						"EPA Recommended - UL 2792": "",
+						"EPA Recommended - UL 2818 GREENGUARD": ""
+					}
+				],
+
+				"Options": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Option Part Number": "2345¥",
+						"*Option Manufacturer": "Logitech¥",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Mouse",
+						"*Option Quantity": "3",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "15",
+						"*Option Description": "Logitech Mouse― ¥1",
+						"*Option Deletable ? (Y/N)": "Y"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Option Part Number": "2346",
+						"*Option Manufacturer": "Logitech",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Mouse",
+						"*Option Quantity": "3",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "15",
+						"*Option Description": "Logitech Mouse―1",
+						"*Option Deletable ? (Y/N)": "Y"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234568",
+						"*Manufacturer Name": "APPLE",
+						"*Option Part Number": "2347",
+						"*Option Manufacturer": "Logitech",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Mouse¥",
+						"*Option Quantity": "3",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "15",
+						"*Option Description": "Logitech Mouse―1",
+						"*Option Deletable ? (Y/N)": "Y"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234569",
+						"*Manufacturer Name": "LOGITECH",
+						"*Option Part Number": "2345",
+						"*Option Manufacturer": "Logitech",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Mouse",
+						"*Option Quantity": "3",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "15",
+						"*Option Description": "Logitech Mouse―1",
+						"*Option Deletable ? (Y/N)": "Y"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4E",
+						"*Manufacturer Part Number": "1234570",
+						"*Manufacturer Name": "DOVE",
+						"*Option Part Number": "2345",
+						"*Option Manufacturer": "Logitech",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Mouse",
+						"*Option Quantity": "3",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "15",
+						"*Option Description": "Logitech Mouse―1",
+						"*Option Deletable ? (Y/N)": "Y"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4F",
+						"*Manufacturer Part Number": "1234571",
+						"*Manufacturer Name": "OLAY",
+						"*Option Part Number": "2345",
+						"*Option Manufacturer": "Logitech",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Mouse",
+						"*Option Quantity": "3",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "15",
+						"*Option Description": "Logitech Mouse―1",
+						"*Option Deletable ? (Y/N)": "Y"
+					}
+				],
+
+				"Photos": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Additional Photo 1": "Flower00.jpg",
+						"Additional Photo 2": "Flower00.jpg",
+						"Additional Photo 3": ""
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234567",
+						"*Manufacturer Name": "LENOVO",
+						"Additional Photo 1": "flower01.jpg",
+						"Additional Photo 2": "flower01.jpg",
+						"Additional Photo 3": ""
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234568",
+						"*Manufacturer Name": "APPLE",
+						"Additional Photo 1": "flower02.jpg",
+						"Additional Photo 2": "flower02.jpg",
+						"Additional Photo 3": ""
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234569",
+						"*Manufacturer Name": "LOGITECH",
+						"Additional Photo 1": "flower03.jpg",
+						"Additional Photo 2": "flower03.jpg",
+						"Additional Photo 3": ""
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4E",
+						"*Manufacturer Part Number": "1234570",
+						"*Manufacturer Name": "DOVE",
+						"Additional Photo 1": "flower03.jpg",
+						"Additional Photo 2": "flower03.jpg",
+						"Additional Photo 3": ""
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4F",
+						"*Manufacturer Part Number": "1234571",
+						"*Manufacturer Name": "OLAY",
+						"Additional Photo 1": "flower03.jpg",
+						"Additional Photo 2": "flower03.jpg",
+						"Additional Photo 3": ""
+					}
+				]
+			}
+		},
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Product Catalog",
+			"Select Components",
+			"Wizard Management",
+			"Special Charges",
+			"Special Features",
+			"Contractor Warranty",
+			"Upload Photos",
+			"Capture Pricing",
+			"Pricing Document",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.zip"
+			}
+		],
+
+		"finalPricingDocument": 
+		{
+			"validateFinalPricingDocument": "Yes",
+			"finalPricingDocumentName": "Delta Price List.zip",
+			"worksheetData": 
+			{
+				"Pricing": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "KeyBoard",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "99999999",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute-' and Dell have teamed up",
+						"*Unit of Issue": "FC - 1000 CUBIC FEET",
+						"*Quantity Per Unit": "99",
+						"Quantity of Product / Unit": "97 - 10 KILOGRAM DRUM",
+						"*Offer Price": "100",
+						"Final Price (Incl. IFF)": "100.7557",
+						"Markup (%)": "",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "100",
+						"*(Name)Best Priced Customer": "test",
+						"*Price Offered to Best Priced Customer": "100",
+						"*Discount Offered to Best Priced Customer": "1"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "KeyBoard",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "99999999",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute-' and Dell have teamed up",
+						"*Unit of Issue": "FC - 1000 CUBIC FEET",
+						"*Quantity Per Unit": "99",
+						"Quantity of Product / Unit": "97 - 10 KILOGRAM DRUM",
+						"*Offer Price": "100",
+						"Final Price (Incl. IFF)": "100.7557",
+						"Markup (%)": "",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "1000",
+						"*(Name)Best Priced Customer": "test",
+						"*Price Offered to Best Priced Customer": "100",
+						"*Discount Offered to Best Priced Customer": "1"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234568",
+						"*Manufacturer Name": "APPLE",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "KeyBoard",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "99999999",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute-' and Dell have teamed up",
+						"*Unit of Issue": "FC - 1000 CUBIC FEET",
+						"*Quantity Per Unit": "99",
+						"Quantity of Product / Unit": "97 - 10 KILOGRAM DRUM",
+						"*Offer Price": "100",
+						"Final Price (Incl. IFF)": "100.7557",
+						"Markup (%)": "",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "100",
+						"*(Name)Best Priced Customer": "test",
+						"*Price Offered to Best Priced Customer": "100",
+						"*Discount Offered to Best Priced Customer": "1"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234569",
+						"*Manufacturer Name": "LOGITECH",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "KeyBoard",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "99999999",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute-' and Dell have teamed up",
+						"*Unit of Issue": "FC - 1000 CUBIC FEET",
+						"*Quantity Per Unit": "99",
+						"Quantity of Product / Unit": "97 - 10 KILOGRAM DRUM",
+						"*Offer Price": "100",
+						"Final Price (Incl. IFF)": "100.7557",
+						"Markup (%)": "",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "1000",
+						"*(Name)Best Priced Customer": "test",
+						"*Price Offered to Best Priced Customer": "100",
+						"*Discount Offered to Best Priced Customer": "1"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4E",
+						"*Manufacturer Part Number": "1234570",
+						"*Manufacturer Name": "DOVE",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Body wash",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "99999999",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute-' and Dell have teamed up",
+						"*Unit of Issue": "FC - 1000 CUBIC FEET",
+						"*Quantity Per Unit": "99",
+						"Quantity of Product / Unit": "97 - 10 KILOGRAM DRUM",
+						"*Offer Price": "100",
+						"Final Price (Incl. IFF)": "100.7557",
+						"Markup (%)": "",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "100",
+						"*(Name)Best Priced Customer": "test",
+						"*Price Offered to Best Priced Customer": "100",
+						"*Discount Offered to Best Priced Customer": "1"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4F",
+						"*Manufacturer Part Number": "1234571",
+						"*Manufacturer Name": "OLAY",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Body wash",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "99999999",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute-' and Dell have teamed up",
+						"*Unit of Issue": "FC - 1000 CUBIC FEET",
+						"*Quantity Per Unit": "99",
+						"Quantity of Product / Unit": "97 - 10 KILOGRAM DRUM",
+						"*Offer Price": "100",
+						"Final Price (Incl. IFF)": "100.7557",
+						"Markup (%)": "",
+						"Discount (%) to GSA": "",
+						"*Commercial List Price": "100",
+						"*(Name)Best Priced Customer": "test",
+						"*Price Offered to Best Priced Customer": "100",
+						"*Discount Offered to Best Priced Customer": "1"
+					}
+				],
+
+				"Non Pricing": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "20",
+						"Manufacturer Warranty - Description": "Description goes- here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes- here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "1234",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234567",
+						"*Manufacturer Name": "LENOVO",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "20",
+						"Manufacturer Warranty - Description": "Description goes- here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes- here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "1234",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234568",
+						"*Manufacturer Name": "APPLE",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "20",
+						"Manufacturer Warranty - Description": "Description goes- here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes- here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "1234",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234569",
+						"*Manufacturer Name": "LOGITECH",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "20",
+						"Manufacturer Warranty - Description": "Description goes- here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes- here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "1234",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4E",
+						"*Manufacturer Part Number": "1234570",
+						"*Manufacturer Name": "DOVE",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "20",
+						"Manufacturer Warranty - Description": "Description goes- here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes- here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "1234",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4F",
+						"*Manufacturer Part Number": "1234571",
+						"*Manufacturer Name": "OLAY",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "20",
+						"Manufacturer Warranty - Description": "Description goes- here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes- here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "5",
+						"FSC/PSC": "1234",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "19",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "13",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "12"
+					}
+				],
+
+				"Delivery": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234568",
+						"*Manufacturer Name": "APPLE",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4D",
+						"*Manufacturer Part Number": "1234569",
+						"*Manufacturer Name": "LOGITECH",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4E",
+						"*Manufacturer Part Number": "1234570",
+						"*Manufacturer Name": "DOVE",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "426 4F",
+						"*Manufacturer Part Number": "1234571",
+						"*Manufacturer Name": "OLAY",
+						"*Delivery FOB - Continental US": "D - FOB Destination",
+						"*Delivery FOB - Alaska": "O - FOB Origin",
+						"*Delivery FOB -  Puerto Rico": "ND - FOB No Delivery",
+						"*Delivery FOB - Hawaii": "O - FOB Origin",
+						"Shipping Unit Weight": "10",
+						"Shipping Package Cube": "2"
+					}
+				],
+
+				"Special Charges": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Expediting Premium - Charges": "150",
+						"Expediting Premium - Per": "EA - EACH",
+						"Expediting Premium - Description": "Exp Premium- Desc",
+						"Same Day Service - Charges": "",
+						"Same Day Service - Per": "",
+						"Same Day Service - Description": "",
+						"One Day Service - Charges": "100",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Two Day- Desc",
+						"Two Day Service - Charges": "",
+						"Two Day Service - Per": "",
+						"Two Day Service - Description": "",
+						"Installation - Charges": "",
+						"Installation - Per": "",
+						"Installation - Description": "",
+						"Assembly - Charges": "100",
+						"Assembly - Per": "EA - EACH",
+						"Assembly - Description": "Assembly- Desc",
+						"Inside Delivery - Charges": "",
+						"Inside Delivery - Per": "",
+						"Inside Delivery - Description": "",
+						"Saturday Delivery - Charges": "",
+						"Saturday Delivery - Per": "",
+						"Saturday Delivery - Description": "",
+						"Layout/Design - Charges": "100",
+						"Layout/Design - Per": "EA - EACH",
+						"Layout/Design - Description": "Layout- Desc",
+						"Training - Charges": "",
+						"Training - Per": "",
+						"Training - Description": ""
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234567",
+						"*Manufacturer Name": "LENOVO",
+						"Expediting Premium - Charges": "150",
+						"Expediting Premium - Per": "EA - EACH",
+						"Expediting Premium - Description": "Exp Premium- Desc",
+						"Same Day Service - Charges": "",
+						"Same Day Service - Per": "",
+						"Same Day Service - Description": "",
+						"One Day Service - Charges": "100",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Two Day- Desc",
+						"Two Day Service - Charges": "",
+						"Two Day Service - Per": "",
+						"Two Day Service - Description": "",
+						"Installation - Charges": "",
+						"Installation - Per": "",
+						"Installation - Description": "",
+						"Assembly - Charges": "100",
+						"Assembly - Per": "EA - EACH",
+						"Assembly - Description": "Assembly- Desc",
+						"Inside Delivery - Charges": "",
+						"Inside Delivery - Per": "",
+						"Inside Delivery - Description": "",
+						"Saturday Delivery - Charges": "",
+						"Saturday Delivery - Per": "",
+						"Saturday Delivery - Description": "",
+						"Layout/Design - Charges": "100",
+						"Layout/Design - Per": "EA - EACH",
+						"Layout/Design - Description": "Layout- Desc",
+						"Training - Charges": "",
+						"Training - Per": "",
+						"Training - Description": ""
+					}
+
+				],
+
+				"Special Features": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Environmental Features - Shipboard Use Approved": "",
+						"Environmental Features - FEMP Energy Efficiency": "",
+						"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "",
+						"Environmental Features - Low VOC": "X",
+						"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "",
+						"Environmental Features - BioPreferred": "",
+						"Environmental Features - EPA WaterSense Program": "",
+						"Environmental Features - Safer Choice": "X",
+						"Special Features - AbilityOne": "X",
+						"Special Features - UNICOR": "",
+						"Special Features - Ergonomic": "X",
+						"Special Features - Section 508": "",
+						"Special Features - Product 508 URL": "",
+						"Special Features - Pre-purchased stock": "",
+						"Special Features - Scan Code 1": "",
+						"Special Features - Scan Code 1 Text": "",
+						"Special Features - Scan Code 2": "",
+						"Special Features - Scan Code 2 Text": "",
+						"Special Features - Hazmat": "",
+						"Special Features - UNID Code": "",
+						"Special Features - Scan Code 3": "",
+						"Special Features - Scan Code 3 Text": "",
+						"EPA Recommended - BIFMA level": "",
+						"EPA Recommended - Biodegradable Products Institute compostable product": "",
+						"EPA Recommended - California Section 01350 standard": "",
+						"EPA Recommended - FloorScore": "",
+						"EPA Recommended - Forest Stewardship Council": "",
+						"EPA Recommended - Green Seal GS-01": "",
+						"EPA Recommended - Green Seal GS-07": "",
+						"EPA Recommended - Green Seal GS-37": "",
+						"EPA Recommended - Green Seal GS-40": "",
+						"EPA Recommended - Green Seal GS-41": "",
+						"EPA Recommended - NSF 140 Carpet": "",
+						"EPA Recommended - NSF 332": "X",
+						"EPA Recommended - UL 2759": "X"
+					}
+
+				],
+
+				"Options": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234566",
+						"*Manufacturer Name": "DELL COMP",
+						"*Option Part Number": "2345",
+						"*Option Manufacturer": "Logitech",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Mouse",
+						"*Option Quantity": "3",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "15",
+						"*Option Description": "Logitech Mouse- 1",
+						"*Option Deletable ? (Y/N)": "Y"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234567",
+						"*Manufacturer Name": "LENOVO",
+						"*Option Part Number": "2346",
+						"*Option Manufacturer": "Logitech",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Mouse",
+						"*Option Quantity": "3",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "15",
+						"*Option Description": "Logitech Mouse-1",
+						"*Option Deletable ? (Y/N)": "Y"
+					}
+				],
+
+				"Photos": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "1234566",
+						"*Manufacturer Name": "DELL COMP",
+						"Additional Photo 1": "Flower00.jpg",
+						"Additional Photo 2": "Flower00.jpg"
+					}
+				]
+			}
+		}
+	},
+	
+	"Product Catalog Update Mod: Complete with and without Signature Components with Remove option": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "eMod_productCatalog_Contract",
+		"UEI": "eMod_productCatalog_UEI",
+		"modTypes": 
+		[
+			"Product Catalog Update"
+		],
+
+		"productCatalogUpdateMod": 
+		{
+			"detailedDescription": "Updating products information",
+			"selectComponents": 
+			{
+				"contractorWarranty": "Remove All",
+				"photos": "Remove All",
+				"specialCharges": "Remove All",
+				"specialFeatures": "Remove All",
+				"options": "Remove All"
+			}
+		},
+
+		"finalPricingDocument": 
+		{
+			"validateFinalPricingDocument": "Yes",
+			"finalPricingDocumentName": "Delta Price List.zip",
+			"worksheetData": 
+			{
+
+				"Photos": 
+				[
+					{
+						"*Type of Change": "Removed Associations",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97536",
+						"*Manufacturer Name": "DA-LITE",
+						"Additional Photo 1": "Gif1.gif",
+						"Additional Photo 2": "",
+						"Additional Photo 3": ""
+					},
+
+					{
+						"*Type of Change": "Removed Associations",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535V",
+						"*Manufacturer Name": "DA-LITE",
+						"Additional Photo 1": "Pic2.jpg",
+						"Additional Photo 2": "",
+						"Additional Photo 3": ""
+					},
+
+					{
+						"*Type of Change": "Removed Associations",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"Additional Photo 1": "Pic1.jpg",
+						"Additional Photo 2": "",
+						"Additional Photo 3": ""
+					}
+				],
+
+				"Special Charges": 
+				[
+					{
+						"*Type of Change": "Removed Associations",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"Expediting Premium - Charges": "20",
+						"Expediting Premium - Per": "HR - HOURS",
+						"Expediting Premium - Description": "4 Day Processing",
+						"Same Day Service - Charges": "20",
+						"Same Day Service - Per": "EA - EACH",
+						"Same Day Service - Description": "Additional charge to deliver the item on the same day of receiving the order.",
+						"One Day Service - Charges": "20",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Additional charge to deliver the item within two days of receiving the order.",
+						"Two Day Service - Charges": "20",
+						"Two Day Service - Per": "EA - EACH",
+						"Two Day Service - Description": "Additional charge to deliver the item within one day of receiving the order.",
+						"Installation - Charges": "50",
+						"Installation - Per": "EA - EACH",
+						"Installation - Description": "Additional charge to install the item.",
+						"Assembly - Charges": "20",
+						"Assembly - Per": "HR - HOURS",
+						"Assembly - Description": "Additional charge to assemble the item.",
+						"Inside Delivery - Charges": "20",
+						"Inside Delivery - Per": "HR - HOURS",
+						"Inside Delivery - Description": "Additional charge to deliver the item inside the destination.",
+						"Saturday Delivery - Charges": "20",
+						"Saturday Delivery - Per": "EA - EACH",
+						"Saturday Delivery - Description": "Additional charge to deliver the item on a Saturday.",
+						"Layout/Design - Charges": "20",
+						"Layout/Design - Per": "HR - HOURS",
+						"Layout/Design - Description": "Additional charge based upon the type of layout/design provided for the item.",
+						"Training - Charges": "20",
+						"Training - Per": "EA - EACH",
+						"Training - Description": "Additional charge to provide training on an item."
+					},
+
+					{
+						"*Type of Change": "Removed Associations",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535V",
+						"*Manufacturer Name": "DA-LITE",
+						"Expediting Premium - Charges": "20",
+						"Expediting Premium - Per": "HR - HOURS",
+						"Expediting Premium - Description": "4 Day Processing",
+						"Same Day Service - Charges": "20",
+						"Same Day Service - Per": "EA - EACH",
+						"Same Day Service - Description": "Additional charge to deliver the item on the same day of receiving the order.",
+						"One Day Service - Charges": "20",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Additional charge to deliver the item within two days of receiving the order.",
+						"Two Day Service - Charges": "20",
+						"Two Day Service - Per": "EA - EACH",
+						"Two Day Service - Description": "Additional charge to deliver the item within one day of receiving the order.",
+						"Installation - Charges": "50",
+						"Installation - Per": "EA - EACH",
+						"Installation - Description": "Additional charge to install the item.",
+						"Assembly - Charges": "20",
+						"Assembly - Per": "HR - HOURS",
+						"Assembly - Description": "Additional charge to assemble the item.",
+						"Inside Delivery - Charges": "20",
+						"Inside Delivery - Per": "HR - HOURS",
+						"Inside Delivery - Description": "Additional charge to deliver the item inside the destination.",
+						"Saturday Delivery - Charges": "20",
+						"Saturday Delivery - Per": "EA - EACH",
+						"Saturday Delivery - Description": "Additional charge to deliver the item on a Saturday.",
+						"Layout/Design - Charges": "20",
+						"Layout/Design - Per": "HR - HOURS",
+						"Layout/Design - Description": "Additional charge based upon the type of layout/design provided for the item.",
+						"Training - Charges": "20",
+						"Training - Per": "EA - EACH",
+						"Training - Description": "Additional charge to provide training on an item."
+					},
+
+					{
+						"*Type of Change": "Removed Associations",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97536",
+						"*Manufacturer Name": "DA-LITE",
+						"Expediting Premium - Charges": "20",
+						"Expediting Premium - Per": "HR - HOURS",
+						"Expediting Premium - Description": "4 Day Processing",
+						"Same Day Service - Charges": "20",
+						"Same Day Service - Per": "EA - EACH",
+						"Same Day Service - Description": "Additional charge to deliver the item on the same day of receiving the order.",
+						"One Day Service - Charges": "20",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Additional charge to deliver the item within two days of receiving the order.",
+						"Two Day Service - Charges": "20",
+						"Two Day Service - Per": "EA - EACH",
+						"Two Day Service - Description": "Additional charge to deliver the item within one day of receiving the order.",
+						"Installation - Charges": "50",
+						"Installation - Per": "EA - EACH",
+						"Installation - Description": "Additional charge to install the item.",
+						"Assembly - Charges": "20",
+						"Assembly - Per": "HR - HOURS",
+						"Assembly - Description": "Additional charge to assemble the item.",
+						"Inside Delivery - Charges": "20",
+						"Inside Delivery - Per": "HR - HOURS",
+						"Inside Delivery - Description": "Additional charge to deliver the item inside the destination.",
+						"Saturday Delivery - Charges": "20",
+						"Saturday Delivery - Per": "EA - EACH",
+						"Saturday Delivery - Description": "Additional charge to deliver the item on a Saturday.",
+						"Layout/Design - Charges": "20",
+						"Layout/Design - Per": "HR - HOURS",
+						"Layout/Design - Description": "Additional charge based upon the type of layout/design provided for the item.",
+						"Training - Charges": "20",
+						"Training - Per": "EA - EACH",
+						"Training - Description": "Additional charge to provide training on an item."
+					}
+				],
+
+				"Options": 
+				[
+					{
+						"*Type of Change": "Removed Associations",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"*Option Part Number": "OP12345",
+						"*Option Manufacturer": "Honeywell",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Processor",
+						"*Option Quantity": "1",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "20",
+						"*Option Description": "Color options are: Blue, Red, or Grey",
+						"*Option Deletable ? (Y/N)": "Y"
+					},
+
+					{
+						"*Type of Change": "Removed Associations",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535V",
+						"*Manufacturer Name": "DA-LITE",
+						"*Option Part Number": "OP12345",
+						"*Option Manufacturer": "Honeywell",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Processor",
+						"*Option Quantity": "1",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "20",
+						"*Option Description": "Color options are: Blue, Red, or Grey",
+						"*Option Deletable ? (Y/N)": "Y"
+					}
+				],
+
+				"Special Features": 
+				[
+					{
+						"*Type of Change": "Removed Associations",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"Environmental Features - Shipboard Use Approved": "X",
+						"Environmental Features - FEMP Energy Efficiency": "",
+						"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "",
+						"Environmental Features - Low VOC": "",
+						"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "",
+						"Environmental Features - BioPreferred": "",
+						"Environmental Features - EPA WaterSense Program": "",
+						"Environmental Features - Safer Choice": "",
+						"Special Features - AbilityOne": "X",
+						"Special Features - UNICOR": "X",
+						"Special Features - Ergonomic": "X",
+						"Special Features - Section 508": "X",
+						"Special Features - Product 508 URL": "www.test508.com",
+						"Special Features - Pre-purchased stock": "X",
+						"Special Features - Scan Code 1": "X",
+						"Special Features - Scan Code 1 Text": "VA SCAN CODE 1",
+						"Special Features - Scan Code 2": "X",
+						"Special Features - Scan Code 2 Text": "VA SCAN CODE 2",
+						"Special Features - Hazmat": "X",
+						"Special Features - UNID Code": "UNID12",
+						"Special Features - Scan Code 3": "X",
+						"Special Features - Scan Code 3 Text": "VA SCAN CODE 3",
+						"EPA Recommended - BIFMA level": "",
+						"EPA Recommended - Biodegradable Products Institute compostable product": "",
+						"EPA Recommended - California Section 01350 standard": "",
+						"EPA Recommended - FloorScore": "",
+						"EPA Recommended - Forest Stewardship Council": "",
+						"EPA Recommended - Green Seal GS-01": "",
+						"EPA Recommended - Green Seal GS-07": "",
+						"EPA Recommended - Green Seal GS-37": "",
+						"EPA Recommended - Green Seal GS-40": "",
+						"EPA Recommended - Green Seal GS-41": "",
+						"EPA Recommended - NSF 140 Carpet": "",
+						"EPA Recommended - NSF 332": "",
+						"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "",
+						"EPA Recommended - SCAQMD Rule #1113": "",
+						"EPA Recommended - SCAQMD Rule #1168": "",
+						"EPA Recommended - STMC Toner Cartridges": "",
+						"EPA Recommended - UL 126": "",
+						"EPA Recommended - UL 2759": "",
+						"EPA Recommended - UL 2762": "",
+						"EPA Recommended - UL 2771": "",
+						"EPA Recommended - UL 2777": "",
+						"EPA Recommended - UL 2784": "",
+						"EPA Recommended - UL 2785": "",
+						"EPA Recommended - UL 2792": "",
+						"EPA Recommended - UL 2818 GREENGUARD": ""
+					},
+
+					{
+						"*Type of Change": "Removed Associations",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535V",
+						"*Manufacturer Name": "DA-LITE",
+						"Environmental Features - Shipboard Use Approved": "X",
+						"Environmental Features - FEMP Energy Efficiency": "",
+						"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "",
+						"Environmental Features - Low VOC": "",
+						"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "",
+						"Environmental Features - BioPreferred": "",
+						"Environmental Features - EPA WaterSense Program": "",
+						"Environmental Features - Safer Choice": "",
+						"Special Features - AbilityOne": "X",
+						"Special Features - UNICOR": "X",
+						"Special Features - Ergonomic": "X",
+						"Special Features - Section 508": "X",
+						"Special Features - Product 508 URL": "www.test508.com",
+						"Special Features - Pre-purchased stock": "X",
+						"Special Features - Scan Code 1": "X",
+						"Special Features - Scan Code 1 Text": "VA SCAN CODE 1",
+						"Special Features - Scan Code 2": "X",
+						"Special Features - Scan Code 2 Text": "VA SCAN CODE 2",
+						"Special Features - Hazmat": "X",
+						"Special Features - UNID Code": "UNID12",
+						"Special Features - Scan Code 3": "X",
+						"Special Features - Scan Code 3 Text": "VA SCAN CODE 3",
+						"EPA Recommended - BIFMA level": "",
+						"EPA Recommended - Biodegradable Products Institute compostable product": "",
+						"EPA Recommended - California Section 01350 standard": "",
+						"EPA Recommended - FloorScore": "",
+						"EPA Recommended - Forest Stewardship Council": "",
+						"EPA Recommended - Green Seal GS-01": "",
+						"EPA Recommended - Green Seal GS-07": "",
+						"EPA Recommended - Green Seal GS-37": "",
+						"EPA Recommended - Green Seal GS-40": "",
+						"EPA Recommended - Green Seal GS-41": "",
+						"EPA Recommended - NSF 140 Carpet": "",
+						"EPA Recommended - NSF 332": "",
+						"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "",
+						"EPA Recommended - SCAQMD Rule #1113": "",
+						"EPA Recommended - SCAQMD Rule #1168": "",
+						"EPA Recommended - STMC Toner Cartridges": "",
+						"EPA Recommended - UL 126": "",
+						"EPA Recommended - UL 2759": "",
+						"EPA Recommended - UL 2762": "",
+						"EPA Recommended - UL 2771": "",
+						"EPA Recommended - UL 2777": "",
+						"EPA Recommended - UL 2784": "",
+						"EPA Recommended - UL 2785": "",
+						"EPA Recommended - UL 2792": "",
+						"EPA Recommended - UL 2818 GREENGUARD": ""
+					},
+
+					{
+						"*Type of Change": "Removed Associations",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97536",
+						"*Manufacturer Name": "DA-LITE",
+						"Environmental Features - Shipboard Use Approved": "X",
+						"Environmental Features - FEMP Energy Efficiency": "",
+						"Environmental Features - Comprehensive Procurement Guidelines (CPG) compliant": "",
+						"Environmental Features - Low VOC": "",
+						"Environmental Features - US EPA Significant New Alternatives Program (SNAP) approved": "",
+						"Environmental Features - BioPreferred": "",
+						"Environmental Features - EPA WaterSense Program": "",
+						"Environmental Features - Safer Choice": "",
+						"Special Features - AbilityOne": "X",
+						"Special Features - UNICOR": "X",
+						"Special Features - Ergonomic": "X",
+						"Special Features - Section 508": "X",
+						"Special Features - Product 508 URL": "www.test508.com",
+						"Special Features - Pre-purchased stock": "X",
+						"Special Features - Scan Code 1": "X",
+						"Special Features - Scan Code 1 Text": "VA SCAN CODE 1",
+						"Special Features - Scan Code 2": "X",
+						"Special Features - Scan Code 2 Text": "VA SCAN CODE 2",
+						"Special Features - Hazmat": "X",
+						"Special Features - UNID Code": "UNID12",
+						"Special Features - Scan Code 3": "X",
+						"Special Features - Scan Code 3 Text": "VA SCAN CODE 3",
+						"EPA Recommended - BIFMA level": "",
+						"EPA Recommended - Biodegradable Products Institute compostable product": "",
+						"EPA Recommended - California Section 01350 standard": "",
+						"EPA Recommended - FloorScore": "",
+						"EPA Recommended - Forest Stewardship Council": "",
+						"EPA Recommended - Green Seal GS-01": "",
+						"EPA Recommended - Green Seal GS-07": "",
+						"EPA Recommended - Green Seal GS-37": "",
+						"EPA Recommended - Green Seal GS-40": "",
+						"EPA Recommended - Green Seal GS-41": "",
+						"EPA Recommended - NSF 140 Carpet": "",
+						"EPA Recommended - NSF 332": "",
+						"EPA Recommended - Pacific Northwest Snowfighters Qualified Deicers": "",
+						"EPA Recommended - SCAQMD Rule #1113": "",
+						"EPA Recommended - SCAQMD Rule #1168": "",
+						"EPA Recommended - STMC Toner Cartridges": "",
+						"EPA Recommended - UL 126": "",
+						"EPA Recommended - UL 2759": "",
+						"EPA Recommended - UL 2762": "",
+						"EPA Recommended - UL 2771": "",
+						"EPA Recommended - UL 2777": "",
+						"EPA Recommended - UL 2784": "",
+						"EPA Recommended - UL 2785": "",
+						"EPA Recommended - UL 2792": "",
+						"EPA Recommended - UL 2818 GREENGUARD": ""
+					}
+				],
+				
+				"contractorWarranty": 
+				[
+					{
+						"*Type of Change": "Removed Associations",
+						"*SIN": "58 5",
+						"warrantyPeriod": "Month",
+						"numOfPeriods": "99",
+						"warrantyDescription": "A period of 9 months for each year of the contract"
+					}
+				]
+			}
+		},
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Product Catalog Update",
+							"Updating products information",
+							"Contractor Warranty.*Remove All",
+							"Photos.*Remove All",
+							"Options.*Remove All",
+							"Special Charges.*Remove All",
+							"Special Features.*Remove All"
+						]
+					}
+				]
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Product Catalog",
+			"Select Components",
+			"Wizard Management",
+			"Pricing Document",
+			"Upload Documents"
+		]
+	},
+	
+	"Product Catalog Update Mod: Complete with and without Signature Components with Update option": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "eMod_productCatalog_Contract",
+		"UEI": "eMod_productCatalog_UEI",
+		"modTypes": 
+		[
+			"Product Catalog Update"
+		],
+
+		"productCatalogUpdateMod": 
+		{
+			"contractBeginDate": "2015-01-25",
+			"detailedDescription": "Updating products information",
+			"selectComponents": 
+			{
+				"contractorWarranty": "Add/Update",
+				"accessories": "Add/Update",
+				"photos": "Add/Update",
+				"delivery": "Add/Update",
+				"deliveryLevel": "SIN",
+				"options": "Add/Update",
+				"specialCharges": "Add/Update",
+				"specialFeatures": "Add/Update",
+				"otherProductInformation": "Add/Update"
+			}
+		},
+
+		"contractorWarranty": 
+		[
+			{
+				"sin": "58 5",
+				"warrantyPeriod": "Week",
+				"numOfPeriods": "11",
+				"warrantyDescription": "This warranty will last for 11 weeks"
+			}
+		],
+
+		"delivery": 
+		[
+			{
+				"sin": "58 5",
+				"deliveryType_conus": "FOB Destination",
+				"deliveryType_HI": "FOB Destination",
+				"deliveryType_pr": "No Delivery",
+				"deliveryType_alaska": "No Delivery"
+			}
+		],
+
+		"specialCharges": 
+		[
+			{
+				"sin": "58 5",
+				"charges": 
+				[
+					"One Day Service",
+					"Assembly",
+					"Layout/Design",
+					"Expediting Premium"
+				]
+			}
+		],
+
+		"specialFeatures": 
+		[
+			{
+				"sin": "58 5",
+				"spFeatures": 
+				[
+					"Ergonomic",
+					"Scan Code 2"
+				],
+
+				"envFeatures": 
+				[
+					"Shipboard Use Approved"
+				],
+
+				"epaFeatures": 
+				[
+				
+				]
+			}
+		],
+
+		"uploadPhotos": 
+		[
+			{
+				"sin": "58 5",
+				"photo1": "GenericUploadData/Flower00.jpg"
+			}
+		],
+
+		"zonalPricing": 
+		[
+			
+		],
+
+		"downloadUploadTemplate": 
+		{
+			"pricingDocumentTemplateName": "Product Data.zip",
+			"pricingDocumentFileName": "Product Data1.xlsx",
+			"worksheetData": 
+			{
+				"Pricing": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "MOTORIZED SCREEN",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892685001003",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "The institute and Dell have teamed up",
+						"*Unit of Issue": "EA - EACH",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "EA - EACH",
+						"*Commercial List Price": "",
+						"*(Name)Best Priced Customer": "",
+						"*Price Offered to Best Priced Customer": "",
+						"*Discount Offered to Best Priced Customer": ""
+					}
+				],
+
+				"Non Pricing": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"Manufacturer Warranty - Warranty Period": "MONTH",
+						"Manufacturer Warranty - Number of Warranty Periods": "15",
+						"Manufacturer Warranty - Description": "Description goes here",
+						"Extended Warranty - Warranty Period": "YEAR",
+						"Extended Warranty - Number of Warranty Periods": "3",
+						"Extended Warranty - Description": "Extended warranty goes here",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "6",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "50182001",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "Blue",
+						"Product Length - Unit Number": "20",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "15",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "5",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "13"
+					}
+				],
+
+				"Accessories": 
+				[
+					{
+						"*Type of Change": "Remove Association",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"*Accessory Part Number": "97536",
+						"*Accessory Manufacturer": "DA-LITE"
+					}
+				],
+
+				"Delivery": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"Shipping Unit Weight": "12",
+						"Shipping Package Cube": "4"
+					}
+				],
+
+				"Special Charges": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"Expediting Premium - Charges": "25",
+						"Expediting Premium - Per": "HR - HOURS",
+						"Expediting Premium - Description": "Exp Premium Desc",
+						"Same Day Service - Charges": "",
+						"Same Day Service - Per": "",
+						"Same Day Service - Description": "",
+						"One Day Service - Charges": "25",
+						"One Day Service - Per": "EA - EACH",
+						"One Day Service - Description": "Two Day Desc",
+						"Two Day Service - Charges": "",
+						"Two Day Service - Per": "",
+						"Two Day Service - Description": "",
+						"Installation - Charges": "",
+						"Installation - Per": "",
+						"Installation - Description": "",
+						"Assembly - Charges": "100",
+						"Assembly - Per": "EA - EACH",
+						"Assembly - Description": "Assembly Desc",
+						"Inside Delivery - Charges": "",
+						"Inside Delivery - Per": "",
+						"Inside Delivery - Description": "",
+						"Saturday Delivery - Charges": "",
+						"Saturday Delivery - Per": "",
+						"Saturday Delivery - Description": "",
+						"Layout/Design - Charges": "100",
+						"Layout/Design - Per": "EA - EACH",
+						"Layout/Design - Description": "Layout Desc",
+						"Training - Charges": "",
+						"Training - Per": "",
+						"Training - Description": ""
+					}
+				],
+
+				"Special Features": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"Environmental Features - Shipboard Use Approved": "X",
+						"Special Features - Ergonomic": "X",
+						"Special Features - Section 508": "",
+						"Special Features - Product 508 URL": "",
+						"Special Features - Pre-purchased stock": "",
+						"Special Features - Scan Code 1": "",
+						"Special Features - Scan Code 1 Text": "",
+						"Special Features - Scan Code 2": "X",
+						"Special Features - Scan Code 2 Text": "SCAN CODE 2 TEXT"
+					}
+				],
+
+				"Options": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"*Option Part Number": "OP12345",
+						"*Option Manufacturer": "Honeywell",
+						"*Option Code": "O - None Can Be Selected",
+						"*Option Group": "Processor",
+						"*Option Quantity": "5",
+						"*Option Unit of Measure": "EA - EACH",
+						"*Option Price": "15",
+						"*Option Description": "Honeywell Mouse 1",
+						"*Option Deletable ? (Y/N)": "N"
+					}
+				],
+
+				"Photos": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"Additional Photo 1": "Flower00.jpg"
+					}
+				]
+			}
+		},
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Product Catalog",
+			"Select Components",
+			"Wizard Management",
+			"Special Charges",
+			"Special Features",
+			"Zonal Pricing",
+			"Delivery",
+			"Contractor Warranty",
+			"Capture Pricing",
+			"Upload Photos",
+			"Pricing Document",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			}
+		],
+
+		"finalPricingDocument": 
+		{
+			
+		}
+	},
+	
+	"Product Catalog Update Mod: Complete one of each Pricing and Non-pricing Component with Update option": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "eMod_productCatalog_Contract",
+		"UEI": "eMod_productCatalog_UEI",
+		"modTypes": 
+		[
+			"Product Catalog Update"
+		],
+
+		"productCatalogUpdateMod": 
+		{
+			"detailedDescription": "Complete one of each Pricing and Non-pricing Component with Update option",
+			"selectComponents": 
+			{
+				"accessories": "Add/Update",
+				"otherProductInformation": "Add/Update"
+			}
+		},
+
+		"ediOption": 
+		{
+			"edifileName": "productCatalogMod/gsaTest/ValidEDIXml.xml"
+		},
+
+		"finalPricingDocument": 
+		{
+			"validateFinalPricingDocument": "Yes",
+			"finalPricingDocumentName": "Delta Price List.zip",
+			"worksheetData": 
+			{
+				"Non Pricing": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"Manufacturer Warranty - Warranty Period": "DAY",
+						"Manufacturer Warranty - Number of Warranty Periods": "90",
+						"Manufacturer Warranty - Description": "",
+						"Extended Warranty - Warranty Period": "DAY",
+						"Extended Warranty - Number of Warranty Periods": "5",
+						"Extended Warranty - Description": "",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AE - Shipped after receipt of order",
+						"*Delivery (Lead) Time Days": "20",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "12345678",
+						"NSN": "9999-99-999-9999",
+						"Default Colour": "black",
+						"Product Length - Unit Number": "10",
+						"Product Length - Unit of Measure": "IN - INCH",
+						"Product Width - Unit Number": "10",
+						"Product Width - Unit of Measure": "IN - INCH",
+						"Product Height - Unit Number": "10",
+						"Product Height - Unit of Measure": "IN - INCH",
+						"Product Specific Web Site": "www.gsaadvantage.gov/",
+						"Standard Pack": "10"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97536",
+						"*Manufacturer Name": "DA-LITE",
+						"Manufacturer Warranty - Warranty Period": "DAY",
+						"Manufacturer Warranty - Number of Warranty Periods": "90",
+						"Manufacturer Warranty - Description": "",
+						"Extended Warranty - Warranty Period": "DAY",
+						"Extended Warranty - Number of Warranty Periods": "5",
+						"Extended Warranty - Description": "",
+						"*Country of Origin": "US - UNITED STATES OF AMERICA",
+						"*Country of Origin 2": "US - UNITED STATES OF AMERICA",
+						"*Delivery (Lead) Time Code": "AF - Delivered after receipt of order",
+						"*Delivery (Lead) Time Days": "20",
+						"FSC/PSC": "FSC",
+						"UNSPSC": "12345678",
+						"NSN": "1234-12-223-1234",
+						"Default Colour": "black",
+						"Product Length - Unit Number": "10",
+						"Product Length - Unit of Measure": "BX - BOX",
+						"Product Width - Unit Number": "10",
+						"Product Width - Unit of Measure": "BX - BOX",
+						"Product Height - Unit Number": "10",
+						"Product Height - Unit of Measure": "BX - BOX",
+						"Product Specific Web Site": "www.dell.com",
+						"Standard Pack": "10"
+					}
+				],
+
+				"Pricing": 
+				[
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"*Product Type": "Product",
+						"*Product / Accessory Name": "Drill",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892685001003",
+						"Vendor Part Number": "1AB234CD56",
+						"*Vendor's Product / Accessory Description": "Description",
+						"*Unit of Issue": "17 - 100 POUND DRUM",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "KA - CAKE"
+					},
+
+					{
+						"*Type of Change": "Add/Update",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97536",
+						"*Manufacturer Name": "DA-LITE",
+						"*Product Type": "Accessory",
+						"*Product / Accessory Name": "Drill",
+						"UPC/ ISBN/ GTIN 14/ EAN 8/ EAN 13": "892685001003",
+						"Vendor Part Number": "MSE50",
+						"*Vendor's Product / Accessory Description": "Description",
+						"*Unit of Issue": "17 - 100 POUND DRUM",
+						"*Quantity Per Unit": "1",
+						"Quantity of Product / Unit": "76 - GAUSS"
+					}
+				],
+
+				"Accessories": 
+				[
+					{
+						"*Type of Change": "Removed Associations",
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE",
+						"*Accessory Part Number": "97536",
+						"*Accessory Manufacturer": "DA-LITE"
+					}
+				]
+			}
+		},
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Product Catalog",
+			"Select Components",
+			"Wizard Management",
+			"Zonal Pricing",
+			"Capture Pricing",
+			"Pricing Document",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"MOD DESCRIPTION For Product Catalog Update",
+							"Complete one of each Pricing and Non-pricing Component with Update option",
+							"Contractor Warranty.*No Change",
+							"Accessories.*Add/Update",
+							"Photos.*No Change",
+							"Delivery.*No Change",
+							"Options.*No Change",
+							"Special Charges.*No Change",
+							"Special Features.*No Change",
+							"Other Product Information.*Add/Update"
+						]
+					}
+				]
+			},
+
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			}
+		]
+	}
+	
+}

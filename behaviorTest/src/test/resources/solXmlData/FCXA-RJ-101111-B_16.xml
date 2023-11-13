@@ -1,0 +1,1054 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:gov.gsa.eoffer.webservice.sws.common.SwsService">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:publishSolicitation>
+         <swsSolXml><![CDATA[<?xml version="1.0" encoding="UTF-8"?><solicitation pdf_link="http://sws-dev.fas.gsa.gov/sws-search/viewSolDocument.do?method=view&amp;solNum=RkNYQS1SSi0xMDExMTEtQg==&amp;solRefresh=MTY=&amp;solDoc=MDkwMWEwNzk4MDFkYmQ5ZA==" refresh_number="16" solicitation_number="FCXA-RJ-101111-B" solicitation_type="SCHEDULES" vehicle_identifier="1011"><clauses><clause clause_number="52.214-21_Alternate_1_04_01_2002" template_name="basic">
+    
+<element isdivided="1" layout="label_top" name="DescriptiveLiterature" sequence="201">
+        <header/>
+        <title>Descriptive Literature (APR 2002) ALT I (APR 2002)</title>
+        <subtitle/>
+        <label>Have you supplied a product that is the same as that required by this solicitation under a prior contract?</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation/>
+    </element></clause><clause clause_number="52.223-3_Alternate_1_07_01_1995" template_name="basic">
+    
+    
+    
+<element isdivided="1" layout="label_top" name="HazMat" sequence="14">
+        <header/>
+        <title>Hazardous Material Identification and Material Safety Data (JAN 1997) (Alternate I-JUL 1995) - Edited</title>
+        <subtitle/>
+        <label>Are there any hazardous materials to be delivered under this contract.</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><documents/><validations/></clause><clause clause_number="52.247-53_Original_0_04_01_1984" template_name="basic">
+    
+    
+    
+<element isdivided="1" layout="label_top" name="FreightClassification" sequence="2016">
+        <header/>
+        <title>Freight Classification Description</title>
+        <subtitle/>
+        <label>Does indicate the full Uniform Freight Classification (rail) description, or the National Motor Freight Classification description applicable to the supplies being acquired by the Government?</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><documents/><validations/></clause><clause clause_number="52.247-60_Original_0_12_01_1989" template_name="">
+    
+<documents>
+        <document id="51" isrequired="1">
+            <type>GuaranteedShippingCharacteristics</type>
+            <typedescription>Guaranteed Shipping Characteristics</typedescription>
+        </document>
+    </documents></clause><clause clause_number="552.211-78_Original_0_02_01_1996" template_name="sins">            <element isdivided="0" layout="label_top" name="CommercialDeliverySchedule" sequence="4">        <header/>        <title>Commercial Delivery Schedule</title>        <subtitle/>        <label>Will delivery be within 30 days after receipt of order (ARO)?</label>        <prefixlabel/>        <defaultvalue/>        <data isrequired="1" type="radio">            <option value="Yes">Yes</option>            <option value="No">No</option>        </data>        <datavalues>            <datavalue/>        </datavalues>        <fieldvalidation>            <validation>                <validationname>Required</validationname>                <validationvalue/>            </validation>        </fieldvalidation>    </element><element isdivided="0" layout="label_top" name="StateCommercialDeliveryTime" sequence="5">        <header/>        <title/>        <subtitle/>        <label>If no, within how many days?</label>        <prefixlabel/>        <defaultvalue/>        <data isrequired="0" maxlength="15" type="text_field"/>        <datavalues>            <datavalue/>        </datavalues>        <fieldvalidation/>    </element><element isdivided="1" layout="label_top" name="ExpeditedDeliveryTime" sequence="6">        <header/>        <title/>        <subtitle/>        <label>What is the expedited delivery time? (In Days)</label>        <prefixlabel/>        <defaultvalue/>        <data isrequired="0" maxlength="15" type="text_field"/>        <datavalues>            <datavalue/>        </datavalues>        <fieldvalidation/>    </element><validations><validation category="" id="1">			<applyon>StateCommercialDeliveryTime</applyon>			<dependon>CommercialDeliverySchedule</dependon>			<dependonvalue>No</dependonvalue>			<applyonvalidation>Required</applyonvalidation>		</validation><validation category="" id="2">			<applyon>StateCommercialDeliveryTime</applyon>			<dependon>CommercialDeliverySchedule</dependon>			<dependonvalue>Yes</dependonvalue>			<applyonvalidation>NotRequired</applyonvalidation>		</validation></validations></clause><clause clause_number="552.223-72_Original_09_01_1999" template_name="basic">            <element isdivided="1" layout="label_top" name="HazMat" sequence="2005">        <header/>        <title>Hazardous Material Information (552.223-72  EP 1999)</title>        <subtitle/>        <label>Are there any hazardous materials to be delivered under this contract?</label>        <prefixlabel/>        <defaultvalue/>        <data isrequired="1" maxlength="15" type="radio">            <option value="Yes">Yes</option>        </data>        <datavalues>            <datavalue/>        </datavalues>        <fieldvalidation>            <validation>                <validationname>Required</validationname>                <validationvalue/>            </validation>        </fieldvalidation>    </element><documents>        <document id="34" isrequired="0">            <type>ListOfHazardousMaterials52.223-72Orig</type>            <typedescription>List of Hazardous Materials</typedescription>        </document>    </documents><validations>        <validation category="upload" id="1">            <applyon attachmentId="34" type="attachment">ListOfHazardousMaterials52.223-72Orig</applyon>            <dependon>HazMat</dependon>            <dependonvalue>Yes</dependonvalue>            <applyonvalidation>Required</applyonvalidation>        </validation>        <validation category="upload" id="2">            <applyon attachmentId="34" type="attachment">ListOfHazardousMaterials52.223-72Orig</applyon>            <dependon>HazMat</dependon>            <dependonvalue>No</dependonvalue>            <applyonvalidation>NotRequired</applyonvalidation>        </validation>        <validation category="upload" id="2">            <applyon attachmentId="34" type="attachment">ListOfHazardousMaterials52.223-72Orig</applyon>            <dependon>HazMat</dependon>            <dependonvalue/>            <applyonvalidation>NotRequired</applyonvalidation>        </validation>    </validations></clause><clause clause_number="552.232-82_Original_0_05_01_2003" template_name=""/><clause clause_number="C-FSS-439_Original_0_04_01_1996" template_name="basic">
+    
+    
+    
+<element isdivided="1" layout="label_top" name="EnvironmentalProtection" sequence="2005">
+        <header/>
+        <title>Are there any materials to be delivered under this contract requires Environmental Protection Agency Registration Requirement?</title>
+        <subtitle/>
+        <label>C-FSS-439</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><documents/><validations/></clause><clause clause_number="C-FSS-445_Original_0_04_01_1984" template_name="basic">
+    
+<element isdivided="1" layout="label_top" name="ElectroMagneticInterference" sequence="2006">
+        <header/>
+        <title>Electromagnetic Interference (EMI) Requirements</title>
+        <subtitle/>
+        <label>Are there any products in this contract requires Electromagnetic Interference (EMI) Requirements?</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element></clause><clause clause_number="D-FSS-447_Original_0_01_01_1992" template_name="basic">
+    
+    
+    
+<element isdivided="1" layout="label_top" name="PerformanceOrientedPackaging" sequence="2007">
+        <header/>
+        <title>Separate Charge for Performance Oriented Packaging (POP) (JAN 1992)</title>
+        <subtitle/>
+        <label>Are there any hazardous material item to which separate charge applies?</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><documents/><validations/></clause><clause clause_number="E-FSS-514_Original_06_01_1990" template_name="basic">
+    
+    
+    
+<element isdivided="1" layout="label_top" name="ProductionInspectionPoint" sequence="2008">
+        <header/>
+        <title>Production and Inspection Point(s) (JUN 1990)</title>
+        <subtitle/>
+        <label>Are there any supplies that requires inspection?</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="radio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><documents/><validations/></clause><clause clause_number="E-FSS-516_Original_03_01_1990" template_name="basic">
+    
+    
+    
+<element isdivided="1" layout="label_top" name="ProductionPointInspection" sequence="2008">
+        <header/>
+        <title>Production Point and Inspection Information (JUN 1990)</title>
+        <subtitle/>
+        <label>Are there any products in this contract that requires inspection?</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="radio">
+            <option value="Yes">Yes</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><documents/><validations/></clause><clause clause_number="E-FSS-521-B_Original_09_01_1999" template_name="basic">
+    
+    
+    
+<element isdivided="1" layout="label_top" name="Inspection" sequence="2009">
+        <header/>
+        <title>Inspection (SEP 1999)</title>
+        <subtitle/>
+        <label>Are there any items in the contract that requires inspection?</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="radio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><documents/><validations/></clause><clause clause_number="F-FSS-202-E_Original_0_05_01_1991" template_name="basic">    <element isdivided="1" layout="label_top" name="DeliveryPrices" sequence="2010">        <header/>        <title>Delivery Prices (F-FSS-202-E MAY 1991)</title>        <subtitle/>        <label>Do the prices submitted cover F.O.B. (Free On Board) destination for the following areas? If Yes, please check the corresponding check box :</label>        <prefixlabel/>        <defaultvalue/>        <data isrequired="0" maxlength="15" type="check_box">            <option value="Alaska">Alaska</option>            <option value="Hawaii">Hawaii</option>            <option value="Puerto Rico">Puerto Rico</option>        </data>        <datavalues>            <datavalue/>        </datavalues>        <fieldvalidation/>    </element></clause><clause clause_number="F-FSS-202-F_Original_0_07_13_2010" template_name="basic">
+    
+    
+<element isdivided="1" layout="label_top" name="OverseasCoverageGeographicArea" sequence="0">
+        <header/>
+        <title>Delivery Prices (F-FSS-202-F)</title>
+        <subtitle/>
+        <label>If offerors are providing overseas coverage then provide the geographic area(s)/countries/zones below (Please enter N/A if not applicable).</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="250" type="text_area"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><validations/></clause><clause clause_number="F-FSS-202-G_Original_0_01_01_1994" template_name="basic">    <element isdivided="1" layout="label_top" name="DeliveryPrices" sequence="2221">        <header/>        <title>Delivery Prices</title>        <subtitle/>        <label>Do the prices submitted cover F.O.B. (Free On Board) destination for the following areas? If Yes, please check the corresponding check box :</label>        <prefixlabel/>        <defaultvalue/>        <data isrequired="0" type="check_box">            <option value="Alaska">Alaska</option>            <option value="Hawaii">Hawaii</option>            <option value="Puerto Rico">Puerto Rico</option>        </data>        <datavalues>            <datavalue/>        </datavalues>        <fieldvalidation/>    </element></clause><clause clause_number="F-FSS-244-A_Original_0_04_01_1984" template_name="sins">            <element isdivided="1" layout="label_top" name="AdditionalServiceCharge " sequence="2011">        <header/>        <title>Additional Service Charge for Delivery Within Consignee?s Premises (F-FSS-244-A APR 1984)</title>        <subtitle/>        <label>Are there a separate charge for ?Delivery Within Consignee?s Premises? applicable to each shipping container to be shipped?</label>        <prefixlabel/>        <defaultvalue/>        <data isrequired="1" maxlength="15" type="radio">            <option value="Yes">Yes</option>            <option value="No">No</option>        </data>        <datavalues>            <datavalue/>        </datavalues>        <fieldvalidation>            <validation>                <validationname>Required</validationname>                <validationvalue/>            </validation>        </fieldvalidation>    </element><documents/><validations>                            </validations></clause><clause clause_number="F-FSS-244-B_Original_0_05_01_2000" template_name="sins">
+    
+    
+    
+<element isdivided="1" layout="label_top" name="AdditionalServiceCharge" sequence="2012">
+        <header/>
+        <title>Additional Service Charge for Delivery Within Consignee?s Premises (F-FSS-244-B MAY 2000)</title>
+        <subtitle/>
+        <label>Are there a a separate charge for ?Delivery Within Consignee?s Premises? applicable to each shipping container to be shipped?</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><documents/><validations/></clause><clause clause_number="F-FSS-370_Original_0_04_01_1984" template_name="">    <documents>        <document id="45" isrequired="0">            <type>ShippingPointInformationF-FSS-370</type>            <typedescription>Shipping Point Information (F-FSS-370 APR 1984)</typedescription>        </document>    </documents></clause><clause clause_number="F-FSS-712-A_Original_0_04_01_1984" template_name="">    <documents>        <document id="46" isrequired="0">            <type>ShippingPointF-FSS-712-A</type>            <typedescription>Shipping Point (F-FSS-712-A APR 1984)</typedescription>        </document>    </documents></clause><clause clause_number="F-FSS-712-B_Original_0_04_01_1984" template_name="">    <documents>        <document id="47" isrequired="0">            <type>ShippingPointF-FSS-712-B</type>            <typedescription>Shipping Point (F-FSS-712-B APR 1984)</typedescription>        </document>    </documents></clause><clause clause_number="G-FSS-900-A_Original_0_01_01_1994" template_name="">    <template>        <templateName group="contact">            <name>Contact for Contract Administration (Domestic)</name>            <type>domesticcontact</type>        </templateName>        <templateName group="contact">            <name>Contact for Contract Administration (Overseas)</name>            <type>overseascontact</type>        </templateName>        <templateName group="contact">            <name>Industrial Funding Fee</name>            <type>IndustrialFundingFee</type>        </templateName>        <templateName group="contact">            <name>Contact for Marketing</name>            <type>ContactforMarketing</type>        </templateName>    </template></clause><clause clause_number="G-FSS-900-C_Original_07_01_2003" template_name="">
+    <template>
+        <templateName group="contact">
+            <name>Contact for Contract Administration (Domestic)</name>
+            <type>domesticcontact</type>
+        </templateName>
+        <templateName group="contact">
+            <name>Contact for Contract Administration (Overseas)</name>
+            <type>overseascontact</type>
+        </templateName>
+        <templateName group="contact">
+            <name>Industrial Funding Fee</name>
+            <type>IndustrialFundingFee</type>
+        </templateName>
+        <templateName group="contact">
+            <name>Contact for Marketing</name>
+            <type>ContactforMarketing</type>
+        </templateName>
+    </template>
+</clause><clause clause_number="G-FSS-914-B_Original_0_09_01_1996" template_name=""/><clause clause_number="H-FSS-800_Original_0_04_01_1993" template_name="certification">    <element isdivided="1" layout="label_top" name="BackupContractor" sequence="2013">        <header/>        <title>Agreement to be Considered for Award as Backup Contractor</title>        <subtitle/>        <label>Do you agree to be considered for award of a backup contract at the prices contained in this offer?</label>        <prefixlabel/>        <defaultvalue/>        <data isrequired="1" maxlength="15" type="radio">            <option value="Yes">Yes</option>            <option value="No">No</option>        </data>        <datavalues>            <datavalue/>        </datavalues>        <fieldvalidation>            <validation>                <validationname>Required</validationname>                <validationvalue/>            </validation>        </fieldvalidation>    </element></clause><clause clause_number="I-FSS-103_Original_07_01_2002" template_name="sins">    <element isdivided="1" layout="label_top" name="Scope" sequence="2">        <header/>        <title>Scope</title>        <subtitle/>        <label/>        <prefixlabel>What is the Scope for this SIN?</prefixlabel>        <defaultvalue/>        <data isrequired="1" type="select">            <option value="509">Contractor will provide domestic and overseas delivery</option>            <option value="510">Contractor will provide overseas delivery only</option>            <option value="514">Contractor will provide domestic delivery only</option>        </data>        <datavalues>            <datavalue/>        </datavalues>        <fieldvalidation>            <validation>                <validationname>Required</validationname>                <validationvalue/>            </validation>        </fieldvalidation>    </element></clause><clause clause_number="I-FSS-800_Original_0_03_01_1990" template_name="">
+    
+    <documents>
+        <document id="44" isrequired="0">
+            <type>ProductionPoint</type>
+            <typedescription>Production Point</typedescription>
+        </document>
+    </documents><template>
+        <templateName group="contact">
+            <name/>
+            <type>orderingpoc</type>
+        </templateName>
+    </template>
+</clause><clause clause_number="I-FSS-805_Original_0_04_01_1984" template_name="basic">
+    
+    
+    
+<element isdivided="1" layout="label_top" name="OriginOfComponents " sequence="2014">
+        <header/>
+        <title>Origin of Components of Sets and Kits (APR 1984)</title>
+        <subtitle/>
+        <label>Is any of the components under this contract manufactured in a foreign country?</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="radio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><documents/><validations/></clause><clause clause_number="K-FSS-1_Original_0_03_01_1998" template_name=""/><clause clause_number="K-FSS-9_Original_09_01_2000" template_name="representation">    <element isdivided="1" layout="label_top" name="RepresentationForMultipleAwardScheduleProgram" sequence="11">        <header/>        <title>Representation for the Multiple Award Schedule Program</title>        <subtitle/>        <label>The Offeror represents that it is a current 8(a) Business Development Program participant, and that it wishes to be designated as such on the FSS Schedules E-Library and GSA Advantage!TM as well as the Federal Procurement Data System (FPDS).</label>        <prefixlabel/>        <defaultvalue/>        <data isrequired="1" type="radio">            <option value="Yes">Yes</option>            <option value="No">No</option>        </data>        <datavalues>            <datavalue/>        </datavalues>        <fieldvalidation>            <validation>                <validationname>Required</validationname>                <validationvalue/>            </validation>        </fieldvalidation>    </element></clause><clause clause_number="M-FSS-415-B_Original_0_06_01_1990" template_name="certification">
+    
+<element isdivided="1" layout="label_top" name="EnergyConsumptionData" sequence="2015">
+        <header/>
+        <title>Energy Consumption Data for Life Cycle Cost Evaluation (M-FSS-415-B JUN 1990)</title>
+        <subtitle/>
+        <label>I/We certify that the energy consumption data furnished in the solicitation is true and correct and that the products for which this representation is made are listed in the Air Conditioning and Refrigeration (RFI) Directory.</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element></clause><clause clause_number="52.212-3_Original_0_09_01_2006" template_name="basic">
+    
+    
+    
+<element isdivided="1" layout="label_top" name="isORCACorrect" sequence="2120">
+        <header/>
+        <title>Confirm Offeror Representations and Certifications Information</title>
+        <subtitle/>
+        <label>The offeror verifies by submission of this offer that the representations and certifications currently posted electronically at FAR 52.212-3, Offeror Representations and Certifications - Commercial Items, have been entered or updated in the last 12 months, are current, accurate, complete, and applicable to this solicitation (including the business size standard applicable to the NAICS code referenced for this solicitation), as of the date of this offer and are incorporated in this offer by reference? (If "No" is selected, you must submit an attachment listing the paragraph(s) which have changed and identify, after each paragraph, what has changed.) Please title the attachment, "Exceptions to Certs and Reps - 52.212-3.")</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><documents>
+        <document id="52" isrequired="0">
+            <type>ExceptionsToCertsAndReps</type>
+            <typedescription>Exceptions to Certs and Reps</typedescription>
+        </document>
+        <document id="33" isrequired="0">
+            <type>TestVendorResponse</type>
+            <typedescription>Test Vendor Response</typedescription>
+        </document>
+        <document id="34" isrequired="0">
+            <type>TestEofferVendorResponseDocument</type>
+            <typedescription>This for Test Eoffer Vendor Response Document</typedescription>
+        </document>
+    </documents><validations>
+        <validation category="upload" id="1">
+            <applyon attachmentId="52" type="attachment">ExceptionsToCertsAndReps</applyon>
+            <dependon>isORCACorrect</dependon>
+            <dependonvalue/>
+            <applyonvalidation>NotRequired</applyonvalidation>
+        </validation>
+        <validation category="upload" id="2">
+            <applyon attachmentId="52" type="attachment">ExceptionsToCertsAndReps</applyon>
+            <dependon>isORCACorrect</dependon>
+            <dependonvalue>Yes</dependonvalue>
+            <applyonvalidation>NotRequired</applyonvalidation>
+        </validation>
+        <validation category="upload" id="2">
+            <applyon attachmentId="52" type="attachment">ExceptionsToCertsAndReps</applyon>
+            <dependon>isORCACorrect</dependon>
+            <dependonvalue>No</dependonvalue>
+            <applyonvalidation>Required</applyonvalidation>
+        </validation>
+    </validations></clause><clause clause_number="52.209-1_Original_0_02_01_1995" template_name="basic">
+    
+    
+    
+<element isdivided="1" layout="label_top" name="QualificationRequirements" sequence="200">
+        <header/>
+        <title>Qualification Requirements</title>
+        <subtitle/>
+        <label>Has offeror, manufacturer, source, product or service covered by a qualification requirement already met the standards specified? (If applicable)</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><documents/><validations/></clause><clause clause_number="11.26.07 VANS_Deviation_2_11_28_2007" template_name="basic">
+    
+<element isdivided="1" layout="label_top" name="test730" sequence="201">
+        <header/>
+        <title/>
+        <subtitle/>
+        <label/>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation/>
+    </element></clause><clause clause_number="M-FSS-329_Original_0_09_01_1995" template_name=""/><clause clause_number="G-FSS-900-C_Original_0_07_22_2008" template_name="">
+    <template>
+        <templateName group="contact">
+            <name>Contact for Contract Administration (Domestic)</name>
+            <type>domesticcontact</type>
+        </templateName>
+        <templateName group="contact">
+            <name>Contact for Contract Administration (Overseas)</name>
+            <type>overseascontact</type>
+        </templateName>
+        <templateName group="contact">
+            <name>Industrial Funding Fee</name>
+            <type>IndustrialFundingFee</type>
+        </templateName>
+        <templateName group="contact">
+            <name>Contact for Marketing</name>
+            <type>ContactforMarketing</type>
+        </templateName>
+    </template>
+</clause><clause clause_number="G-FSS-900-C_Original_0_01_22_2009" template_name="">
+    <template>
+        <templateName group="contact">
+            <name>Contact for Contract Administration (Domestic)</name>
+            <type>domesticcontact</type>
+        </templateName>
+        <templateName group="contact">
+            <name>Contact for Contract Administration (Overseas)</name>
+            <type>overseascontact</type>
+        </templateName>
+        <templateName group="contact">
+            <name>Industrial Funding Fee</name>
+            <type>IndustrialFundingFee</type>
+        </templateName>
+        <templateName group="contact">
+            <name>Contact for Marketing</name>
+            <type>ContactforMarketing</type>
+        </templateName>
+    </template>
+</clause><clause clause_number="SAGAR-VR-IBR_Original_0_03_16_2009" template_name="CheckRadioButton">
+    
+    
+<documents/><validations/></clause><clause clause_number="SAGAR-VR-IBR_Deviation_6_07_16_2009" template_name="provisions">
+    
+<documents/></clause><clause clause_number="552.238-78_Alternate_1_02_01_2007" template_name="basic">
+    
+<element isdivided="1" layout="label_top" name="Scope" sequence="19">
+        <header/>
+        <title>Scope of Contract (552.238-78 Alt I)</title>
+        <subtitle/>
+        <label>What is the Scope of this contract?</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="select">
+            <option value="Contractor will provide domestic and overseas delivery">Contractor will provide domestic and overseas delivery</option>
+            <option value="Contractor will provide overseas delivery only">Contractor will provide overseas delivery only</option>
+            <option value="Contractor will provide domestic delivery only">Contractor will provide domestic delivery only</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element></clause><clause clause_number="552.216-73_Original_0_09_01_1999" template_name="certification">
+    
+<element isdivided="1" layout="label_top" name="ParticipateInProposedContract" sequence="6">
+        <header/>
+        <title/>
+        <subtitle/>
+        <label>Offerors marketing through delears are required</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio">
+            <option value="Yes">Yes</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element></clause><clause clause_number="552.209-71_Original_0_09_01_1999" template_name="basic">
+    
+<element isdivided="1" layout="label_top" name="FirstArticleTestingAndApproval" sequence="2004">
+        <header/>
+        <title>Waiver of First Article Testing and Approval Requirement</title>
+        <subtitle/>
+        <label>Does the product offered have previously approved and accepted under any other procurement?</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio">
+            <option value="Yes">Yes</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element></clause><clause clause_number="C-FSS-411_Original_0_10_01_1992" template_name="basic">
+    
+<element isdivided="1" layout="label_top" name="SafetyStandards" sequence="15">
+        <header/>
+        <title>Fire or Casualty, Hazards, or Safety or Health Requirements (C-FSS-411)(OCT 1992)</title>
+        <subtitle/>
+        <label>Are there any nationally recognized standards which are applicable to any of the products offered under this solicitation.</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element></clause><clause clause_number="K-FSS-1_Original_0_06_29_2010" template_name="basic"/><clause clause_number="52.226-3_Original_0_11_07_2007" template_name="basic">
+    
+<element isdivided="1" layout="label_top" name="DisasterOrEmergencyArea" sequence="17">
+        <header/>
+        <title>Disaster or Emergency Area Representation (52.226-3)</title>
+        <subtitle/>
+        <label>The offeror represents that it resides or primarily does business in the set-aside area:</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio">
+            <option value="Does reside">Does reside</option>
+            <option value="Does not reside">Does not reside</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element></clause><clause clause_number="552.216-73_Alternate_1_09_01_1999" template_name="basic">
+    
+<element isdivided="1" layout="label_top" name="ParticipateInProposedContract" sequence="6">
+        <header/>
+        <title>Ordering Information (552.216-73 Alt II)</title>
+        <subtitle/>
+        <label>Offerors marketing through dealers are requested to indicate below whether those dealers will be participating in the proposed contract.</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element></clause><clause clause_number="552.232-82_Original_0_05_01_2003" template_name="basic">
+    
+<element isdivided="1" layout="label_top" name="Payment/RemittanceAddress" sequence="1">
+        <header/>
+        <title>Contractor's Remittance (Payment) Address (552.232-82)</title>
+        <subtitle/>
+        <label>Provide address below:</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="250" type="text_area"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element></clause><clause clause_number="52.219-28_Original_0_04_01_2009" template_name="basic">
+    
+    
+    
+    
+<element isdivided="0" layout="label_top" name="SmallBusinessProgramRepresentation" sequence="30">
+        <header/>
+        <title>Post Award SBPRep (52.219-28)</title>
+        <subtitle/>
+        <label>Contractor is a small business concern?</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><element isdivided="0" layout="label_top" name="ContractNumber" sequence="31">
+        <header/>
+        <title>under Contract number</title>
+        <subtitle/>
+        <label>under Contract number</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><element isdivided="0" layout="label_top" name="naicsCode" sequence="32">
+        <header/>
+        <title>under NAICS code</title>
+        <subtitle/>
+        <label>under NAICS code</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><element isdivided="1" layout="label_top" name="AuthorizedSigner" sequence="33">
+        <header/>
+        <title>authorised signer</title>
+        <subtitle/>
+        <label>authorized signer's name and title (multiple if needed)</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="0" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation/>
+    </element></clause><clause clause_number="K-FSS-9_Original_0_01_22_2009" template_name="basic">
+    
+<element isdivided="1" layout="label_top" name="RepresentationForMultipleAwardScheduleProgram" sequence="50">
+        <header/>
+        <title>Representation for the Multiple Award Schedule Program</title>
+        <subtitle/>
+        <label>The Offeror represents that it is a current 8(a) Business Development Program participant, and that it wishes to be designated as such on the FSS Schedules E-Library and GSA Advantage!TM as well as the Federal Procurement Data System (FPDS).</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" type="radio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </data>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element></clause><clause clause_number="52.225-2_Original_0_06_01_2003" template_name="">
+    <template>
+        <templateName group="contact">
+            <name/>
+            <type>orderingpoc</type>
+        </templateName>
+    </template>
+</clause><clause clause_number="ORACLETEST_Tailored_1_12_11_2009" template_name="TEST">
+    
+<element isdivided="1" layout="label_top" name="TEST" sequence="1">
+        <header/>
+        <title>TEST</title>
+        <subtitle/>
+        <label>TEST</label>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="0" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation/>
+    </element></clause><clause clause_number="52.212-3_Original_0_03_16_2011" template_name=""/><clause clause_number="SOL-REQ-39_Alternate_1_01_01_2010" template_name="Test Template">
+    
+<element isdivided="1" layout="label_top" name="TestName" sequence="46">
+        <header/>
+        <title/>
+        <subtitle/>
+        <label/>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation/>
+    </element></clause><clause clause_number="SCP-FSS-001_Original_0_03_25_2014" regulationCategory="P" template_name="provisions">
+    
+    
+    
+    
+    
+<element group="Technical Proposal" isdivided="0" layout="label_top" name="CorporateExperience" sequence="101">
+        <header/>
+        <title>Corporate Experience</title>
+        <subtitle/>
+        <label/>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><element group="Technical Proposal" isdivided="0" layout="label_top" name="PastPerformance" sequence="102">
+        <header/>
+        <title>Past Performance</title>
+        <subtitle/>
+        <label/>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><element group="Technical Proposal" isdivided="0" layout="label_top" name="QualityControl" sequence="103">
+        <header/>
+        <title>Quality Control</title>
+        <subtitle/>
+        <label/>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><documents>
+        <document id="145" isrequired="1">
+            <type>PastPerformance&amp;Experience</type>
+            <typedescription>Past Performance &amp; Experience</typedescription>
+        </document>
+        <document id="146" isrequired="1">
+            <type>OrderFormforPastPerformanceEval</type>
+            <typedescription>Order Form for Past Performance Eval</typedescription>
+        </document>
+    </documents><validations/></clause><clause clause_number="SCP-FSS-002_Original_0_03_25_2014" regulationCategory="P" template_name="provisions">
+    
+    
+<element group="Services Contract Act Labor Matrix" isdivided="0" layout="label_top" name="scaMatrix" sequence="110">
+        <header/>
+        <title>SCA Matrix</title>
+        <subtitle/>
+        <label/>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><element group="Technical Proposal" isdivided="0" layout="label_top" name="RelevantProjectExperience" sequence="104">
+        <header/>
+        <title>Relevant Project Experience</title>
+        <subtitle/>
+        <label/>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element></clause><clause clause_number="SCP-FSS-003_Original_0_03_25_2014" regulationCategory="P" template_name="provisions">
+    
+    
+<element group="Technical Proposal" isdivided="0" layout="label_top" name="TradeAgreementsAct" sequence="105">
+        <header/>
+        <title>Trade Agreements Act (TAA) Compliance</title>
+        <subtitle/>
+        <label/>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><documents>
+        <document id="150" isrequired="0">
+            <type>LettersofCommitment(LOCs)</type>
+            <typedescription>Letters of Commitment (LOCs)</typedescription>
+        </document>
+        <document id="151" isrequired="0">
+            <type>LettersofSupply</type>
+            <typedescription>Letters of Supply</typedescription>
+        </document>
+    </documents></clause><clause clause_number="SCP-FSS-004_Original_0_12_08_2014" regulationCategory="P" template_name="provisions">
+    
+    
+<element group="Services Contract Act Labor Matrix" isdivided="0" layout="label_top" name="scaMatrix" sequence="111">
+        <header/>
+        <title>SCA Matrix</title>
+        <subtitle/>
+        <label/>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><element group="Technical Proposal" isdivided="0" layout="label_top" name="RelevantProjectExperience" sequence="106">
+        <header/>
+        <title>Relevant Project Experience</title>
+        <subtitle/>
+        <label/>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element></clause><clause clause_number="SCP-FSS-005_Original_0_10_23_2014" regulationCategory="P" template_name="provisions">
+    
+    
+<element group="Technical Proposal" isdivided="0" layout="label_top" name="VehicleStandardsCompliance" sequence="107">
+        <header/>
+        <title>GSA Vehicle Standards Compliance</title>
+        <subtitle/>
+        <label/>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><documents/></clause><clause clause_number="SCP-FSS-006_Original_0_10_23_2014" regulationCategory="P" template_name="provisions">
+    
+    
+    
+<element group="Technical Proposal" isdivided="0" layout="label_top" name="Technicalcapability" sequence="108">
+        <header/>
+        <title>Technical Capability</title>
+        <subtitle/>
+        <label/>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation>
+            <validation>
+                <validationname>Required</validationname>
+                <validationvalue/>
+            </validation>
+        </fieldvalidation>
+    </element><element group="Technical Proposal" isdivided="1" layout="label_top" name="OptionalAttachments" sequence="110">
+        <header/>
+        <title/>
+        <subtitle/>
+        <label/>
+        <prefixlabel/>
+        <defaultvalue>Completed</defaultvalue>
+        <data isrequired="0" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation/>
+    </element><documents>
+        <document id="152" isrequired="1">
+            <type>SupportingDocumentation</type>
+            <typedescription>Supporting Documentation</typedescription>
+        </document>
+        <document id="149" isrequired="0">
+            <type>VehicleCatalogs</type>
+            <typedescription>Vehicle Catalogs</typedescription>
+        </document>
+        <document id="147" isrequired="0">
+            <type>VehicleOptions</type>
+            <typedescription>Vehicle Options</typedescription>
+        </document>
+        <document id="148" isrequired="0">
+            <type>VehiclePhotos</type>
+            <typedescription>Vehicle Photos</typedescription>
+        </document>
+    </documents></clause><clause clause_number="05.01.2015_4_Tailored_1_05_15_2015" template_name="basic">
+    
+    
+<element group="" isdivided="1" layout="label_top" name="test" sequence="1">
+        <header/>
+        <title>test</title>
+        <subtitle>s</subtitle>
+        <label>test</label>
+        <prefixlabel>testte</prefixlabel>
+        <defaultvalue/>
+        <data isrequired="1" type="radio"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation/>
+    </element><validations>
+        <validation category="" id="1">
+            <applyon>test</applyon>
+            <dependon>test</dependon>
+            <dependonvalue>1</dependonvalue>
+            <applyonvalidation>Email</applyonvalidation>
+        </validation>
+    </validations></clause><clause clause_number="52.212_3-27_Original_0_03_01_2015" template_name="basic">
+    
+<element group="" isdivided="1" layout="label_top" name="REGTOOLTESTElement1" sequence="1">
+        <header/>
+        <title>REGTOOLTESTElementTitle1</title>
+        <subtitle/>
+        <label/>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation/>
+    </element></clause><clause clause_number="04.05.2016_Deviation_1_06_12_2015" template_name="template">
+    
+<element group="" isdivided="1" layout="label_top" name="search" sequence="1">
+        <header/>
+        <title/>
+        <subtitle/>
+        <label/>
+        <prefixlabel/>
+        <defaultvalue/>
+        <data isrequired="1" maxlength="15" type="text_field"/>
+        <datavalues>
+            <datavalue/>
+        </datavalues>
+        <fieldvalidation/>
+    </element><validations><validation category="" id="1">
+			<applyon>search</applyon>
+			<dependon>search</dependon>
+			<dependonvalue>12</dependonvalue>
+			<applyonvalidation>Required</applyonvalidation>
+		</validation></validations></clause></clauses><documents/><sins><sin sin_group="" sin_number="1011 1"><title>1011 1- </title><description> </description><setaside>N</setaside><stateLocal>N</stateLocal><NAICS isrequired="1" label="NAICS is the North American Industry Classification System for classifying establishments by type of economic activity, emphasizing what your company does." name="NaicsCode" prefixlabel="What is the NAICS code for this SIN?" title="NAICS Code" validationname="Required"><NAICS_code><code>111411</code><name/><description/></NAICS_code></NAICS></sin><sin sin_group="" sin_number="1011 2"><title>1011 2- </title><description> </description><setaside>N</setaside><stateLocal>N</stateLocal><NAICS isrequired="1" label="NAICS is the North American Industry Classification System for classifying establishments by type of economic activity, emphasizing what your company does." name="NaicsCode" prefixlabel="What is the NAICS code for this SIN?" title="NAICS Code" validationname="Required"><NAICS_code><code>111411</code><name/><description/></NAICS_code></NAICS></sin><sin sin_group="" sin_number="1011 3"><title>1011 3- </title><description> </description><setaside>N</setaside><stateLocal>N</stateLocal><NAICS isrequired="1" label="NAICS is the North American Industry Classification System for classifying establishments by type of economic activity, emphasizing what your company does." name="NaicsCode" prefixlabel="What is the NAICS code for this SIN?" title="NAICS Code" validationname="Required"><NAICS_code><code>111411</code><name/><description/></NAICS_code></NAICS></sin><sin sin_group="" sin_number="1011 4"><title>1011 4- </title><description> </description><setaside>N</setaside><stateLocal>N</stateLocal><NAICS isrequired="1" label="NAICS is the North American Industry Classification System for classifying establishments by type of economic activity, emphasizing what your company does." name="NaicsCode" prefixlabel="What is the NAICS code for this SIN?" title="NAICS Code" validationname="Required"><NAICS_code><code>111411</code><name/><description/></NAICS_code></NAICS></sin></sins><FormattedVendorResponses><clause><number>52.XAllRule-33</number><title>TEST Automation Original</title><type>Original</type><type_num>0</type_num></clause></FormattedVendorResponses></solicitation>]]>
+         </swsSolXml>
+         <consumer>0</consumer>
+      </urn:publishSolicitation>
+   </soapenv:Body>
+</soapenv:Envelope>

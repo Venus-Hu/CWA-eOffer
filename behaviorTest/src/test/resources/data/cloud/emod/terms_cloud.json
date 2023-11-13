@@ -1,0 +1,1288 @@
+{
+	"Submit Sub-Contracting Plan - Existing Master Plan Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eMod"
+		},
+
+		"DUNS": "963009899",
+		"contractNumber": "GS07F021DA",
+		"modTypes": 
+		[
+			"Incorporate Sub-Contracting Plan (SubK)"
+		],
+
+		"subkPlan": 
+		{
+			"isNew": "No",
+			"planType": "Master",
+			"identificationData": 
+			{
+				"subkStartDate": "01/01/2018"
+			},
+
+			"goals": 
+			[
+				{
+					"total": "10000",
+					"largeBusiness": "1000",
+					"smallBusiness": "9000",
+					"veteran": "1200",
+					"serviceDisabled": "300",
+					"hubZone": "400",
+					"sdb": "500",
+					"women": "600"
+				},
+
+				{
+					"total": "10001",
+					"largeBusiness": "1001",
+					"smallBusiness": "9000",
+					"veteran": "1230",
+					"serviceDisabled": "300",
+					"hubZone": "400",
+					"sdb": "500",
+					"women": "600"
+				}
+			],
+
+			"assignmentOfSizeStandard": 
+			{
+				"agree": "Yes"
+			}
+		},
+
+		"uploadDocuments": 
+		[
+			{
+				"type": "Pre-Approved Master Plan",
+				"action": "upload",
+				"documentName": "master-plan.txt",
+				"filename": "GenericUploadData/master-plan.txt"
+			}
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Master Plan Sub-Contracting Goals",
+				"documentName": "Master Plan Sub-Contracting Goals",
+				"elementTitle": "Review SubContracting Plan response",
+				"filename": "SubContractingPlan_Responses.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"III. GOALS:"
+						]
+					}
+				]
+			},
+
+			{
+				"documentType": "Pre-Approved Master Plan",
+				"documentName": "master-plan.txt",
+				"elementTitle": "Review document related to Pre-Approved Master Plan",
+				"filename": "master-plan.txt",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Plan Start Date: 01/01/2018"
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"Submit Sub-Contracting Plan - New Individual Plan Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eMod"
+		},
+
+		"DUNS": "963009899",
+		"contractNumber": "GS07F021DA",
+		"modTypes": 
+		[
+			"Incorporate Sub-Contracting Plan (SubK)"
+		],
+
+		"subkPlan": 
+		{
+			"isNew": "Yes",
+			"planType": "Individual",
+			"goals": 
+			[
+				{
+					"total": "10000",
+					"largeBusiness": "1000",
+					"smallBusiness": "9000",
+					"veteran": "1200",
+					"serviceDisabled": "300",
+					"hubZone": "400",
+					"sdb": "500",
+					"women": "600"
+				},
+
+				{
+					"total": "10001",
+					"largeBusiness": "1001",
+					"smallBusiness": "9000",
+					"veteran": "1230",
+					"serviceDisabled": "300",
+					"hubZone": "400",
+					"sdb": "500",
+					"women": "600"
+				}
+			],
+
+			"supplies": 
+			[
+				{
+					"name": "ABS suppliers",
+					"large": "Yes",
+					"small": "Yes",
+					"vosb": "No",
+					"sdvosb": "No",
+					"hub": "Yes",
+					"sdb": "No",
+					"wosb": "Yes"
+				}
+			],
+
+			"develop": "Use the following method to develop the subcontracting goals. ",
+			"sources": " identifies potential subcontractors using the following source lists and organizations.",
+			"indirectCost": "Yes",
+			"indirectText": "Explain indirect cost",
+			"identificationData": 
+			{
+				"suppliesDesc": "Describe supplies in detail",
+				"placeOfPerformance": "USA",
+				"subkStartDate": "01/01/2018",
+				"basePeriod": "1000",
+				"period1": "100",
+				"period2": "2000",
+				"period3": "3000"
+			},
+
+			"poc": 
+			[
+				{
+					"name": "Peter Parker",
+					"title": "Spiderman",
+					"address1": "Forest Hills",
+					"city": "New York",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "123-456-7890",
+					"fax": "123-456-7890",
+					"email": "spiderman@marvelcomics.com"
+				},
+
+				{
+					"name": "Thor Odinson",
+					"title": "Thor",
+					"address1": "Daily Planet street",
+					"city": "Long Island",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "123-456-7890",
+					"fax": "123-456-7890",
+					"email": "thor@marvelcomics.com"
+				}
+			],
+
+			"equitableOpportunity": 
+			{
+				"minority": "Yes",
+				"busDev": "Yes",
+				"sba": "No",
+				"trade": "No",
+				"presentation": "No",
+				"establish": "Yes",
+				"monitor": "Yes",
+				"internal": "Yes",
+				"effort": "None"
+			},
+
+			"inclClause": 
+			{
+				"agree": "Yes",
+				"assurance2": "Yes",
+				"assurance3": "Yes",
+				"assurance4": "Yes",
+				"assurance5": "Yes"
+			},
+
+			"reporting": 
+			{
+				"agree": "Yes"
+			},
+
+			"assignmentOfSizeStandard": 
+			{
+				"agree": "Yes"
+			},
+
+			"recordKeeping": 
+			{
+				"record": "This is a text field",
+				"agree": "Yes"
+			},
+
+			"statutoryRequirements": 
+			{
+				"agree": "Yes"
+			},
+
+			"goodFaith": 
+			{
+				"additionalDetails": "This is a GFE provided to demonstrate compliance"
+			}
+		},
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Sub-Contracting Plan",
+				"documentName": "Sub-Contracting Plan",
+				"elementTitle": "Review SubContracting Plan response",
+				"filename": "SubContractingPlan_Responses.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Plan Start Date: 01/01/2018",
+							"____X____ Individual Plan",
+							"III. GOALS:"
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"Submit Sub-Contracting Plan - Existing Commercial Plan Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eMod"
+		},
+
+		"DUNS": "963009899",
+		"contractNumber": "GS07F021DA",
+		"modTypes": 
+		[
+			"Incorporate Sub-Contracting Plan (SubK)"
+		],
+
+		"subkPlan": 
+		{
+			"isNew": "No",
+			"planType": "Commercial",
+			"identificationData": 
+			{
+				"startDate": "",
+				"endDate": ""
+			},
+
+			"goals": 
+			[
+				{
+					"total": "10000",
+					"largeBusiness": "1000",
+					"smallBusiness": "9000",
+					"veteran": "1200",
+					"serviceDisabled": "300",
+					"hubZone": "400",
+					"sdb": "500",
+					"women": "600"
+				}
+			],
+
+			"assignmentOfSizeStandard": 
+			{
+				"agree": "Yes"
+			}
+		},
+
+		"uploadDocuments": 
+		[
+			{
+				"type": "Pre-Approved Commercial Plan",
+				"action": "upload",
+				"documentName": "master-plan.txt",
+				"filename": "GenericUploadData/master-plan.txt"
+			}
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Commercial Plan Sub-Contracting Goals",
+				"documentName": "Commercial Plan Sub-Contracting Goals",
+				"elementTitle": "Review SubContracting Plan response",
+				"filename": "SubContractingPlan_Responses.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Start:",
+							"End:",
+							"III. GOALS:"
+						]
+					}
+				]
+			},
+
+			{
+				"documentType": "Pre-Approved Commercial Plan",
+				"documentName": "master-plan.txt",
+				"elementTitle": "Review document related to Pre-Approved Commercial Plan",
+				"filename": "master-plan.txt"
+			}
+		]
+	},
+
+	"Submit Sub-Contracting Plan - New Commercial Plan Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eMod"
+		},
+
+		"DUNS": "963009899",
+		"contractNumber": "GS07F021DA",
+		"modTypes": 
+		[
+			"Incorporate Sub-Contracting Plan (SubK)"
+		],
+
+		"subkPlan": 
+		{
+			"isNew": "Yes",
+			"planType": "Commercial",
+			"goals": 
+			[
+				{
+					"total": "10000",
+					"largeBusiness": "1000",
+					"smallBusiness": "9000",
+					"veteran": "1200",
+					"serviceDisabled": "300",
+					"hubZone": "400",
+					"sdb": "500",
+					"women": "600"
+				}
+			],
+
+			"supplies": 
+			[
+				{
+					"name": "ABS suppliers",
+					"large": "Yes",
+					"small": "Yes",
+					"vosb": "No",
+					"sdvosb": "No",
+					"hub": "Yes",
+					"sdb": "No",
+					"wosb": "Yes"
+				}
+			],
+
+			"develop": "Use the following method to develop the subcontracting goals. ",
+			"sources": " identifies potential subcontractors using the following source lists and organizations.",
+			"indirectCost": "Yes",
+			"indirectText": "Explain indirect cost",
+			"identificationData": 
+			{
+				"suppliesDesc": "Describe supplies in detail",
+				"placeOfPerformance": "USA",
+				"startDate": "",
+				"endDate": "",
+				"annualSales": "1000"
+			},
+
+			"poc": 
+			[
+				{
+					"name": "Peter Parker",
+					"title": "Spiderman",
+					"address1": "Forest Hills",
+					"city": "New York",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "123-456-7890",
+					"fax": "123-456-7890",
+					"email": "spiderman@marvelcomics.com"
+				},
+
+				{
+					"name": "Thor Odinson",
+					"title": "Thor",
+					"address1": "Daily Planet street",
+					"city": "Long Island",
+					"state": "NY",
+					"country": "USA",
+					"zip": "10009",
+					"phone": "123-456-7890",
+					"fax": "123-456-7890",
+					"email": "thor@marvelcomics.com"
+				}
+			],
+
+			"equitableOpportunity": 
+			{
+				"minority": "Yes",
+				"busDev": "Yes",
+				"sba": "No",
+				"trade": "No",
+				"presentation": "No",
+				"establish": "Yes",
+				"monitor": "Yes",
+				"internal": "Yes",
+				"effort": "None"
+			},
+
+			"inclClause": 
+			{
+				"agree": "Yes",
+				"assurance2": "Yes",
+				"assurance3": "Yes",
+				"assurance4": "Yes",
+				"assurance5": "Yes"
+			},
+
+			"reporting": 
+			{
+				"agree": "Yes"
+			},
+
+			"assignmentOfSizeStandard": 
+			{
+				"agree": "Yes"
+			},
+
+			"recordKeeping": 
+			{
+				"record": "This is a text field",
+				"agree": "Yes"
+			},
+
+			"statutoryRequirements": 
+			{
+				"agree": "Yes"
+			},
+
+			"goodFaith": 
+			{
+				"additionalDetails": "This is a GFE provided to demonstrate compliance"
+			}
+		},
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Sub-Contracting Plan",
+				"documentName": "Sub-Contracting Plan",
+				"elementTitle": "Review SubContracting Plan response",
+				"filename": "SubContractingPlan_Responses.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Start:",
+							"End:",
+							"____X____ Commercial Plan",
+							"III. GOALS:"
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"Sub-Contracting Mod with Master Plan: Missing Identification data": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eMod"
+		},
+
+		"DUNS": "963009899",
+		"contractNumber": "GS07F021DA",
+		"modTypes": 
+		[
+			"Incorporate Sub-Contracting Plan (SubK)"
+		],
+
+		"subkPlan": 
+		{
+			"isNew": "No",
+			"planType": "Master",
+			"identificationData": 
+			{
+				"subkStartDate": ""
+			}
+		}
+	},
+
+	"Sub-Contracting Mod with Master Plan: Missing tab data": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eMod"
+		},
+
+		"DUNS": "963009899",
+		"contractNumber": "GS07F021DA",
+		"modTypes": 
+		[
+			"Incorporate Sub-Contracting Plan (SubK)"
+		],
+
+		"subkPlan": 
+		{
+			"isNew": "No",
+			"planType": "Master",
+			"assignmentOfSizeStandard": 
+			{
+				"agree": ""
+			}
+		}
+	},
+
+	"Sub-Contracting Mod- New Commercial: missing data": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "eMod"
+		},
+
+		"DUNS": "963009899",
+		"contractNumber": "GS07F021DA",
+		"modTypes": 
+		[
+			"Incorporate Sub-Contracting Plan (SubK)"
+		],
+
+		"subkPlan": 
+		{
+			"isNew": "Yes",
+			"planType": "Commercial",
+			"inclClause": 
+			{
+				"agree": "Yes"
+			}
+		}
+	},
+	
+	"Create Participate in TDR Mod":
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"DUNS": "555555555",
+		"contractNumber": "GS72B5555X",
+		"modTypes": 
+		[
+			"Participate in TDR"
+		]	
+	},
+	
+	"Submit Participate in TDR Mod: Review eMod successful":
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"DUNS": "555555555",
+		"contractNumber": "GS72B5555X",
+		"modTypes": 
+		[
+			"Participate in TDR"
+		],
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Response to Participate in TDR : Yes"
+						]
+					}
+				]
+			}
+		],
+		
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Terms and Conditions",
+			"Upload Documents"
+		]
+	},
+	
+	"Participate in TDR Mod - Error when continuing without participating in TDR":
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"DUNS": "555555555",
+		"contractNumber": "GS72B5555X",
+		"modTypes": 
+		[
+			"Participate in TDR"
+		]
+	},
+	
+	"Participate in TDR Mod is unavailable - Contract already TDR":
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"DUNS": "000000000",
+		"contractNumber": "GS874A000X",
+		"modTypes": 
+		[
+			"Participate in TDR"
+		]
+	},
+	
+	"Participate in TDR Mod is unavailable - Schedule not TDR":
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"DUNS": "123456789",
+		"contractNumber": "GS520A000X",
+		"modTypes": 
+		[
+			"Participate in TDR"
+		]
+	},
+	
+	"Participate in TDR Mod: Left nav incomplete":
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"DUNS": "555555555",
+		"contractNumber": "GS72B5555X",
+		"modTypes": 
+		[
+			"Participate in TDR"
+		]
+	},
+	
+	"Submit Revise Terms and Conditions CSP Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS84B4444X",
+		"DUNS": "444444444",
+		"modTypes": 
+		[
+			"Revise Terms and Conditions"
+		],
+
+		"reviseTerms": 
+		[
+			{
+				"clause": "Commercial Sales Practice (CSP-1)",
+				"commercialSalesPractice": 
+				{
+					"valueOfSales": "1000",
+					"startDate": "",
+					"endDate": "",
+					"salesValueDesc": "testing the sales Value Desc",
+					"sinDesc": "SIN desc",
+					"discountsOffered": "Yes",
+					"discountLevel": "Offer/Contract",
+					"deviation": "No",
+					"policyBasisLevelForOffer": 
+					{
+						"discountPolicyLevel": "Offer",
+						"basisLevel": "Discount"
+					},
+
+					"addDiscountPolicy": 
+					[
+						{
+							"customer": "Dell",
+							"discount": "4%",
+							"quantity": "1000",
+							"fobTerm": "D - Destination",
+							"concessions": "Extended Warranty"
+						}
+					]
+				}
+			},
+
+			{
+				"clause": "Other Vendor Responses",
+				"modDescription": "Desc Other Vendor Responses"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Terms and Conditions",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+
+			{
+				"documentType": "Commercial Sales Practice Response",
+				"documentName": "Commercial Sales Practice Response",
+				"elementTitle": "Commercial Sales Practice Response",
+				"filename": "csp.pdf"
+			}
+		]
+	},
+
+	"Submit Revise Terms and Conditions Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS84A0000X",
+		"DUNS": "123456789",
+		"modTypes": 
+		[
+			"Revise Terms and Conditions"
+		],
+
+		"reviseTerms": 
+		[
+			{
+				"clause": "Commercial Sales Practice (CSP-1)",
+				"commercialSalesPractice": 
+				{
+					"valueOfSales": "1000",
+					"startDate": "",
+					"endDate": "",
+					"salesValueDesc": "testing the sales Value Desc",
+					"sinDesc": "SIN desc",
+					"discountsOffered": "Yes",
+					"discountLevel": "Offer/Contract",
+					"deviation": "No",
+					"policyBasisLevelForOffer": 
+					{
+						"discountPolicyLevel": "Offer",
+						"basisLevel": "Discount"
+					},
+
+					"addDiscountPolicy": 
+					[
+						{
+							"customer": "Dell",
+							"discount": "4%",
+							"quantity": "1000",
+							"fobTerm": "D - Destination",
+							"concessions": "Extended Warranty"
+						}
+					]
+				}
+			},
+
+			{
+				"clause": "Other Vendor Responses",
+				"modDescription": "Desc Other Vendor Responses"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Terms and Conditions",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+
+			{
+				"documentType": "Commercial Sales Practice Response",
+				"documentName": "Commercial Sales Practice Response",
+				"elementTitle": "Commercial Sales Practice Response",
+				"filename": "csp.pdf"
+			}
+		]
+	},
+	
+	"Submit Create/Manage Clause Exceptions Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS03F047GA",
+		"DUNS": "001012319",
+		"modTypes": 
+		[
+			"Create/Manage Clause Exception(s)"
+		],
+
+		"reviseTerms": 
+		[
+			{
+				"title": "FEDERAL ACQUISITION REGULATION (FAR) PART 51 DEVIATION AUTHORITY (FEDERAL SUPPLY SCHEDULES) (JAN 2010)",
+				"clauseNumber": "CI-FSS-056",
+				"excerptFromClause": "This is n excerpt from clause",
+				"exceptionText": "This is an updated excerpt from  clause added to exception text",
+				"buttonAction": "Save And Continue"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Terms and Conditions",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		]
+	},
+
+	"Submit Re-representation of Non-Novated Merger/Acquisition Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS23F023AA",
+		"DUNS": "118491760",
+		"modTypes": 
+		[
+			"Re-representation of Non-Novated Merger/Acquisition"
+		],
+
+		"reviseTerms": 
+		[
+			{
+				"clause": "Re-representation of Non-Novated Merger/Acquisition",
+				"modDescription": "Desc Re-representation of Non-Novated Merger/Acquisition "
+			}
+		],
+
+		"uploadDocuments": 
+		[
+			{
+				"type": "Re-Representation - Organization Conflict of Interest Document",
+				"documentName": "Re-Representation - Organization Conflict of Interest Document",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls"
+			},
+
+			{
+				"type": "Supporting Documentation - Re-Representation of Non-Novated Merger/Acquisition",
+				"documentName": "Supporting Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls"
+			}
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+
+			{
+				"documentType": "Supporting Documentation - Re-Representation of Non-Novated Merger/Acquisition",
+				"documentName": "Supporting Documentation",
+				"elementTitle": "Review document related to Supporting Documentation - Re-Representation of Non-Novated Merger/Acquisition",
+				"filename": "Blank_Excel_File.xls"
+			},
+
+			{
+				"documentType": "Re-Representation - Organization Conflict of Interest Document",
+				"documentName": "Re-Representation - Organization Conflict of Interest Document",
+				"elementTitle": "Review document related to Re-Representation - Organization Conflict of Interest Document",
+				"filename": "Blank_Excel_File.xls"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Terms and Conditions",
+			"Upload Documents"
+		]
+	},
+
+	"Submit Re-representation of Business Size Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS23F023AA",
+		"DUNS": "118491760",
+		"modTypes": 
+		[
+			"Re-representation of Business Size"
+		],
+
+		"reviseTerms": 
+		[
+			{
+				"clause": "Re-representation of Business Size",
+				"modDescription": "Description for  Re-representation of Business Size"
+			}
+		],
+
+		"uploadDocuments": 
+		[
+			{
+				"type": "Supporting Documentation - Re-Representation of Business Size",
+				"documentName": "Supporting Documentation",
+				"action": "upload",
+				"filename": "GenericUploadData/Blank_Excel_File.xls"
+			}
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+
+			{
+				"documentType": "Supporting Documentation - Re-Representation of Business Size",
+				"documentName": "Supporting Documentation",
+				"elementTitle": "Review document related to Supporting Documentation - Re-Representation of Business Size",
+				"filename": "Blank_Excel_File.xls"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Terms and Conditions",
+			"Upload Documents"
+		]
+	},
+
+	"Submit American Recovery and Reinvestment Act or ARRA Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS23F023AA",
+		"DUNS": "118491760",
+		"modTypes": 
+		[
+			"American Recovery and Reinvestment Act(ARRA)"
+		],
+
+		"reviseTerms": 
+		[
+			{
+				"clause": "American Recovery and Reinvestment Act(ARRA)",
+				"arra": "Yes"
+			}
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Terms and Conditions",
+			"Upload Documents"
+		]
+	},
+
+	"Submit E-Verify Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS23F023AA",
+		"DUNS": "118491760",
+		"modTypes": 
+		[
+			"E-Verify"
+		],
+
+		"reviseTerms": 
+		[
+			{
+				"clause": "E-Verify",
+				"eVerify": "Yes"
+			}
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Terms and Conditions",
+			"Upload Documents"
+		]
+	},
+
+	"Submit Disaster Recovery Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS23F023AA",
+		"DUNS": "118491760",
+		"modTypes": 
+		[
+			"Disaster Purchasing"
+		],
+
+		"reviseTerms": 
+		[
+			{
+				"clause": "Disaster Purchasing",
+				"disasterRecvry": "Yes"
+			}
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Terms and Conditions",
+			"Upload Documents"
+		]
+	},
+
+	"Submit Cooperative Purchasing Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS07F017BA",
+		"DUNS": "623154523",
+		"modTypes": 
+		[
+			"Cooperative Purchasing"
+		],
+
+		"reviseTerms": 
+		[
+			{
+				"clause": "Cooperative Purchasing",
+				"sin": "TEST72 2    - Not available",
+				"stateAndLocal": "No"
+			}
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Terms and Conditions",
+			"Upload Documents"
+		]
+	}
+}

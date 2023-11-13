@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<gsaPriceCatalog>
+	<contractLines oid="0">
+		<clNum>426 4C</clNum>
+		<lineitem>
+			<lineItemTechnical oid="0">
+				<product oid="0">
+					<productAction>Update</productAction>
+					<manufacturerPartNumber>1234566</manufacturerPartNumber>
+					<manufacturer>DELL COMP</manufacturer>
+					<upc>12345689</upc>
+					<productName>LASERFICHE AVANTE SERVER FOR ORACLE</productName>
+					<unitofIssue>BX</unitofIssue>
+					<qtyPerUnit>4</qtyPerUnit>
+					<qtyProdPerUnit>KM</qtyProdPerUnit>
+					<vendorPartNum>MSE50</vendorPartNum>
+					<bestPricedCustomerName>BESTCUSTOMERNAMELIN
+					</bestPricedCustomerName>
+					<manfWarrantyPeriod>90</manfWarrantyPeriod>
+					<manfWarrantyTime>DAY</manfWarrantyTime>
+					<manfwarrantyDesc>STANDARD WARRANTY</manfwarrantyDesc>
+					<vendorProductDescription>Description</vendorProductDescription>
+					<extendedWarrantyPeriod>5</extendedWarrantyPeriod>
+					<extendedWarrantyTime>DAY</extendedWarrantyTime>
+					<extendedWarrantyDesc>Description goes here</extendedWarrantyDesc>
+					<productionPoint>US</productionPoint>
+					<productionPoint2>US</productionPoint2>
+					<productType>Product</productType>
+					<length>10</length>
+					<lengthUnitOfMeasure>BX</lengthUnitOfMeasure>
+					<width>10</width>
+					<widthUnitOfMeasure>BX</widthUnitOfMeasure>
+					<height>10</height>
+					<heightUnitOfMeasure>BX</heightUnitOfMeasure>
+					<shippingPkgCubicFt>20</shippingPkgCubicFt>
+					<standardPkgSize>10</standardPkgSize>
+					<weight>148</weight>
+					<prodWebSite>wwww.dell.com</prodWebSite>
+					<defaultColour>black</defaultColour>
+					<fscpsc>1235</fscpsc>
+					<unspec>12345678</unspec>
+					<leadTimeDay>20</leadTimeDay>
+					<leadTimeCode>AF</leadTimeCode>
+					<nsnNumber>1234-12-123-1234</nsnNumber>
+					<fob_us>D</fob_us>
+					<fob_ak>O</fob_ak>
+					<fob_hi>D</fob_hi>
+					<fob_pr>O</fob_pr>
+					<specialCharges oid="1">
+						<specialChargeMessage>Expediting Premium</specialChargeMessage>
+						<price>23.23</price>
+						<per>BP</per>
+						<description>Description for expediting premium</description>
+						<action>Update</action>
+					</specialCharges>
+					<specialCharges oid="1">
+						<specialChargeMessage>Training</specialChargeMessage>
+						<price>23.23</price>
+						<per>BP</per>
+						<description>Description for training</description>
+						<action>Update</action>
+					</specialCharges>
+					<specialCharges oid="1">
+						<specialChargeMessage>Assembly</specialChargeMessage>
+						<price>23.23</price>
+						<per>BP</per>
+						<description>Description for Assembly</description>
+						<action>Update</action>
+					</specialCharges>										
+					<specialCharges oid="2">
+						<specialChargeMessage>Inside Delivery</specialChargeMessage>
+						<price>67.89</price>
+						<per>BP</per>
+						<description>Description for inside delivery</description>
+						<action>Delete</action>
+					</specialCharges>
+					<photo>
+						<name>PhotoImage1.jpg</name>
+					</photo>
+					<photo>
+						<name>PhotoImage2.jpg</name>
+						<action>Delete</action>
+					</photo>
+					<photo>
+						<name>PhotoImage3.jpg</name>
+					</photo>
+					<options>
+						<partNumber>2345</partNumber>
+						<manufacturer>Logitech</manufacturer>
+						<group>Mouse</group>
+						<code>O</code>
+						<quantity>1</quantity>
+						<unitOfMeasure>EA</unitOfMeasure>
+						<price>20</price>
+						<description>Logitech Mouse 1</description>
+						<isDeletable>N</isDeletable>
+						<action>Delete</action>
+					</options>
+				</product>
+			</lineItemTechnical>
+			<manufacturerPartNumber>50</manufacturerPartNumber>
+			<manufacturerName>LASERFICHE</manufacturerName>
+		</lineitem>
+	</contractLines>
+</gsaPriceCatalog>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<gsaPriceCatalog>
+	<contractLines oid="0">
+		<clNum>58 5</clNum>
+		<lineitem>
+			<lineItemTechnical oid="0">
+				<product oid="0">
+					<productAction>Update</productAction>
+					<manufacturerPartNumber>97535</manufacturerPartNumber>
+					<manufacturer>DA-LITE</manufacturer>
+					<upc>892685001003</upc>
+					<productName>MOTORIZED SCREEN</productName>
+					<unitofIssue>EA</unitofIssue>
+					<qtyPerUnit>1</qtyPerUnit>
+					<qtyProdPerUnit>EA</qtyProdPerUnit>
+					<vendorPartNum>1AB234CD56</vendorPartNum>
+					<bestPricedCustomerName></bestPricedCustomerName>
+					<manfWarrantyPeriod>90</manfWarrantyPeriod>
+					<manfWarrantyTime>DAY</manfWarrantyTime>
+					<manfwarrantyDesc>STANDARD WARRANTY</manfwarrantyDesc>
+					<vendorProductDescription>Description</vendorProductDescription>
+					<extendedWarrantyPeriod>5</extendedWarrantyPeriod>
+					<extendedWarrantyTime>DAY</extendedWarrantyTime>
+					<extendedWarrantyDesc>Description goes here</extendedWarrantyDesc>
+					<productionPoint>US</productionPoint>
+					<productionPoint2>US</productionPoint2>
+					<productType>Product</productType>
+					<length>10</length>
+					<lengthUnitOfMeasure>IN</lengthUnitOfMeasure>
+					<width>10</width>
+					<widthUnitOfMeasure>IN</widthUnitOfMeasure>
+					<height>10</height>
+					<heightUnitOfMeasure>IN</heightUnitOfMeasure>
+					<shippingPkgCubicFt>20</shippingPkgCubicFt>
+					<standardPkgSize>10</standardPkgSize>
+					<weight>148</weight>
+					<prodWebSite>www.gsaadvantage.gov/</prodWebSite>
+					<defaultColour>black</defaultColour>
+					<fscpsc>1235</fscpsc>
+					<unspec>12345678</unspec>
+					<leadTimeDay>20</leadTimeDay>
+					<leadTimeCode>AE</leadTimeCode>
+					<nsnNumber>9999-99-999-9999</nsnNumber>
+					<fob_us>D</fob_us>
+					<fob_ak>O</fob_ak>
+					<fob_hi>D</fob_hi>
+					<fob_pr>O</fob_pr>
+				</product>
+			</lineItemTechnical>
+			<manufacturerPartNumber>50</manufacturerPartNumber>
+			<manufacturerName>LASERFICHE</manufacturerName>
+		</lineitem>
+	</contractLines>
+	<contractLines oid="0">
+		<clNum>58 5</clNum>
+		<lineitem>
+			<lineItemTechnical oid="0">
+				<product oid="0">
+					<productAction>Update</productAction>
+					<manufacturerPartNumber>97536</manufacturerPartNumber>
+					<manufacturer>DA-LITE</manufacturer>
+					<upc>892685001003</upc>
+					<productName>LASERFICHE AVANTE SERVER FOR ORACLE</productName>
+					<unitofIssue>EA</unitofIssue>
+					<qtyPerUnit>1</qtyPerUnit>
+					<qtyProdPerUnit>KM</qtyProdPerUnit>
+					<vendorPartNum>MSE50</vendorPartNum>
+					<bestPricedCustomerName>BESTCUSTOMERNAMELIN
+					</bestPricedCustomerName>
+					<manfWarrantyPeriod>90</manfWarrantyPeriod>
+					<manfWarrantyTime>DAY</manfWarrantyTime>
+					<manfwarrantyDesc>STANDARD WARRANTY</manfwarrantyDesc>
+					<vendorProductDescription>Description</vendorProductDescription>
+					<extendedWarrantyPeriod>5</extendedWarrantyPeriod>
+					<extendedWarrantyTime>DAY</extendedWarrantyTime>
+					<extendedWarrantyDesc>Description goes here</extendedWarrantyDesc>
+					<productionPoint>US</productionPoint>
+					<productionPoint2>US</productionPoint2>
+					<productType>Product</productType>
+					<length>10</length>
+					<lengthUnitOfMeasure>BX</lengthUnitOfMeasure>
+					<width>10</width>
+					<widthUnitOfMeasure>BX</widthUnitOfMeasure>
+					<height>10</height>
+					<heightUnitOfMeasure>BX</heightUnitOfMeasure>
+					<shippingPkgCubicFt>20</shippingPkgCubicFt>
+					<standardPkgSize>10</standardPkgSize>
+					<weight>148</weight>
+					<prodWebSite>www.dell.com</prodWebSite>
+					<defaultColour>black</defaultColour>
+					<fscpsc>1235</fscpsc>
+					<unspec>12345678</unspec>
+					<leadTimeDay>20</leadTimeDay>
+					<leadTimeCode>AF</leadTimeCode>
+					<nsnNumber>1234-12-123-1234</nsnNumber>
+					<fob_us>D</fob_us>
+					<fob_ak>ND</fob_ak>
+					<fob_hi>D</fob_hi>
+					<fob_pr>ND</fob_pr>
+					<accessories>
+						<accessoryManufacturerPartNumber>97535</accessoryManufacturerPartNumber>
+						<accessoryManufacturer>DA-LITE</accessoryManufacturer>
+						<action>Delete</action>
+					</accessories>
+				</product>
+			</lineItemTechnical>
+			<manufacturerPartNumber>50</manufacturerPartNumber>
+			<manufacturerName>LASERFICHE</manufacturerName>
+		</lineitem>
+	</contractLines>
+</gsaPriceCatalog>

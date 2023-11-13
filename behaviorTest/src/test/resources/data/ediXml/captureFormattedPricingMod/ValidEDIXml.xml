@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<gsaPriceCatalog>
+  <contractLines oid="0" >
+    <clNum>722 01</clNum>
+    <lineitem>
+      <lineItemTechnical oid="0" >
+        <product oid="0" >
+          <manufacturerPartNumber>1234566</manufacturerPartNumber>
+          <manufacturer>Dell Comp</manufacturer>
+          <upc>12345689</upc>
+          <productName>LASERFICHE AVANTE SERVER FOR ORACLE</productName>
+          <unitofIssue>BX</unitofIssue>
+          <qtyPerUnit>4</qtyPerUnit>
+          <qtyProdPerUnit>KM</qtyProdPerUnit>
+          <vendorPartNum>MSE50</vendorPartNum>
+          <bestPricedCustomerName>BESTCUSTOMERNAMELIN</bestPricedCustomerName>
+          <manfWarrantyPeriod>90</manfWarrantyPeriod>
+          <manfWarrantyTime>DAY</manfWarrantyTime>
+          <manfwarrantyDesc>STANDARD WARRANTY</manfwarrantyDesc>
+		  <vendorProductDescription>Description</vendorProductDescription>
+		  <extendedWarrantyPeriod>5</extendedWarrantyPeriod>
+		  <extendedWarrantyTime>DAY</extendedWarrantyTime>
+		  <extendedWarrantyDiscReason>Description</extendedWarrantyDiscReason>
+          <productionPoint>US</productionPoint>
+          <productionPoint2>US</productionPoint2>
+		  <productType>Product</productType>
+		  <length>10</length>
+		  <lengthUnitOfMeasure>BX</lengthUnitOfMeasure>
+		  <width>10</width>
+		  <widthUnitOfMeasure>BX</widthUnitOfMeasure>
+		  <height>10</height>
+		  <heightUnitOfMeasure>BX</heightUnitOfMeasure>
+		  <shippingPkgCubicFt>10</shippingPkgCubicFt>
+		  <standardPkgSize>10</standardPkgSize>
+		  <weight>10</weight>
+		  <prodWebSite>wwww.dell.com</prodWebSite>
+		  <defaultColour>black</defaultColour>
+		  <fscpsc>1235</fscpsc>		  
+		  <unspec>12345678</unspec>
+		  <leadTimeDay>20</leadTimeDay>
+		  <leadTimeCode>AF</leadTimeCode>
+		  <nsnNumber>1234-12-123-1234</nsnNumber>
+		  <fob_us>D</fob_us>
+		  <fob_ak>D</fob_ak>
+		  <fob_hi>D</fob_hi>
+		  <fob_pr>D</fob_pr>
+		  <specialCharges oid="1">
+            <specialChargeMessage>Expediting Premium</specialChargeMessage>
+            <price>23.23</price>
+            <per>BP</per>
+            <description>Description 1</description>
+          </specialCharges>
+          <specialCharges oid="2">
+            <specialChargeMessage>Inside Delivery</specialChargeMessage>
+            <price>67.89</price>
+            <per>BP</per>
+            <description>Description 2</description>
+          </specialCharges>
+          <specialCharges oid="3">
+            <specialChargeMessage>Installation</specialChargeMessage>
+            <price>89.91</price>
+            <per>BP</per>
+            <description>Description 3</description>
+          </specialCharges>   
+		  <envMessages oid="1">
+			<environCode>Ap</environCode>
+			<environMessage>Green Seal item</environMessage>
+		    <prod508Url/>
+		  </envMessages>
+		  <envMessages oid="2">
+			<environCode>BT</environCode>
+			<environMessage>GREENGUARD Certified</environMessage>
+		    <prod508Url/>
+		  </envMessages>
+		  <envMessages oid="3">
+			<environCode>BD</environCode>
+			<environMessage>Ergonomic item</environMessage>
+		    <prod508Url/>
+		  </envMessages>
+		  <photo>
+			<name>Flower00.jpg</name>
+		  </photo>
+		  <photo>
+			<name>flower01.jpg</name>
+		  </photo>
+		  <photo>
+			<name>flower02.jpg</name>
+		  </photo>	
+		  <options>
+			<partNumber>1234556</partNumber>
+			<manufacturer>Dell Comp</manufacturer>
+			<group>Group Name</group>
+			<code>A</code>
+			<quantity>10</quantity>
+			<unitOfMeasure>BX</unitOfMeasure>
+			<price>50.00</price>
+			<description>Wireless Mouse</description>
+			<isDeletable>N</isDeletable>
+		  </options>
+        </product>
+      </lineItemTechnical>
+     <lineItemPrice oid="0" >
+        <name>Dell Comp</name>
+        <manufacturerPartNumber>1234566</manufacturerPartNumber>
+        <unitOfIssue>BX</unitOfIssue>
+        <priceItems oid="0" >
+          <price>10050.0</price>
+          <priceItemType>CLP</priceItemType>
+        </priceItems>
+        <priceItems oid="0" >
+          <discountPercent>0.12</discountPercent>
+          <priceItemType>BPCDiscount</priceItemType>
+        </priceItems>
+        <priceItems oid="0" >
+          <price>10040.0</price>
+          <priceItemType>BPC</priceItemType>
+        </priceItems>
+        <priceItems oid="0" >
+          <price>100.0</price>
+          <priceItemType>GSA</priceItemType>
+          <justification> JUSTIFICATION FOR GOV</justification>
+		  <zoneNumber>01</zoneNumber>
+        </priceItems>	
+        <priceItems oid="0" >
+          <price>100.0</price>
+          <priceItemType>GSA</priceItemType>
+          <justification> JUSTIFICATION FOR GOV</justification>
+		  <zoneNumber>02</zoneNumber>
+        </priceItems>	
+        <priceItems oid="0" >
+          <price>100.0</price>
+          <priceItemType>GSA</priceItemType>
+          <justification> JUSTIFICATION FOR GOV</justification>
+        </priceItems>        		
+      </lineItemPrice>
+      <manufacturerPartNumber>50</manufacturerPartNumber>
+      <manufacturerName>LASERFICHE</manufacturerName>
+	  <discounts>
+		<discountType>Volume/Qty Discount</discountType>
+		<breakBegin>100</breakBegin>
+		<breakEnd>200</breakEnd>
+		<discountPercent>2</discountPercent>
+	  </discounts>
+	  <discounts>
+		<discountType>Volume/Qty Discount</discountType>
+		<breakBegin>201</breakBegin>
+		<breakEnd>300</breakEnd>
+		<discountPercent>3</discountPercent>
+	  </discounts>	  
+	  <discountCondition>Discount Condition Description</discountCondition>	  
+    </lineitem>
+   <lineitem>
+      <lineItemTechnical oid="0" >
+        <product oid="0" >
+          <manufacturerPartNumber>1234567</manufacturerPartNumber>
+          <manufacturer>Lenovo</manufacturer>
+          <upc>12345689</upc>
+          <productName>LASERFICHE AVANTE SERVER FOR ORACLE</productName>
+          <unitofIssue>BX</unitofIssue>
+          <qtyPerUnit>4</qtyPerUnit>
+          <qtyProdPerUnit>KM</qtyProdPerUnit>
+          <vendorPartNum>MSE50</vendorPartNum>
+          <bestPricedCustomerName>BESTCUSTOMERNAMELIN</bestPricedCustomerName>
+          <manfWarrantyPeriod>90</manfWarrantyPeriod>
+          <manfWarrantyTime>DAY</manfWarrantyTime>
+          <manfwarrantyDesc>STANDARD WARRANTY</manfwarrantyDesc>
+		  <vendorProductDescription>Description</vendorProductDescription>
+		  <extendedWarrantyPeriod>5</extendedWarrantyPeriod>
+		  <extendedWarrantyTime>DAY</extendedWarrantyTime>
+		  <extendedWarrantyDiscReason>Description</extendedWarrantyDiscReason>
+          <productionPoint>US</productionPoint>
+          <productionPoint2>US</productionPoint2>
+		  <productType>Accessory</productType>
+		  <length>10</length>
+		  <lengthUnitOfMeasure>BX</lengthUnitOfMeasure>
+		  <width>10</width>
+		  <widthUnitOfMeasure>BX</widthUnitOfMeasure>
+		  <height>10</height>
+		  <heightUnitOfMeasure>BX</heightUnitOfMeasure>
+		  <shippingPkgCubicFt>10</shippingPkgCubicFt>
+		  <standardPkgSize>10</standardPkgSize>
+		  <weight>10</weight>
+		  <prodWebSite>wwww.dell.com</prodWebSite>
+		  <defaultColour>black</defaultColour>
+		  <fscpsc>1235</fscpsc>		  
+		  <unspec>12345678</unspec>
+		  <leadTimeDay>20</leadTimeDay>
+		  <leadTimeCode>AF</leadTimeCode>
+		  <nsnNumber>1234-12-123-1234</nsnNumber>
+		  <fob_us>D</fob_us>
+		  <fob_ak>D</fob_ak>
+		  <fob_hi>D</fob_hi>
+		  <fob_pr>D</fob_pr>
+		  <specialCharges oid="1">
+            <specialChargeMessage>Expediting Premium</specialChargeMessage>
+            <price>23.23</price>
+            <per>BP</per>
+            <description>Description 1</description>
+          </specialCharges>
+          <specialCharges oid="2">
+            <specialChargeMessage>Inside Delivery</specialChargeMessage>
+            <price>67.89</price>
+            <per>BP</per>
+            <description>Description 2</description>
+          </specialCharges>
+          <specialCharges oid="3">
+            <specialChargeMessage>Installation</specialChargeMessage>
+            <price>89.91</price>
+            <per>BP</per>
+            <description>Description 3</description>
+          </specialCharges>   
+		  <envMessages oid="1">
+                        <environCode>AC</environCode>
+                        <environMessage>FEMP Energy Efficiency</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="2">
+                        <environCode>AE</environCode>
+                        <environMessage>Low VOC</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="3">
+                        <environCode>AJ</environCode>
+                        <environMessage>AbilityOne</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="4">
+                        <environCode>AK</environCode>
+                        <environMessage>UNICOR</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="5">
+                        <environCode>AQ</environCode>
+                        <environMessage>Comprehensive Procurement Guidelines (CPG) compliant</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="6">
+                        <environCode>AT</environCode>
+                        <environMessage>US EPA Significant New Alternatives Program (SNAP) approved</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="7">
+                        <environCode>BD</environCode>
+                        <environMessage>Ergonomic</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="8">
+                        <environCode>BE</environCode>
+                        <environMessage>Section 508</environMessage>
+                        <prod508Url>http://www.section508.gov</prod508Url>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="9">
+                        <environCode>BF</environCode>
+                        <environMessage>Pre-purchased stock</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="10">
+                        <environCode>BG</environCode>
+                        <environMessage>Shipboard Use Approved</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="11">
+                        <environCode>BM</environCode>
+                        <environMessage>Hazmat</environMessage>
+                        <prod508Url/>
+						<unid>UNID12</unid>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="12">
+                        <environCode>BQ</environCode>
+                        <environMessage>BioPreferred</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="13">
+                        <environCode>BU</environCode>
+                        <environMessage>EPA WaterSense Program</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="14">
+                        <environCode>SA</environCode>
+                        <environMessage>Scan Code 1</environMessage>
+                        <scanCodeText>Test it out</scanCodeText>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="15">
+                        <environCode>SB</environCode>
+                        <environMessage>Scan Code 2</environMessage>
+                        <scanCodeText>Test it out</scanCodeText>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="16">
+                        <environCode>SC</environCode>
+                        <environMessage>Scan Code 3</environMessage>
+                        <scanCodeText>Test it out</scanCodeText>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="17">
+                        <environCode>SF</environCode>
+                        <environMessage>Safer Choice</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="18">
+                        <environCode>01</environCode>
+                        <environMessage>BIFMA level</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="19">
+                        <environCode>02</environCode>
+                        <environMessage>Biodegradable Products Institute compostable product</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="20">
+                        <environCode>03</environCode>
+                        <environMessage>California Section 01350 standard</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="21">
+                        <environCode>04</environCode>
+                        <environMessage>FloorScore</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="22">
+                        <environCode>05</environCode>
+                        <environMessage>Forest Stewardship Council</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="23">
+                        <environCode>06</environCode>
+                        <environMessage>Green Seal GS-01</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="24">
+                        <environCode>07</environCode>
+                        <environMessage>Green Seal GS-07</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="25">
+                        <environCode>08</environCode>
+                        <environMessage>Green Seal GS-37</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="26">
+                        <environCode>09</environCode>
+                        <environMessage>Green Seal GS-40</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="27">
+                        <environCode>10</environCode>
+                        <environMessage>Green Seal GS-41</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="28">
+                        <environCode>11</environCode>
+                        <environMessage>NSF 140 Carpet</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="29">
+                        <environCode>12</environCode>
+                        <environMessage>NSF 332</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="30">
+                        <environCode>13</environCode>
+                        <environMessage>Pacific Northwest Snowfighters Qualified Deicers</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="31">
+                        <environCode>14</environCode>
+                        <environMessage>SCAQMD Rule #1113</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="32">
+                        <environCode>15</environCode>
+                        <environMessage>SCAQMD Rule #1168</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="33">
+                        <environCode>16</environCode>
+                        <environMessage>STMC Toner Cartridges</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="34">
+                        <environCode>17</environCode>
+                        <environMessage>UL 126</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="35">
+                        <environCode>18</environCode>
+                        <environMessage>UL 2759</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="36">
+                        <environCode>19</environCode>
+                        <environMessage>UL 2762</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="37">
+                        <environCode>20</environCode>
+                        <environMessage>UL 2771</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="38">
+                        <environCode>21</environCode>
+                        <environMessage>UL 2777</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="39">
+                        <environCode>22</environCode>
+                        <environMessage>UL 2784</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="40">
+                        <environCode>23</environCode>
+                        <environMessage>UL 2785</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="41">
+                        <environCode>24</environCode>
+                        <environMessage>UL 2792</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+					<envMessages oid="41">
+                        <environCode>25</environCode>
+                        <environMessage>UL 2818 GREENGUARD</environMessage>
+                        <prod508Url/>
+                        <action/>
+                    </envMessages>
+		  <photo>
+			<name>Flower00.jpg</name>
+		  </photo>
+		  <photo>
+			<name>flower01.jpg</name>
+		  </photo>
+		  <photo>
+			<name>flower02.jpg</name>
+		  </photo>	
+		  <options>
+			<partNumber>234556</partNumber>
+			<manufacturer>Lenovo</manufacturer>
+			<group>Group Name</group>
+			<code>A</code>
+			<quantity>10</quantity>
+			<unitOfMeasure>BX</unitOfMeasure>
+			<price>50.00</price>
+			<description>Wireless Mouse</description>
+			<isDeletable>N</isDeletable>
+		  </options>
+		  <accessories>
+		    <accessoryManufacturerPartNumber>1234566</accessoryManufacturerPartNumber>
+			<accessoryManufacturer>Dell Comp</accessoryManufacturer>
+		  </accessories>
+        </product>
+      </lineItemTechnical>
+     <lineItemPrice oid="0" >
+        <name>Lenovo</name>
+        <manufacturerPartNumber>1234567</manufacturerPartNumber>
+        <unitOfIssue>BX</unitOfIssue>
+        <priceItems oid="0" >
+          <price>10050.0</price>
+          <priceItemType>CLP</priceItemType>
+        </priceItems>
+        <priceItems oid="0" >
+          <discountPercent>0.12</discountPercent>
+          <priceItemType>BPCDiscount</priceItemType>
+        </priceItems>
+        <priceItems oid="0" >
+          <price>10040.0</price>
+          <priceItemType>BPC</priceItemType>
+        </priceItems>
+        <priceItems oid="0" >
+          <price>100.0</price>
+          <priceItemType>GSA</priceItemType>
+          <justification> JUSTIFICATION FOR GOV</justification>
+		  <zoneNumber>01</zoneNumber>
+        </priceItems>	
+        <priceItems oid="0" >
+          <price>100.0</price>
+          <priceItemType>GSA</priceItemType>
+          <justification> JUSTIFICATION FOR GOV</justification>
+		  <zoneNumber>02</zoneNumber>
+        </priceItems>	
+        <priceItems oid="0" >
+          <price>100.0</price>
+          <priceItemType>GSA</priceItemType>
+          <justification> JUSTIFICATION FOR GOV</justification>
+        </priceItems>        		
+      </lineItemPrice>
+      <manufacturerPartNumber>50</manufacturerPartNumber>
+      <manufacturerName>LASERFICHE</manufacturerName>
+	  <discounts>
+		<discountType>Volume/Qty Discount</discountType>
+		<breakBegin>100</breakBegin>
+		<breakEnd>200</breakEnd>
+		<discountPercent>2</discountPercent>
+	  </discounts>
+	  <discounts>
+		<discountType>Volume/Qty Discount</discountType>
+		<breakBegin>201</breakBegin>
+		<breakEnd>300</breakEnd>
+		<discountPercent>3</discountPercent>
+	  </discounts>	  
+	  <discountCondition>Discount Condition Description</discountCondition>	  
+    </lineitem>	
+  </contractLines>
+</gsaPriceCatalog>

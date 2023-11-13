@@ -1,0 +1,99 @@
+{
+	"CaptureProductDataPage": 
+	{
+		"li": 
+		[
+			"Choose one of the options to enter the product modification data.",
+			"Click \"Validate Product Data\" to verify completion of the required data."
+		],
+
+		"span": 
+		[
+			"Download/Upload Product Catalog"
+		]
+	},
+
+	"DownloadUploadProductCatalogExcelFile": 
+	{
+		"h1": 
+		[
+			"DOWNLOAD/UPLOAD PRODUCT CATALOG (EXCEL FILE)"
+		],
+
+		"li": 
+		[
+			"Generate the product catalog by clicking \"Generate Product catalog\". If you make any changes to the Select Components page, a new catalog must be generated and downloaded.",
+			"Click \"Check Status\" to determine the status of your catalog generation. The process can take from one minute to one hour, depending on the number of products in your catalog.",
+			"When the catalog generation is completed, click \"Download Product catalog\" to download the catalog.",
+			"Enter your product data into the catalog and save it locally.",
+			"Click \"Select Completed Product Catalog\" to choose your locally saved catalog. Click \"Start Upload\" to begin the upload.",
+			"Click \"Refresh Status\" to verify the upload.",
+			"If you receive an error message, download and review the Error File. Resolve the issues in this Error File and save.  Click \"Delete File\" to delete the previously uploaded template from this page, then upload your Error File with corrections. (You should not correct and resubmit your original file - correct and resubmit the Error File.)",
+			"Once your file is successfully uploaded, go back to \"Capture Product Data\" to continue through the steps."
+		]
+	},
+
+	"SelectComponentsPage": 
+	{
+		"li": 
+		[
+			"Select the categories as applicable to the catalog update.",
+			"Add/Update: Update or add information for the selected category.",
+			"Remove All: Delete ALL information for the selected category on the entire Contract.",
+			"For Delivery Level: Select \"Add/Update\" for Delivery, select \"Yes\" for \"Change Delivery Level?\", then select the appropriate level - \"Contract\", \"SIN\" or \"Line Item\"",
+			"Click \"Save Changes\" to save your data."
+		],
+
+		"h1": 
+		[
+			"SELECT COMPONENTS"
+		]
+	},
+
+	"EDIPage": 
+	{
+		"li": 
+		[
+			"Check the website http://vsc.gsa.gov for instructions.",
+			"Click \"Generate Transaction Key\" to start the transaction.",
+			"To submit your data via EDI you must enter the Offer Key (which includes the Solicitation Number, Refresh Number, and DUNS Number) or Modification Key (which includes the Contract Number and the Modification Number) and the Transaction Id in the EDI template. This will ensure your EDI data is associated with the proper Offer/Modification.",
+			"Once your data is successfully uploaded, go back to \"Capture Product Data\" to continue through the steps."
+		],
+
+		"h1": 
+		[
+			"EDI"
+		]
+	},
+	
+	"WizardManagementPage": 
+	{
+		"li": 
+		[
+			"1.   Your current contract selections are displayed below.",
+			"2.   Click \"Continue\" to go to the next page."
+		],
+
+		"h1": 
+		[
+			"WIZARD MANAGEMENT"
+		]
+	},
+	
+	"FinalPricingDocumentPage": 
+	{
+		"li": 
+		[
+			"Click \"Generate Pricing Document\" to initiate the process. While the document is generating, you will see a gold \"Check Status\" button.",
+			"Click the \"Check Status\" button to verify  the status.",
+			"When the document is complete, you will see a green \"View Final Pricing Document\".",
+			"Click \"View Final Pricing Document\" to download the  document.  ",
+			"Click \"Continue\" to go to the next page."
+		],
+
+		"h1": 
+		[
+			"PRICING DOCUMENT"
+		]
+	}
+}

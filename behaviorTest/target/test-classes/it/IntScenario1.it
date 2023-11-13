@@ -1,0 +1,5 @@
+01.cert_sign_in Sign into eOffer successfully
+02.duns_sign_in Sign into eOffer with valid DUNS - Textbox
+03b.edit_offer Initial Edit Offer
+04.corporate_information Corporate Information Validation Successful
+04.corporate_information Corporate Information Validation - sign out

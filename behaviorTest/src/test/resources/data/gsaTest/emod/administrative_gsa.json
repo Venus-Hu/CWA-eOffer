@@ -1,0 +1,587 @@
+{
+	"Address Change Mod: Update UEI Number": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_administrative_Contract",
+		"UEI": "eMod_administrative_UEI",
+		"modTypes": [
+			"Address Change"
+		],
+		"administrativeMods": [
+			{
+				"type": "addressChange",
+				"updatedDUNS": "VJK8W4RZ63D1",
+				"modDetailDescription": "Test message for address change mod detailed description"
+			}
+		]
+	},
+	"Submit Address Change Mod: Review eMod successful": {
+		"SignIn": {
+			"module": "emod",
+			"email": "venus.hu@gsa.gov",
+			"password": "eofferTEST1234567*"
+		},
+		"contractNumber": "eMod_administrative_Contract",
+		"UEI": "eMod_administrative_UEI",
+		"modTypes": [
+			"Address Change"
+		],
+		"administrativeMods": [
+			{
+				"type": "addressChange",
+				"updatedDUNS": "VJK8W4RZ63D1",
+				"modDetailDescription": "Test message for address change mod detailed description"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": [
+					{
+						"pageNumber": 1,
+						"expectedLines": [
+							"MOD DESCRIPTION For Address Change",
+							"Test message for address change mod detailed description"
+						]
+					}
+				]
+			}
+		]
+	},
+	"Submit Point of Contacts for Manufacturers, Dealers, Resellers, Agents Mod: Review eMod successful": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_administrative_Contract",
+		"UEI": "eMod_administrative_UEI",
+		"modTypes": [
+			"Point of Contacts for Manufacturers, Dealers, Resellers, Agents"
+		],
+		"administrativeMods": [
+			{
+				"type": "pocManufDealears",
+				"modDetailDescription": "Test message for points of contacts for Manufacturers, Dealers, Resellers, Agents detailed description"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": [
+					{
+						"pageNumber": 1,
+						"expectedLines": [
+							"MOD DESCRIPTION For Point of Contacts for Manufacturers, Dealers, Resellers, Agents",
+							"Test message for points of contacts for Manufacturers, Dealers, Resellers, Agents detailed description"
+						]
+					}
+				]
+			}
+		]
+	},
+	"Submit Authorized Negotiator Mod: Review eMod successful": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_administrative_Contract",
+		"UEI": "eMod_administrative_UEI",
+		"modTypes": [
+			"Authorized Negotiator"
+		],
+		"administrativeMods": [
+			{
+				"type": "authorizedNegotiator",
+				"action": "add"
+			}
+		],
+		"negotiator": [
+			{
+				"name": "Mr. Peter Parker",
+				"title": "CO",
+				"phone": "223-456-7890",
+				"email": "peter.parker@dailybugle.com",
+				"fax": "223-444-5678",
+				"role": "Authorized to sign"
+			}
+		],
+		"uploadDocuments": [
+			{
+				"type": "Agent Authorization Letter",
+				"action": "upload",
+				"filename": "GenericUploadData/agent_auth_letter.txt",
+				"documentName": "The Agent Authorization Letter"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": [
+					{
+						"pageNumber": 1,
+						"expectedLines": [
+							"Authorized Negotiator",
+							"Agent Authorization Letter agent_auth_letter.txt"
+						]
+					}
+				]
+			},
+			{
+				"documentType": "Agent Authorization Letter",
+				"documentName": "The Agent Authorization Letter",
+				"elementTitle": "Review document related to Agent Authorization Letter",
+				"filename": "agent_auth_letter.txt"
+			}
+		]
+	},
+	"Submit Authorized Negotiator Mod - International Phone: eMod successful GSA": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_administrative_Contract",
+		"UEI": "eMod_administrative_UEI",
+		"modTypes": [
+			"Authorized Negotiator"
+		],
+		"administrativeMods": [
+			{
+				"type": "authorizedNegotiator",
+				"action": "add"
+			}
+		],
+		"negotiator": [
+			{
+				"name": "Mr. Peter Parker",
+				"title": "CO",
+				"phoneIntl": "+8613732478274",
+				"email": "peter.parker@dailybugle.com",
+				"fax": "223-444-5678",
+				"role": "Authorized to sign"
+			}
+		],
+		"uploadDocuments": [
+			{
+				"type": "Agent Authorization Letter",
+				"action": "upload",
+				"filename": "GenericUploadData/agent_auth_letter.txt",
+				"documentName": "The Agent Authorization Letter"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": [
+					{
+						"pageNumber": 1,
+						"expectedLines": [
+							"Authorized Negotiator",
+							"Agent Authorization Letter agent_auth_letter.txt"
+						]
+					}
+				]
+			},
+			{
+				"documentType": "Agent Authorization Letter",
+				"documentName": "The Agent Authorization Letter",
+				"elementTitle": "Review document related to Agent Authorization Letter",
+				"filename": "agent_auth_letter.txt"
+			}
+		]
+	},
+	"Submit Industrial Funding Fee POC Mod: Review eMod successful": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_administrative_Contract",
+		"UEI": "eMod_administrative_UEI",
+		"modTypes": [
+			"Industrial Funding Fee (POC)"
+		],
+		"administrativeMods": [
+			{
+				"type": "iffPOC"
+			}
+		],
+		"pointOfContact": [
+			{
+				"poc": "Industrial Funding Fee POC",
+				"description": "Industrial Funding Fee",
+				"name": "Bruce Wayne",
+				"title": "Batman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			}
+		],
+		"verifyPOC": [
+			{
+				"poc": "Order POC",
+				"description": "Order POC",
+				"name": "Bruce Wayne",
+				"title": "Batman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": [
+					{
+						"pageNumber": 2,
+						"expectedLines": [
+							"NAME.*:.*Bruce Wayne"
+						]
+					}
+				]
+			}
+		]
+	},
+	"Submit Authorized Negotiator Mod - International phone and US Phone": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_administrative_Contract",
+		"UEI": "eMod_administrative_UEI",
+		"modTypes": [
+			"Authorized Negotiator"
+		],
+		"administrativeMods": [
+			{
+				"type": "authorizedNegotiator",
+				"action": "add"
+			}
+		],
+		"negotiator": [
+			{
+				"name": "Venkata M Allamsetty",
+				"title": "CO",
+				"phone": "703-984-9384",
+				"phoneIntl": "3843875040587bhytf*",
+				"email": "venkata.allamsetty@gsa.gov",
+				"fax": "223-444-5678",
+				"role": "Authorized to sign"
+			}
+		]
+	},
+	"Submit Contract Administrator/Point of Contact or POC Mod: Review eMod successful": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_administrative_Contract",
+		"UEI": "eMod_administrative_UEI",
+		"modTypes": [
+			"Contract Administrator/Point of Contact (POC)"
+		],
+		"administrativeMods": [
+			{
+				"type": "pointOfContact",
+				"pointOfContact": "Mr. Peter Parker"
+			}
+		],
+		"verifyAdministrativeMods": [
+			{
+				"type": "pointOfContact",
+				"pointOfContact": "Mr. Peter Parker"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": [
+					{
+						"pageNumber": 1,
+						"expectedLines": [
+							"Contract Administrator\\/Point of Contact \\(POC\\)",
+							"Mr. Peter Parker"
+						]
+					}
+				]
+			}
+		]
+	},
+	"Submit Email Address Change Mod: Review eMod successful": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_administrative_Contract",
+		"UEI": "eMod_administrative_UEI",
+		"modTypes": [
+			"Email Address Change"
+		],
+		"administrativeMods": [
+			{
+				"type": "emailChange",
+				"emailChange": "peter.parker@superfriends.net"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": [
+					{
+						"pageNumber": 1,
+						"expectedLines": [
+							"Email Address Change",
+							"peter.parker@superfriends.net"
+						]
+					}
+				]
+			}
+		]
+	},
+	"Submit Fax Change Mod: Review eMod successful": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_administrative_Contract",
+		"UEI": "eMod_administrative_UEI",
+		"modTypes": [
+			"Fax Change"
+		],
+		"administrativeMods": [
+			{
+				"type": "faxChange",
+				"faxChange": "223-456-7890"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": [
+					{
+						"pageNumber": 1,
+						"expectedLines": [
+							"Fax Change",
+							"223-456-7890"
+						]
+					}
+				]
+			}
+		]
+	},
+	"Submit Order POC Mod: Review eMod successful": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_administrative_Contract",
+		"UEI": "eMod_administrative_UEI",
+		"modTypes": [
+			"Order Point of Contact (POC)"
+		],
+		"administrativeMods": [
+			{
+				"type": "orderPOC"
+			}
+		],
+		"pointOfContact": [
+			{
+				"poc": "Order POC",
+				"description": "Order POC",
+				"name": "Bruce Wayne",
+				"title": "Batman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			}
+		],
+		"verifyPOC": [
+			{
+				"poc": "Order POC",
+				"description": "Order POC",
+				"name": "Bruce Wayne",
+				"title": "Batman",
+				"address1": "Sesame street",
+				"city": "Gotham",
+				"state": "NJ",
+				"country": "USA",
+				"zip": "10007",
+				"phone": "223-456-7890",
+				"fax": "223-456-7890",
+				"email": "batman@dccomics.com"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": [
+					{
+						"pageNumber": 1,
+						"expectedLines": [
+							"Order Point of Contact \\(POC\\)"
+						]
+					},
+					{
+						"pageNumber": 2,
+						"expectedLines": [
+							"NAME.*:.*Bruce Wayne"
+						]
+					}
+				]
+			}
+		]
+	},
+	"Submit Telephone Change Mod: Review eMod successful": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_administrative_Contract",
+		"UEI": "eMod_administrative_UEI",
+		"modTypes": [
+			"Telephone Change"
+		],
+		"administrativeMods": [
+			{
+				"type": "telephoneChange",
+				"telephoneChange": "198-765-4321"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": [
+					{
+						"pageNumber": 1,
+						"expectedLines": [
+							"Telephone Change",
+							"198-765-4321"
+						]
+					}
+				]
+			}
+		]
+	},
+	"Submit Website Address Change Mod: Review eMod successful": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_administrative_Contract",
+		"UEI": "eMod_administrative_UEI",
+		"modTypes": [
+			"Website Address Change"
+		],
+		"administrativeMods": [
+			{
+				"type": "url",
+				"url": "www.mycontracts.com"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Administrative",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": [
+					{
+						"pageNumber": 1,
+						"expectedLines": [
+							"Website Address Change",
+							"www.mycontracts.com"
+						]
+					}
+				]
+			}
+		]
+	}
+}

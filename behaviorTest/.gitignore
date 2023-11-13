@@ -1,0 +1,10 @@
+/bin/
+/log.out
+/hs_err_pid18936.log
+/target/extent-reports
+/build/
+/build
+.settings
+.classpath
+.project
+.DS_Store

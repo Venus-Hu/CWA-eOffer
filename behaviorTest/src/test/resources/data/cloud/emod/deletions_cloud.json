@@ -1,0 +1,344 @@
+{
+	"Submit Delete Product Mod: Review eMod successful for FPT contract": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS84A0000X",
+		"DUNS": "123456789",
+		"modTypes": 
+		[
+			"Delete Product(s)"
+		],
+
+		"goodsAndServices": 
+		{
+			"sinDetails": 
+			[
+				{
+					"sin": "426 4C"
+				},
+
+				{
+					"sin": "426 4F"
+				}
+			],
+
+			"descOfModRequest": "Delete Product mod for FPT contract"
+		},
+
+		"downloadUploadTemplate": 
+		{
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"worksheetData": 
+			{
+				"Base Template": 
+				[
+					{
+						"*SIN": "426 4C",
+						"*Manufacturer Part Number": "1234566",
+						"*Manufacturer Name": "Dell Comp"
+					},
+
+					{
+						"*SIN": "426 4F",
+						"*Manufacturer Part Number": "1234571",
+						"*Manufacturer Name": "Olay"
+					}
+				]
+			}
+		},
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			}
+		],
+
+		"finalPricingDocument": 
+		{
+			
+		},
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Deletions",
+			"Capture Pricing",
+			"Pricing Document",
+			"Upload Documents"
+		]
+	},
+
+	"Submit Delete Product Mod: Review eMod successful for Non-FPT contract": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS70F0000X",
+		"DUNS": "123456789",
+		"modTypes": 
+		[
+			"Delete Product(s)"
+		],
+
+		"goodsAndServices": 
+		{
+			"fastlane": "Y",
+			"descOfModRequest": "Delete Product mod for non-FPT contract"
+		},
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf",
+				"pagesToInspect": 
+				[
+					{
+						"pageNumber": 1,
+						"expectedLines": 
+						[
+							"Response to FASt Lane : Yes"
+						]
+					}
+				]
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Deletions",
+			"Upload Documents"
+		]
+	},
+
+	"Submit Delete SIN Mod: Review eMod successful for FPT contract": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS84A0000X",
+		"DUNS": "123456789",
+		"modTypes": 
+		[
+			"Delete SIN"
+		],
+
+		"goodsAndServices": 
+		{
+			"sinDetails": 
+			[
+				{
+					"sin": "426 4C",
+					"terminationDate": ""
+				},
+
+				{
+					"sin": "426 4F",
+					"terminationDate": ""
+				}
+			]
+		},
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Deletions",
+			"Upload Documents"
+		],
+
+		"uploadDocuments": 
+		[
+			{
+				"type": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"action": "upload",
+				"filename": "GenericUploadData/TCTextFile.docx"
+			}
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+
+			{
+				"documentType": "Terms and Conditions Text File",
+				"documentName": "Terms and Conditions Text File",
+				"elementTitle": "Review document related to Terms and Conditions Text File",
+				"filename": "TCTextFile.docx"
+			}
+		]
+	},
+
+	"Submit Delete SIN Mod: Review eMod successful for Non-FPT contract": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS520A000X",
+		"DUNS": "123456789",
+		"modTypes": 
+		[
+			"Delete SIN"
+		],
+
+		"goodsAndServices": 
+		{
+			"sinDetails": 
+			[
+				{
+					"sin": "520 5",
+					"terminationDate": ""
+				},
+
+				{
+					"sin": "520 6",
+					"terminationDate": ""
+				}
+			]
+		},
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Deletions",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		]
+	},
+
+	"Submit Delete Labor Category/Service Offerings Mod: Review eMod successful for Non-FPT contract": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS07F021DA",
+		"DUNS": "963009899",
+		"modTypes": 
+		[
+			"Delete Labor Category and/or Service Offerings"
+		],
+
+		"goodsAndServices": 
+		{
+			"descOfModRequest": "This is test for Delete Labor Category and/or Service Offerings mod"
+		},
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Deletions",
+			"Upload Documents"
+		]
+	},
+
+	"Submit Delete Labor Category/Service Offerings Mod: Review eMod successful for FPT contract": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS84A0000X",
+		"DUNS": "123456789",
+		"modTypes": 
+		[
+			"Delete Labor Category and/or Service Offerings"
+		],
+
+		"goodsAndServices": 
+		{
+			"descOfModRequest": "This is test for Delete Labor Category and/or Service Offerings mod"
+		},
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		],
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Deletions",
+			"Upload Documents"
+		]
+	}
+}

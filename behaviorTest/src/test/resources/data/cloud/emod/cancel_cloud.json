@@ -1,0 +1,62 @@
+{
+	"Cancel Contract Mod": 
+	{
+		"SignIn": 
+		{
+			"name": "Mary R Bandikalla",
+			"email": "mary.bandikalla@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS07F021DA",
+		"DUNS": "963009899",
+		"modTypes": 
+		[
+			"Cancel Contract"
+		]
+	},
+
+	"Submit Cancel Contract Mod: Review eMod successful": 
+	{
+		"SignIn": 
+		{
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+
+		"contractNumber": "GS84A0000X",
+		"DUNS": "123456789",
+		"modTypes": 
+		[
+			"Cancel Contract"
+		],
+
+		"cancelMod": 
+		{
+			"clause": "Cancel Contract",
+			"modDescription": "This is description for Cancel Contract"
+		},
+
+		"completedMenuItems": 
+		[
+			"Corporate Information",
+			"Cancellation or Termination",
+			"Upload Documents"
+		],
+
+		"uploadedDocuments": 
+		[
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		]
+	}
+}

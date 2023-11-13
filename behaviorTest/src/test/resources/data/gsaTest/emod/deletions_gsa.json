@@ -1,0 +1,199 @@
+{
+	"Submit Delete Product Mod: Review eMod successful for FPT contract": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_deletions_Contract",
+		"UEI": "eMod_deletions_UEI",
+		"modTypes": [
+			"Delete Product(s)"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "58 5"
+				}
+			],
+			"descOfModRequest": "Delete Product mod for FPT contract"
+		},
+		"downloadUploadTemplate": {
+			"pricingDocumentTemplateName": "PricingData.xls",
+			"worksheetData": {
+				"Base Template": [
+					{
+						"*SIN": "58 5",
+						"*Manufacturer Part Number": "97535",
+						"*Manufacturer Name": "DA-LITE"
+					}
+				]
+			}
+		},
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			},
+			{
+				"documentType": "Current Contract Pricing",
+				"documentName": "Current Contract Pricing",
+				"elementTitle": "Review Final Pricing Document",
+				"filename": "Delta Price List.xlsx"
+			}
+		],
+		"finalPricingDocument": {
+		},
+		"completedMenuItems": [
+			"Corporate Information",
+			"Deletions",
+			"Capture Pricing",
+			"Pricing Document",
+			"Upload Documents"
+		]
+	},
+	"Submit Delete Product Mod: Review eMod successful for Non-FPT contract": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_deletions_Contract",
+		"UEI": "eMod_deletions_UEI",
+		"modTypes": [
+			"Delete Product(s)"
+		],
+		"goodsAndServices": {
+			"descOfModRequest": "Delete Product mod for non FPT contract"
+		},
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Deletions",
+			"Upload Documents"
+		]
+	},
+	"Submit Delete SIN Mod: Review eMod successful for FPT contract": {
+		"SignIn": {
+			"name": "CPT User",
+			"email": "nuerzhati.yijiati@gsa.gov",
+			"company": "Karsun Solutions",
+			"phone": "703-722-8747",
+			"module": "emod"
+		},
+		"contractNumber": "eMod_deletions_Contract",
+		"UEI": "eMod_deletions_UEI",
+		"modTypes": [
+			"Delete SIN"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "58 99",
+					"terminationDate": ""
+				}
+			]
+		},
+		"completedMenuItems": [
+			"Corporate Information",
+			"Deletions",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		]
+	},
+	"Submit Delete SIN Mod: Review eMod successful for Non-FPT contract": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_deletions_Contract",
+		"UEI": "eMod_deletions_UEI",
+		"modTypes": [
+			"Delete SIN"
+		],
+		"goodsAndServices": {
+			"sinDetails": [
+				{
+					"sin": "561422STLOC",
+					"terminationDate": "01/01/2024"
+				}
+			]
+		},
+		"completedMenuItems": [
+			"Corporate Information",
+			"Deletions",
+			"Upload Documents"
+		],
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		]
+	},
+	"Submit Delete Labor Category/Service Offerings Mod: Review eMod successful for Non-FPT contract": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_deletions_Contract",
+		"UEI": "eMod_deletions_UEI",
+		"modTypes": [
+			"Delete Labor Category and/or Service Offerings"
+		],
+		"goodsAndServices": {
+			"descOfModRequest": "This is test for Delete Labor Category and/or Service Offerings mod"
+		},
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Deletions",
+			"Upload Documents"
+		]
+	},
+	"Submit Delete Labor Category/Service Offerings Mod: Review eMod successful for FPT contract": {
+		"SignIn": {
+			"module": "emod"
+		},
+		"contractNumber": "eMod_deletions_Contract",
+		"UEI": "eMod_deletions_UEI",
+		"modTypes": [
+			"Delete Labor Category and/or Service Offerings"
+		],
+		"goodsAndServices": {
+			"descOfModRequest": "This is test for Delete Labor Category and/or Service Offerings mod"
+		},
+		"uploadedDocuments": [
+			{
+				"documentType": "Mod Response",
+				"documentName": "Mod Response",
+				"elementTitle": "Review mod response",
+				"filename": "ModResponse.pdf"
+			}
+		],
+		"completedMenuItems": [
+			"Corporate Information",
+			"Deletions",
+			"Upload Documents"
+		]
+	}
+}
