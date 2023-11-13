@@ -1,0 +1,17 @@
+pipline{
+    agent any
+    stages{
+        stage('Verify job is successfully run'){
+         steps{
+            sh 'google-chrome --version'
+        }
+        }
+        
+    
+         stage('Run Tests'){
+          steps{
+            sh './mvnw clean test'
+        }
+    }
+    }
+}
