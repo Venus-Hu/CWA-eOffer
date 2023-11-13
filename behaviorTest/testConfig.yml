@@ -1,9 +1,9 @@
 selenium_testing:
 
-- name: OfferRunner_gsaTest
-  suiteName: OfferRunner_gsaTest.java
+- name: OfferRunner_Smoke
+  suiteName: OfferRunner_Smoke.java
   browser: chrome
   version:
   platform:
-  duns: ETEJG4BY4SY3
+  duns: ZKLQH4M1NU77
   
